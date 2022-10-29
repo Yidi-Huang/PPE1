@@ -13,4 +13,9 @@ Face à une telle situation, nous sommes d'accord de trouver une langue comme pi
 
 Le mot chinois "背井离乡" est choisi pour traduitre le sens original.
 
-Ainsi, le mot anglais "exile" est trouvé. Bien qu'il soit, dans la plupart de cas, appliqué pour représenter une peine, mais notre consultation dans les dictionnaires anglais montre qu'il peut également être utilisé pour exprimer un départ volontaire dans le but d'une meilleure vie.
+Plusieurs mots anglais sont présentés et le choix est pris après la consultation dans les dictionnaires.
+- exile : quitter la patrie volontairement ou sous la contrainte
+- expulsion : lié à la déportation ou à la disqualification du pays, avec des implications humiliantes
+- banishment : partir uniquement en raison des forces extérieures : menance, persécution, etc.
+
+Après la réflexion sur leurs différences sémantqiues, le mot anglais "exile" est pris comme la traduction la plus pertinente. Bien qu'il soit, dans la plupart de cas, appliqué pour représenter une peine, mais notre consultation dans les dictionnaires anglais montre qu'il peut également être utilisé pour exprimer un départ volontaire dans le but d'un meilleur avenir.
