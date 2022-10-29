@@ -35,7 +35,12 @@ touch journal-de-bord.md
 git add journal-de-bord.md
 
 ### Création du fichier probleme-rencontre.md
-
 touch probleme-rencontre.md
 
 git add probleme-rencontre.md  - Le premier problème concernant la traduction du mot, notamment en anglais
+
+### Création du fichier choix-du-mot.md
+touch choix-du-mot.md
+
+git add choix-du-mot.md  - Le choix du mot anglais "exile"
+
