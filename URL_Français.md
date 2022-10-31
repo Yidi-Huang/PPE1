@@ -1,6 +1,6 @@
-*URL
+URL
 
-200~https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement
+https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement
 https://www.tourmag.com/Chemins-Alexandre-Lebeuan-Shanti-Travel-abandonne-l-Asie-pour-la-France-_a116008.html
 https://www.tourmag.com/Chemins-Alexandre-Lebeuan-Shanti-Travel-abandonne-l-Asie-pour-la-France-_a116008.html
 https://www.ladepeche.fr/2022/10/13/le-depaysement-a-cote-de-chez-soi-10732754.php
