@@ -15,5 +15,5 @@ then
 	echo "Pour l'annee $ANNEE et le mois $MOIS" > resultat2.txt
 	grep "Location" $ANNEE"_"$MOIS*.ann | wc -l | sort | uniq -c  >> resultat2.txt
 else
-	echo "pas d'informations sur annees"
+	echo "pas d'informations demandees"
 fi
