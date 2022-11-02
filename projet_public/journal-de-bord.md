@@ -44,3 +44,8 @@ touch choix-du-mot.md
 
 git add choix-du-mot.md  - Le choix du mot anglais "exile"
 
+## 31-10-2022
+touch URL_Français.md
+
+git add URL_Français.md  - Les URL français sont ajoutés
+
