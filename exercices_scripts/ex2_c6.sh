@@ -1,10 +1,12 @@
+
+
 FICHIER=$1
 URLS=$(cat  $FICHIER)
 
 for URL in $URLS
 do 
 	LINE=$(curl -I $URL)
-	if [[ -n  $LINE   ]]
+	if [[  $LINE =~ "HTTP"  ]]
 	then
 		echo "URL"
 	else
