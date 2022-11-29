@@ -49,3 +49,9 @@ touch URL_Français.md
 
 git add URL_Français.md  - Les URL français sont ajoutés par Weixuan
 
+## 23-11-2022
+création du dossier dump_texte - les dumps des URLs français et anglais
+
+## 29-11-2022
+création du dossier URL_Total - tous les URLs sont réunis
+
