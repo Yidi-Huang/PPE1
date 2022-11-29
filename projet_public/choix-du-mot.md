@@ -23,3 +23,25 @@ Origine :
 Synonyms : banishment, expulsion
 
 Source : Collins Dictionnary
+
+
+## Chinois
+
+    背井离乡
+
+        Chinois simplifié :  背井离乡
+
+        Chinois traditionnel : 背井離鄕
+
+        Pinyin : [ bèi jǐng lí xiāng ]
+
+        POS : le double de la structure verbe + nom
+
+        Traduction littérale : involontairement quitter son lieu natal et mener son vie dans un autre endroit (surtout dans des circonstances exceptionelles)
+
+        Définition : "quitter la maison pour un autre endroit"(idiome)
+
+        Source : omgchinese.com
+	
+        Synonymes:
+        远离 离家 离京 离乡 离开故土
