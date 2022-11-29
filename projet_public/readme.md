@@ -7,4 +7,4 @@ Xinhao ZHANG
 
 Yidi HUANG
 
-    ANglais : exile
+    Anglais : exile
