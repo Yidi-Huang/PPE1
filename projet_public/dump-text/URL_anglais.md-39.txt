@@ -47,7 +47,7 @@
      * Cities
      * States
      * Books
-     * See More [1x1_spacer.png]
+     * Show More [1x1_spacer.png]
 
      * Chennai
      * Delhi
@@ -61,8 +61,8 @@
    Return to frontpage
 
    To enjoy additional benefits
-   (BUTTON) [h-circle-yellow-new.svg] PREMIUM (BUTTON) SUBSCRIBE (BUTTON)
-   LOGIN (BUTTON) ACCOUNT [account-btn-icon-black.svg]
+   (BUTTON) FREE TRIAL (BUTTON) [h-circle-yellow-new.svg] PREMIUM (BUTTON)
+   SUBSCRIBE (BUTTON) LOGIN (BUTTON) ACCOUNT [account-btn-icon-black.svg]
    (BUTTON) Go to Search [1x1_spacer.png]
      * Gujarat Assembly Elections 2022 [1x1_spacer.png]
      * Himachal Pradesh Elections 2022 [1x1_spacer.png]
@@ -78,6 +78,9 @@
      * [1x1_spacer.png]
      * [1x1_spacer.png]
      * [1x1_spacer.png]
+
+   [sports-star-white-logo.svg] Qatar World Cup 2022All eyes on Messi and
+   Argentina as Round of 16 qualification beckons
 
     1. Home
 
@@ -264,7 +267,8 @@ Top News Today
           + RoofandFloor
           + STEP
           + Images
-          + Classifieds
+          + Classifieds - Digital
+          + Classifieds - Print
           + Special Publications
           + Bookstore
 
@@ -279,23 +283,24 @@ Top News Today
 
 Trending on thehindu.com
 
-     * Incremental win: On ‘Loss and Damage’ fund commitment at COP27
-     * FIFA World Cup 2022 | Full Germany squad and schedule
-     * Plastic roads seem to be a no-go with Chennai Corporation
-     * On the edge: On the Poland missile incident and the Ukraine
-       conflict
-     * In Uttar Pradesh’s Bareilly town, a symbol of Dalit identity
-       ‘bulldozed’
+     * FIFA World Cup 2022 | Riots in Belgium, Netherlands after Morocco
+       win
+     * Govt. asks SC to reconsider 20 names recommended for High Court
+       judges
+     * Adani Group wins Dharavi redevelopment project with ₹5,069 crore
+       bid
+     * It’s time to discuss depopulation
+     * AIIMS services remain disrupted for seventh straight day amid
+       alleged ransomware attack on its servers
 
 Trending on our Group sites
 
-     * Export duty on steel, iron ore removed, industry hails the decision
-     * Why Nykaa stock is a sell even after 55% drop from peak
+     * NDTV promoters Prannoy Roy, Radhika Roy transfer shares to Adani
+     * Switch Mobility to supply 71 e-buses to JSW Steel, hire 200 people
      * 1947: Madras Devadasis (Prevention of Dedication) Act passed
-     * Fears in Sri Lanka over Tamil Nadu decision to scrap Tantea
-       plantations
-     * FIFA World Cup live streaming: How can I watch the Qatar World Cup
-       in India?
+     * 1948: Assassination of Mahatma Gandhi
+     * Qatar 2022: Which teams have qualified for the round of 16 in the
+       FIFA World Cup?
 
      * [1x1_spacer.png]
      * [1x1_spacer.png]

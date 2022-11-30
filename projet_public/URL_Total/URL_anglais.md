@@ -1,10 +1,10 @@
 https://en.wikipedia.org/wiki/Exile
-https://news.cnrs.fr/articles/all-too-often-the-fate-of-scientists-in-exile-is-little-known
+https://www.omct.org/en/resources/news/afghanistan-pour-freshta-lexil-comme-seul-moyen-de-rester-en-vie
 https://www.theguardian.com/world/2022/jun/08/moscows-chief-rabbi-in-exile-after-resisting-kremlin-pressure-over-war
 https://www.theguardian.com/global-development/2022/aug/25/afghan-women-exile-taliban-global-policy
 https://www.voanews.com/a/bbc-journalist-says-he-has-left-russia-for-british-exile/6372701.html
-https://www.usnews.com/news/world/articles/2021-12-27/bbc-journalist-says-he-has-left-russia-for-british-exile
-http://news.bbc.co.uk/2/hi/africa/4817106.stm
+https://www.fairobserver.com/politics/derecognize-mullahs-forge-new-government-in-exile-for-iran/
+https://aa-e.org/en/category/atelier-2/
 https://www.timesofisrael.com/at-last-moment-bbc-drops-documentary-on-jewish-exile/
 https://www.newframe.com/libyan-exiles-life-captured-vividly-on-film/
 https://www.foxnews.com/world/russians-reflections-exile-georgia
@@ -21,10 +21,10 @@ https://edition.cnn.com/2019/03/30/asia/dalai-lama-tibet-china-intl/index.html
 https://edition.cnn.com/2020/11/09/americas/bolivia-evo-morales-returns-intl/index.html
 https://edition.cnn.com/2014/05/28/sport/hidetoshi-nakata-world-cup-japan-football/index.html
 https://edition.cnn.com/2022/03/17/sport/olympic-medallist-aliaksandra-herasimenia-belarus-ukraine-spt-intl/index.html
-https://web.colby.edu/ovid-censorship/exile/history-of-roman-exile/
-https://www.chabad.org/library/article_cdo/aid/3671017/jewish/Discover-the-Four-Exiles-of-the-Jewish-People.htm
+https://akademie.dw.com/en/afghan-journalist-in-exile-if-i-stop-writing-i-stop-existing/a-63761184
+https://africa.cgtn.com/2022/11/27/former-cote-divoire-militia-leader-ble-goude-back-home-after-exile/
 https://www.history.com/this-day-in-history/napoleon-exiled-to-elba
-https://www.aa.com.tr/en/africa/kenyan-opposition-figure-miguna-miguna-returns-from-exile/2716805
+https://onu.delegfrance.org/providing-assistance-to-people-forced-into-exile-is-a-duty
 https://www.nytimes.com/2022/10/22/movies/zar-amir-ebrahimi-holy-spider.html
 https://www.euronews.com/my-europe/2022/10/19/ukraine-war-meet-the-russian-exile-trying-to-overthrow-vladimir-putin
 https://cpj.org/reports/2014/06/journalists-flight-into-exile/
@@ -48,5 +48,3 @@ https://journals.openedition.org/etudesafricaines/32843
 https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/american-exile
 https://blogs.worldbank.org/dev4peace/2019-update-how-long-do-refugees-stay-exile-find-out-beware-averages
 https://www.nationalgeographic.com/photography/article/exiled-by-the-environment
-
-
