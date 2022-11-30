@@ -1,5 +1,5 @@
 https://en.wikipedia.org/wiki/Exile
-https://news.cnrs.fr/articles/all-too-often-the-fate-of-scientists-in-exile-is-little-known
+https://www.omct.org/en/resources/news/afghanistan-pour-freshta-lexil-comme-seul-moyen-de-rester-en-vie
 https://www.theguardian.com/world/2022/jun/08/moscows-chief-rabbi-in-exile-after-resisting-kremlin-pressure-over-war
 https://www.theguardian.com/global-development/2022/aug/25/afghan-women-exile-taliban-global-policy
 https://www.voanews.com/a/bbc-journalist-says-he-has-left-russia-for-british-exile/6372701.html
@@ -22,7 +22,7 @@ https://edition.cnn.com/2020/11/09/americas/bolivia-evo-morales-returns-intl/ind
 https://edition.cnn.com/2014/05/28/sport/hidetoshi-nakata-world-cup-japan-football/index.html
 https://edition.cnn.com/2022/03/17/sport/olympic-medallist-aliaksandra-herasimenia-belarus-ukraine-spt-intl/index.html
 https://akademie.dw.com/en/afghan-journalist-in-exile-if-i-stop-writing-i-stop-existing/a-63761184
-https://www.chabad.org/library/article_cdo/aid/3671017/jewish/Discover-the-Four-Exiles-of-the-Jewish-People.htm
+https://africa.cgtn.com/2022/11/27/former-cote-divoire-militia-leader-ble-goude-back-home-after-exile/
 https://www.history.com/this-day-in-history/napoleon-exiled-to-elba
 https://onu.delegfrance.org/providing-assistance-to-people-forced-into-exile-is-a-duty
 https://www.nytimes.com/2022/10/22/movies/zar-amir-ebrahimi-holy-spider.html
