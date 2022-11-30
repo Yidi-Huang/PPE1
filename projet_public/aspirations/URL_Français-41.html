@@ -1,1333 +1,725 @@
- <!doctype html>
- <html> 
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="ie6"> <![endif]-->
+<!--[if IE 7]>    <html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="ie7"> <![endif]-->
+<!--[if IE 8]>    <html lang="fr-FR" prefix="og: http://ogp.me/ns#" class="ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="fr-FR" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
 
-<link rel="stylesheet" href="skin/layout.css" />
-<link rel="stylesheet" href="skin/style.css" />
-<link rel="icon" type="image/png" href="favicon.png" />
-<script>
-var mPath='_upload/img/';
-var mUrl=".$mUrl.";
+<!-- BEGIN head -->
+<head>
 
-function mResize(m) {
-	/*document.getElementById("leftMenu").style.width*/
-    var w = window.outerWidth;
-    var h = window.outerHeight;
-    var txt = "Window size: width=" + w + ", height=" + h;
-    /*document.getElementById("demo").innerHTML = txt;*/
-	/*alert(txt);*/
-	var lm=document.getElementById("leftMenu");
-	var pr=document.getElementById("pageRight");
+	<!-- Meta Tags -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	
-	if(w<800 || m ){	
-	/*alert('mobile');*/
-	lm.classList.remove("_LMwide");
-	pr.classList.remove("_PRwide");
-	lm.classList.add('_LMnarrow');
-    pr.classList.add('_PRnarrow');
-	/*document.getElementById("logo").style.display = "none";*/
-    /*e.classList.remove("mHide");*/
-	/*document.getElementById("logo").style.display = "none";*/
-	/*document.getElementById("logo").style.width = "50px";*/
-	document.getElementById("univartois").style.display = "none";
-	}
-	else{
-	var e=document.getElementById("leftMenu");
-	lm.classList.remove('_LMnarrow');
-	pr.classList.remove('_PRnarrow');
-	lm.classList.add("_LMwide");
-	pr.classList.add("_PRwide");
-	document.getElementById("logo").style.display = "block";
-	document.getElementById("univartois").style.display = "block";
-	}
-}
-
-
-
-</script>
-
-</head>
-<body onresize="mResize()">
-<script>mResize();</script>
-<!-- header ------------------------------------------------------------------------------------------------------>	
-<!-- left menu ------------------------------------------------------------------------------------------------------>	
-<script>
-function showMenu(id){
-node = document.getElementById(id);
-	document.getElementById("leftMenu").style.display = "block";
-	if (node.style.display=="none")
-	{
-		// Contenu caché, le montrer
-		//node.style.display = "block";
-		//node.style.height = "auto";			// Optionnel rétablir la hauteur
-	}
-	}
-</script>
-<div id='Menu'><a href="#" onclick = "showMenu('leftMenu')"><b>&#9776;</b></a></div>
-<div id="leftMenu" class='leftMenu _LMwide'>
-<list>
-<ul>
-<li><a href='https://lentre-deux.com/index.php?b=pres'><button>Présentation</button></a></li>
-<li><a href='https://lentre-deux.com/index.php?b=numeros'><button>Numéros</button></a></li>
-<li><a href='https://lentre-deux.com/index.php?b=entrevues'><button>Entrevues</button></a></li>
-<li><a href='https://lentre-deux.com/index.php?b=aut'><button>Auteur(e)s</button></a></li>
-<li><a href='https://lentre-deux.com/index.php?b=links'><button>Liens</button></a></li>
-<li><a href='https://lentre-deux.com/index.php?b=mentions'><button>Mentions légales</button></a></li>
-</ul>
-</list>
-<div id="univartois">
-<div id="artois" class=lien><br/><br/><br/><center><a href="http://www.univ-artois.fr/" target="_blank"><img src="skin/sigleSmall.png" width="100px"></a></center></div>
-<br/>
-<div class=lien><center><a href="http://textesetcultures.univ-artois.fr/" target="_blank"><img src="skin/Logo-T-C-white.png" width="100px"></a></center></div>
-</div>
-</div>
-<!-- main page ------------------------------------------------------------------------------------------------------>	
-<div id=pageRight class='pageRight _PRwide'>
-		<center><a href=https://lentre-deux.com/index.php >
-		<div class='mLogo mFormat'id="logo"><img src=skin/titre.png>
-		</div></a></center>
-
-		<script>
-var footnotes = new Array();
-var footnotesRef = new Array();
-var menuContent = new Array("","mresume","mauteurs_alt","msommaire","mrefnum","mbiblio","Téléchargement en cours...");
-</script>
-
-<script>footnotes[0]='</span></span></span></span></a>  Georges PEREC, <i>Espèces d’espaces&nbsp;: Journal d’un usager de l’espace</i> (1<sup>re</sup>  éd. 1974), Paris, Denoël/Gonthier, 1976, p.&nbsp;126.    '; footnotesRef[0]='1';</script><script>footnotes[1]='</span></span></span></span></a><span  lang=EN-GB> </span>Pierre <span style=’font-variant:small-caps’>C</span><span  style=text-transform:uppercase>orneille</span>, «&nbsp;Au lecteur&nbsp;», <i>Le  Menteur</i>, <i>Théâtre complet</i>, II, Paris, Classiques Garnier, 1960,  p.&nbsp;146.    '; footnotesRef[1]='2';</script><script>footnotes[2]='</span></span></span></span></a>  Pierre BAYARD, <i>Comment parler des lieux où l’on n’a pas été</i>, Paris,  Minuit, 2011, p.&nbsp;211.    '; footnotesRef[2]='3';</script><script>footnotes[3]='</span></span></span></span></a>  «&nbsp;Les Fiancées d’Auvergne&nbsp;» est une chanson populaire interprétée par  André VERCHUREN, en 1961.Voir&nbsp;: <span lang=EN-GB><a  href="http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne"><span  lang=FR>http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne</span></a></span>,  consulté le 27/07/2018.    '; footnotesRef[3]='4';</script><script>footnotes[4]='</span></span></span></span></a>  Dans cette réécriture de PERRAULT qu’est <i>La Belle au bois</i> (Paris,  Gallimard, 1989), de Philippe <span style=’font-variant:small-caps’>B</span><span  style=text-transform:uppercase>eaussant</span>, la princesse mesure à de  petits écarts (de costume, de parlures...) le temps pendant lequel elle a  dormi.    '; footnotesRef[4]='5';</script><script>footnotes[5]='</span></span></span></span></a>  Charles BAUDELAIRE, <i>Les Fleurs du mal</i>, Paris, Gallimard, poésie-nrf,  2006, p.&nbsp;47.    '; footnotesRef[5]='6';</script><script>footnotes[6]='</span></span></span></span></a>  La «&nbsp;conscience malheureuse&nbsp;» procède du motif hégélien du  «&nbsp;tombeau vide&nbsp;», tel que les Saintes Femmes découvrent le tombeau du  Christ.     '; footnotesRef[6]='7';</script><script>footnotes[7]='</span></span></span></span></a>  Clément ROSSET, <i>Le réel et son double</i>, Paris, Gallimard, 1976.    '; footnotesRef[7]='8';</script><script>footnotes[8]='</span></span></span></span></a>  Pour la question&nbsp;: «&nbsp;Où est situé l’Eden&nbsp;», voir Pascal  QUIGNARD, <i>Les Paradisiaques</i> (1<sup>re</sup> éd. 2005), Paris, Gallimard,  «&nbsp;Folio&nbsp;», 2007, p.&nbsp;21-22.    '; footnotesRef[8]='9';</script><script>footnotes[9]='</span></span></span></span></a>  Sur ce point, je renvoie à Jean DELUMEAU, <i>Une histoire du Paradis</i>,  Paris, Fayard, 1992.    '; footnotesRef[9]='10';</script><script>footnotes[10]='</span></span></span></span></a>  Cette relation avec le réel est justement ce qui pose problème au pasteur  Charles DODGSON, c’est-à-dire Lewis Carroll (les fillettes, la photographie) et  à James BARRIE, le créateur de Peter Pan (le nanisme).    '; footnotesRef[10]='11';</script><script>footnotes[11]='</span></span></span></span></a>  J.-B. <span style=’font-variant:small-caps’>P</span><span style=’text-transform:  uppercase’>ontalis</span>, <i>Loin</i> (1<sup>re</sup> éd. 1980), Paris,  Gallimard, «&nbsp;Folio&nbsp;», 1992. Signalé par Michel <span  style=’font-variant:small-caps’>G</span><span style=text-transform:uppercase>ribinski</span>  dans son article intitulé «&nbsp;Dépaysement&nbsp;», <i>Le Royaume  intermédiaire&nbsp;: Psychanalyse, littérature, autour de J.-B. Pontalis, </i>Paris,  Gallimard, «&nbsp;Folio-Essais&nbsp;», 2007.    '; footnotesRef[11]='12';</script><script>footnotes[12]='</span></span></span></span></a>  Pour Lawrence d’Arabie&nbsp;: «&nbsp;Comment me faire une peau arabe&nbsp;? Ce  fut de ma part affectation pure&nbsp;», <i>Les Sept Piliers de la sagesse</i>,  notice «&nbsp;Lawrence d’Arabie&nbsp;», <i>Dictionnaire des mythes  d’aujourd’hui</i>, s. d. Pierre <span style=’font-variant:small-caps’>B</span><span  style=text-transform:uppercase>runel</span>, Monaco, Du Rocher, 1999,  p.&nbsp;423. Pour Malraux, voir Jean-Claude LARRAT, «&nbsp;Les deux tentations  d’André Malraux&nbsp;» et «&nbsp;La métamorphose comme expérience de la  liberté&nbsp;», <i>in</i> <i>Sans oublier Malraux</i>, Paris, Classiques  Garnier, 2016.    '; footnotesRef[12]='13';</script><script>footnotes[13]='</span></span></span></span></a>  On trouve un bel exemple de cette difficulté dans le roman de François <span  style=text-transform:uppercase>Garde</span>, <i>Ce qu’il advint du Sauvage  blanc</i> (Paris, Gallimard, 2012), où le héros, abandonné sur une île et  devenu un «&nbsp;sauvage&nbsp;», refuse à son retour, à mesure qu’il réapprend  le français, de parler de son état antérieur. Comme s’il fallait conserver intacte  la césure.    '; footnotesRef[13]='14';</script><script>footnotes[14]='</span></span></span></span></a>  Sa relation entre altération et altération, voir Michel <span style=’font-variant:  small-caps’>T</span><span style=text-transform:uppercase>ournier</span>, <i>Les  Météores</i> (1<sup>re</sup> éd. 1975), Paris, Gallimard, «&nbsp;Folio&nbsp;»,  1977, p.&nbsp;549.    '; footnotesRef[14]='15';</script><script>footnotes[15]='</span></span></span></span></a>  Sur Phileas Fogg et <i>Le Tour du monde en quatre-vingts jours</i> comme roman  philosophique, voir Michel <span style=text-transform:uppercase>Tournier</span>,  <i>Les Météores</i> (<i>op.&nbsp;cit</i>., p.&nbsp;400-402) et <i>Le Vent  Paraclet</i> (1<sup>re</sup> éd. 1977), Paris, Gallimard, «&nbsp;Folio&nbsp;»,  1979, p.&nbsp;273-276).    '; footnotesRef[15]='16';</script><script>footnotes[16]='</span></span></span></span></a>  «&nbsp;Gide lisait du Bossuet en descendant le Congo. Cette posture résume  assez bien l’idéal de nos écrivains ‘en vacances’, photographiés par <i>Le  Figaro</i>&nbsp;: joindre au loisir banal le prestige d’une vocation que rien  ne peut arrêter ni dégrader&nbsp;», Roland BARTHES, <i>Mythologies</i> (1<sup>re</sup>  éd. 1957), <i>Œuvres complètes</i>, I, Paris, Seuil, 1993, p.&nbsp;580.    '; footnotesRef[16]='17';</script><script>footnotes[17]='</span></span></span></span></a>  Jean-Philippe <span style=text-transform:uppercase>Toussaint</span>, <i>La  Salle de bain</i>, Paris, Minuit,&nbsp;1985<b>, </b>p.&nbsp;82 et p.&nbsp;87.    '; footnotesRef[17]='18';</script><script>footnotes[18]='</span></span></span></span></a>  L’un des derniers dialogues de Platon.    '; footnotesRef[18]='19';</script><script>footnotes[19]='</span></span></span></span></a>  Louis-Ferdinand CÉLINE, <i>Voyage au bout de la nuit</i> (1<sup>re</sup> éd. 1932),  <i>Romans I</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,  1981, respectivement p.&nbsp;13 et p.&nbsp;15.    '; footnotesRef[19]='20';</script><script>footnotes[20]='</span></span></span></span></a>  Marguerite YOURCENAR&nbsp;: «&nbsp;Qui serait assez insensé pour mourir sans  avoir fait au moins le tour de sa prison&nbsp;». La formule se trouve d’abord  dans <i>L’Œuvre au Noir</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris,  Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1982, p.&nbsp;564 puis est  reprise en épigraphe du texte intitulé «&nbsp;Le Tour de la prison&nbsp;», <i>in</i>  <i>Essais et mémoires</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la  Pléiade&nbsp;», 1991, p.&nbsp;595.    '; footnotesRef[20]='21';</script><script>footnotes[21]='</span></span></span></span></a>  J’emprunte cette notion à un article de Michel <span style=’text-transform:  uppercase’>Tournier</span>&nbsp;: «&nbsp;<i>Le Rouge et le Noir</i>, roman de  confrontation&nbsp;», <i>in</i> <i>Le Vol du vampire</i>, Paris, Mercure de  France, 1981, p.&nbsp;136-137. Dans le domaine de la fiction, on pense à Don  Quichotte, qui voit le monde à travers les romans de chevalerie et croit en  revivre certains épisodes. Quant aux «&nbsp;idéologues&nbsp;», tout vient  corroborer leurs thèses&nbsp;: Bossuet ne cesse de rencontrer dans l’histoire  de nouvelles preuves en faveur du providentialisme, et Pangloss dans chaque  épisode la démonstration de sa philosophie de l’optimisme.    '; footnotesRef[21]='22';</script><script>footnotes[22]='</span></span></span></span></a>  D’où ce portrait de Phileas Fogg par Michel <span style=text-transform:uppercase>Tournier</span>&nbsp;:  «&nbsp;C’est un voyageur. Un voyageur en chambre. Il possède du voyage une  connaissance abstraite, livresque, et il en déduit <i>a priori</i> qu’on doit  pouvoir faire le tour du monde en quatre-vingts jours. La confrontation de ce  savoir <i>a priori</i> et de la dure réalité fait tout le contenu du roman  [...]&nbsp;», <i>Le Vent Paraclet</i>, <i>op.&nbsp;cit</i>., p.&nbsp;273.    '; footnotesRef[22]='23';</script><script>footnotes[23]='</span></span></span></span></a>  Bertrand <span style=text-transform:uppercase>Westphal</span>, <i>Le Monde  plausible&nbsp;: Espace, lieu, carte</i>, Paris, Minuit, 2011. Sur le besoin de  localiser le centre, G. <span style=text-transform:uppercase>Perec</span>, <i>Espèces  d’espaces</i>, <i>op.&nbsp;cit</i>., p.&nbsp;125.    '; footnotesRef[23]='24';</script><script>footnotes[24]='</span></span></span></span></a><span  lang=EN-GB> </span>Sigmund FREUD, <i>Introduction à la psychanalyse</i> (1<sup>re</sup>  éd. 1921), trad. S. Jankélévitch, Paris, Payot, 2001, p.&nbsp;343-344.    '; footnotesRef[24]='25';</script><script>footnotes[25]='</span></span></span></span></a>  Jacques <span style=text-transform:uppercase>Lacan</span>, <i>Écrits</i>,  Paris, Seuil, 1966, p.&nbsp;516-517.    '; footnotesRef[25]='26';</script><script>footnotes[26]='</span></span></span></span></a>  Parmi ces bouleversements, la guerre, que le héros de <i>Comme le temps passe</i>,  de Robert <span style=text-transform:uppercase>Brasillach</span>, décrit  comme une forme de «&nbsp;dépaysement&nbsp;», [1937], Paris, Plon, 1989,  p.&nbsp;111.    '; footnotesRef[26]='27';</script><script>footnotes[27]='</span></span></span></span></a>  Franz KAFKA, <i>Œuvres complètes</i>, Paris, Gallimard, «&nbsp;Bibliothèque de  la Pléiade&nbsp;», 1976, p.&nbsp;453-455. Albert <span style=’text-transform:  uppercase’>Camus</span>, <i>Le Mythe de Sisyphe</i>, <i>in</i> <i>Essais</i>,  Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965, p.&nbsp;111,  et «&nbsp;Entre oui et non&nbsp;», <i>L’Envers et l’Endroit</i>, <i>ibid</i>.,  p.&nbsp;27. Jean-Paul <span style=’font-variant:small-caps’>SARTRE</span>, <i>La  Nausée</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris, Gallimard,  «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1981, p.&nbsp;152.    '; footnotesRef[27]='28';</script><script>footnotes[28]='</span></span></span></span></a>  Michel BUTOR, <i>La Modification</i>, Paris, Minuit, 1957, réédition UGE, 1970,  collection 10/18, p.&nbsp;152.    '; footnotesRef[28]='29';</script><script>footnotes[29]='</span></span></span></span></a>  Jean-Claude LARRAT, <i>Sans oublier Malraux</i>, Paris, Classiques Garnier,  2016, p.&nbsp;47.    '; footnotesRef[29]='30';</script><script>footnotes[30]='</span></span></span></span></a>  François RABELAIS, <i>Le Quart Livre</i>, chap. 55-56, éd. G. Defaux et R.  Marichal, Librairie Générale Française, 1994, chap.&nbsp;LIV-LVI,  p.&nbsp;529-545.    '; footnotesRef[30]='31';</script><script>footnotes[31]='</span></span></span></span></a>  Nicole <span style=’font-variant:small-caps’>LAPIERRE</span>, <i>Pensons  ailleurs</i> (1<sup>re</sup> éd. 2004), rééd. Paris, Gallimard,  «&nbsp;Folio-Essais&nbsp;», 2006, p.&nbsp;12. Le titre de cet essai est  emprunté à <span style=text-transform:uppercase>Montaigne</span>&nbsp;:  «&nbsp;Nous pensons toujours ailleurs&nbsp;» (chap. «&nbsp;De la  diversion&nbsp;», <i>Essais</i>, III, 4, Paris, Gallimard, «&nbsp;Bibliothèque  de la Pléiade&nbsp;», 1962, p.&nbsp;812.    '; footnotesRef[31]='32';</script><script>footnotes[32]='</span></span></span></span></a>  Cette extimité renvoie bien sûr à une conception nietzschéenne du sujet, dont  on retrouve l’écho chez Deleuze (avec, par exemple, la question du moi  rhizomatique).    '; footnotesRef[32]='33';</script><script>footnotes[33]='</span></span></span></span></a>  Cité par Clément <span style=’font-variant:small-caps’>ROSSET</span>, <i>Loin  de moi&nbsp;: Étude sur l’identité</i>, Paris, Minuit, 1999, p.&nbsp;91.  Fréquemment évoqué, entre autres par Luther qui trouve ce texte scandaleux  puisque le chrétien, lui, sait exactement d’où il vient et où il va, ce poème a  été l’objet de nombreuses polémiques quant à sa paternité, sa date (<span  style=’font-variant:small-caps’>XV</span><sup>e</sup> siècle&nbsp;?) et son  statut&nbsp;: épitaphe&nbsp;? prologue&nbsp;?    '; footnotesRef[33]='34';</script><script>
-var posx;var posy; 
-var fnRef = new Array();
-
-window.hidePop = function() {
-document.getElementById('pop').style.display='none';
-document.getElementById('mask').style.display='none';
-}
-
-window.getMouse =function(e){ 
-posx = 0;posy = 0; 
-if (!e) var e = window.event; 
-if (e.pageX || e.pageY){ 
-posx = e.pageX-10;posy = e.pageY-10; 
-} 
-else if (e.clientX || e.clientY){ 
-posx = e.clientX;posy = e.clientY; 
-} 
-} 
-
-
-</script>
-<div class=mask id=mask onclick="hidePop()"></div>
- <div class=pop id=pop  onclick="hidePop()">ici <a href="#">mon texte</a> footnote <i>here</i> ©2016 TRB</div>
-
-<div class="mHeader mShadow mFormat">
-<div class='titreBandeau'>Numéro 4 | d&eacute;cembre 2018 | Le dépaysement / <i>Diario de un poeta recién casado</i></div>
-<div class='titreSousTitre'>Le dépaysement dans la littérature  et le cinéma aux XX<sup>e</sup> et XXI<sup>e</sup> siècles</div>
-<div class='titreOuvrage'>Dépaysement et déplacement&nbsp;: du rêve d’ailleurs au
-voyage immobile
-
-</div>
-<div class='titreAuteurs'>Jacques POIRIER</div>
-</div>
-
-<div class="mMenu1 mShadow mFormat"><list><ul>
-	<li><button onclick="Bmenu('',1)" >Résumé</button></li>	
-	<li><button onclick="Bmenu('',3)" >Plan</button></li>	
-	<li><button onclick="Bmenu('',2)" >Auteur(e)s</button></li>	
-	<li><button onclick="Bmenu('',4)" >Référence électronique</button></li>
-	<li><button onclick="Bmenu('',5)">Bibliographie</button></li>
-	<li><a href="_upload/pdf/4.1.8.POIRIER.pdf" download="4.1.8.POIRIER.pdf"><button onclick="Bmenu("",6)"> Télécharger le PDF </button></a></li>
-	</ul></list>
-</div> 
-<div class="mWrap mShadow mFormat" id="mWrap">
-    <div class="mPannel" id="mPannel">rien</div>
-</div>	
-<div class="mBook mShadow mFormat">
-<p class=MsoQuote align=right style='text-align:right'>On rencontre partout des
-gens qui ont des montres, et très rarement des gens qui ont des boussoles. On a
-toujours besoin de savoir l’heure [...] mais on ne se demande jamais où l’on
-est<span class=footnote onclick="showPop(event,this.innerHTML)";">1</span>.</p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=Paragraphe1>Au motif que Furetière ignore le terme, peut-on dire que,
-jusqu’au XVII<sup>e</sup> siècle, on ne connaissait pas le
-«&nbsp;dépaysement&nbsp;»&nbsp;? Ce serait aller un peu vite en besogne, car on
-connaissait bien le mot «&nbsp;dépaïser&nbsp;». Non sous la forme passive
-(subjective) –&nbsp;être ou se sentir dépaysé&nbsp;– mais sous la forme active
-(objective), à savoir dépayser quelqu’un ou quelque chose. Aujourd’hui encore,
-la langue du Palais a conservé cet usage quand le Parquet décide de dépayser
-une affaire afin qu’elle soit confiée à une autre juridiction. Mais l’usage
-transitif du verbe était alors de règle. Ainsi, dit Furetière, on dépayse un
-Religieux «&nbsp;qui a quelque mauvaise habitude&nbsp;», de façon à ce qu’il se
-retrouve en un lieu où nul ne le connaît. Ou bien, dans un sens différent,
-«&nbsp;on dépayse le provincial ou l’étranger de façon à ce qu’il perde son
-accent ou ses manières&nbsp;». Quant à Corneille, s’il a beaucoup emprunté à
-Lope de Vega pour <i>Le Menteur</i>, tout comme à Guillén de Castro pour <i>Le
-Cid</i>, on trouverait «&nbsp;peu de rapport entre l’Espagnol et le
-Français&nbsp;» car il a «&nbsp;entièrement dépaysé les sujets pour les
-habiller à la française&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">2</span>.</p>
-
-<p class=Paragraphe1>Ce qui frappe dans ces exemples, c’est que le dépaysement,
-pris au sens littéral, c’est-à-dire géographique, apparaît non comme l’effet
-d’un mouvement délibéré, mais comme le moyen de corriger une faute ou une
-anomalie –&nbsp;y compris chez Corneille puisque tout admirable qu’il soit,
-Lope de Vega doit être accommodé «&nbsp;à notre usage&nbsp;». Deux cents ans après,
-apparaît enfin une entrée «&nbsp;Dépaysement&nbsp;», chez Littré. Passé le sens
-géographique («&nbsp;faire changer de pays, de lieu&nbsp;»), le lexicographe
-nous propose alors des exemples très différents de Furetière. Car le
-«&nbsp;dépaysement&nbsp;» se dit également d’une personne qui ne peut retrouver
-son chemin&nbsp;; ou bien qui aborde un sujet nouveau pour elle. Le dépaysement
-n’apparaît donc plus comme une nécessité (se cacher, échapper à la pression du
-corps social&nbsp;; se débarrasser de ses travers), mais comme une
-épreuve&nbsp;: celui qui ne retrouve pas son chemin ou qui ignore le sujet à
-traiter se sent désemparé, ou plus exactement désorienté (il a «&nbsp;perdu
-l’Orient&nbsp;», comme on dit «&nbsp;perdre le Nord&nbsp;»). Ce qui confère au
-dépaysement une coloration négative, comme le confirme le <i>Trésor de la
-Langue française</i> qui, distinguant bien le sens géographique du sens
-psychologique, donne comme synonyme de «&nbsp;dépayser&nbsp;» ou
-«&nbsp;dépaysé&nbsp;» le terme «&nbsp;déconcerter&nbsp;» («&nbsp;Déconcerter
-quelqu’un en le transportant hors de son cadre habituel&nbsp;»). Et comme le
-dit lui aussi Pierre Bayard quand, dans <i>Comment parler des lieux où l’on n’a
-pas été</i>, il propose un petit lexique où l’on trouve l’entrée
-«&nbsp;Dévoyage&nbsp;» avec cette définition&nbsp;: «&nbsp;Manière de voyager
-caractérisée par la perte de la maîtrise des lieux et la dépossession de
-soi&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">3</span>.</p>
-
-<p class=Paragraphe1>L’étonnant est qu’une telle présentation semble ignorer la
-complexité sémantique du mot et l’ambivalence des affects qu’il peut susciter.
-À prendre les dictionnaires de langue à la lettre, on a l’impression qu’habiter
-un lieu va de soi et que tout arrachement suscite le trouble. Au point que les
-différentes notices associent systématiquement le dépaysement à une perte
-(perte des repères, de l’identité...). Il y a là un présupposé barrésien qui
-participe d’un imaginaire du sol natal. Or si, dans un monde ancien, le paysan
-craignait de devoir «&nbsp;quitter son cher pays pour s’en aller là-bas&nbsp;»
-(à en croire «&nbsp;Les Fiancés d’Auvergne&nbsp;»)<span class=footnote onclick="showPop(event,this.innerHTML)";">4</span>, il en va autrement quand le
-sujet se sent en porte-à-faux dans le monde et peine à trouver ses repères. En
-effet, dès lors que nous avons rompu le pacte au terme duquel le paysage où
-nous nous inscrivons constitue notre horizon de pensée, la question du
-dépaysement doit être examinée à nouveaux frais.</p>
-
-<p class=Paragraphe1>Comme dans le Livre des Juges (XII, 6), le terme de
-«&nbsp;dépaysement&nbsp;» constitue ainsi un schibboleth. En effet, tandis que
-certains conjurent le risque de désarroi (ce que l’on éprouve quand se rompt
-l’arroi) en traversant le monde sans se commettre avec lui, d’autres voient
-dans le dépaysement la réponse à un mal être, qui les fait se sentir en exil
-dans leur propre pays (en étrange pays dans leur pays lui-même). Mais peut-être
-que le malentendu tient à la conjonction, dans le même mot, du dépaysement
-comme déplacement et du dépaysement comme sentiment. Comme si l’un était la
-condition de l’autre. Or, au plan psychologique, les plus dépaysants sont
-souvent les voyages immobiles, lorsque tout à coup le monde nous apparaît dans
-une autre lumière et fait vaciller les certitudes.</p>
-
-<h1>Je ne suis pas là où je devrais être</h1>
-
-<p class=Paragraphe1>Le dépaysement constitue une réponse obligée à qui ne peut
-habiter le lieu qui lui a été assigné. «&nbsp;Je ne suis pas là où je devrais
-être&nbsp;»&nbsp;: tel est le leitmotiv que scande une bonne part de la
-modernité. Pareil cri peut s’entendre dans le domaine social (je ne suis pas
-fait pour demeurer un simple précepteur, se dit Julien Sorel), dans le domaine
-temporel (Je ne suis pas de ce siècle, pour Don Quichotte ou bien pour
-l’héroïne de <i>Le Belle au bois</i>)<span class=footnote onclick="showPop(event,this.innerHTML)";">5</span>
-mais plus encore au plan existentiel. À relire «&nbsp;La Vie antérieure&nbsp;»
-(«&nbsp;J’ai longtemps habité sous de vastes portiques / Que les soleils
-couchants teintaient de mille feux&nbsp;»)<span class=footnote onclick="showPop(event,this.innerHTML)";">6</span>,
-on mesure à quel point le sujet se condamne à vivre sous le signe de la perte,
-sous l’effet d’une conscience malheureuse, pour le dire comme Hegel<span class=footnote onclick="showPop(event,this.innerHTML)";">7</span>. Car dès lors que le
-monde où nous vivons nous apparaît comme un pur simulacre, il est séduisant
-d’imaginer l’ailleurs comme son «&nbsp;vrai lieu&nbsp;» – quand bien même,
-suggère la fin de «&nbsp;La Vie antérieure&nbsp;», le moi continue, en plein
-cœur de l’Eden, de porter en lui un «&nbsp;secret douloureux&nbsp;».</p>
-
-<p class=Paragraphe1>Dans ce dispositif mélancolique, la géographie (réelle ou
-imaginaire) a donc valeur de <i>pharmakon</i>, puisqu’elle est à la fois le mal
-(sans la géographie, je n’aurais pas eu conscience de l’exil qui est le mien)
-et le remède (mais sans la géographie, je ne pourrais espérer retrouver les
-«&nbsp;vastes portiques&nbsp;» sous lesquels j’ai habité). N’en déplaise à
-Clément Rosset, le monde serait donc «&nbsp;double&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">8</span>. Charge à nous de rejoindre
-l’autre versant du réel dont notre mémoire, étrangement, conserve la trace<b>. </b></p>
-
-<p class=Paragraphe1>De ce «&nbsp;vrai lieu&nbsp;», le nom est légion. Dans <i>Les
-Paradisiaques</i><span class=footnote onclick="showPop(event,this.innerHTML)";">9</span>,
-Pascal Quignard dresse une liste de ces pays rêvés, aux antipodes du nôtre,
-dont les textes attestent l’existence, mais que l’on peine à situer. Car il en
-va d’eux comme de l’Eden qui, jusqu’au XVIII<sup>e</sup> siècle, figurait sur
-certaines cartes de géographie<span class=footnote onclick="showPop(event,this.innerHTML)";">10</span>,
-mais dont pourtant nul n’a retrouvé le chemin. Du moins en a-t-on trouvé des
-substituts&nbsp;: îles mystérieuses des mers du Sud, Orient extrême, cités
-inaccessibles..., comme si à vouloir échapper à un lieu inauthentique, on ne
-cessait de poursuivre des fantômes – avec cet arrachement à soi que promettent
-des sonorités telles que Lhassa, Tombouctou ou Savannaket. Certains en auront
-fait leur «&nbsp;vrai lieu&nbsp;»&nbsp;(Gide à Biskra, cette oasis où prévaut
-la loi du désir), mais de telles retrouvailles ont quelque chose d’illusoire
-car il y a peu de chances que l’on accède jamais au «&nbsp;pays des
-merveilles&nbsp;», réservé à Alice, ou à Neverland, propre à Peter Pan. Car
-cette géographie imaginaire transpose en réalité une expérience
-temporelle&nbsp;: à la fin de la nuit initiatique, dans l’île des Enfants (le
-Capitaine Crochet, le crocodile...), l’héroïne doit regagner le monde réel<span class=footnote onclick="showPop(event,this.innerHTML)";">11</span>. Car si les mers du
-Sud et les cités mystérieuses au cœur du continent noir ou jaune nous séduisent
-à ce point, c’est que le dépaysement relatif du voyage dans l’espace se double
-de ce dépaysement absolu qu’est le voyage dans le temps. En effet, cet ailleurs
-est un avant, comme l’avait remarqué Montaigne dans un célèbre chapitre des <i>Essais</i>
-(«&nbsp;Des coches&nbsp;») et comme l’ont répété après lui, aussi bien Diderot
-que Claude Lévi-Strauss.</p>
-
-<p class=Paragraphe1>L’aspiration au dépaysement a donc partie liée avec une
-forme de bovarysme, dès lors que le départ est censé répondre à une
-souffrance&nbsp;: l’impossibilité à habiter le lieu que le destin nous a
-assigné. D’où ce double mouvement qui voit, dans de nombreux romans, le héros
-recourir au dépaysement pour se donner l’illusion du recommencement
-(l’imaginaire auroral de la seconde naissance), avant que ne revienne le temps
-des illusions perdues. Dans le prière d’insérer de <i>Loin</i>, l’un de ses
-premiers romans, J.-B. Pontalis présente ainsi son ouvrage&nbsp;: «&nbsp;Ce
-récit retrace l’expérience d’un dépaysement. Une ville étrangère en est le
-lieu&nbsp;: Mymia. Des femmes en sont l’instrument&nbsp;: Alix et Angèle
-[...].&nbsp;» Mais, ajoute-t-il, si «&nbsp;le dépaysement est d’abord vécu dans
-un sentiment de vacance et de légèreté, [...] il vire progressivement au
-malaise, à la dépossession de soi, à l’exil&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">12</span>.</p>
-
-<p class=Paragraphe1>Alors que le dépaysement était censé arracher le sujet à
-lui-même, il le confronte finalement à ses limites (le «&nbsp;secret
-douloureux&nbsp;», à la fin de «&nbsp;La Vie antérieure&nbsp;»&nbsp;; ces
-«&nbsp;anciennes blessures&nbsp;», que redécouvre le héros de Pontalis). En
-effet, un dépaysement radical devrait déboucher sur une véritable métamorphose.
-Or, Lawrence d’Arabie n’est jamais devenu un Arabe&nbsp;; pas plus que Mayrena,
-dans <i>Le Règne du Malin</i>, ne deviendra un Moï<span class=footnote onclick="showPop(event,this.innerHTML)";">13</span>. Ni l’un ni l’autre n’aura
-franchi la limite. Mais il est vrai que si la métamorphose était totale, le
-sujet n’aurait plus conscience de son dépaysement, puisque, pour être éprouvé,
-un tel sentiment exige que demeure la conscience de soi<span class=footnote onclick="showPop(event,this.innerHTML)";">14</span>.</p>
-
-<p class=Paragraphe1>Il y a là une aporie qui tient à une trop grande confiance
-dans les vertus de l’ailleurs. Ou peut-être que le malentendu provient des
-ambiguïtés du mot «&nbsp;dépaysement&nbsp;», qui donne à croire que le sens
-littéral (géographique) est garant du second (psychologique). Si un déplacement
-procurait à lui seul un sentiment de dépaysement, les deux niveaux de
-signification seraient à jointure. Mais le paradoxe tient à leur fréquente
-disjonction, car on peut accéder aux confins du monde tout en demeurant
-identique à soi-même, tandis qu’on peut éprouver au plus près l’expérience du
-dépaysement lorsque l’univers familier change tout à coup de visage.</p>
-
-<h1><a href='#'  name="_Toc467492157"></a><a href='#'  name="_Toc467429522"></a><a
-name="_Toc341268789">Je suis chez moi même ailleurs</a></h1>
-
-<p class=Paragraphe1>Du fait que le dépaysement «&nbsp;désoriente&nbsp;» et
-«&nbsp;déconcerte&nbsp;», comme disent les dictionnaires, il constitue une
-menace. Ce qui explique les conduites d’évitement propres aux
-«&nbsp;universalistes&nbsp;», qui traversent le monde en toute indifférence,
-soucieux de ne se laisser pas émouvoir par l’entour. En effet, pour tous ceux
-qu’affecte le «&nbsp;syndrome Phileas Fogg&nbsp;», il peut y avoir translation
-sans altération<span class=footnote onclick="showPop(event,this.innerHTML)";">15</span>.
-Insensible au sentiment de dépaysement comme d’ailleurs à tout sentiment,
-Phileas Fogg ne connaît du monde que ce que lui en disent les horaires des
-trains et des paquebots –&nbsp;substituant ainsi au trouble du vivant les
-certitudes de la mathématique<span class=footnote onclick="showPop(event,this.innerHTML)";">16</span>.
-Au regard de la question qui est nôtre, un tel roman théâtralise à merveille le
-double jeu de la révolution technicienne et du colonialisme, qui tout à la fois
-célèbre l’ailleurs (le voyage, l’exotisme) mais réduit le multiple à l’Un, en
-se proposant de soumettre un monde sauvage à la rationalité occidentale.</p>
-
-<p class=Paragraphe1>Phileas Fogg aura donc traversé le monde sans quitter
-l’Angleterre. Tout comme, dans la seconde moitié du XX<sup>e</sup> siècle, le
-Robinson de Michel Tournier, dans <i>Vendredi ou les Limbesdu Pacifique</i>,
-une fois passé le moment de sidération qui suit le naufrage, voyage à rebours
-en faisant de l’île administrée une Nouvelle-Angleterre. Seul sur Speranza,
-Robinson conjure tout risque de dépaysement en «&nbsp;dépaysant&nbsp;» l’île,
-au sens où Furetière emploie le mot pour dire d’un étranger ou d’un provincial
-qu’on l’a débarrassé de ses traits spécifiques. La première partie du roman, où
-Robinson réinvente l’agriculture et l’État (la charte), consiste en effet en
-une annulation de la différence –&nbsp;condition de possibilité du dépaysement&nbsp;–,
-comme s’il convenait de rendre le monde monochrome (Vendredi en nègre blanc) et
-monotone (une île du Pacifique sud devenue une petite Europe). Le dépaysement
-est donc devenu problématique à mesure que le monde se mettait à parler une
-seule langue&nbsp;: la technique, le capitalisme et l’anglais.</p>
-
-<p class=Paragraphe1>Mais la remise en cause des «&nbsp;pays&nbsp;» –&nbsp;un imaginaire
-borné par un paysage&nbsp;– a des racines plus anciennes. C’est ce que l’on
-mesure à rapprocher deux scènes emblématiques. Dans une page bien connue des <i>Mythologies</i>,
-Roland Barthes rappelle que, lors d’un voyage en Afrique noire, André Gide
-«&nbsp;lisait du Bossuet en descendant le fleuve Congo&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">17</span>. Une soixantaine d’années plus
-tard, le héros de <i>La Salle de bain</i>, de Jean-Philippe Toussaint, quittant
-pour une fois sa salle d’eau, se rend dans une ville d’eau, à savoir
-Venise&nbsp;; mais là, indifférent au Grand Canal et à San Marco, il ne quitte
-guère son hôtel où il lit (en anglais&nbsp;!) les <i>Pensées</i> de Pascal,
-trouvées par hasard<span class=footnote onclick="showPop(event,this.innerHTML)";">18</span>.
-Pour différentes que soient ces œuvres, les deux scènes reflètent la même
-indifférence au monde extérieur, et donc l’impossibilité du dépaysement. Ce à
-quoi l’aventure du voyage expose, l’auteur ou le personnage s’y refuse. Au cœur
-de l’Afrique ou de la cité des Doges, ils se plongent dans les classiques du XVII<sup>e</sup>
-siècle français, peu sensibles à la diversité du monde. Plus précisément, ils
-en appellent l’un et l’autre à des auteurs spirituels. Or, à considérer
-l’horizon de pensée d’un Pascal ou d’un Bossuet, on voit que le dépaysement
-occupe une place paradoxale. Certes, il y eut au commencement ce dépaysement
-qu’a connu l’homme déchu quand l’Éternel l’a expulsé de l’Eden. Mais depuis ce
-désastre inaugural, le dépaysement est devenu impossible car, dans une
-perspective théologique, l’homme est partout le même. Les costumes et les
-coutumes peuvent varier&nbsp;; mais par-delà les apparences, c’est bien
-toujours de la même humanité déchue que nous parlons. L’étrange est donc que le
-christianisme en vient à annuler la possibilité du dépaysement, alors qu’il a
-été lui-même une religion dépaysée, quittant Jérusalem pour Rome, abandonnant
-l’hébreu pour le latin, et oubliant les rituels instaurés par l’Ancien
-Testament (par exemple la circoncision). Or c’est cette religion dépaysée qui
-s’est située dans une perspective universaliste, annulant les frontières et les
-identités particulières.</p>
-
-<p class=Paragraphe1>Comme on le sait, les dieux se sont tus. Mais l’empreinte
-demeure. Si bien que la modernité occidentale apparaît l’héritière de cet
-universalisme premier. La proximité est donc plus grande qu’on ne peut le
-penser entre les prométhéens (Robinson Crusoé) et les augustiniens&nbsp;: pour
-les premiers, héritiers du dieu-artisan dans le <i>Timée</i><span class=footnote onclick="showPop(event,this.innerHTML)";">19</span>, il convient de mettre en ordre
-le monde, jusqu’à ce qu’il s’ordonne selon les lois de la raison (une et
-indivisible)&nbsp;; pour les seconds, qui voient le monde à travers le prisme
-de la métaphysique, l’humanité connaît en tous lieux la même condition. Du
-coup, chez des auteurs comme Beckett et Céline, le temps ni l’espace n’existe
-puisqu’il n’y a rien de nouveau sous le soleil et que le Mal est universel. Le
-héros de <i>Voyage...</i> peut bien arpenter le monde, partout il rencontre la
-«&nbsp;nuit&nbsp;». Quel voyage envisager alors, quand le monde est un
-«&nbsp;cabanon&nbsp;» ou une «&nbsp;prison&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">20</span> (même si, dit Marguerite
-Yourcenar, «&nbsp;il nous faut malgré tout en faire le tour&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">21</span>)&nbsp;? Les fameuses
-maximes qui émaillent le texte de Céline nous épargnent d’ailleurs toute
-surprise&nbsp;: dès lors qu’il existe une nature humaine immuable, l’homme et
-le monde sont partout les mêmes. Pour le moraliste, le déplacement est donc
-l’occasion, non d’un dépaysement mais d’une confirmation. Alors que le héros
-d’un roman d’initiation ou de formation, arraché à son lieu premier, s’expose à
-toutes les formes de dépaysement (géographique, social, culturel...), celui
-d’un «&nbsp;roman de confrontation&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">22</span>
-détient d’emblée le savoir. Pour cette famille de héros, le monde est sommé,
-non de nous déconcerter, mais de répondre à notre attente<span class=footnote onclick="showPop(event,this.innerHTML)";">23</span>. Et si jamais il semble s’y
-refuser, on est en droit de le soumettre.</p>
-
-<p class=Paragraphe1>Mais le monde ne répond pas toujours comme il faudrait. Du
-coup, celui qui croyait savoir et avait l’illusion de pouvoir, s’expose à cette
-dépossession, ou à cette déliaison, qu’est le dépaysement. Ce dépaysement qui
-soudain nous dépouille de tous nos alibis.</p>
-
-<h1>Je ne suis pas là où je croyais être</h1>
-
-<p class=Paragraphe1>Malgré la charge sémantique du mot, cette dépossession ne relève
-pas forcément d’un déplacement dans l’espace –&nbsp;même si ce dernier en
-demeure souvent l’occasion ou le prétexte&nbsp;–mais plus sûrement d’un
-déplacement de la focale. Ou, si l’on préfère les métaphores spatiales, le
-dépaysement équivaut à un décentrement, comme dans ces cartes qui, à l’encontre
-de nos usages, placent au centre un point géographique remarquable (l’un des
-Pôles), ou bien proportionnent les territoires à d’autres critères que la
-surface (richesse par habitant&nbsp;; ressources en eau, etc.). Il s’agit bien
-toujours du monde que nous connaissons&nbsp;; et pourtant nous peinons à le
-reconnaître, du fait que l’échelle ou bien le centre en ont été changés. En
-effet, tant qu’il existe un point fixe par rapport auquel se situer
-(géographiquement et intellectuellement), le dépaysement ne peut être que
-transitoire. On comprend donc la charge affective qui entoure ce point
-imaginaire, qui a donné naissance à un véritable «&nbsp;syndrome de
-l’Omphalos&nbsp;», comme dit Bertrand Westphal<span class=footnote onclick="showPop(event,this.innerHTML)";">24</span>.</p>
-
-<p class=Paragraphe1>Les désemparés, qui attendent tout de l’ailleurs, ont
-l’impression de ne pas vivre là où ils auraient dû être&nbsp;; à l’inverse, les
-dépaysés –&nbsp;ceux qui ont fait l’expérience d’un dépaysement tout intérieur&nbsp;–
-s’aperçoivent soudain qu’ils ne sont plus où ils croyaient. Tel est bien ce qui
-est arrivé à l’homme occidental, lui qui s’était attribué la meilleure
-place&nbsp;: au centre du cosmos et au sommet des espèces. Or, pour reprendre
-un propos fameux de Freud<span class=footnote onclick="showPop(event,this.innerHTML)";">25</span>,
-si l’on repense aux blessures narcissiques qu’a subies l’humanité –&nbsp;à
-savoir la révolution copernicienne, le bouleversement darwinien et
-«&nbsp;l’invention&nbsp;» de l’inconscient&nbsp;–, on s’aperçoit que ces
-traumas collectifs consistent à chaque fois en un dépaysement, suite à un
-décentrement. Avec Copernic, celui qui se croyait au centre se découvre en périphérie&nbsp;;
-avec Darwin, celui qui bénéficiait d’un statut d’exception réintègre la loi
-commune&nbsp;; et avec l’inconscient, le maître du monde renonce à être le
-maître en sa propre demeure. Exit le cogito et son impossibilité du dépaysement
-(<i>ubi cogito, ibisum</i>), car dès lors que l’inconscient mène le jeu,
-«&nbsp;je pense où je ne suis pas&nbsp;», et du même coup «&nbsp;je suis où je
-ne pense pas&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">26</span>,
-comme le dit Jacques Lacan, usant d’une métaphore spatiale qui traduit bien
-cette expropriation.</p>
-
-<p class=Paragraphe1>La «&nbsp;crise de la conscience occidentale&nbsp;»
-procède de cette dépossession qu’est le dépaysement –&nbsp;vécu difficilement
-par qui eut longtemps l’impression d’occuper légitimement la première place. Et
-à travers la référence coloniale, qui en constitue le miroir grossissant, c’est
-à cette déprise que renvoie <i>Vendredi ou les limbes du Pacifique</i>,
-commencé à un moment (1962) où l’homme blanc était en train d’abdiquer une part
-de ses prétentions. Car après avoir regardé en arrière, comme le note Gilles
-Deleuze dans «&nbsp;Michel Tournier et le monde sans autrui&nbsp;» (postface de
-l’édition «&nbsp;Folio&nbsp;»), voilà que Robinson soupçonne l’existence d’une
-«&nbsp;autre île&nbsp;». Alors qu’une longue traversée n’avait en rien altéré
-son identité, Robinson accomplit un voyage immobile dont il sort transformé
-(l’accès à l’extase solaire et aux «&nbsp;limbes&nbsp;»). Et c’est bien ce
-voyage immobile qui suscite un dépaysement radical. Le dépaysement ne procède
-donc pas du monde, mais de soi. En cela, le roman de Tournier, publié en 1967,
-arrivait au moment où vacillaient toute une série de «&nbsp;grands
-récits&nbsp;» (le catholicisme, le marxisme, l’ambition prométhéenne...), et où
-une adhésion naïve au monde cédait la place au soupçon.</p>
-
-<p class=Paragraphe1>Mais par-delà ces bouleversements historiques<span class=footnote onclick="showPop(event,this.innerHTML)";">27</span>, notre position a
-été délégitimée par la philosophie occidentale elle-même. Des penseurs
-classiques, comme Descartes et Spinoza, pouvaient s’opposer sur bien des
-points, mais tous deux assignaient à l’homme sa juste place au sein du réel. Au
-contraire, les philosophies existentielles, qui auront dominé le XX<sup>e</sup>
-siècle, n’ont eu de cesse de remettre en cause la place de l’homme dans le
-monde, devenue soudain illégitime. On pense à Kafka quand, dans la cathédrale,
-l’abbé raconte à K. la parabole de «&nbsp;l’homme de la campagne&nbsp;»
-attendant sur le seuil sans oser le franchir&nbsp;; à Camus, où le moi se sent
-«&nbsp;pour toujours étranger à [lui]-même&nbsp;», où le héros
-d’&nbsp;«&nbsp;Entre oui et non&nbsp;», appelé d’urgence au chevet de sa mère,
-se sent «&nbsp;dépaysé comme jamais il ne l’avait été&nbsp;» dès lors que s’est
-dissipée «&nbsp;l’illusion que la vie recommence tous les jours&nbsp;»&nbsp;;
-ou bien encore à Sartre, lorsque Roquentin, contemplant dans le square les
-fameuses racines, découvre soudain que chaque figurant de cette scène est
-«&nbsp;de trop&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">28</span>.
-Alors que chez Maurice Barrès, les «&nbsp;racines&nbsp;» assignaient à chacun
-un lieu –&nbsp;un «&nbsp;pays&nbsp;»&nbsp;–, le dégoût qu’elles suscitent fait
-de Roquentin un «&nbsp;déraciné&nbsp;» –&nbsp;tout comme est déraciné le paysan
-de Kafka, voué à un entre-deux. Dès lors qu’il n’est pas question ici de
-s’enfuir vers quelque ailleurs (les aventures indochinoises de Roquentin ne
-sont plus de mise&nbsp;; et Rollebon n’est qu’une fiction consolante), le héros
-doit affronter cette forme de dépaysement existentiel que constitue le silence
-du monde, c’est-à-dire son indifférence (fût-elle «&nbsp;tendre&nbsp;», comme
-chez Albert Camus). Héritier dépossédé, chacun de ces personnages doit
-affronter le désarroi de ces occupants légitimes qui se découvrent soudain
-dépourvus de titres de séjour et qui, à la question du Grand Veneur, dans <i>La
-Modification</i>, ne peuvent dire ni qui ils sont ni où ils se trouvent<span class=footnote onclick="showPop(event,this.innerHTML)";">29</span>.</p>
-
-<p class=Paragraphe1>Le dépaysement est donc l’apanage d’un univers du relatif.
-Car dans un temps lointain, où le monde était peuplé de certitudes, il n’y
-avait place pour lui. Bons chrétiens, les voyageurs «&nbsp;n’attendaient aucune
-étrangeté [...] bouleversante des peuples de la terre qu’ils rencontraient sur
-leur chemin&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">30</span>&nbsp;;
-pas plus que ne les déconcertait la géographie eschatologique de <i>La Divine <a
-name="_GoBack"></a>Comédie</i>. Dans pareil univers mental, la rencontre de
-l’absolu pouvait susciter un foudroiement&nbsp;: Saul sur le chemin de Damas,
-anéanti jusqu’à changer de nom. Lors de cette confrontation au Grand Autre, le
-sujet était arraché à lui-même. Mais ce foudroiement peut-il être considéré
-comme un dépaysement&nbsp;? On serait tenté de le croire puisque la conversion
-consiste, métaphoriquement, à aborder en terre inconnue&nbsp;: Saul sur la
-route de Damas, les apôtres partant sur la route, le Christ lui-même
-disant&nbsp;: «&nbsp;Je suis la voie&nbsp;». Mais le dépaysement consiste-t-il
-à dépouiller entièrement le vieil homme&nbsp;? Certainement pas, du fait qu’il
-procède à la fois d’une altération et d’une permanence (une mémoire). Le
-dépaysement, ce cheminement déconcertant, n’est donc pas l’apanage du voyageur
-des extrêmes, mais une expérience commune, propre au simple fait d’exister.</p>
-
-<p class=Paragraphe1>Vivre, en effet, c’est affronter un état de dépaysement
-permanent, dont il nous revient de déterminer la nature et la couleur. On peut
-choisir d’être au monde sur le mode du dépaysement mélancolique comme le
-Robinson Crusoé de Saint-John Perse une fois revenu à Londres, dans les <i>Images
-à Crusoé</i>&nbsp;; et se complaire dans ces grandes fictions métaphysiques,
-comme l’allégorie de la Caverne ou le mythe de la Chute, pour qui le fait
-d’être homme procède d’un dépaysement originel. Mais on peut tout autant
-s’ouvrir à l’événement, perçu comme avènement&nbsp;; et faire de cet
-ébranlement une forme de ravissement. En effet, comme dans la fable des
-«&nbsp;paroles gelées&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">31</span>,
-le dépaysement réintroduit le mouvement dans ce qui s’était figé. Contre le
-risque du repli, il oblige à «&nbsp;sortir de chez soi&nbsp;», et par là même
-nous offre la possibilité de penser notre existence et de penser le monde,
-puisqu’il nous amène à «&nbsp;déplier des questions enfouies sous d’illusoires
-convictions&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">32</span>.</p>
-
-<p class=Paragraphe1>À condition d’en finir avec l’illusion d’un moi jaloux de
-son intimité et d’opter au contraire pour un sujet poreux, pour un moi
-«&nbsp;extime&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">33</span>,
-on peut donc redonner à ce dépaysement ontologique toute sa positivité, le
-constituer en premier moteur et trouver en lui la meilleure manière d’habiter
-le monde, comme le suggère l’épitaphe de Martinusvon Biberach&nbsp;:</p>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<p class=MsoQuote>Je viens je ne sais d’où,</p>
-
-<p class=MsoQuote>Je suis je ne sais qui,</p>
-
-<p class=MsoQuote>Je meurs je ne sais quand,</p>
-
-<p class=MsoQuote>Je vais je ne sais où,</p>
-
-<p class=MsoQuote>Je m’étonne d’être aussi joyeux<span class=footnote onclick="showPop(event,this.innerHTML)";">34</span>.<div id=ftn1>
-
-<p class=MsoFootnoteText><a href="#_ftnref1" name="_ftn1" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[1]</span></span></span></span></a>
-Georges PEREC, <i>Espèces d’espaces&nbsp;: Journal d’un usager de l’espace</i> (1<sup>re</sup>
-éd. 1974), Paris, Denoël/Gonthier, 1976, p.&nbsp;126.</p>
-
-</div>
-
-<div id=ftn2>
-
-<p class=MsoFootnoteText><a href="#_ftnref2" name="_ftn2" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[2]</span></span></span></span></a><span
-lang=EN-GB> </span>Pierre <span style='font-variant:small-caps'>C</span><span
-style='text-transform:uppercase'>orneille</span>, «&nbsp;Au lecteur&nbsp;», <i>Le
-Menteur</i>, <i>Théâtre complet</i>, II, Paris, Classiques Garnier, 1960,
-p.&nbsp;146.</p>
-
-</div>
-
-<div id=ftn3>
-
-<p class=MsoFootnoteText><a href="#_ftnref3" name="_ftn3" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[3]</span></span></span></span></a>
-Pierre BAYARD, <i>Comment parler des lieux où l’on n’a pas été</i>, Paris,
-Minuit, 2011, p.&nbsp;211.</p>
-
-</div>
-
-<div id=ftn4>
-
-<p class=MsoFootnoteText><a href="#_ftnref4" name="_ftn4" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[4]</span></span></span></span></a>
-«&nbsp;Les Fiancées d’Auvergne&nbsp;» est une chanson populaire interprétée par
-André VERCHUREN, en 1961.Voir&nbsp;: <span lang=EN-GB><a
-href="http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne"><span
-lang=FR>http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne</span></a></span>,
-consulté le 27/07/2018.</p>
-
-</div>
-
-<div id=ftn5>
-
-<p class=MsoFootnoteText><a href="#_ftnref5" name="_ftn5" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[5]</span></span></span></span></a>
-Dans cette réécriture de PERRAULT qu’est <i>La Belle au bois</i> (Paris,
-Gallimard, 1989), de Philippe <span style='font-variant:small-caps'>B</span><span
-style='text-transform:uppercase'>eaussant</span>, la princesse mesure à de
-petits écarts (de costume, de parlures...) le temps pendant lequel elle a
-dormi.</p>
-
-</div>
-
-<div id=ftn6>
-
-<p class=MsoFootnoteText><a href="#_ftnref6" name="_ftn6" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[6]</span></span></span></span></a>
-Charles BAUDELAIRE, <i>Les Fleurs du mal</i>, Paris, Gallimard, poésie-nrf,
-2006, p.&nbsp;47.</p>
-
-</div>
-
-<div id=ftn7>
-
-<p class=MsoFootnoteText><a href="#_ftnref7" name="_ftn7" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[7]</span></span></span></span></a>
-La «&nbsp;conscience malheureuse&nbsp;» procède du motif hégélien du
-«&nbsp;tombeau vide&nbsp;», tel que les Saintes Femmes découvrent le tombeau du
-Christ. </p>
-
-</div>
-
-<div id=ftn8>
-
-<p class=MsoFootnoteText><a href="#_ftnref8" name="_ftn8" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[8]</span></span></span></span></a>
-Clément ROSSET, <i>Le réel et son double</i>, Paris, Gallimard, 1976.</p>
-
-</div>
-
-<div id=ftn9>
-
-<p class=MsoFootnoteText><a href="#_ftnref9" name="_ftn9" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[9]</span></span></span></span></a>
-Pour la question&nbsp;: «&nbsp;Où est situé l’Eden&nbsp;», voir Pascal
-QUIGNARD, <i>Les Paradisiaques</i> (1<sup>re</sup> éd. 2005), Paris, Gallimard,
-«&nbsp;Folio&nbsp;», 2007, p.&nbsp;21-22.</p>
-
-</div>
-
-<div id=ftn10>
-
-<p class=MsoFootnoteText><a href="#_ftnref10" name="_ftn10" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[10]</span></span></span></span></a>
-Sur ce point, je renvoie à Jean DELUMEAU, <i>Une histoire du Paradis</i>,
-Paris, Fayard, 1992.</p>
-
-</div>
-
-<div id=ftn11>
-
-<p class=MsoFootnoteText><a href="#_ftnref11" name="_ftn11" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[11]</span></span></span></span></a>
-Cette relation avec le réel est justement ce qui pose problème au pasteur
-Charles DODGSON, c’est-à-dire Lewis Carroll (les fillettes, la photographie) et
-à James BARRIE, le créateur de Peter Pan (le nanisme).</p>
-
-</div>
-
-<div id=ftn12>
-
-<p class=MsoFootnoteText><a href="#_ftnref12" name="_ftn12" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[12]</span></span></span></span></a>
-J.-B. <span style='font-variant:small-caps'>P</span><span style='text-transform:
-uppercase'>ontalis</span>, <i>Loin</i> (1<sup>re</sup> éd. 1980), Paris,
-Gallimard, «&nbsp;Folio&nbsp;», 1992. Signalé par Michel <span
-style='font-variant:small-caps'>G</span><span style='text-transform:uppercase'>ribinski</span>
-dans son article intitulé «&nbsp;Dépaysement&nbsp;», <i>Le Royaume
-intermédiaire&nbsp;: Psychanalyse, littérature, autour de J.-B. Pontalis, </i>Paris,
-Gallimard, «&nbsp;Folio-Essais&nbsp;», 2007.</p>
-
-</div>
-
-<div id=ftn13>
-
-<p class=MsoFootnoteText><a href="#_ftnref13" name="_ftn13" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[13]</span></span></span></span></a>
-Pour Lawrence d’Arabie&nbsp;: «&nbsp;Comment me faire une peau arabe&nbsp;? Ce
-fut de ma part affectation pure&nbsp;», <i>Les Sept Piliers de la sagesse</i>,
-notice «&nbsp;Lawrence d’Arabie&nbsp;», <i>Dictionnaire des mythes
-d’aujourd’hui</i>, s. d. Pierre <span style='font-variant:small-caps'>B</span><span
-style='text-transform:uppercase'>runel</span>, Monaco, Du Rocher, 1999,
-p.&nbsp;423. Pour Malraux, voir Jean-Claude LARRAT, «&nbsp;Les deux tentations
-d’André Malraux&nbsp;» et «&nbsp;La métamorphose comme expérience de la
-liberté&nbsp;», <i>in</i> <i>Sans oublier Malraux</i>, Paris, Classiques
-Garnier, 2016.</p>
-
-</div>
-
-<div id=ftn14>
-
-<p class=MsoFootnoteText><a href="#_ftnref14" name="_ftn14" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[14]</span></span></span></span></a>
-On trouve un bel exemple de cette difficulté dans le roman de François <span
-style='text-transform:uppercase'>Garde</span>, <i>Ce qu’il advint du Sauvage
-blanc</i> (Paris, Gallimard, 2012), où le héros, abandonné sur une île et
-devenu un «&nbsp;sauvage&nbsp;», refuse à son retour, à mesure qu’il réapprend
-le français, de parler de son état antérieur. Comme s’il fallait conserver intacte
-la césure.</p>
-
-</div>
-
-<div id=ftn15>
-
-<p class=MsoFootnoteText><a href="#_ftnref15" name="_ftn15" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[15]</span></span></span></span></a>
-Sa relation entre altération et altération, voir Michel <span style='font-variant:
-small-caps'>T</span><span style='text-transform:uppercase'>ournier</span>, <i>Les
-Météores</i> (1<sup>re</sup> éd. 1975), Paris, Gallimard, «&nbsp;Folio&nbsp;»,
-1977, p.&nbsp;549.</p>
-
-</div>
-
-<div id=ftn16>
-
-<p class=MsoFootnoteText><a href="#_ftnref16" name="_ftn16" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[16]</span></span></span></span></a>
-Sur Phileas Fogg et <i>Le Tour du monde en quatre-vingts jours</i> comme roman
-philosophique, voir Michel <span style='text-transform:uppercase'>Tournier</span>,
-<i>Les Météores</i> (<i>op.&nbsp;cit</i>., p.&nbsp;400-402) et <i>Le Vent
-Paraclet</i> (1<sup>re</sup> éd. 1977), Paris, Gallimard, «&nbsp;Folio&nbsp;»,
-1979, p.&nbsp;273-276).</p>
-
-</div>
-
-<div id=ftn17>
-
-<p class=MsoFootnoteText><a href="#_ftnref17" name="_ftn17" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[17]</span></span></span></span></a>
-«&nbsp;Gide lisait du Bossuet en descendant le Congo. Cette posture résume
-assez bien l’idéal de nos écrivains ‘en vacances’, photographiés par <i>Le
-Figaro</i>&nbsp;: joindre au loisir banal le prestige d’une vocation que rien
-ne peut arrêter ni dégrader&nbsp;», Roland BARTHES, <i>Mythologies</i> (1<sup>re</sup>
-éd. 1957), <i>Œuvres complètes</i>, I, Paris, Seuil, 1993, p.&nbsp;580.</p>
-
-</div>
-
-<div id=ftn18>
-
-<p class=MsoFootnoteText><a href="#_ftnref18" name="_ftn18" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[18]</span></span></span></span></a>
-Jean-Philippe <span style='text-transform:uppercase'>Toussaint</span>, <i>La
-Salle de bain</i>, Paris, Minuit,&nbsp;1985<b>, </b>p.&nbsp;82 et p.&nbsp;87.</p>
-
-</div>
-
-<div id=ftn19>
-
-<p class=MsoFootnoteText><a href="#_ftnref19" name="_ftn19" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[19]</span></span></span></span></a>
-L’un des derniers dialogues de Platon.</p>
-
-</div>
-
-<div id=ftn20>
-
-<p class=MsoFootnoteText><a href="#_ftnref20" name="_ftn20" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[20]</span></span></span></span></a>
-Louis-Ferdinand CÉLINE, <i>Voyage au bout de la nuit</i> (1<sup>re</sup> éd. 1932),
-<i>Romans I</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,
-1981, respectivement p.&nbsp;13 et p.&nbsp;15.</p>
-
-</div>
-
-<div id=ftn21>
-
-<p class=MsoFootnoteText><a href="#_ftnref21" name="_ftn21" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[21]</span></span></span></span></a>
-Marguerite YOURCENAR&nbsp;: «&nbsp;Qui serait assez insensé pour mourir sans
-avoir fait au moins le tour de sa prison&nbsp;». La formule se trouve d'abord
-dans <i>L'Œuvre au Noir</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris,
-Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1982, p.&nbsp;564 puis est
-reprise en épigraphe du texte intitulé «&nbsp;Le Tour de la prison&nbsp;», <i>in</i>
-<i>Essais et mémoires</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la
-Pléiade&nbsp;», 1991, p.&nbsp;595.</p>
-
-</div>
-
-<div id=ftn22>
-
-<p class=MsoFootnoteText><a href="#_ftnref22" name="_ftn22" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[22]</span></span></span></span></a>
-J’emprunte cette notion à un article de Michel <span style='text-transform:
-uppercase'>Tournier</span>&nbsp;: «&nbsp;<i>Le Rouge et le Noir</i>, roman de
-confrontation&nbsp;», <i>in</i> <i>Le Vol du vampire</i>, Paris, Mercure de
-France, 1981, p.&nbsp;136-137. Dans le domaine de la fiction, on pense à Don
-Quichotte, qui voit le monde à travers les romans de chevalerie et croit en
-revivre certains épisodes. Quant aux «&nbsp;idéologues&nbsp;», tout vient
-corroborer leurs thèses&nbsp;: Bossuet ne cesse de rencontrer dans l’histoire
-de nouvelles preuves en faveur du providentialisme, et Pangloss dans chaque
-épisode la démonstration de sa philosophie de l’optimisme.</p>
-
-</div>
-
-<div id=ftn23>
-
-<p class=MsoFootnoteText><a href="#_ftnref23" name="_ftn23" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[23]</span></span></span></span></a>
-D’où ce portrait de Phileas Fogg par Michel <span style='text-transform:uppercase'>Tournier</span>&nbsp;:
-«&nbsp;C’est un voyageur. Un voyageur en chambre. Il possède du voyage une
-connaissance abstraite, livresque, et il en déduit <i>a priori</i> qu’on doit
-pouvoir faire le tour du monde en quatre-vingts jours. La confrontation de ce
-savoir <i>a priori</i> et de la dure réalité fait tout le contenu du roman
-[...]&nbsp;», <i>Le Vent Paraclet</i>, <i>op.&nbsp;cit</i>., p.&nbsp;273.</p>
-
-</div>
-
-<div id=ftn24>
-
-<p class=MsoFootnoteText><a href="#_ftnref24" name="_ftn24" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[24]</span></span></span></span></a>
-Bertrand <span style='text-transform:uppercase'>Westphal</span>, <i>Le Monde
-plausible&nbsp;: Espace, lieu, carte</i>, Paris, Minuit, 2011. Sur le besoin de
-localiser le centre, G. <span style='text-transform:uppercase'>Perec</span>, <i>Espèces
-d’espaces</i>, <i>op.&nbsp;cit</i>., p.&nbsp;125.</p>
-
-</div>
-
-<div id=ftn25>
-
-<p class=MsoFootnoteText><a href="#_ftnref25" name="_ftn25" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[25]</span></span></span></span></a><span
-lang=EN-GB> </span>Sigmund FREUD, <i>Introduction à la psychanalyse</i> (1<sup>re</sup>
-éd. 1921), trad. S. Jankélévitch, Paris, Payot, 2001, p.&nbsp;343-344.</p>
-
-</div>
-
-<div id=ftn26>
-
-<p class=MsoFootnoteText><a href="#_ftnref26" name="_ftn26" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[26]</span></span></span></span></a>
-Jacques <span style='text-transform:uppercase'>Lacan</span>, <i>Écrits</i>,
-Paris, Seuil, 1966, p.&nbsp;516-517.</p>
-
-</div>
-
-<div id=ftn27>
-
-<p class=MsoFootnoteText><a href="#_ftnref27" name="_ftn27" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[27]</span></span></span></span></a>
-Parmi ces bouleversements, la guerre, que le héros de <i>Comme le temps passe</i>,
-de Robert <span style='text-transform:uppercase'>Brasillach</span>, décrit
-comme une forme de «&nbsp;dépaysement&nbsp;», [1937], Paris, Plon, 1989,
-p.&nbsp;111.</p>
-
-</div>
-
-<div id=ftn28>
-
-<p class=MsoFootnoteText><a href="#_ftnref28" name="_ftn28" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[28]</span></span></span></span></a>
-Franz KAFKA, <i>Œuvres complètes</i>, Paris, Gallimard, «&nbsp;Bibliothèque de
-la Pléiade&nbsp;», 1976, p.&nbsp;453-455. Albert <span style='text-transform:
-uppercase'>Camus</span>, <i>Le Mythe de Sisyphe</i>, <i>in</i> <i>Essais</i>,
-Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965, p.&nbsp;111,
-et «&nbsp;Entre oui et non&nbsp;», <i>L’Envers et l’Endroit</i>, <i>ibid</i>.,
-p.&nbsp;27. Jean-Paul <span style='font-variant:small-caps'>SARTRE</span>, <i>La
-Nausée</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris, Gallimard,
-«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1981, p.&nbsp;152.</p>
-
-</div>
-
-<div id=ftn29>
-
-<p class=MsoFootnoteTextCxSpMiddle><a href="#_ftnref29" name="_ftn29" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[29]</span></span></span></span></a>
-Michel BUTOR, <i>La Modification</i>, Paris, Minuit, 1957, réédition UGE, 1970,
-collection 10/18, p.&nbsp;152.</p>
-
-</div>
-
-<div id=ftn30>
-
-<p class=MsoFootnoteTextCxSpMiddle><a href="#_ftnref30" name="_ftn30" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[30]</span></span></span></span></a>
-Jean-Claude LARRAT, <i>Sans oublier Malraux</i>, Paris, Classiques Garnier,
-2016, p.&nbsp;47.</p>
-
-</div>
-
-<div id=ftn31>
-
-<p class=MsoFootnoteText><a href="#_ftnref31" name="_ftn31" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[31]</span></span></span></span></a>
-François RABELAIS, <i>Le Quart Livre</i>, chap. 55-56, éd. G. Defaux et R.
-Marichal, Librairie Générale Française, 1994, chap.&nbsp;LIV-LVI,
-p.&nbsp;529-545.</p>
-
-</div>
-
-<div id=ftn32>
-
-<p class=MsoFootnoteText><a href="#_ftnref32" name="_ftn32" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[32]</span></span></span></span></a>
-Nicole <span style='font-variant:small-caps'>LAPIERRE</span>, <i>Pensons
-ailleurs</i> (1<sup>re</sup> éd. 2004), rééd. Paris, Gallimard,
-«&nbsp;Folio-Essais&nbsp;», 2006, p.&nbsp;12. Le titre de cet essai est
-emprunté à <span style='text-transform:uppercase'>Montaigne</span>&nbsp;:
-«&nbsp;Nous pensons toujours ailleurs&nbsp;» (chap. «&nbsp;De la
-diversion&nbsp;», <i>Essais</i>, III, 4, Paris, Gallimard, «&nbsp;Bibliothèque
-de la Pléiade&nbsp;», 1962, p.&nbsp;812.</p>
-
-</div>
-
-<div id=ftn33>
-
-<p class=MsoFootnoteText><a href="#_ftnref33" name="_ftn33" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[33]</span></span></span></span></a>
-Cette extimité renvoie bien sûr à une conception nietzschéenne du sujet, dont
-on retrouve l’écho chez Deleuze (avec, par exemple, la question du moi
-rhizomatique).</p>
-
-</div>
-
-<div id=ftn34>
-
-<p class=MsoFootnoteText><a href="#_ftnref34" name="_ftn34" title=""><span
-class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
-lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[34]</span></span></span></span></a>
-Cité par Clément <span style='font-variant:small-caps'>ROSSET</span>, <i>Loin
-de moi&nbsp;: Étude sur l’identité</i>, Paris, Minuit, 1999, p.&nbsp;91.
-Fréquemment évoqué, entre autres par Luther qui trouve ce texte scandaleux
-puisque le chrétien, lui, sait exactement d’où il vient et où il va, ce poème a
-été l’objet de nombreuses polémiques quant à sa paternité, sa date (<span
-style='font-variant:small-caps'>XV</span><sup>e</sup> siècle&nbsp;?) et son
-statut&nbsp;: épitaphe&nbsp;? prologue&nbsp;?</p>
-
-</div>
-
-</div>
-<div id="mresume" class="hidden"><p class=Resume0><b>Résumé</b></p>
-
-<p class=Resume0>L’expérience du dépaysement peut constituer à la fois un
-espoir – pour ceux qui rêvent d’un ailleurs –&nbsp;et un motif d’inquiétude&nbsp;–
-pour ceux qui craignent de perdre leurs repères et refusent d’affronter
-l’altérité du monde. Mais si, le plus souvent, il n’est de dépaysement qu’au
-prix d’un déplacement, il arrive aussi que cette expérience procède simplement
-d’un regard nouveau sur le réel. Et que, loin de constituer un motif d’anxiété,
-elle incite le moi à se départir de lui-même et à se réinventer.</p>
-
-<p class=Resume0>&nbsp;</p>
-
-<p class=Resume0><b><i>Abstract</i></b></p>
-
-<p class=Resume0><i>The experience of disorientation can be both a hope, for
-those who dream to be elsewhere and a cause for concern, for those who are
-afraid to lose their bearings and refuse to face the otherness of the world.
-Usually, there is change of scenery when there’s a shift, but it also happens
-that the experience results of a new look at the real. And that, away from
-being a cause of concerns, it encourages to reinvent oneself, getting rid of
-the old self.</i></div>
-<div id="msommaire" class="hidden"><p class=MsoToc1>Je ne suis pas là où je devrais être</p>
-
-<p class=MsoToc1>Je suis chez moi même ailleurs</p>
-
-<p class=MsoToc1>Je ne suis pas là où je croyais être</p>
-
-</div>
-<div id="mauteurs_alt" class="hidden"><p class=Auteurs>Jacques
-POIRIER</p>
-
-<p class=Auteurs>Univ. de
-Bourgogne-Franche Comté</p>
-
-</div>
-<div id="mrefnum" class="hidden">Jacques POIRIER, « Dépaysement et déplacement&nbsp;: du rêve d’ailleurs au
-voyage immobile
-
- », <i>L’Entre-deux</i>, 4 (1) | d&eacute;cembre 2018 | URL : <a href='https://www.lentre-deux.com/?b=53'>https://www.lentre-deux.com/?b=53</a> | consulté le 30-11-2022 </div> 
-<div id="mbiblio" class="hidden"><p class=Biblio><a name="_Toc467710415"></a><a name="_Toc467710128"></a><a
-name="_Toc467710090">BARTHES, Roland, <i>Mythologies</i> (1<sup>re</sup> éd. 1957),
-<i>Œuvres complètes</i>, I, Paris, Seuil, 1993.</a></p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>BAUDELAIRE, Charles, <i>Les Fleurs du mal</i> (1<sup>re</sup>
-éd. 1857), Paris, Gallimard, poésie-nrf, 2006.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>BAYARD, Pierre, <i>Comment parler des lieux où l’on n’a pas été</i>,
-Paris, Minuit, 2011.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>BEAUSSANT, Philippe,<i> La Belle au bois</i>, Paris, Gallimard,
-1989.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>BRASILLACH, Robert, <i>Comme le temps passe</i> (1<sup>re</sup>
-éd. 1937), Paris, Plon, 1989.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>BRUNEL, Pierre (dir.), notice «&nbsp;Lawrence d’Arabie&nbsp;», <i>in
-Dictionnaire des mythes d’aujourd’hui</i>, Monaco, Du Rocher, 1999.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>BUTOR, Michel, <i>La Modification</i>, Paris, Minuit, 1957,
-réédition UGE, 1970, collection 10/18.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>CAMUS, Albert <i>Le Mythe de Sisyphe</i>, <i>in</i> <i>Essais</i>,
-Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965.</p>
-
-<p class=Biblio>—, <i>L’Envers et l’Endroit</i>, <i>in</i> <i>Essais</i>,
-Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>CÉLINE, Louis-Ferdinand, <i>Voyage au bout de la nuit</i> (1<sup>re</sup>
-éd. 1932), <i>Romans I</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la
-Pléiade&nbsp;», 1981.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>CORNEILLE, Pierre, <i>Le Menteur</i>, <i>Théâtre complet</i>,
-II, Paris, Classiques Garnier, 1960.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>DELUMEAU, Jean, <i>Une histoire du Paradis</i>, Paris, Fayard,
-1992.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>FREUD, Sigmund, <i>Introduction à la psychanalyse</i> (1<sup>re</sup>
-éd. 1921), trad. S. Jankélévitch, Paris, Payot, 2001.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>GARDE, François, <i>Ce qu’il advint du Sauvage blanc</i>,
-Paris, Gallimard, 2012.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>GRIBINSKI, Michel, «&nbsp;Dépaysement&nbsp;», <i>Le Royaume
-intermédiaire&nbsp;: Psychanalyse, littérature, autour de J.-B. Pontalis, </i>Paris,
-Gallimard, «&nbsp;Folio-Essais&nbsp;», 2007.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>KAFKA, Franz, <i>Œuvres complètes</i>, Paris, Gallimard,
-«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1976.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>LACAN, Jacques, <i>Écrits</i>, Paris, Seuil, 1966.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>LAPIERRE, Nicole, <i>Pensons ailleurs</i> (1<sup>re</sup> éd. 2004),
-rééd. Paris, Gallimard, «&nbsp;Folio-Essais&nbsp;», 2006.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>LARRAT, Jean-Claude, <i>Sans oublier Malraux</i>, Paris,
-Classiques Garnier, 2016.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>MONTAIGNE, Michel de, <i>Essais</i>, III, 4, Paris, Gallimard,
-«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1962.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>PONTALIS, J.-B., <i>Loin</i> (1<sup>re</sup> éd. 1980), Paris,
-Gallimard, «&nbsp;Folio&nbsp;», 1992.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>QUIGNARD, Pascal, <i>Les Paradisiaques</i> (1<sup>re</sup> éd. 2005),
-Paris, Gallimard, «&nbsp;Folio&nbsp;», 2007.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>RABELAIS, François <i>Le Quart Livre</i>, chap. 55-56, éd. G.
-Defaux et R. Marichal, Librairie Générale Française, 1994.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>ROSSET, Clément, <i>Le réel et son double</i>, Paris,
-Gallimard, 1976.</p>
-
-<p class=Biblio>—, <i>Loin de moi&nbsp;: Étude sur l’identité</i>, Paris,
-Minuit, 1999.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>SARTRE, Jean-Paul, <i>La Nausée</i>, <i>in</i> <i>Œuvres
-romanesques</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,
-1981.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>TOURNIER, Michel,<i> Les Météores</i> (1<sup>re</sup> éd. 1975),
-Paris, Gallimard, «&nbsp;Folio&nbsp;», 1977.</p>
-
-<p class=Biblio>—, <i>Le Vent Paraclet</i> (1<sup>re</sup> éd. 1977), Paris,
-Gallimard, «&nbsp;Folio&nbsp;», 1979.</p>
-
-<p class=Biblio>—, <i>Le Vol du vampire</i>, Paris, Mercure de France, 1981.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>TOUSSAINT, Jean-Philippe, <i>La Salle de bain</i>, Paris,
-Minuit, 1985.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>YOURCENAR, Marguerite, <i>L'Œuvre au Noir</i>, <i>in</i> <i>Œuvres
-romanesques</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,
-1982,</p>
-
-<p class=Biblio><i>—, Essais et mémoires</i>, Paris, Gallimard,
-«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1991.</p>
-
-<p class=Biblio>&nbsp;</p>
-
-<p class=Biblio>WESTPHAL, Bertrand, <i>Le Monde plausible&nbsp;: Espace, lieu,
-carte</i>, Paris, Minuit, 2011.</p>
-
-
-
-
-
-
-
-</div>
- <script>
-
-window.showPop = function (e,t) {
-//alert("pop");
-getMouse(e);
-var delta=0;
-document.getElementById('mask').style.display='block';
-var element=document.getElementById('pop');
-document.getElementById('mask').style.top=(posy-1200)+'px';
-if(posx>350)
-{
-delta=-0;
-/*element.style.right=(5)+'%'; */
-}
-else {;
-/*element.style.left=(10)+'%'; */
-}
-element.style.top=posy+'px'; 
-element.style.display='block' ;
-var p = footnotesRef.indexOf(t);
-document.getElementById('pop').innerHTML = footnotes[p];
-}
-
-var old =0;
-var menuOpen = false;
-var sameMenu = false;
-
-function Bmenu(b,n) {
-//alert("KO");
-if(b==6){};
- var element = document.getElementById("mWrap");
-if(n == old) {sameMenu = true;} else {old=n;sameMenu=false;};
-if(menuOpen){
-	if(sameMenu){
-	element.classList.add("mHide");
-    element.classList.remove("mShow");
-	menuOpen=false;
-	}
-	else {
-	document.getElementById("mPannel").innerHTML = document.getElementById(menuContent[n]).innerHTML;
-	}
-	}
-else {
-	document.getElementById("mPannel").innerHTML = document.getElementById(menuContent[n]).innerHTML;
-	element.classList.add("mShow");
-    element.classList.remove("mHide");
-	menuOpen=true;
-}
-
-}
-
- //showSlide(slideIndex);
- 
-      setInterval(startSlide,3000);
-      var autoSlide = 1;
-     
-
-	 function startSlide(){
-		parents = document.getElementsByClassName('slideshow-container');
-		if(autoSlide){ 
-			var slides = document.getElementsByClassName("slideShowStyle");
-			for(j=0;j<parents.length;j++){
-				slide = parents[j].getElementsByClassName("slideShowStyle");
-				dot = parents[j].getElementsByClassName("dot");
-				for(i=0;i<slide.length;i++){
-					if(slide[i].classList.contains('active-slide')){
-					var _current = i;//document.getElementById('trace').textContent = i ;
-					if ((_current+1)>=slide.length){_current=-1}
-					//document.getElementById('trace').textContent = _current ;
-					}
-				slide[i].classList.remove('active-slide');dot[i].classList.remove('active');
-				}
-			slide[_current+1].classList.add('active-slide');dot[_current+1].classList.add('active');
-			}
-		}
-	 }
- 
- 
- initSlides(); //on page load - show first slide, hidethe rest
-
-  function initSlides() {
-
-    parents = document.getElementsByClassName('slideshow-container');
-
-    for (j = 0; j < parents.length; j++) {
-      var slides = parents[j].getElementsByClassName("slideShowStyle");
-      var dots = parents[j].getElementsByClassName("dot");
-      slides[0].classList.add('active-slide');
-      dots[0].classList.add('active');
-    }
-  }
-
-  dots = document.getElementsByClassName('dot'); //dots functionality
-
-  for (i = 0; i < dots.length; i++) {
-
-    dots[i].onclick = function() {
-		autoSlide = 0;
-		slides = this.parentNode.parentNode.getElementsByClassName("slideShowStyle");
-
-      for (j = 0; j < this.parentNode.children.length; j++) {
-        this.parentNode.children[j].classList.remove('active');
-        slides[j].classList.remove('active-slide');
-        if (this.parentNode.children[j] == this) {
-          index = j;
-        }
-      }
-      this.classList.add('active');
-      slides[index].classList.add('active-slide');
-
-    }
-  }
-//prev/next functionality
-  links = document.querySelectorAll('.slideshow-container a');
-
-  for (i = 0; i < links.length; i++) {
-    links[i].onclick = function() {
-		autoSlide = 0;
-		current = this.parentNode;
-
-      var slides = current.getElementsByClassName("slideShowStyle");
-      var dots = current.getElementsByClassName("dot");
-      curr_slide = current.getElementsByClassName('active-slide')[0];
-      curr_dot = current.getElementsByClassName('active')[0];
-      curr_slide.classList.remove('active-slide');
-      curr_dot.classList.remove('active');
-      if (this.className == 'btnnext') {
-
-        if (curr_slide.nextElementSibling.classList.contains('slideShowStyle')) {
-          curr_slide.nextElementSibling.classList.add('active-slide');
-          curr_dot.nextElementSibling.classList.add('active');
-        } else {
-          slides[0].classList.add('active-slide');
-          dots[0].classList.add('active');
-        }
-
-      }
-
-      if (this.className == 'btnprev') {
-
-        if (curr_slide.previousElementSibling) {
-          curr_slide.previousElementSibling.classList.add('active-slide');
-          curr_dot.previousElementSibling.classList.add('active');
-        } else {
-          slides[slides.length - 1].classList.add('active-slide');
-          dots[slides.length - 1].classList.add('active');
-        }
-
-      }
-
-    }
-
-  }
-  function showSlides(){
-  //initSlides();
-  document.getElementById("mLogo").style.display = "none";
-/*	current = this.parentNode;
-	var slides = current.getElementsByClassName("slideShowStyle");
-	curr_slide = current.getElementsByClassName('active-slide')[0];
-    slides.style.display = "none";  ;
-      curr_slide.classList.remove('active-slide');
-  }*/
-  }
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
- //initSlides();
-</script>
-
-	</div>		
-<!-- foooter ------------------------------------------------------------------------------------------------------>	
-	<div class="mFooter mFormat mShadow"><button>version alpha 1.3 ©ThéoBlatz-2016</button></div>
 		
+	<!-- Title -->
+	<title>Dépaysement - L&#039;HEBDO-BLOG</title>
 	
-	<div>&nbsp;</div>
-<script>if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) { mResize('1');}</script>
-</body>
-</html>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://www.hebdo-blog.fr/wp-content/themes/stylemag/style.css" type="text/css"  media="all"  />
+	
+	<link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>	
+	<!-- RSS Feeds & Pingbacks -->
+	<link rel="alternate" type="application/rss+xml" title="L&#039;HEBDO-BLOG RSS Feed" href="https://www.hebdo-blog.fr/feed/" />
+	<link rel="pingback" href="https://www.hebdo-blog.fr/xmlrpc.php" />
+	
+	<style type="text/css">
+	
+		h1, h2, h3, h4, h5, h6, 
+		.cart-top, 
+		.flex-caption h2, 
+		.dropcap, 
+		.page-content table th,
+		#site-title #tagline,
+		.news-image-title,
+		blockquote,
+		.product-price .from,
+		.product-price-single .from {
+		font-family: 'Cardo', serif;
+	}
+	
+	#header-left {
+    float: left;
+    width: 150%;
+}
+
+.widget .latest-posts-list li .lpl-content {
+    width: 67%;
+}@media only screen and (max-width: 1100px) {
+			.menu-search-field {
+				background: #000000 !important;
+			}
+		}@media only screen and (max-width: 1100px) {
+		
+			#main-menu-wrapper {
+				background: #ff0000 !important;
+				border-top: #ff0000 1px solid !important;
+				border-bottom: #ff0000 1px solid !important;
+			}
+		
+		}#site-title h2 { border-top: 6px solid #ff0000; }.twitter_icon:hover,.pinterest_icon:hover,.facebook_icon:hover,.googleplus_icon:hover,.tumblr_icon:hover,
+		.vimeo_icon:hover,.youtube_icon:hover,.rss_icon:hover,.flickr_icon:hover { background-color: #ff0000; }.menu-search-button { background-color: #ff0000; }.slider .flex-direction-nav .flex-prev { border-right: #ff0000 4px solid; }.slider .flex-direction-nav .flex-next { border-left: #ff0000 4px solid; }.widget-title-block { background: #ff0000;}.nsu-submit { background-color: #ff0000;}.news-image-title { background: #ff0000;}.title-block, #reply-title { background: #ff0000;}#footer-bottom { background: #ff0000;}.price_slider_wrapper .ui-slider .ui-slider-handle { background: #ff0000;}#main-menu li ul { border-bottom: #ff0000 4px solid; }#minus1, #plus1 { background: #ff0000;}.add-to-bag { background: #ff0000;}.page-content table, #sidebar-content table, #footer-wrapper table { border-top: 5px solid #ff0000;}.product-options .product_type_simple,.product-options .product_type_external,
+		.product-options .product_type_variable,.product-options .details-button { background-color: #ff0000;}.pagination-wrapper a.selected, .pagination-wrapper a:hover, .wp-pagenavi .current, .wp-pagenavi a:hover { background: #ff0000 !important;border: #ff0000 1px solid !important;}.product-price .amount, .single_variation .price .amount, .product-price-single .amount { background: #ff0000;}.ui-tabs .ui-tabs-nav li.ui-tabs-selected { border-top: #ff0000 5px solid;}@media only screen and (max-width: 1100px) {
+			#main-menu-wrapper { background: #ff0000;border-top: #ff0000 1px solid;border-bottom: #ff0000 1px solid;}
+		}#mobile-menu li { border-top: #fff 1px solid;}.mobile-menu-button { background-color: #ff0000;}.mobile-menu-wrapper { background: #ff0000;}#mobile-menu li a, #mobile-menu li.current_page_item ul li a {color:#fff;}#main-content a:hover,#sidebar-content a:hover { color: #ff0000;}.checkout-columns label {display:none !important;}.from, .single_variation .price, .single_variation .out-of-stock {display: none;}</style>	
+	
+<!-- This site is optimized with the Yoast SEO plugin v4.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.hebdo-blog.fr/depaysement/" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Dépaysement - L&#039;HEBDO-BLOG" />
+<meta property="og:description" content="Les &quot;Hospitalités&quot;, de Massimo Furlan" />
+<meta property="og:url" content="https://www.hebdo-blog.fr/depaysement/" />
+<meta property="og:site_name" content="L&#039;HEBDO-BLOG" />
+<meta property="article:tag" content="L&#039;Hebdo-Blog 172" />
+<meta property="article:section" content="A la une" />
+<meta property="article:published_time" content="2019-05-18T16:41:24+00:00" />
+<meta property="article:modified_time" content="2019-07-10T14:06:06+00:00" />
+<meta property="og:updated_time" content="2019-07-10T14:06:06+00:00" />
+<meta property="og:image" content="https://www.hebdo-blog.fr/wp-content/uploads/2019/05/HB172-Cocconier.jpg" />
+<meta property="og:image:width" content="690" />
+<meta property="og:image:height" content="460" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Les &quot;Hospitalités&quot;, de Massimo Furlan" />
+<meta name="twitter:title" content="Dépaysement - L&#039;HEBDO-BLOG" />
+<meta name="twitter:image" content="https://www.hebdo-blog.fr/wp-content/uploads/2019/05/HB172-Cocconier.jpg" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="L&#039;HEBDO-BLOG &raquo; Flux" href="https://www.hebdo-blog.fr/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.hebdo-blog.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.25"}};
+			!function(t,a,e){var r,n,i,o=a.createElement("canvas"),l=o.getContext&&o.getContext("2d");function c(t){var e=a.createElement("script");e.src=t,e.defer=e.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(e)}for(i=Array("flag","emoji4"),e.supports={everything:!0,everythingExceptFlag:!0},n=0;n<i.length;n++)e.supports[i[n]]=function(t){var e,a=String.fromCharCode;if(!l||!l.fillText)return!1;switch(l.clearRect(0,0,o.width,o.height),l.textBaseline="top",l.font="600 32px Arial",t){case"flag":return(l.fillText(a(55356,56826,55356,56819),0,0),o.toDataURL().length<3e3)?!1:(l.clearRect(0,0,o.width,o.height),l.fillText(a(55356,57331,65039,8205,55356,57096),0,0),e=o.toDataURL(),l.clearRect(0,0,o.width,o.height),l.fillText(a(55356,57331,55356,57096),0,0),e!==o.toDataURL());case"emoji4":return l.fillText(a(55357,56425,55356,57341,8205,55357,56507),0,0),e=o.toDataURL(),l.clearRect(0,0,o.width,o.height),l.fillText(a(55357,56425,55356,57341,55357,56507),0,0),e!==o.toDataURL()}return!1}(i[n]),e.supports.everything=e.supports.everything&&e.supports[i[n]],"flag"!==i[n]&&(e.supports.everythingExceptFlag=e.supports.everythingExceptFlag&&e.supports[i[n]]);e.supports.everythingExceptFlag=e.supports.everythingExceptFlag&&!e.supports.flag,e.DOMReady=!1,e.readyCallback=function(){e.DOMReady=!0},e.supports.everything||(r=function(){e.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",r,!1),t.addEventListener("load",r,!1)):(t.attachEvent("onload",r),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&e.readyCallback()})),(r=e.source||{}).concatemoji?c(r.concatemoji):r.wpemoji&&r.twemoji&&(c(r.twemoji),c(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='validate-engine-css-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='pdfprnt_frontend-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/pdf-print/css/frontend.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='sidebar-login-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/sidebar-login/assets/css/sidebar-login.css?ver=2.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='search-filter-plugin-styles-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='https://www.hebdo-blog.fr/wp-content/themes/stylemag/css/superfish.css?ver=4.7.25' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='https://www.hebdo-blog.fr/wp-content/themes/stylemag/css/prettyPhoto.css?ver=4.7.25' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='https://www.hebdo-blog.fr/wp-content/themes/stylemag/css/flexslider.css?ver=4.7.25' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='https://www.hebdo-blog.fr/wp-content/themes/stylemag/css/responsive.css?ver=4.7.25' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widget-social-icons-styles-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/jetpack/modules/widgets/social-icons/social-icons.css?ver=20170506' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-add-custom-css-css'  href='https://www.hebdo-blog.fr?display_custom_css=css&#038;ver=4.7.25' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/jetpack/css/jetpack.css?ver=6.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='UserAccessManagerAdmin-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/user-access-manager/css/uamAdmin.css?ver=1.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='UserAccessManagerLoginForm-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/user-access-manager/css/uamLoginForm.css?ver=1.0' type='text/css' media='screen' />
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://www.hebdo-blog.fr/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/sidebar-login/assets/js/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sidebar_login_params = {"ajax_url":"https:\/\/www.hebdo-blog.fr\/wp-admin\/admin-ajax.php","force_ssl_admin":"1","is_ssl":"1","i18n_username_required":"Veuillez renseigner votre identifiant","i18n_password_required":"Veuillez renseigner votre mot de passe","error_class":"sidebar_login_error"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/sidebar-login/assets/js/sidebar-login.min.js?ver=2.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https:\/\/www.hebdo-blog.fr\/wp-admin\/admin-ajax.php","home_url":"https:\/\/www.hebdo-blog.fr\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/search-filter-pro/public/assets/js/search-filter-build.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/search-filter-pro/public/assets/js/chosen.jquery.min.js?ver=2.4.6'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/user-access-manager/js/functions.js?ver=4.7.25'></script>
+<link rel='https://api.w.org/' href='https://www.hebdo-blog.fr/wp-json/' />
+<meta name="generator" content="WordPress 4.7.25" />
+<link rel='shortlink' href='https://wp.me/p53Htr-2ox' />
+<link rel="alternate" type="application/json+oembed" href="https://www.hebdo-blog.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hebdo-blog.fr%2Fdepaysement%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.hebdo-blog.fr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hebdo-blog.fr%2Fdepaysement%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>			<style type="text/css" id="wp-custom-css">
+				/*
+Bienvenue dans l’éditeur CSS de l’extension Design !
+
+CSS (Cascading Style Sheets) est un langage qui fournit des informations à
+votre navigateur concernant le style de la page web que vous visitez. Vous
+pouvez maintenant supprimer ces commentaires et commencer à ajouter votre
+propre code CSS.
+
+Par défaut, cette feuille de style sera chargée après la feuille de
+style de votre thème, ce qui veut dire que les nouvelles règles que vous
+ajouterez ici pourront remplacer celles créées par le thème.
+
+Vous pouvez donc ajouter ici les changements que vous souhaitez apporter à
+votre thème, sans avoir à copier la feuille de style existante de
+celui-ci, ou avoir à recréer toutes les règles de style de votre thème.
+*/
+#header-left {
+	float: left;
+	width: 100%;
+}
+
+.site-title-image h2 {
+	width: 100%;
+}
+
+#site-title #tagline {
+	color: #000000;
+	font-size: 24px;
+	letter-spacing: .1em;
+	padding: 64px 0 0 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#sidebar-content ul li {
+	font-size: 13px;
+	line-height: 170%;
+	list-style-image: none;
+	list-style-position: inside;
+}
+
+#site-title #tagline p {
+	text-align:center;
+}
+
+#site-title h2 {
+    border-top: 6px solid #ffffff;
+}
+
+.article-image {
+
+    float: left;
+    width: 100%;
+
+}
+
+
+.article-content {
+
+    float: right;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.article-date {
+
+    border-bottom: #dfdcdc 1px solid;
+    padding: 0 7px 7px 0;
+
+
+}
+
+
+
+.breadcrumbs-wrapper {
+
+    background: url(images/border4.png) repeat-x center;
+    display: none;
+
+}
+
+
+.page-title {
+
+    font-size: 24px;
+    color: #1c1c1c;
+    display: none;
+
+}
+
+.menu-search-field {
+    color: red;
+    font-weight: bold;
+	font-size:10px;
+
+}
+
+#widget-search{
+	display:none;
+}
+
+.article-comments {
+    font-weight: bold;
+}
+			</style>
+			
+<!-- END head -->
+</head>
+
+<!-- BEGIN body -->
+<body data-rsssl=1 class="post-template-default single single-post postid-9209 single-format-standard">
+
+<!-- BEGIN #background-wrapper -->
+<div id="background-wrapper">
+
+	<!-- BEGIN .content-wrapper -->
+	<div class="content-wrapper clearfix">
+	
+		<!-- BEGIN #header-wrapper -->
+		<div id="header-wrapper" class="clearfix">
+		
+			<!-- BEGIN #header-left -->
+			<div id="header-left">
+	
+									<div id="site-title" class="site-title-image">
+						<h2>
+							<a href="https://www.hebdo-blog.fr"><img src="https://www.hebdo-blog.fr/wp-content/uploads/2018/03/logo_hebdo_blog-1.jpg" alt="" /></a>
+						</h2>
+						<h3 style="text-align:center;text-transform:uppercase;font-size: 26px;
+line-height: 2;">Une PUBLICATION de l&#039;ECF, des ACF et des CPCT</h3>
+					</div>
+
+								
+			<!-- END #header-left -->
+			</div>
+		
+			<!-- BEGIN #header-right -->
+			<div id="header-right">
+	
+								
+				<div class="top-menu-clear"></div>
+				
+								
+				<div class="clearboth"></div>
+				
+							
+			<!-- END #header-right -->
+			</div>
+		
+		<!-- END #header-wrapper -->
+		</div>
+		
+		<!-- BEGIN #main-menu-wrapper -->
+		<div id="main-menu-wrapper" class="clearfix">
+			
+			<div class="mobile-menu-button"></div>
+			
+			<div class="mobile-menu-wrapper">	
+				
+				<ul id="mobile-menu"><li id="menu-item-6484" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6484"><a href="https://www.hebdo-blog.fr">Accueil</a></li>
+<li id="menu-item-6497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6497"><a href="https://www.hebdo-blog.fr/tout-savoir-sur/">Qui sommes-nous ?</a></li>
+</ul>	
+				
+			</div>
+	
+			<ul id="main-menu" class="fl clearfix"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6484"><a href="https://www.hebdo-blog.fr">Accueil</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6497"><a href="https://www.hebdo-blog.fr/tout-savoir-sur/">Qui sommes-nous ?</a></li>
+</ul>			
+						
+				<div class="menu-search-button"></div>
+				<form method="get" action="https://www.hebdo-blog.fr/" class="menu-search-form">
+					<input class="menu-search-field" type="text" onblur="if(this.value=='')this.value='Saisir le mot clé et taper sur Entrée';" onfocus="if(this.value=='Saisir le mot clé et taper sur Entrée')this.value='';" value="Saisir le mot clé et taper sur Entrée" name="s" />
+					<input type="hidden" value="product" name="post_type">
+				</form>
+			
+			
+		<!-- END #main-menu-wrapper -->
+		</div>
+<!-- BEGIN #main-content -->
+<div id="main-content">
+		
+	<h1 class="page-title">
+		<a href="https://www.hebdo-blog.fr/category/a-la-une/" rel="category tag">A la une</a>, <a href="https://www.hebdo-blog.fr/category/hebdo-blog-172/" rel="category tag">L'Hebdo-Blog 172</a>	</h1>
+	
+	<div class="breadcrumbs-wrapper clearfix"><ul class="breadcrumbs"><li><span><a rel="v:url" property="v:title" href="https://www.hebdo-blog.fr/">Home</a></span></li><li><span><a rel="v:url" property="v:title" href="https://www.hebdo-blog.fr/category/a-la-une/">A la une</a></span></li><li><span class="current">Dépaysement</span></li></ul></div>		
+	<!-- BEGIN .page-content -->
+	<div class="page-content post-9209 post type-post status-publish format-standard has-post-thumbnail hentry category-a-la-une category-hebdo-blog-172 tag-hebdo-blog-172">
+
+				
+					<a href="https://www.hebdo-blog.fr/depaysement/" rel="bookmark" title="Dépaysement">
+								<img src="https://www.hebdo-blog.fr/wp-content/uploads/2019/05/HB172-Cocconier-680x450.jpg" alt="" class="article-image-full" />			</a>
+				
+		<h2 class="article-title">
+			Dépaysement			<span class="article-meta">
+				<span class="article-date">18 mai 2019</span><span class="article-category"><a href="https://www.hebdo-blog.fr/category/a-la-une/" rel="category tag">A la une</a>, <a href="https://www.hebdo-blog.fr/category/hebdo-blog-172/" rel="category tag">L'Hebdo-Blog 172</a></span><span class="article-comments"> Par Clémence Coconnier			</span>
+		</h2>
+		
+		<div class="pdfprnt-buttons pdfprnt-buttons-post pdfprnt-top-right"><a href="https://www.hebdo-blog.fr/depaysement/?print=pdf" class="pdfprnt-button pdfprnt-button-pdf" target="_blank"><img src="https://www.hebdo-blog.fr/wp-content/plugins/pdf-print/images/pdf.png" alt="image_pdf" title="View PDF" /></a><a href="https://www.hebdo-blog.fr/depaysement/?print=print" class="pdfprnt-button pdfprnt-button-print" target="_blank"><img src="https://www.hebdo-blog.fr/wp-content/plugins/pdf-print/images/print.png" alt="image_print" title="Print Content" /></a></div><p>&nbsp;</p>
+<p style="text-align: justify;">« Nous n&#8217;avons plus à être <em>pour</em> ou <em>contre</em> l&#8217;immigration dans les lieux de vie et de travail du pays. Elle fait partie du paysage ordinaire » <a href="#_ftn1" name="_ftnref1">[1]</a>, rappelle le sociologue et démographe François Héran <a href="#_ftn2" name="_ftnref2">[2]</a>. Pourtant, l&#8217;accueil de l&#8217;autre n&#8217;a rien d&#8217;une évidence ; ça commence plutôt par du rejet. Envisagé comme intrusif, abusif, voleur, insupportable ; il suscite de la peur, de la jalousie, du dégoût. Considéré sous un autre angle, l’Étranger est un des noms de la différence. Dans ce hiatus se loge pourtant la possibilité d&#8217;élaborer un savoir. La contingence d’une rencontre peut nous y aider.</p>
+<p style="text-align: justify;">Massimo Furlan, auteur, metteur en scène et comédien, dit qu&#8217;il part toujours d’une anecdote pour créer ses spectacles. D&#8217;une petite histoire vraie, constituée d’éléments simples, il passe à la construction de la fiction. C&#8217;est ainsi qu&#8217;il a procédé pour le spectacle <em>Hospitalités</em>. C&#8217;est l&#8217;histoire vraie d&#8217;un <em>dépaysement</em>, racontée par ceux qui accueillent.</p>
+<p style="text-align: justify;">Le dépaysement ne concerne pas seulement l&#8217;exilé qui arrive dans un nouveau pays, il concerne aussi celui qui accueille. Si l&#8217;on emploie plus couramment le verbe dépayser à la voie passive, « être dépaysé », la voie réfléchie « se laisser dépayser » indique également une position du sujet quant à sa relation à l&#8217;Autre. Éric Laurent souligne en quoi consiste la difficulté du principe d&#8217;hospitalité : « nous n&#8217;avons aucune hospitalité pour notre jouissance et c&#8217;est cela qui fait qu&#8217;on la localise en l&#8217;autre<em> </em>» <a href="#_ftn3" name="_ftnref3">[3]</a> . Le pluriel accolé à <em>Hospitalités</em> dans le titre du spectacle indique que quand l&#8217;hospitalité est incarnée, c&#8217;est à chaque fois au singulier, il y a donc autant d&#8217;hospitalités que de sujets qui s&#8217;en occupent : il s&#8217;agit d&#8217;une épreuve qui engage la subjectivité de chaque Un, même si ces Uns sont rassemblés par un village-sujet.</p>
+<p style="text-align: justify;">Classée parmi les « Plus beaux villages de France », la Bastide Clairance est une bastide de 1000 habitants située dans le Pays Basque. Face au constat d&#8217;une diminution de la population du village dans les années 1980, le maire propose d&#8217;accueillir plusieurs artisans d’art. En 2014, M. Furlan est invité à faire une résidence à La Bastide Clairance, pour un projet de spectacle sur les notions d&#8217;hospitalité, d&#8217;altérité, de communauté. En immersion dans le village, M. Furlan rencontre de nombreux citoyens ; il leur demande de parler de l’histoire du village, de leur vie, de la façon dont ils imaginent l’avenir de La Bastide. À la question « Aujourd&#8217;hui, de quoi avez-vous peur ? », ils répondent qu&#8217;ils sont inquiets de la hausse des prix de l&#8217;immobilier, due à la plus-value touristique du site, ce qui conduit les jeunes à quitter le village, faute de logements à des prix abordables. Voilà : ils ont peur de l&#8217;augmentation des prix de l&#8217;immobilier, ils ont peur de se retrouver seuls.</p>
+<p style="text-align: justify;">« En tant qu&#8217;artiste on ne peut pas faire grand-chose, si ce n&#8217;est inventer des histoires. » <a href="#_ftn4" name="_ftnref4">[4]</a> Suite à cette première phase d&#8217;entretiens, M. Furlan imagine une fiction : il propose à quelques villageois complices de faire croire aux autres habitants que le village va accueillir des migrants – ce qui aurait pour conséquence de faire baisser les prix de l&#8217;immobilier. « C&#8217;était une provocation, elle n&#8217;était pas gratuite parce que toute la semaine on avait parlé de liens, de culture, de voyages, de départs », raconte M. Furlan, « Cette première mouture du projet, fictionnelle, n&#8217;était pas satisfaisante, et rapidement Léopold (l&#8217;ancien maire pendant trente ans) a dit qu&#8217;il fallait vraiment travailler à l&#8217;accueil de migrants. C&#8217;est ce dont je rêvais, et c&#8217;est ce qu&#8217;ils ont fait. » <a href="#_ftn5" name="_ftnref5">[5]</a></p>
+<p style="text-align: justify;">Au cours de l&#8217;été 2015, l’actualité géopolitique rattrape le canular imaginé par M. Furlan : la migration devient une question politique et sociale urgente dans l’Europe entière. Quelques Bastidots créent l’association <em>Bastida terre d’accueil</em>. Des rencontres avec la Cimade, ainsi qu&#8217;avec des sociologues, écrivains, spécialistes de la migration et professionnels de la « jungle » de Calais sont organisées à la Bastide Clairance, et après un parcours de démarches administratives parfois désespérantes, une famille de migrants syriens – un couple et quatre enfants – est accueillie fin août 2016. Pendant tout ce processus, M. Furlan poursuit l&#8217;écriture du spectacle avec les villageois, ils poursuivent ce questionnement sur l&#8217;hospitalité qu&#8217;il a initié en 2014 : « Comment recevoir des migrants, combien de personnes un village de 1000 habitants pourrait-il accueillir, comment prendre soin de l’étranger et s’engager à l’accueillir dans les meilleures conditions, qu’est-ce qu’une bonne structure hospitalière ? » <a href="#_ftn6" name="_ftnref6">[6]</a> Pour nourrir ces réflexions, ils lisent et discutent à partir de textes et de conférences de philosophes (Jacques Derrida, Michel Serres, Barbara Cassin, Joan Tronto), anthropologue (Michel Agier), sociologue (Richard Senett) et historiens (Jean-Pierre Vernant, Hartog, Pierre Vidal-Naquet). Ainsi accueillir l&#8217;autre suppose un travail préalable, une élaboration que constituent ces allers-retours permanents entre les réflexions de penseurs, et la propre expérience de chacun : « qui suis-je ? d&#8217;où je viens ? quel est mon chez-moi ? quelles sont mes expériences de déplacements, et de rencontres ? »<a href="#_ftn7" name="_ftnref7">[7]</a> Le travail d&#8217;écriture et de mise en scène du spectacle a consisté à restituer ces réflexions en les intégrant, pour chacun des « acteurs » qui ne sont pas des acteurs professionnels, à leur expérience personnelle.</p>
+<p style="text-align: justify;">« Ce projet nous questionne nous, vous et moi, dans une Europe qui a beaucoup de problèmes en ce moment avec cette question-là&#8230; Ce n&#8217;est pas un projet qui parle des autres qui viennent en voyageant mais de nous : qu&#8217;est-ce que ça convoque, d&#8217;où ça vient, quel est ce contrat là&#8230; »<a href="#_ftn8" name="_ftnref8">[8]</a> Le spectacle est créé en janvier 2017, au Théâtre Vidy à Lausanne, avec neuf Bastidots ; il tourne encore dans différentes villes. Le spectacle raconte ce qui se passe pour eux quand la question de l&#8217;étranger est évoquée, et saisit ainsi la subjectivité de ces citoyens-acteurs qui posent cette question « qu&#8217;est-ce qu&#8217;on peut faire ? ». Ainsi, ils commencent par discuter, lire, parler de leur propre expérience de déplacement, échanger à partir de ces réflexions, tout en menant des démarches administratives concrètes. Quand la question de l&#8217;étranger arrive, cela déstabilise le sujet, et produit un effet de précipitation : ceux qui s&#8217;adressent à nous dans ce spectacle ont décidé d&#8217;agir. Ils ont choisi de se laisser dépayser.</p>
+<p style="text-align: justify;"><a href="#_ftnref1" name="_ftn1">[1]</a> Héran F., <em>Avec l&#8217;immigration. Mesurer, débattre, agir</em>, Paris, La Découverte, 2017, p.314.</p>
+<p style="text-align: justify;"><a href="#_ftnref2" name="_ftn2">[2]</a> Texte issu d’une table ronde « Étranger, dis-moi qui tu es », dans le cadre du « Week-end Lacan », organisé du 12 au 14 avril 2019 à Toulouse, par l’ACF-Midi-Pyrénées.</p>
+<p style="text-align: justify;"><a href="#_ftnref3" name="_ftn3">[3]</a> Laurent E., « Discours et jouissances mauvaises », <em>Hebdo-Blog</em> n°155, 2018.</p>
+<p style="text-align: justify;">Intervention au Forum européen Zadig en Belgique, <em>Les discours qui tuent</em>, qui s’est tenu le 1<sup>er</sup>décembre 2018 à Bruxelles, publication en ligne : <a href="https://www.hebdo-blog.fr/discours-jouissances-mauvaises/">https://www.hebdo-blog.fr/discours-jouissances-mauvaises/</a></p>
+<p style="text-align: justify;"><a href="#_ftnref4" name="_ftn4">[4]</a> Furlan M., &#8220;Numéro 25.L&#8217;hospitalité avec Massimo Furlan&#8221;, <em>Une Vie d&#8217;artiste</em> émission radio d&#8217;Aurélie Charon, France Culture, 13 février 2017, <a href="https://www.franceculture.fr/emissions/une-vie-dartiste/numero-25-lhospitalite-avec-massimo-furlan">https://www.franceculture.fr/emissions/une-vie-dartiste/numero-25-lhospitalite-avec-massimo-furlan</a></p>
+<p style="text-align: justify;"><a href="#_ftnref5" name="_ftn5">[5]</a> Furlan M., «  Peurs et désirs avec Charles Berling et Massimo Furlan », <em>L&#8217;heure bleue</em>, émission radio de Laure Adler sur France inter, 3 février 2017, <a href="https://www.franceinter.fr/emissions/l-heure-bleue/l-heure-bleue-03-fevrier-2017">https://www.franceinter.fr/emissions/l-heure-bleue/l-heure-bleue-03-fevrier-2017</a></p>
+<p style="text-align: justify;"><a href="#_ftnref6" name="_ftn6">[6]</a>   Furlan M., « Hospitalités », 2017, publication en ligne, <a href="http://www.massimofurlan.com">www.massimofurlan.com</a>.</p>
+<p style="text-align: justify;"><a href="#_ftnref7" name="_ftn7">[7]</a> De Ribaupierre C., « Dossier de Presse, Massimo Furlan, <em>Hospitalités </em>», 2017, <a href="https://vidy.ch/hospitalites">https://vidy.ch/hospitalites</a></p>
+<p style="text-align: justify;"><a href="#_ftnref8" name="_ftn8">[8]</a> Furlan M., « Peurs et désirs avec Charles Berling et Massimo Furlan », <em>L&#8217;heure bleue</em>,<em> op. cit.</em></p>
+		
+		<p class="post-tags">Tags: <a href="https://www.hebdo-blog.fr/tag/hebdo-blog-172/" rel="tag">L'Hebdo-Blog 172</a></p>
+
+				
+				
+			<div class="article-social-links">		
+				<ul class="clearfix">
+					<li class="tweet-link"><a target="_blank" href="http://twitter.com/share?text=Dépaysement">Tweeter cet article</a></li>
+					<li class="facebook-link"><a target="_blank" href="http://www.facebook.com/sharer.php?u=https://www.hebdo-blog.fr/depaysement//&t=Dépaysement">Partager sur Facebook</a></li>
+			
+				</ul>
+			</div>
+		
+				
+				
+												
+				<div class="title-block">
+					<h3>Articles associés</h3>
+				</div>
+			
+				<ul class="news-block-columns-5 clearfix" style="margin: 0 !important;">
+											<li id="post-9753" class="news-block-col-5 post-9753 post type-post status-publish format-standard has-post-thumbnail hentry category-a-la-une category-hebdo-blog-188">	
+	<div class="news-image-container">
+		
+				
+			<a href="https://www.hebdo-blog.fr/les-enfants-dasperger/" rel="bookmark" title="Les enfants d’Asperger">
+								<img src="https://www.hebdo-blog.fr/wp-content/uploads/2019/12/HB188_hellebois__-124x101.jpg" alt="" />			</a>
+
+				
+	</div>
+	<h3 class="news-title-lower"><a href="https://www.hebdo-blog.fr/les-enfants-dasperger/" rel="bookmark" title="Les enfants d’Asperger">Les enfants d’Asperger</a><span>15 décembre 2019 Par Philippe Hellebois</span></h3>
+</li>											<li id="post-9663" class="news-block-col-5 post-9663 post type-post status-publish format-standard has-post-thumbnail hentry category-a-la-une category-hebdo-blog-187">	
+	<div class="news-image-container">
+		
+				
+			<a href="https://www.hebdo-blog.fr/y-a-t-de-lanalyste-institution/" rel="bookmark" title="Y a-t-il de l’analyste en institution ?">
+								<img src="https://www.hebdo-blog.fr/wp-content/uploads/2019/12/HB187-Langelez-124x101.jpg" alt="" />			</a>
+
+				
+	</div>
+	<h3 class="news-title-lower"><a href="https://www.hebdo-blog.fr/y-a-t-de-lanalyste-institution/" rel="bookmark" title="Y a-t-il de l’analyste en institution ?">Y a-t-il de l’analyste en institution ?</a><span>8 décembre 2019 Par Katty Langelez-Stevens</span></h3>
+</li>											<li id="post-9468" class="news-block-col-5 post-9468 post type-post status-publish format-standard has-post-thumbnail hentry category-a-la-une category-hebdo-blog-185">	
+	<div class="news-image-container">
+		
+				
+			<a href="https://www.hebdo-blog.fr/le-desert-rouge/" rel="bookmark" title="Le désert rouge">
+								<img src="https://www.hebdo-blog.fr/wp-content/uploads/2019/11/HB185-Depelsenaire-124x101.jpeg" alt="" />			</a>
+
+				
+	</div>
+	<h3 class="news-title-lower"><a href="https://www.hebdo-blog.fr/le-desert-rouge/" rel="bookmark" title="Le désert rouge">Le désert rouge</a><span>10 novembre 2019 Par Yves Depelsenaire</span></h3>
+</li>											<li id="post-9454" class="news-block-col-5 post-9454 post type-post status-publish format-standard has-post-thumbnail hentry category-a-la-une category-hebdo-blog-184">	
+	<div class="news-image-container">
+		
+				
+			<a href="https://www.hebdo-blog.fr/feminite-contre-hysterie-pari/" rel="bookmark" title="Féminité contre hystérie, un pari">
+								<img src="https://www.hebdo-blog.fr/wp-content/uploads/2019/11/HB184-Langelez-124x101.jpg" alt="" />			</a>
+
+				
+	</div>
+	<h3 class="news-title-lower"><a href="https://www.hebdo-blog.fr/feminite-contre-hysterie-pari/" rel="bookmark" title="Féminité contre hystérie, un pari">Féminité contre hystérie, un pari</a><span>3 novembre 2019 Par Katty Langelez-Stevens</span></h3>
+</li>											<li id="post-9432" class="news-block-col-5 post-9432 post type-post status-publish format-standard has-post-thumbnail hentry category-a-la-une category-hebdo-blog-183">	
+	<div class="news-image-container">
+		
+				
+			<a href="https://www.hebdo-blog.fr/chambre-212-crise-femme-couple-cinema/" rel="bookmark" title="Chambre 212 : une crise, une femme, le couple, le cinéma">
+								<img src="https://www.hebdo-blog.fr/wp-content/uploads/2019/10/HB183_camous-124x101.jpg" alt="" />			</a>
+
+				
+	</div>
+	<h3 class="news-title-lower"><a href="https://www.hebdo-blog.fr/chambre-212-crise-femme-couple-cinema/" rel="bookmark" title="Chambre 212 : une crise, une femme, le couple, le cinéma">Chambre 212 : une crise, une femme, le couple, le cinéma</a><span>13 octobre 2019 Par Sarah Camous-Marquis</span></h3>
+</li>									</ul>
+					
+				
+		
+				
+	<!-- END .page-content -->
+	</div>
+		
+<!-- BEGIN #main-content -->
+</div>
+
+	
+	<div id="sidebar-content">
+		<div class="widget"><div class="widget-title clearfix"><h3>Pour recevoir la Newsletter</h3><div class="widget-title-border"><div class="widget-title-block"></div></div></div>			<div class="textwidget">Inscrivez-vous pour recevoir la newsletter hebdomadaire en <a href="https://my.sendinblue.com/users/subscribe/js_id/32zb0/id/1" target="_blank">cliquant ici</a>.</div>
+		</div><div class="widget"><div class="widget-title clearfix"><h3>Moteur de recherche</h3><div class="widget-title-border"><div class="widget-title-block"></div></div></div>			<div class="textwidget"><form data-sf-form-id='9319' data-is-rtl='0' data-maintain-state='' data-results-url='https://www.hebdo-blog.fr/?sfid=9319' data-ajax-form-url='https://www.hebdo-blog.fr/?sfid=9319&amp;sf_action=get_data&amp;sf_data=form' data-display-result-method='archive' data-use-history-api='1' data-template-loaded='0' data-lang-code='' data-ajax='0' data-init-paged='1' data-auto-update='' action='https://www.hebdo-blog.fr/?sfid=9319' method='post' class='searchandfilter' id='search-filter-form-9319' autocomplete='off' data-instance-count='1'><ul><li class="sf-field-search" data-sf-field-name="search" data-sf-field-type="search" data-sf-field-input-type=""><h4>Mot clé ou auteur</h4>		<label><input placeholder="Saisir la recherche" name="_sf_search[]" class="sf-input-text" type="text" value="" title=""></label>		</li><li class="sf-field-post_date" data-sf-field-name="_sf_post_date" data-sf-field-type="post_date" data-sf-field-input-type="daterange"><h4>Et/ou filtrer par date</h4><ul class="sf_date_field" data-date-format="dd/mm/yy" data-date-use-year-dropdown='0' data-date-use-month-dropdown='0'><li>		<label><input placeholder="Du" class="sf-datepicker sf-input-date sf-input-text" name="_sf_post_date[]" type="text" value="" title=""></label>		</li><li>		<label><input placeholder="au" class="sf-datepicker sf-input-date sf-input-text" name="_sf_post_date[]" type="text" value="" title=""></label>		</li></ul></li><li class="sf-field-tag" data-sf-field-name="_sft_post_tag" data-sf-field-type="tag" data-sf-field-input-type="select"><h4>Et/ou filtrer par numéro</h4>		<label>
+				<select name="_sft_post_tag[]" class="sf-input-select" title="">
+			
+						<option class="sf-level-0 sf-item-0 sf-option-active" selected="selected" data-sf-count="0" data-sf-depth="0" value="">Tous les numéros</option>
+						<option class="sf-level-0 sf-item-416" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-177">L&#039;Hebdo-Blog 177</option>
+						<option class="sf-level-0 sf-item-415" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-176">L&#039;Hebdo-Blog 176</option>
+						<option class="sf-level-0 sf-item-414" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-175">L&#039;Hebdo-Blog 175</option>
+						<option class="sf-level-0 sf-item-413" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-174">L&#039;Hebdo-Blog 174</option>
+						<option class="sf-level-0 sf-item-412" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-173">L&#039;Hebdo-Blog 173</option>
+						<option class="sf-level-0 sf-item-411" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-172">L&#039;Hebdo-Blog 172</option>
+						<option class="sf-level-0 sf-item-410" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-171">L&#039;Hebdo-Blog 171</option>
+						<option class="sf-level-0 sf-item-409" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-170">L&#039;Hebdo-Blog 170</option>
+						<option class="sf-level-0 sf-item-408" data-sf-count="2" data-sf-depth="0" value="hebdo-blog-169">L&#039;Hebdo-Blog 169</option>
+						<option class="sf-level-0 sf-item-407" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-168">L&#039;Hebdo-Blog 168</option>
+						<option class="sf-level-0 sf-item-406" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-167">L&#039;Hebdo-Blog 167</option>
+						<option class="sf-level-0 sf-item-405" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-166">L&#039;Hebdo-Blog 166</option>
+						<option class="sf-level-0 sf-item-404" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-165">L&#039;Hebdo-Blog 165</option>
+						<option class="sf-level-0 sf-item-403" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-164">L&#039;Hebdo-Blog 164</option>
+						<option class="sf-level-0 sf-item-402" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-163">L&#039;Hebdo-Blog 163</option>
+						<option class="sf-level-0 sf-item-401" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-162">L&#039;Hebdo-Blog 162</option>
+						<option class="sf-level-0 sf-item-400" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-161">L&#039;Hebdo-Blog 161</option>
+						<option class="sf-level-0 sf-item-399" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-160">L&#039;Hebdo-Blog 160</option>
+						<option class="sf-level-0 sf-item-398" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-159">L&#039;Hebdo-Blog 159</option>
+						<option class="sf-level-0 sf-item-397" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-158">L&#039;Hebdo-Blog 158</option>
+						<option class="sf-level-0 sf-item-396" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-157">L&#039;Hebdo-Blog 157</option>
+						<option class="sf-level-0 sf-item-395" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-156">L&#039;Hebdo-Blog 156</option>
+						<option class="sf-level-0 sf-item-394" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-155">L&#039;Hebdo-Blog 155</option>
+						<option class="sf-level-0 sf-item-369" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-154">L&#039;Hebdo-Blog 154</option>
+						<option class="sf-level-0 sf-item-368" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-153">L&#039;Hebdo-Blog 153</option>
+						<option class="sf-level-0 sf-item-367" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-152">L&#039;Hebdo-Blog 152</option>
+						<option class="sf-level-0 sf-item-366" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-151">L&#039;Hebdo-Blog 151</option>
+						<option class="sf-level-0 sf-item-365" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-150">L&#039;Hebdo-Blog 150</option>
+						<option class="sf-level-0 sf-item-274" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-149">L&#039;Hebdo-Blog 149</option>
+						<option class="sf-level-0 sf-item-273" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-148">L&#039;Hebdo-Blog 148</option>
+						<option class="sf-level-0 sf-item-272" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-147">L&#039;Hebdo-Blog 147</option>
+						<option class="sf-level-0 sf-item-271" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-146">L&#039;Hebdo-Blog 146</option>
+						<option class="sf-level-0 sf-item-270" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-145">L&#039;Hebdo-Blog 145</option>
+						<option class="sf-level-0 sf-item-269" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-144">L&#039;Hebdo-Blog 144</option>
+						<option class="sf-level-0 sf-item-268" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-143">L&#039;Hebdo-Blog 143</option>
+						<option class="sf-level-0 sf-item-267" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-142">L&#039;Hebdo-Blog 142</option>
+						<option class="sf-level-0 sf-item-266" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-141">L&#039;Hebdo-Blog 141</option>
+						<option class="sf-level-0 sf-item-265" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-140">L&#039;Hebdo-Blog 140</option>
+						<option class="sf-level-0 sf-item-263" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-139">L&#039;Hebdo-Blog 139</option>
+						<option class="sf-level-0 sf-item-262" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-138">L&#039;Hebdo-Blog 138</option>
+						<option class="sf-level-0 sf-item-261" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-137">L&#039;Hebdo-Blog 137</option>
+						<option class="sf-level-0 sf-item-260" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-136">L&#039;Hebdo-Blog 136</option>
+						<option class="sf-level-0 sf-item-259" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-135">L&#039;Hebdo-Blog 135</option>
+						<option class="sf-level-0 sf-item-258" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-134">L&#039;Hebdo-Blog 134</option>
+						<option class="sf-level-0 sf-item-257" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-133">L&#039;Hebdo-Blog 133</option>
+						<option class="sf-level-0 sf-item-256" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-132">L&#039;Hebdo-Blog 132</option>
+						<option class="sf-level-0 sf-item-255" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-131">L&#039;Hebdo-Blog 131</option>
+						<option class="sf-level-0 sf-item-254" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-130">L&#039;Hebdo-Blog 130</option>
+						<option class="sf-level-0 sf-item-252" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-129">L&#039;Hebdo-Blog 129</option>
+						<option class="sf-level-0 sf-item-251" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-128">L&#039;Hebdo-Blog 128</option>
+						<option class="sf-level-0 sf-item-250" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-127">L&#039;Hebdo-Blog 127</option>
+						<option class="sf-level-0 sf-item-249" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-126">L&#039;Hebdo-Blog 126</option>
+						<option class="sf-level-0 sf-item-248" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-125">L&#039;Hebdo-Blog 125</option>
+						<option class="sf-level-0 sf-item-247" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-124">L&#039;Hebdo-Blog 124</option>
+						<option class="sf-level-0 sf-item-246" data-sf-count="11" data-sf-depth="0" value="hebdo-blog-123">L&#039;Hebdo-Blog 123</option>
+						<option class="sf-level-0 sf-item-245" data-sf-count="11" data-sf-depth="0" value="hebdo-blog-121">L&#039;Hebdo-Blog 121</option>
+						<option class="sf-level-0 sf-item-244" data-sf-count="11" data-sf-depth="0" value="hebdo-blog-120">L&#039;Hebdo-Blog 120</option>
+						<option class="sf-level-0 sf-item-242" data-sf-count="11" data-sf-depth="0" value="hebdo-blog-119">L&#039;Hebdo-Blog 119</option>
+						<option class="sf-level-0 sf-item-241" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-118">L&#039;Hebdo-Blog 118</option>
+						<option class="sf-level-0 sf-item-240" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-117">L&#039;Hebdo-Blog 117</option>
+						<option class="sf-level-0 sf-item-239" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-116">L&#039;Hebdo-Blog 116</option>
+						<option class="sf-level-0 sf-item-238" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-115">L&#039;Hebdo-Blog 115</option>
+						<option class="sf-level-0 sf-item-237" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-114">L&#039;Hebdo-Blog 114</option>
+						<option class="sf-level-0 sf-item-236" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-113">L&#039;Hebdo-Blog 113</option>
+						<option class="sf-level-0 sf-item-235" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-112">L&#039;Hebdo-Blog 112</option>
+						<option class="sf-level-0 sf-item-234" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-111">L&#039;Hebdo-Blog 111</option>
+						<option class="sf-level-0 sf-item-233" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-110">L&#039;Hebdo-Blog 110</option>
+						<option class="sf-level-0 sf-item-231" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-109">L&#039;Hebdo-Blog 109</option>
+						<option class="sf-level-0 sf-item-230" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-108">L&#039;Hebdo-Blog 108</option>
+						<option class="sf-level-0 sf-item-229" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-107">L&#039;Hebdo-Blog 107</option>
+						<option class="sf-level-0 sf-item-228" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-106">L&#039;Hebdo-Blog 106</option>
+						<option class="sf-level-0 sf-item-227" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-105">L&#039;Hebdo-Blog 105</option>
+						<option class="sf-level-0 sf-item-226" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-104">L&#039;Hebdo-Blog 104</option>
+						<option class="sf-level-0 sf-item-225" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-103">L&#039;Hebdo-Blog 103</option>
+						<option class="sf-level-0 sf-item-224" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-102">L&#039;Hebdo-Blog 102</option>
+						<option class="sf-level-0 sf-item-223" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-101">L&#039;Hebdo-Blog 101</option>
+						<option class="sf-level-0 sf-item-222" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-100">L&#039;Hebdo-Blog 100</option>
+						<option class="sf-level-0 sf-item-359" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-99">L&#039;Hebdo-Blog 99</option>
+						<option class="sf-level-0 sf-item-358" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-98">L&#039;Hebdo-Blog 98</option>
+						<option class="sf-level-0 sf-item-357" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-97">L&#039;Hebdo-Blog 97</option>
+						<option class="sf-level-0 sf-item-356" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-96">L&#039;Hebdo-Blog 96</option>
+						<option class="sf-level-0 sf-item-355" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-95">L&#039;Hebdo-Blog 95</option>
+						<option class="sf-level-0 sf-item-354" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-94">L&#039;Hebdo-Blog 94</option>
+						<option class="sf-level-0 sf-item-353" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-93">L&#039;Hebdo-Blog 93</option>
+						<option class="sf-level-0 sf-item-352" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-92">L&#039;Hebdo-Blog 92</option>
+						<option class="sf-level-0 sf-item-351" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-91">L&#039;Hebdo-Blog 91</option>
+						<option class="sf-level-0 sf-item-350" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-90">L&#039;Hebdo-Blog 90</option>
+						<option class="sf-level-0 sf-item-349" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-89">L&#039;Hebdo-Blog 89</option>
+						<option class="sf-level-0 sf-item-348" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-88">L&#039;Hebdo-Blog 88</option>
+						<option class="sf-level-0 sf-item-347" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-87">L&#039;Hebdo-Blog 87</option>
+						<option class="sf-level-0 sf-item-346" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-86">L&#039;Hebdo-Blog 86</option>
+						<option class="sf-level-0 sf-item-345" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-85">L&#039;Hebdo-Blog 85</option>
+						<option class="sf-level-0 sf-item-344" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-84">L&#039;Hebdo-Blog 84</option>
+						<option class="sf-level-0 sf-item-343" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-83">L&#039;Hebdo-Blog 83</option>
+						<option class="sf-level-0 sf-item-342" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-82">L&#039;Hebdo-Blog 82</option>
+						<option class="sf-level-0 sf-item-341" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-81">L&#039;Hebdo-Blog 81</option>
+						<option class="sf-level-0 sf-item-340" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-80">L&#039;Hebdo-Blog 80</option>
+						<option class="sf-level-0 sf-item-339" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-79">L&#039;Hebdo-Blog 79</option>
+						<option class="sf-level-0 sf-item-338" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-78">L&#039;Hebdo-Blog 78</option>
+						<option class="sf-level-0 sf-item-337" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-77">L&#039;Hebdo-Blog 77</option>
+						<option class="sf-level-0 sf-item-336" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-76">L&#039;Hebdo-Blog 76</option>
+						<option class="sf-level-0 sf-item-335" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-75">L&#039;Hebdo-Blog 75</option>
+						<option class="sf-level-0 sf-item-334" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-74">L&#039;Hebdo-Blog 74</option>
+						<option class="sf-level-0 sf-item-333" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-73">L&#039;Hebdo-Blog 73</option>
+						<option class="sf-level-0 sf-item-332" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-72">L&#039;Hebdo-Blog 72</option>
+						<option class="sf-level-0 sf-item-331" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-71">L&#039;Hebdo-Blog 71</option>
+						<option class="sf-level-0 sf-item-330" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-70">L&#039;Hebdo-Blog 70</option>
+						<option class="sf-level-0 sf-item-329" data-sf-count="12" data-sf-depth="0" value="hebdo-blog-69">L&#039;Hebdo-Blog 69</option>
+						<option class="sf-level-0 sf-item-328" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-68">L&#039;Hebdo-Blog 68</option>
+						<option class="sf-level-0 sf-item-327" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-67">L&#039;Hebdo-Blog 67</option>
+						<option class="sf-level-0 sf-item-326" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-66">L&#039;Hebdo-Blog 66</option>
+						<option class="sf-level-0 sf-item-325" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-65">L&#039;Hebdo-Blog 65</option>
+						<option class="sf-level-0 sf-item-324" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-64">L&#039;Hebdo-Blog 64</option>
+						<option class="sf-level-0 sf-item-323" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-63">L&#039;Hebdo-Blog 63</option>
+						<option class="sf-level-0 sf-item-322" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-62">L&#039;Hebdo-Blog 62</option>
+						<option class="sf-level-0 sf-item-321" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-61">L&#039;Hebdo-Blog 61</option>
+						<option class="sf-level-0 sf-item-320" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-60">L&#039;Hebdo-Blog 60</option>
+						<option class="sf-level-0 sf-item-319" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-59">L&#039;Hebdo-Blog 59</option>
+						<option class="sf-level-0 sf-item-318" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-58">L&#039;Hebdo-Blog 58</option>
+						<option class="sf-level-0 sf-item-317" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-57">L&#039;Hebdo-Blog 57</option>
+						<option class="sf-level-0 sf-item-316" data-sf-count="3" data-sf-depth="0" value="hebdo-blog-56">L&#039;Hebdo-Blog 56</option>
+						<option class="sf-level-0 sf-item-315" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-55">L&#039;Hebdo-Blog 55</option>
+						<option class="sf-level-0 sf-item-314" data-sf-count="10" data-sf-depth="0" value="hebdo-blog-54">L&#039;Hebdo-Blog 54</option>
+						<option class="sf-level-0 sf-item-313" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-53">L&#039;Hebdo-Blog 53</option>
+						<option class="sf-level-0 sf-item-312" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-52">L&#039;Hebdo-Blog 52</option>
+						<option class="sf-level-0 sf-item-311" data-sf-count="2" data-sf-depth="0" value="hebdo-blog-51">L&#039;Hebdo-Blog 51</option>
+						<option class="sf-level-0 sf-item-310" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-50">L&#039;Hebdo-Blog 50</option>
+						<option class="sf-level-0 sf-item-309" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-49">L&#039;Hebdo-Blog 49</option>
+						<option class="sf-level-0 sf-item-308" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-48">L&#039;Hebdo-Blog 48</option>
+						<option class="sf-level-0 sf-item-307" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-47">L&#039;Hebdo-Blog 47</option>
+						<option class="sf-level-0 sf-item-306" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-46">L&#039;Hebdo-Blog 46</option>
+						<option class="sf-level-0 sf-item-305" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-45">L&#039;Hebdo-Blog 45</option>
+						<option class="sf-level-0 sf-item-304" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-44">L&#039;Hebdo-Blog 44</option>
+						<option class="sf-level-0 sf-item-303" data-sf-count="14" data-sf-depth="0" value="hebdo-blog-43">L&#039;Hebdo-Blog 43</option>
+						<option class="sf-level-0 sf-item-302" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-42">L&#039;Hebdo-Blog 42</option>
+						<option class="sf-level-0 sf-item-301" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-41">L&#039;Hebdo-Blog 41</option>
+						<option class="sf-level-0 sf-item-300" data-sf-count="11" data-sf-depth="0" value="hebdo-blog-40">L&#039;Hebdo-Blog 40</option>
+						<option class="sf-level-0 sf-item-299" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-39">L&#039;Hebdo-Blog 39</option>
+						<option class="sf-level-0 sf-item-298" data-sf-count="20" data-sf-depth="0" value="hebdo-blog-38">L&#039;Hebdo-Blog 38</option>
+						<option class="sf-level-0 sf-item-297" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-37">L&#039;Hebdo-Blog 37</option>
+						<option class="sf-level-0 sf-item-296" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-36">L&#039;Hebdo-Blog 36</option>
+						<option class="sf-level-0 sf-item-295" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-35">L&#039;Hebdo-Blog 35</option>
+						<option class="sf-level-0 sf-item-294" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-34">L&#039;Hebdo-Blog 34</option>
+						<option class="sf-level-0 sf-item-293" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-33">L&#039;Hebdo-Blog 33</option>
+						<option class="sf-level-0 sf-item-292" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-32">L&#039;Hebdo-Blog 32</option>
+						<option class="sf-level-0 sf-item-291" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-31">L&#039;Hebdo-Blog 31</option>
+						<option class="sf-level-0 sf-item-290" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-30">L&#039;Hebdo-Blog 30</option>
+						<option class="sf-level-0 sf-item-289" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-29">L&#039;Hebdo-Blog 29</option>
+						<option class="sf-level-0 sf-item-288" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-28">L&#039;Hebdo-Blog 28</option>
+						<option class="sf-level-0 sf-item-287" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-27">L&#039;Hebdo-Blog 27</option>
+						<option class="sf-level-0 sf-item-286" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-26">L&#039;Hebdo-Blog 26</option>
+						<option class="sf-level-0 sf-item-285" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-25">L&#039;Hebdo-Blog 25</option>
+						<option class="sf-level-0 sf-item-284" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-24">L&#039;Hebdo-Blog 24</option>
+						<option class="sf-level-0 sf-item-283" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-23">L&#039;Hebdo-Blog 23</option>
+						<option class="sf-level-0 sf-item-282" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-22">L&#039;Hebdo-Blog 22</option>
+						<option class="sf-level-0 sf-item-281" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-21">L&#039;Hebdo-Blog 21</option>
+						<option class="sf-level-0 sf-item-280" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-20">L&#039;Hebdo-Blog 20</option>
+						<option class="sf-level-0 sf-item-279" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-19">L&#039;Hebdo-Blog 19</option>
+						<option class="sf-level-0 sf-item-278" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-18">L&#039;Hebdo-Blog 18</option>
+						<option class="sf-level-0 sf-item-277" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-17">L&#039;Hebdo-Blog 17</option>
+						<option class="sf-level-0 sf-item-276" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-16">L&#039;Hebdo-Blog 16</option>
+						<option class="sf-level-0 sf-item-275" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-15">L&#039;Hebdo-Blog 15</option>
+						<option class="sf-level-0 sf-item-264" data-sf-count="9" data-sf-depth="0" value="hebdo-blog-14">L&#039;Hebdo-Blog 14</option>
+						<option class="sf-level-0 sf-item-253" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-13">L&#039;Hebdo-Blog 13</option>
+						<option class="sf-level-0 sf-item-243" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-12">L&#039;Hebdo-Blog 12</option>
+						<option class="sf-level-0 sf-item-232" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-11">L&#039;Hebdo-Blog 11</option>
+						<option class="sf-level-0 sf-item-221" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-10">L&#039;Hebdo-Blog 10</option>
+						<option class="sf-level-0 sf-item-220" data-sf-count="10" data-sf-depth="0" value="hebdo-blog-09">L&#039;Hebdo-Blog 09</option>
+						<option class="sf-level-0 sf-item-219" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-08">L&#039;Hebdo-Blog 08</option>
+						<option class="sf-level-0 sf-item-218" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-07">L&#039;Hebdo-Blog 07</option>
+						<option class="sf-level-0 sf-item-217" data-sf-count="5" data-sf-depth="0" value="hebdo-blog-06">L&#039;Hebdo-Blog 06</option>
+						<option class="sf-level-0 sf-item-216" data-sf-count="4" data-sf-depth="0" value="hebdo-blog-05">L&#039;Hebdo-Blog 05</option>
+						<option class="sf-level-0 sf-item-215" data-sf-count="6" data-sf-depth="0" value="hebdo-blog-04">L&#039;Hebdo-Blog 04</option>
+						<option class="sf-level-0 sf-item-214" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-03">L&#039;Hebdo-Blog 03</option>
+						<option class="sf-level-0 sf-item-213" data-sf-count="7" data-sf-depth="0" value="hebdo-blog-02">L&#039;Hebdo-Blog 02</option>
+						<option class="sf-level-0 sf-item-212" data-sf-count="8" data-sf-depth="0" value="hebdo-blog-01">L&#039;Hebdo-Blog 01</option>
+					</select>
+		</label>		</li><li class="sf-field-submit" data-sf-field-name="submit" data-sf-field-type="submit" data-sf-field-input-type=""><input type="submit" name="_sf_submit" value="Lancer la recherche ..."></li><li class="sf-field-reset" data-sf-field-name="reset" data-sf-field-type="reset" data-sf-field-input-type="link"><a href="#" class="search-filter-reset" data-search-form-id="9319" data-sf-submit-form="always">Remise à zéro</a></li></ul></form></div>
+		</div><div class="widget"><div class="widget-title clearfix"><h3>Nos partenaires</h3><div class="widget-title-border"><div class="widget-title-block"></div></div></div><div class="menu-liens-container"><ul id="menu-liens" class="menu"><li id="menu-item-8756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8756"><a target="_blank" href="http://www.causefreudienne.net/%20">ECF</a></li>
+<li id="menu-item-8758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8758"><a target="_blank" href="https://www.ecf-echoppe.com/">ECF.Echoppe</a></li>
+<li id="menu-item-8757" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8757"><a target="_blank" href="https://www.lacanquotidien.fr/blog/">Lacan Quotidien</a></li>
+</ul></div></div>		<div class="sidebar-fade"></div>
+	</div>
+	
+				<!-- END .content-wrapper -->
+			</div>					
+					
+								
+			<div id="footer-margin"></div>					
+			<!-- BEGIN #footer-bottom -->
+			<div id="footer-bottom" class="clearfix">
+				
+				<!-- BEGIN .fl -->
+				<div class="fl clearfix">
+							
+								
+				
+				<!-- END .fl -->
+				</div>	
+						
+				<div class="fr clearfix"><p>© ECF - Copyright 2014 - <a href="https://www.hebdo-blog.fr/mentions-legales/">Mentions légales</a></p></div>				
+	
+			<!-- END #footer-bottom -->
+			</div>
+			
+		</div>
+		<!-- END #background-wrapper -->
+
+			<div style="display:none">
+	</div>
+<script>
+var slideshow_autoplay = false;
+var slideshow_speed = 7000;
+var slideshow_video = false;
+var goText = "Go to...";
+var checkoutFirstName = "First Name";
+var checkoutLastName = "Last Name";
+var checkoutCompanyName = "Company Name";
+var checkoutTownCity = "Town / City";
+var checkoutStateCounty = "State / County";
+var checkoutPostcodeZip = "Postcode / Zip";
+var checkoutEmailAddress = "Email Address";
+var checkoutPhoneNumber = "Phone Number";
+</script>
+
+<link rel='stylesheet' id='basecss-css'  href='https://www.hebdo-blog.fr/wp-content/plugins/eu-cookie-law/css/style.css?ver=4.7.25' type='text/css' media='all' />
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202248'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Fermer","currentText":"Aujourd\u2019hui","monthNames":["janvier","f\u00e9vrier","mars","avril","mai","juin","juillet","ao\u00fbt","septembre","octobre","novembre","d\u00e9cembre"],"monthNamesShort":["Jan","F\u00e9v","Mar","Avr","Mai","Juin","Juil","Ao\u00fbt","Sep","Oct","Nov","D\u00e9c"],"nextText":"Suivant","prevText":"Pr\u00e9c\u00e9dent","dayNames":["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],"dayNamesShort":["dim","lun","mar","mer","jeu","ven","sam"],"dayNamesMin":["D","L","M","M","J","V","S"],"dateFormat":"d MM yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2022Novaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.25'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js?ver=1.8'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/themes/stylemag/js/hoverIntent.js?ver=1.4.8'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/themes/stylemag/js/superfish.js?ver=1.4.8'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/themes/stylemag/js/jquery.prettyPhoto.js?ver=1.1.9'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/themes/stylemag/js/jquery.flexslider-min.js?ver=1.1.9'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/themes/stylemag/js/scripts.js?ver=1'></script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-includes/js/wp-embed.min.js?ver=4.7.25'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var eucookielaw_data = {"euCookieSet":"","autoBlock":"0","expireTimer":"360","scrollConsent":"0","networkShareURL":"","isCookiePage":"","isRefererWebsite":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hebdo-blog.fr/wp-content/plugins/eu-cookie-law/js/scripts.js?ver=3.0.6'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202248.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.2.3',blog:'74763781',post:'9209',tz:'1',srv:'www.hebdo-blog.fr'} ]);
+	_stq.push([ 'clickTrackerInit', '74763781', '9209' ]);
+</script>
+<!-- Eu Cookie Law 3.0.6 --><div class="pea_cook_wrapper pea_cook_bottomright" style="color:#FFFFFF;background:rgb(0,0,0);background: rgba(0,0,0,0.85);"><p>En continuant à utiliser le site, vous acceptez l’utilisation des cookies. <a style="color:#FFFFFF;" href="https://www.hebdo-blog.fr/mentions-legales/" id="fom">Plus d’informations</a> <button id="pea_cook_btn" class="pea_cook_btn" href="#">Accepter</button></p></div><div class="pea_cook_more_info_popover"><div class="pea_cook_more_info_popover_inner" style="color:#FFFFFF;background-color: rgba(0,0,0,0.9);"><p>Les paramètres des cookies sur ce site sont définis sur « accepter les cookies » pour vous offrir la meilleure expérience de navigation possible. Si vous continuez à utiliser ce site sans changer vos paramètres de cookies ou si vous cliquez sur "Accepter" ci-dessous, vous consentez à cela.</p><p><a style="color:#FFFFFF;" href="#" id="pea_close">Fermer</a></p></div></div>
+	<!-- END body -->
+	</body>
+</html><!--
+Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
+
+2506 objets récupérés (1 MB) depuis Redis grâce à PhpRedis (v3.0.0).
+-->
+
+<!-- Dynamic page generated in 0.385 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2022-11-30 11:59:36 -->
+
+<!-- super cache -->
