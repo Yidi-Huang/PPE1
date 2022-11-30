@@ -1,557 +1,323 @@
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-K6QBK4Z
+   #alternate alternate SudOuest : rss actualités
 
-   Pour soutenir votre journalisme local, abonnez-vous !
+   IFRAME: //www.googletagmanager.com/ns.html?id=GTM-NG4RXS
 
-   Pourquoi voyez-vous ce message ?
-
-   Vous avez choisi de refuser le dépôt de cookies, vous pouvez à tout
-   moment modifier votre choix, ici.
-
-   Le contenu de ce site est le fruit du travail de journalistes qui vous
-   apportent chaque jour une information locale de qualité, fiable,
-   complète, et des services en ligne innovants. Ce travail s’appuie sur
-   les revenus complémentaires de la publicité et de l’abonnement.
-   Je m'abonne
-
-   Déjà abonné ?
-   Connectez-vous
-
-   Définir votre page d'accueil
-     * Ain Est
-     * Ain Ouest
-     * Est Lyonnais
-     * Haute-Loire
-     * Jura Nord
-     * Jura Sud
-     * Loire Centre
-     * Loire Nord
-     * Loire Sud
-     * Lyon - Villeurbanne
-     * Ouest Lyonnais
-     * Sud Lyonnais
-     * Tarare
-     * Villefranche
-
-     * Vidéos
-     * Podcasts
-     * Newsletters
-     * Météo
-     * Jeux
-     * Boutique
-     * LeCLUB
-     * Mon séjour en montagne
-
-   Journal en numérique
-   Lyon - Villeurbanne - Caluire
-
-   Lyon - Villeurbanne - Caluire
-
-   mer. 30/11/2022
-   Lire le journal
-   Le Progrès
-   S'abonner Se connecter Me connecter/ M’inscrire
-   Création de compte
-     * Activer JavaScript dans votre navigateur pour accéder à
-       l'inscription sur notre site
-
-   Civilité
-   (*) Madame ( ) Monsieur ( ) Société
-   Siret ____________________
-   Nom ____________________
-   Prénom ____________________
-   Adresse e-mail ____________________
-   Mot de passe ____________________
-   [ ] Je souhaite recevoir les communications et les exclusivités du
-   Groupe EBRA
-   [ ] Je souhaite recevoir les communications des partenaires du Groupe
-   EBRA
-   [ ] J'ai lu et accepté les Conditions générales d'utilisation
-
-   Si vous voyez ce champ, ne le remplissez pas ____________________
-   Je m'inscris
-
-   Le Progrès, en tant que responsable de traitement, recueille dans ce
-   formulaire des informations qui sont enregistrées dans un fichier
-   informatisé par son Service Relations Clients, la finalité étant
-   d’assurer la création et la gestion de votre compte, ainsi que des
-   abonnements et autres services souscrits. Si vous y avez consenti, ces
-   données peuvent également être utilisées pour l’envoi de newsletters
-   et/ou d’offres promotionnelles par Le Progrès, les sociétés qui lui
-   sont affiliées et/ou ses partenaires commerciaux. Vous pouvez exercer
-   en permanence vos droits d’accès, rectification, effacement,
-   limitation, opposition, retirer votre consentement et/ou pour toute
-   question relative au traitement de vos données à caractère personnel en
-   contactant lprventesweb@leprogres.fr ou consulter les liens suivants :
-   Protection des données, CGU du site et Contact. Le Délégué à la
-   Protection des Données personnelles (dpo@ebra.fr) est en copie de toute
-   demande relative à vos informations personnelles.
-   Vous êtes déjà inscrit ? Connectez-vous
-   Le Progrès
-     * Actualité
-     * Départements
-     * Sport
-     * Long format
-     * Culture - Loisirs
-     * Magazine
-     * Services
-     *
-
-     * A la Une
-     * En ce moment
-          + Guerre en Ukraine
-          + Coronavirus
-     * Dessins de presse
-          + Le dessin du jour
-          + La semaine de Dubouillon
-     * Posez votre question, la rédaction vous répond
-     * France - Monde
-     * Faits divers
-     * Politique
-     * Economie
-     * Environnement
-     * Ici on agit
-     * Désinfox
-     * Education
-     * Insolite
-     * Fil info
-     * Data, formats interactifs
-     * Quiz : testez vos connaissances
-     * Le Journal des Enfants
-
-     * 01 Ain
-          + Bugey et Haut-Bugey
-          + Bresse / Dombes / Val de Saône / Côtière
-     * 39 Jura
-          + Dole et Jura Nord
-          + Lons et Jura Sud
-     * 69 Rhône
-          + Lyon - Villeurbanne
-          + Villefranche
-          + Tarare
-          + Est Lyonnais
-          + Ouest Lyonnais
-          + Sud Lyonnais
-     * 38 Nord-Isère
-     * 42 Loire
-          + Saint-Etienne / Gier / Ondaine
-          + Le Roannais
-          + Le Forez
-     * 43 Haute-Loire
-          + Le Puy, Yssingeaux, Monistrol et environs
-
-   Je choisis mon édition favorite
-     * Toute l'actualité sportive
-     * Coupe du monde de football
-     * Football
-          + Mercato
-          + OL
-          + AS Saint-Etienne
-          + FBBP 01
-     * Rugby
-          + LOU Rugby
-          + Oyonnax Rugby
-          + US Bressane
-     * Basket
-          + ASVEL
-          + Chorale de Roanne
-          + JL Bourg
-          + SCB Saint-Chamond
-     * Handball
-     * Volley
-     * Cyclisme
-     * Athlétisme
-     * Running
-     * Sports départementaux
-          + Ain
-          + Jura
-          + Rhône
-          + Loire
-          + Haute-Loire
-     * Résultats et classements
-
-     * Longs formats
-          + Expériences communes
-          + Le 11-Septembre, 20 ans après
-          + Les grandes familles stéphanoises
-          + Guillaume, un militaire lyonnais blessé au Mali
-          + Stups dans la Loire et la Haute-Loire : l’enquête
-          + ASSE : 90 ans au stade Geoffroy-Guichard
-          + Saint-Etienne, la ville aux 7 collines
-          + > TOUS LES LONGS FORMATS
-     * Podcasts
-          + Policiers, pompiers et élus aux avant-postes
-          + Gens ordinaires, histoires extraordinaires
-          + Loire / Haute-Loire : dossiers criminels
-          + Avoir 20 ans en 2020
-          + Parlez-nous d’amour
-          + Loire / Haute-Loire : grandes catastrophes
-          + > TOUS LES PODCASTS
-
-     * Toute l'actualité culturelle
-     * Dans vos départements
-          + Ain
-          + Jura
-          + Rhône
-          + Loire
-          + Haute-Loire
-     * Pour sortir, l'agenda des sorties
-          + Rechercher un événement
-          + Annoncer un événement
-     * Cinéma
-     * Télévision - Séries - Streaming
-     * Programme TV
-     * Programme ciné
-     * Jeux
-     * Livres / BD / Comics
-     * Cuisine et vins
-     * Tourisme et patrimoine
-
-     * Tous nos magazines
-          + Santé
-          + Lifestyle
-          + Immobilier
-          + Automobile
-          + Education et jeunesse
-          + Cuisine et vins
-          + Tourisme et patrimoine
-     * Les Lecteurs Vogageurs
-     * Le Journal des Enfants
-
-     * Jeux
-     * Boutique
-     * Voyages
-     * Libra Mémoria
-          + Tous les avis de décès
-     * Annonces
-          + Immobilier
-          + Automobile
-     * Annonces judiciaires et légales
-     * Vie des sociétés
-     * Marchés publics
-     * France Marchés Portail d’appels d’offres
-     * Devenez partenaires
-          + Nos partenaires
-          + Dossiers partenaires
-     * Le groupe Ebra
-          + Présentation du groupe
-          + Ebra Médias
-          + Ebra Events
-
-   Rechercher
-     * Dans un article
-     * Dans ma ville
-
-   ____________________ Ok
-   ____________________ Ok
-     * Lyon
-     * Saint-Etienne
-     * Le Puy-en-Velay
-     * Bourg-en-Bresse
-     * Lons-le-Saunier
-
-   L'édition du soir en numérique dès 21h30 Le journal en numérique dès 5h
-   Accédez à tous les contenus en illimité
    S'abonner
-     * Actualité
-     * Départements
-     * Sport
-     * Long format
-     * Culture - Loisirs
-     * Magazine
-     * Services
 
-     * A la Une
-     * En ce moment
-          + Guerre en Ukraine
-          + Coronavirus
-     * Dessins de presse
-          + Le dessin du jour
-          + La semaine de Dubouillon
-     * Posez votre question, la rédaction vous répond
-     * France - Monde
-     * Faits divers
-     * Politique
-     * Economie
-     * Environnement
-     * Ici on agit
-     * Désinfox
-     * Education
-     * Insolite
-     * Fil info
-     * Data, formats interactifs
-     * Quiz : testez vos connaissances
-     * Le Journal des Enfants
+   RubriquesRechercherLa chaînePodcasts
+   JournalS'identifierMon compte
+   PremiumArchives
+   LégalesCarnet
 
-     * 01 Ain
-          + Bugey et Haut-Bugey
-          + Bresse / Dombes / Val de Saône / Côtière
-     * 39 Jura
-          + Dole et Jura Nord
-          + Lons et Jura Sud
-     * 69 Rhône
-          + Lyon - Villeurbanne
-          + Villefranche
-          + Tarare
-          + Est Lyonnais
-          + Ouest Lyonnais
-          + Sud Lyonnais
-     * 38 Nord-Isère
-     * 42 Loire
-          + Saint-Etienne / Gier / Ondaine
-          + Le Roannais
-          + Le Forez
-     * 43 Haute-Loire
-          + Le Puy, Yssingeaux, Monistrol et environs
+   À la une
+   Ma ville
+   SociétéFaits diversPolitique
+   International
+   Sport
+   Économie
+   SantéCulture
+   Étudiant
 
-   Je choisis mon �dition favorite
-     * Toute l'actualité sportive
-     * Coupe du monde de football
+     * Toutes les communes
+     * Bordeaux
+     * Arcachon
+     * Libourne
+     * Langon
+     * Médoc
+     * La Rochelle
+     * Saintes
+
+     * Rochefort
+     * Royan
+     * Périgueux
+     * Bergerac
+     * Agen
+     * Marmande
+     * Villeneuve-sur-Lot
+     * Orthez
+
+     * Oloron
+     * Pau
+     * Bayonne
+     * Biarritz
+     * Saint-Jean-de-Luz
+     * Mont-de-Marsan
+     * Dax
+
+     * Accueil
+     * Europe
+     * Etat-Unis
+
+     * Afrique
+     * Chine
+     * Russie
+
+     * Asie
+     * Moyen-Orient
+     * Ukraine
+
+     * Tout le sport
      * Football
-          + Mercato
-          + OL
-          + AS Saint-Etienne
-          + FBBP 01
      * Rugby
-          + LOU Rugby
-          + Oyonnax Rugby
-          + US Bressane
-     * Basket
-          + ASVEL
-          + Chorale de Roanne
-          + JL Bourg
-          + SCB Saint-Chamond
-     * Handball
-     * Volley
-     * Cyclisme
-     * Athlétisme
      * Running
-     * Sports départementaux
-          + Ain
-          + Jura
-          + Rhône
-          + Loire
-          + Haute-Loire
-     * Résultats et classements
 
-   Je choisis mon �dition favorite
-     * Longs formats
-          + Expériences communes
-          + Le 11-Septembre, 20 ans après
-          + Les grandes familles stéphanoises
-          + Guillaume, un militaire lyonnais blessé au Mali
-          + Stups dans la Loire et la Haute-Loire : l’enquête
-          + ASSE : 90 ans au stade Geoffroy-Guichard
-          + Saint-Etienne, la ville aux 7 collines
-          + > TOUS LES LONGS FORMATS
+     * Cyclisme
+     * Tennis
+     * Basket
+     * Equitation
+
+     * Surf
+     * Sports mécaniques
+     * Hockey
+     * Résultats
+     * Où pratiquer ?
+
+     * Toute l'économie
+     * Aéronautique
+     * Transports
+     * Agriculture
+
+     * Vin
+     * Conso-distribution
+     * Economie du tourisme
+
+     * Emploi
+     * Énergie
+     * Immobilier
+
+     * Accueil
+     * Lycée
+
+     * Parcoursup
+     * Études supérieures
+
+     * Trouver votre école
+     * Vie étudiante
+
+Tourisme en Lot-et-Garonne : dépaysement et déconnexion au bus du bois de
+Mondon
+
+    Lecture 1 min
+   Accueil Lot-Et-Garonne
+   Tourisme en Lot-et-Garonne : dépaysement et déconnexion au bus du bois
+   de Mondon Frédéric Bordes a acheté et ramené le bus d’Espagne, en 2019.
+   © Crédit photo : Thierry Daniel Vidal/ « SUD OUEST »
+
+   Par Esteban Bei
+   Publié le 27/07/2022 à 15h38
+   Mis à jour le 01/08/2022 à 17h28
+
+   S'abonner
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+   Depuis 2019, le bois de Mondon à Astaffort abrite un curieux occupant…
+   le bus de Frédéric Bordes, qu’il a totalement équipé et rendu
+   habitable. Il le loue depuis 2021
+
+   C’est à se demander comment Frédéric a fait pour acheminer ce bus
+   scolaire des années 80 au beau milieu du bois de Mondon, à deux pas
+   d’Astaffort. Lui vous répondra, un peu ébouriffé, d’un ton parfaitement
+   naturel, qu’il n’a eu aucun souci à le garer ici : « Le bus roule
+   parfaitement, parfois, je le démarre un peu pour le décrasser »,
+   ajoute-t-il, béat.
+   Sur le même sujet
+
+   Maison « magique », troglodyte, yourte… Ces habitations insolites dans
+   le Sud-Ouest
+   Maison « magique », troglodyte, yourte… Ces habitations insolites dans
+   le Sud-Ouest
+   Il y a des logements autonomes, une maison accrochée à la falaise, des
+   yourtes ou encore des cabanes perchées… Petit tour d’horizon de ces
+   habitations insolites dans la région
+
+   Installé depuis 2019, son bus habitable ne semble plus l’étonner, peu
+   fanfaron d’avoir pourtant bâti la charpente et la terrasse qui supplée
+   le véhicule, la cuisine équipée, les toilettes sèches et une cabane
+   dans les arbres. La tranquillité de Frédéric interpelle : « Vous savez
+   qu’on est voisin de Francis (Cabrel, NDLR) ici », le chanteur ayant des
+   terres à côté du lieu.
+
+   Voisins de terre et de passion : Frédéric est musicien, il a tenu un
+   magasin de disques et de vinyles à Agen pendant plusieurs années. Il y
+   vit toujours, lorsqu’il n’est pas en train de bricoler dans son bus à
+   Astaffort… ou d’y dormir, car Frédéric le rappelle : « Je passe
+   énormément de temps ici, j’y vis la moitié du temps, j’ai décidé de le
+   louer il y a un an sur un concours de circonstances. »
+
+Hébergements alternatifs
+
+   Frédéric a ramené le bus d’Espagne en 2019, après l’avoir racheté à un
+   ami comédien qui l’utilisait pour sa tournée. Roots dans l’âme, il a
+   totalement rénové son nouveau jouet. Le bus est désormais autosuffisant
+   en énergies, « Fred » a installé des panneaux solaires sur le toit :
+   « C’est ce qui m’a coûté le plus cher, car du reste, j’ai tout refait
+   avec du bois et de la récup ».
+
+   L’endroit suit en fait le concept des hébergements alternatifs,
+   insolites et respectueux de l’environnement. Sur place, les locataires
+   trouveront, en plus d’un logement tout équipé, une tente familiale
+   posée à quelques mètres, des jeux, une balançoire, un barbecue.
+   « L’avantage aussi, c’est qu’il y a tout pas loin, balade, randonnées,
+   Agen pour les touristes qui veulent la visiter », ajoute le
+   propriétaire des lieux.
+
+   Les locations durent ici en moyenne un week-end, « c’est parfait pour
+   se dépayser le temps d’une nuit et passer une soirée en étant
+   déconnecté », conclut Frédéric, qui n’hésite pas, dès qu’il le peut, à
+   y passer du temps avec des amis.
+   Les sujets associés
+   Lot-et-Garonne Astaffort Insolite Agen Tourisme dans le Lot-et-Garonne
+
+   Il faut compter 105 euros la nuit. Informations et réservations sur
+   Airbnb et Abracadaroom.
+   Réagissez à cet article
+
+   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
+
+   Notre sélection de noël
+   CONFERENCES
+   Premium
+   La une de sudouest aujourd'hui
+   Sur Web, Tablette et Mobile
+     __________________________________________________________________
+
+     * Le journal et ses suppléments
+     * L'accès aux articles abonnés
+     * L'Édition du soir
+     * Le club Abonnés
+     * Les Formats Longs
+     * Les Archives depuis 1944
+
+   Abonné papier ? Activez votre accès S'abonner à partir de 1€ Mon espace
+   premium
+   Coupe du monde 2022
+   Décrypter et comprendre l'actualité
+   TV7
+   Toutes les rubriques
+   Fermer
+   Mon compte
+   Déconnexion
+   Mon compte
+   Déconnexion
+   Devenez premium
+   Connexion
+   Devenez premium
+   ____________________ (BUTTON) (BUTTON)
+   Communes
+     * Bordeaux
+     * La Rochelle
+     * Mont-de-Marsan
+     * Périgueux
+     * Pau
+     * Angoulême
+     * Libourne
+     * Biscarrosse
+     * Royan
+     * Langon
+     * Médoc
+     * Bayonne
+
+     * Biarritz
+     * Dax
+     * Agen
+     * Cognac
+     * Arcachon
+     * Saintes
+     * Villeneuve s/ Lot
+     * Bergerac
+     * Mérignac
+     * Gradignan
+     * Trouver ma commune
+
+   Actualité & Services
+     * À la une
+     * Faits divers
+     * Économie
+     * Culture
+     * Politique
+     * International
+     * Resultats Élections
+
+     * Journal
+     * Premium
+     * Archives
+     * Société
+     * Environnement
+     * Technologies
+     * Santé
+     * Idées
+     * Coronavirus
+     * Tourisme
+     * Étudiant
+     * Billetterie
+
+   Formats spéciaux
+     * Formats longs
      * Podcasts
-          + Policiers, pompiers et élus aux avant-postes
-          + Gens ordinaires, histoires extraordinaires
-          + Loire / Haute-Loire : dossiers criminels
-          + Avoir 20 ans en 2020
-          + Parlez-nous d’amour
-          + Loire / Haute-Loire : grandes catastrophes
-          + > TOUS LES PODCASTS
 
-   Je choisis mon �dition favorite
-     * Toute l'actualité culturelle
-     * Dans vos départements
-          + Ain
-          + Jura
-          + Rhône
-          + Loire
-          + Haute-Loire
-     * Pour sortir, l'agenda des sorties
-          + Rechercher un événement
-          + Annoncer un événement
-     * Cinéma
-     * Télévision - Séries - Streaming
-     * Programme TV
-     * Programme ciné
+   Sud Ouest et Vous
      * Jeux
-     * Livres / BD / Comics
-     * Cuisine et vins
-     * Tourisme et patrimoine
+     * Agenda
+     * Club Abonnés
 
-   Je choisis mon �dition favorite
-     * Tous nos magazines
-          + Santé
-          + Lifestyle
-          + Immobilier
-          + Automobile
-          + Education et jeunesse
-          + Cuisine et vins
-          + Tourisme et patrimoine
-     * Les Lecteurs Vogageurs
-     * Le Journal des Enfants
+   Sport
+     * Tout le sport
+     * Football
+     * Girondins
+     * Rugby
+     * Stade rochelais
+     * Union bordeaux bègles
+     * Section paloise
+     * SU Agen
+     * Basket
+     * Surf
+     * Clubs
+     * Résultats
+     * Directs
+     * Hippisme
+     * Où pratiquer
 
-   Je choisis mon �dition favorite
-     * Jeux
-     * Boutique
-     * Voyages
-     * Libra Mémoria
-          + Tous les avis de décès
-     * Annonces
-          + Immobilier
-          + Automobile
-     * Annonces judiciaires et légales
-     * Vie des sociétés
-     * Marchés publics
-     * France Marchés Portail d’appels d’offres
-     * Devenez partenaires
-          + Nos partenaires
-          + Dossiers partenaires
-     * Le groupe Ebra
-          + Présentation du groupe
-          + Ebra Médias
-          + Ebra Events
+   Autour du Journal
+     * Mon journal
+     * S'abonner
+     * Gérer mon abonnement
+     * Recherche Archives
+     * Photos Collectors
+     * Journal anniversaire
+     * Visiter le centre d'impression
 
-   Je choisis mon �dition favorite
-   Journal en numérique
-   Lyon - Villeurbanne - Caluire
+   Annonces
+     * Carnet
+     * Emploi/formation
+     * Immobilier
+     * Annonces légales
 
-   Lyon - Villeurbanne - Caluire
-
-   mer. 30/11/2022
-   Lire le journal
-     * Vidéos
-     * Podcasts
-     * Newsletters
-     * Météo
-     * Jeux
-     * Boutique
-     * LeCLUB
-     * Mon séjour en montagne
-
-   Icone de l'application mobile
-
-   Retrouvez tous nos contenus et notre journal en numérique
-   Téléchargez gratuitement l'app
-   Suivez-nous
+   Suivre
+     * Applications
+     * Newsletter
      * Facebook
      * Twitter
-     * Insta
-     * Linkedin
-     * Flux rss
+     * Instagram
+     * Youtube
 
-     * Contact
-     * FAQ
-     * CGU du site
-     * Informations légales
-     * Protection des données
-     * Droit à l'oubli
+   Répondre
+   Pour réagir à cet article, remplissez le champ ci-dessous. Vous pouvez
+   également, consulter notre charte des commentaires.
+   []
+   Auteur
+   Lire les règles de modération de sudouest.fr
 
-     *
-     * Société
-     * Une semaine de dépaysement pour les randonneurs du foyer rural
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) Réagir
 
-Choisey Une semaine de dépaysement pour les randonneurs du foyer rural
+   Signaler un commentaire
+   Merci de nous décrire précisément ce qui vous paraît illégal dans ce
+   message.
 
-   Par Le Progrès - 24 sept. 2022 à 22:55 - Temps de lecture :
-   |  |
-   Le club de randonnée du foyer rural vient de passer une semaine dans le
-   Cantal. DR
-
-   Les randonneurs du foyer rural de Choisey sont rentrés samedi
-   17 septembre de leur séjour d’une semaine dans le Cantal. Un séjour
-   émaillé de nombreuses balades...
-   Pour lire la suite, abonnez-vous :
-   Découvrez nos offres
-   ou
-   Je me connecte
-     * Société
-     * Vie associative
-     * Culture - Loisirs
-     * Balades et randonnées
-     * Choisey
-     * Dole-bassin
-     * Edition Jura Nord
-     *
-
-   Newsletters
-   Recevez gratuitement toute l'information de votre département.
-   Votre adresse e-mail
-   (BUTTON) OK
-
-     * Les sites du groupe EBRA
-          + L'Alsace
-          + Le Bien Public
-          + Le Dauphiné Libéré
-          + Les Dernières Nouvelles d'Alsace
-          + L'Est Républicain
-          + Le Journal de Saône et Loire
-          + Le Républicain Lorrain
-          + Vosges Matin
-          + Le JDE
-          + Les Lecteurs Voyageurs
-          + Le groupe Ebra
-     * Nos thématiques
-          + Sports
-          + Faits divers
-          + France Monde
-          + Politique
-          + Elections municipales
-          + Économie
-          + Environnement
-          + Magazine
-          + Culture - Loisirs
-          + Fête des Lumières
-          + Législatives 2022
-          + Charte de modération
-     * Nos services
-          + Résultats des élections par commune
-          + Programme TV
-          + Prévisions météo
-          + Agenda des sorties
-          + Boutique
-          + Annonces immobilières
-          + Annonces automobile
-          + Nos partenaires
-          + Dossiers partenaires
-          + Avis de décès
-          + Fil rouge
-          + Archives
-          + Application mobile
-
-   Suivez-nous
-     * Facebook
-     * Twitter
-     * Insta
-     * Linkedin
-     * Flux rss
-
-     * Contact
-     * FAQ
-     * CGU du site
-     * Informations légales
-     * Protection des données
-     * Droit à l'oubli
-
-   OJD OJD Digital Ad Trust Display Digital Ad Trust Display
-
-     * A la une
-     * Fil Info
-     * Départements
-     * Vidéo
-     * Rechercher
-
-   Départements
-     * 01 Ain
-          + Bugey et Haut-Bugey
-          + Bresse / Dombes / Val de Saône / Côtière
-     * 39 Jura
-          + Dole et Jura Nord
-          + Lons et Jura Sud
-     * 69 Rhône
-          + Lyon - Villeurbanne
-          + Villefranche
-          + Tarare
-          + Est Lyonnais
-          + Ouest Lyonnais
-          + Sud Lyonnais
-     * 38 Nord-Isère
-     * 42 Loire
-          + Saint-Etienne / Gier / Ondaine
-          + Le Roannais
-          + Le Forez
-     * 43 Haute-Loire
-          + Le Puy, Yssingeaux, Monistrol et environs
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) Signaler

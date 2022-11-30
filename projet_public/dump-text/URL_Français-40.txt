@@ -1,709 +1,744 @@
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-W7NLSLH
 
-   Pour soutenir votre journalisme local, abonnez-vous !
+   ☰
 
-   Pourquoi voyez-vous ce message ?
+     * (BUTTON) Présentation
+     * (BUTTON) Numéros
+     * (BUTTON) Entrevues
+     * (BUTTON) Auteur(e)s
+     * (BUTTON) Liens
+     * (BUTTON) Mentions légales
 
-   Vous avez choisi de refuser le dépôt de cookies, vous pouvez à tout
-   moment modifier votre choix, ici.
+                              [sigleSmall.png]
 
-   Le contenu de ce site est le fruit du travail de journalistes qui vous
-   apportent chaque jour une information locale de qualité, fiable,
-   complète, et des services en ligne innovants. Ce travail s’appuie sur
-   les revenus complémentaires de la publicité et de l’abonnement.
-   Je m'abonne
+                            [Logo-T-C-white.png]
 
-   Déjà abonné ?
-   Connectez-vous
+   [titre.png]
 
-   Définir votre page d'accueil
-     * Bar-le-Duc
-     * Belfort - Héricourt - Montbéliard
-     * Besançon
-     * Lunéville
-     * Nancy
-     * Pont-à-Mousson
-     * Pontarlier - Haut-Doubs
-     * Toul
-     * Verdun
-     * Vesoul - Haute-Saône
+   ici mon texte footnote here ©2016 TRB
+   Numéro 4 | décembre 2018 | Le dépaysement / Diario de un poeta recién
+   casado
+   Le dépaysement dans la littérature et le cinéma aux XX^e et XXI^e
+   siècles
+   Dépaysement et déplacement : du rêve d’ailleurs au voyage immobile
+   Jacques POIRIER
+     * (BUTTON) Résumé
+     * (BUTTON) Plan
+     * (BUTTON) Auteur(e)s
+     * (BUTTON) Référence électronique
+     * (BUTTON) Bibliographie
+     * (BUTTON) Télécharger le PDF
 
-     * Vidéos
-     * Podcasts
-     * Newsletters
-     * Météo
-     * Libra Memoria
-     * Jeux
-     * Boutique
-     * LeCLUB
-     * Mon Séjour en Montagne
+   rien
 
-   Nancy
+  On rencontre partout des gens qui ont des montres, et très rarement des
+      gens qui ont des boussoles. On a toujours besoin de savoir l’heure
+                       [...] mais on ne se demande jamais où l’on est1.
 
-   Nancy
 
-   mer. 30/11/2022
-   Lire le journal
-   L'Est Républicain
-   S'abonner Se connecter Me connecter/ M’inscrire
-   Création de compte
-     * Activer JavaScript dans votre navigateur pour accéder à
-       l'inscription sur notre site
+   Au motif que Furetière ignore le terme, peut-on dire que, jusqu’au
+   XVII^e siècle, on ne connaissait pas le « dépaysement » ? Ce serait
+   aller un peu vite en besogne, car on connaissait bien le mot
+   « dépaïser ». Non sous la forme passive (subjective) – être ou se
+   sentir dépaysé – mais sous la forme active (objective), à savoir
+   dépayser quelqu’un ou quelque chose. Aujourd’hui encore, la langue du
+   Palais a conservé cet usage quand le Parquet décide de dépayser une
+   affaire afin qu’elle soit confiée à une autre juridiction. Mais l’usage
+   transitif du verbe était alors de règle. Ainsi, dit Furetière, on
+   dépayse un Religieux « qui a quelque mauvaise habitude », de façon à ce
+   qu’il se retrouve en un lieu où nul ne le connaît. Ou bien, dans un
+   sens différent, « on dépayse le provincial ou l’étranger de façon à ce
+   qu’il perde son accent ou ses manières ». Quant à Corneille, s’il a
+   beaucoup emprunté à Lope de Vega pour Le Menteur, tout comme à Guillén
+   de Castro pour Le Cid, on trouverait « peu de rapport entre l’Espagnol
+   et le Français » car il a « entièrement dépaysé les sujets pour les
+   habiller à la française »2.
 
-   Civilité
-   (*) Madame ( ) Monsieur ( ) Société
-   Siret ____________________
-   Nom ____________________
-   Prénom ____________________
-   Adresse e-mail ____________________
-   Mot de passe ____________________
-   [ ] Je souhaite recevoir les communications et les exclusivités du
-   Groupe EBRA
-   [ ] Je souhaite recevoir les communications des partenaires du Groupe
-   EBRA
-   [ ] J'ai lu et accepté les Conditions générales d'utilisation
+   Ce qui frappe dans ces exemples, c’est que le dépaysement, pris au sens
+   littéral, c’est-à-dire géographique, apparaît non comme l’effet d’un
+   mouvement délibéré, mais comme le moyen de corriger une faute ou une
+   anomalie – y compris chez Corneille puisque tout admirable qu’il soit,
+   Lope de Vega doit être accommodé « à notre usage ». Deux cents ans
+   après, apparaît enfin une entrée « Dépaysement », chez Littré. Passé le
+   sens géographique (« faire changer de pays, de lieu »), le lexicographe
+   nous propose alors des exemples très différents de Furetière. Car le
+   « dépaysement » se dit également d’une personne qui ne peut retrouver
+   son chemin ; ou bien qui aborde un sujet nouveau pour elle. Le
+   dépaysement n’apparaît donc plus comme une nécessité (se cacher,
+   échapper à la pression du corps social ; se débarrasser de ses
+   travers), mais comme une épreuve : celui qui ne retrouve pas son chemin
+   ou qui ignore le sujet à traiter se sent désemparé, ou plus exactement
+   désorienté (il a « perdu l’Orient », comme on dit « perdre le Nord »).
+   Ce qui confère au dépaysement une coloration négative, comme le
+   confirme le Trésor de la Langue française qui, distinguant bien le sens
+   géographique du sens psychologique, donne comme synonyme de
+   « dépayser » ou « dépaysé » le terme « déconcerter » (« Déconcerter
+   quelqu’un en le transportant hors de son cadre habituel »). Et comme le
+   dit lui aussi Pierre Bayard quand, dans Comment parler des lieux où
+   l’on n’a pas été, il propose un petit lexique où l’on trouve l’entrée
+   « Dévoyage » avec cette définition : « Manière de voyager caractérisée
+   par la perte de la maîtrise des lieux et la dépossession de soi »3.
 
-   Si vous voyez ce champ, ne le remplissez pas ____________________
-   Je m'inscris
+   L’étonnant est qu’une telle présentation semble ignorer la complexité
+   sémantique du mot et l’ambivalence des affects qu’il peut susciter. À
+   prendre les dictionnaires de langue à la lettre, on a l’impression
+   qu’habiter un lieu va de soi et que tout arrachement suscite le
+   trouble. Au point que les différentes notices associent
+   systématiquement le dépaysement à une perte (perte des repères, de
+   l’identité...). Il y a là un présupposé barrésien qui participe d’un
+   imaginaire du sol natal. Or si, dans un monde ancien, le paysan
+   craignait de devoir « quitter son cher pays pour s’en aller là-bas » (à
+   en croire « Les Fiancés d’Auvergne »)4, il en va autrement quand le
+   sujet se sent en porte-à-faux dans le monde et peine à trouver ses
+   repères. En effet, dès lors que nous avons rompu le pacte au terme
+   duquel le paysage où nous nous inscrivons constitue notre horizon de
+   pensée, la question du dépaysement doit être examinée à nouveaux frais.
 
-   L'Est Républicain, en tant que responsable de traitement, recueille
-   dans ce formulaire des informations qui sont enregistrées dans un
-   fichier informatisé par son Service Relations Clients, la finalité
-   étant d’assurer la création et la gestion de votre compte, ainsi que
-   des abonnements et autres services souscrits. Si vous y avez consenti,
-   ces données peuvent également être utilisées pour l’envoi de
-   newsletters et/ou d’offres promotionnelles par L'Est Républicain, les
-   sociétés qui lui sont affiliées et/ou ses partenaires commerciaux. Vous
-   pouvez exercer en permanence vos droits d’accès, rectification,
-   effacement, limitation, opposition, retirer votre consentement et/ou
-   pour toute question relative au traitement de vos données à caractère
-   personnel en contactant lerabonnement@estrepublicain.fr ou consulter
-   les liens suivants : Protection des données, CGU du site et Contact. Le
-   Délégué à la Protection des Données personnelles (dpo@ebra.fr) est en
-   copie de toute demande relative à vos informations personnelles.
-   Vous êtes déjà inscrit ? Connectez-vous
-   L'Est Républicain
-     * Actualité
-     * Régions
-     * Faits-divers
-     * Sport
-     * Culture - Loisirs
-     * Magazine
-     * Services
-     *
+   Comme dans le Livre des Juges (XII, 6), le terme de « dépaysement »
+   constitue ainsi un schibboleth. En effet, tandis que certains conjurent
+   le risque de désarroi (ce que l’on éprouve quand se rompt l’arroi) en
+   traversant le monde sans se commettre avec lui, d’autres voient dans le
+   dépaysement la réponse à un mal être, qui les fait se sentir en exil
+   dans leur propre pays (en étrange pays dans leur pays lui-même). Mais
+   peut-être que le malentendu tient à la conjonction, dans le même mot,
+   du dépaysement comme déplacement et du dépaysement comme sentiment.
+   Comme si l’un était la condition de l’autre. Or, au plan psychologique,
+   les plus dépaysants sont souvent les voyages immobiles, lorsque tout à
+   coup le monde nous apparaît dans une autre lumière et fait vaciller les
+   certitudes.
 
-     * À la Une
-     * > les dossiers du moment
-          + Guerre en Ukraine
-          + Covid-19
-     * Fil info
-     * France - Monde
-     * Politique
-     * Société
-     * Économie
-     * Environnement
-     * Santé
-     * People
-     * Éducation
-     * Insolite
-     * Désinfox
-     * Votre Journal & Vous
-          + La vie du journal
-          + La formation ESJ - Ebra
-          + L'Est des Ecoliers
+Je ne suis pas là où je devrais être
 
-     * L’actualité en Franche-Comté
-          + Besançon
-          + Pontarlier - Haut-Doubs
-          + Vesoul - Haute-Saône
-          + Belfort - Montbéliard
-     * Du côté de la Suisse
-     * L’actualité en Lorraine
-          + Nancy et agglomération
-          + Pont-à-Mousson
-          + Lunéville
-          + Toul
-          + Bar-le-Duc
-          + Verdun
+   Le dépaysement constitue une réponse obligée à qui ne peut habiter le
+   lieu qui lui a été assigné. « Je ne suis pas là où je devrais être » :
+   tel est le leitmotiv que scande une bonne part de la modernité. Pareil
+   cri peut s’entendre dans le domaine social (je ne suis pas fait pour
+   demeurer un simple précepteur, se dit Julien Sorel), dans le domaine
+   temporel (Je ne suis pas de ce siècle, pour Don Quichotte ou bien pour
+   l’héroïne de Le Belle au bois)5 mais plus encore au plan existentiel. À
+   relire « La Vie antérieure » (« J’ai longtemps habité sous de vastes
+   portiques / Que les soleils couchants teintaient de mille feux »)6, on
+   mesure à quel point le sujet se condamne à vivre sous le signe de la
+   perte, sous l’effet d’une conscience malheureuse, pour le dire comme
+   Hegel7. Car dès lors que le monde où nous vivons nous apparaît comme un
+   pur simulacre, il est séduisant d’imaginer l’ailleurs comme son « vrai
+   lieu » – quand bien même, suggère la fin de « La Vie antérieure », le
+   moi continue, en plein cœur de l’Eden, de porter en lui un « secret
+   douloureux ».
 
-   Je choisis mon édition favorite
-     * Tous les faits-divers
-          + Doubs
-          + Haute-Saône
-          + Meurthe-et-Moselle
-          + Meuse
-          + Territoire de Belfort
-     * > les affaires à la une
-          + Affaire Grégory Villemin
-          + Meurtre d'Alexia Daval
-          + Affaire Frédéric Péchier
-          + Procès de l'assassinat de Narumi
-          + Disparition de Maëlys et du Caporal Arthur Noyer
-          + Disparition Delphine Jubillar
+   Dans ce dispositif mélancolique, la géographie (réelle ou imaginaire) a
+   donc valeur de pharmakon, puisqu’elle est à la fois le mal (sans la
+   géographie, je n’aurais pas eu conscience de l’exil qui est le mien) et
+   le remède (mais sans la géographie, je ne pourrais espérer retrouver
+   les « vastes portiques » sous lesquels j’ai habité). N’en déplaise à
+   Clément Rosset, le monde serait donc « double »8. Charge à nous de
+   rejoindre l’autre versant du réel dont notre mémoire, étrangement,
+   conserve la trace.
 
-     * Coupe du monde de football
-     * Toute l'actualité sportive
-          + Résultats et classements
-          + Football
-          + Mercato football
-          + Basket-ball
-          + Handball
-          + Volley-ball
-          + Trophée du sportif du mois
-     * Sport lorrain
-          + ASNL : AS Nancy Lorraine
-          + SLUC Nancy Basket
-          + GNVB : Grand Nancy Volley-Ball
-          + Nancy Handball
-          + VNVB : Vandoeuvre Nancy Volley
-          + FC Metz
-     * Sport franc-comtois
-          + FCSM : FC Sochaux Montbéliard
-          + Racing Besançon
-          + ASM Belfort
-          + CA Pontarlier
-          + ESBF : ES Besançon Féminin Handball
-          + GBDH : Grand Besançon Handball
-          + BesAC : Besançon AC Basket
+   De ce « vrai lieu », le nom est légion. Dans Les Paradisiaques9, Pascal
+   Quignard dresse une liste de ces pays rêvés, aux antipodes du nôtre,
+   dont les textes attestent l’existence, mais que l’on peine à situer.
+   Car il en va d’eux comme de l’Eden qui, jusqu’au XVIII^e siècle,
+   figurait sur certaines cartes de géographie10, mais dont pourtant nul
+   n’a retrouvé le chemin. Du moins en a-t-on trouvé des substituts : îles
+   mystérieuses des mers du Sud, Orient extrême, cités inaccessibles...,
+   comme si à vouloir échapper à un lieu inauthentique, on ne cessait de
+   poursuivre des fantômes – avec cet arrachement à soi que promettent des
+   sonorités telles que Lhassa, Tombouctou ou Savannaket. Certains en
+   auront fait leur « vrai lieu » (Gide à Biskra, cette oasis où prévaut
+   la loi du désir), mais de telles retrouvailles ont quelque chose
+   d’illusoire car il y a peu de chances que l’on accède jamais au « pays
+   des merveilles », réservé à Alice, ou à Neverland, propre à Peter Pan.
+   Car cette géographie imaginaire transpose en réalité une expérience
+   temporelle : à la fin de la nuit initiatique, dans l’île des Enfants
+   (le Capitaine Crochet, le crocodile...), l’héroïne doit regagner le
+   monde réel11. Car si les mers du Sud et les cités mystérieuses au cœur
+   du continent noir ou jaune nous séduisent à ce point, c’est que le
+   dépaysement relatif du voyage dans l’espace se double de ce dépaysement
+   absolu qu’est le voyage dans le temps. En effet, cet ailleurs est un
+   avant, comme l’avait remarqué Montaigne dans un célèbre chapitre des
+   Essais (« Des coches ») et comme l’ont répété après lui, aussi bien
+   Diderot que Claude Lévi-Strauss.
 
-     * Toute l'actualité culturelle
-     * Télévision - Séries - Streaming
-     * Programme TV
-     * Cinéma
-     * Programme ciné
-     * Jeux
-     * Nos podcasts
-     * Nos longs formats
-     * Livres
-     * Pour Sortir, l'agenda des sorties
-     * > les événements à la une
-          + Fêtes de Saint-Nicolas
-          + Les Lumières de Noël de Montbéliard
-          + Le Livre sur la Place
-          + Livres dans la Boucle
-          + Nancy Jazz Pulsations
-          + Centenaire du Territoire de Belfort
-          + Eurockéennes de Belfort
-          + Des flammes à la lumière
-          + Foire Comtoise
-          + Foire Expo de Nancy
-          + Festival Grandes heures nature de Besançon
-          + Festival de la Paille
+   L’aspiration au dépaysement a donc partie liée avec une forme de
+   bovarysme, dès lors que le départ est censé répondre à une souffrance :
+   l’impossibilité à habiter le lieu que le destin nous a assigné. D’où ce
+   double mouvement qui voit, dans de nombreux romans, le héros recourir
+   au dépaysement pour se donner l’illusion du recommencement
+   (l’imaginaire auroral de la seconde naissance), avant que ne revienne
+   le temps des illusions perdues. Dans le prière d’insérer de Loin, l’un
+   de ses premiers romans, J.-B. Pontalis présente ainsi son ouvrage :
+   « Ce récit retrace l’expérience d’un dépaysement. Une ville étrangère
+   en est le lieu : Mymia. Des femmes en sont l’instrument : Alix et
+   Angèle [...]. » Mais, ajoute-t-il, si « le dépaysement est d’abord vécu
+   dans un sentiment de vacance et de légèreté, [...] il vire
+   progressivement au malaise, à la dépossession de soi, à l’exil »12.
 
-     * Tous nos magazines
-          + Santé
-          + Lifestyle
-          + Immobilier
-          + Automobile
-          + Cuisine et Vins
-          + Education / jeunesse
-          + Tourisme et patrimoine
-     * Les Lecteurs Voyageurs
-     * Le JDE - Le Journal des Enfants
-     * #IciOnAgit !
-     * Paroles d'experts
+   Alors que le dépaysement était censé arracher le sujet à lui-même, il
+   le confronte finalement à ses limites (le « secret douloureux », à la
+   fin de « La Vie antérieure » ; ces « anciennes blessures », que
+   redécouvre le héros de Pontalis). En effet, un dépaysement radical
+   devrait déboucher sur une véritable métamorphose. Or, Lawrence d’Arabie
+   n’est jamais devenu un Arabe ; pas plus que Mayrena, dans Le Règne du
+   Malin, ne deviendra un Moï13. Ni l’un ni l’autre n’aura franchi la
+   limite. Mais il est vrai que si la métamorphose était totale, le sujet
+   n’aurait plus conscience de son dépaysement, puisque, pour être
+   éprouvé, un tel sentiment exige que demeure la conscience de soi14.
 
-     * Jeux
-     * Boutique
-     * Voyages
-     * Libra Memoria - avis de décès
-     * > petites annonces
-          + Immobilier
-          + Automobiles
-     * Nos partenaires
-     * Dossiers partenaires
-     * Infos Services
-     * Annonces Judiciaires et Légales
-     * Vie des Sociétés
-     * Marchés publics
-     * France Marchés Portail d’appels d’offres
-     * > nos événements
-          + Les Ailes de Cristal en Lorraine
-          + Les Ailes de Cristal en Franche-Comté
-          + Les Ailes de l'entrepreneuriat
-          + Les Lauriers des collectivités
-          + Les Trophées de l'agriculture
-          + Mon Beau Village
-     * > visite du journal
-          + S’inscrire aux visites du journal
-          + Galerie photo des visiteurs
-     * Le groupe Ebra
-          + Présentation du groupe
-          + Ebra Médias
-          + Ebra Events
+   Il y a là une aporie qui tient à une trop grande confiance dans les
+   vertus de l’ailleurs. Ou peut-être que le malentendu provient des
+   ambiguïtés du mot « dépaysement », qui donne à croire que le sens
+   littéral (géographique) est garant du second (psychologique). Si un
+   déplacement procurait à lui seul un sentiment de dépaysement, les deux
+   niveaux de signification seraient à jointure. Mais le paradoxe tient à
+   leur fréquente disjonction, car on peut accéder aux confins du monde
+   tout en demeurant identique à soi-même, tandis qu’on peut éprouver au
+   plus près l’expérience du dépaysement lorsque l’univers familier change
+   tout à coup de visage.
 
-   Rechercher
-     * Dans un article
-     * Dans ma ville
+Je suis chez moi même ailleurs
 
-   ____________________ Ok
-   ____________________ Ok
-     * Besançon
-     * Nancy
-     * Belfort
-     * Montbéliard
-     * Lunéville
-     * Verdun
-     * Toul
-     * Bar-le-Duc
-     * Vesoul
-     * Pont-à-Mousson
-     * Lure
+   Du fait que le dépaysement « désoriente » et « déconcerte », comme
+   disent les dictionnaires, il constitue une menace. Ce qui explique les
+   conduites d’évitement propres aux « universalistes », qui traversent le
+   monde en toute indifférence, soucieux de ne se laisser pas émouvoir par
+   l’entour. En effet, pour tous ceux qu’affecte le « syndrome Phileas
+   Fogg », il peut y avoir translation sans altération15. Insensible au
+   sentiment de dépaysement comme d’ailleurs à tout sentiment, Phileas
+   Fogg ne connaît du monde que ce que lui en disent les horaires des
+   trains et des paquebots – substituant ainsi au trouble du vivant les
+   certitudes de la mathématique16. Au regard de la question qui est
+   nôtre, un tel roman théâtralise à merveille le double jeu de la
+   révolution technicienne et du colonialisme, qui tout à la fois célèbre
+   l’ailleurs (le voyage, l’exotisme) mais réduit le multiple à l’Un, en
+   se proposant de soumettre un monde sauvage à la rationalité
+   occidentale.
 
-   L'édition du soir en numérique dès 21h30 Le journal en numérique dès 5h
-   Accédez à tous les contenus en illimité
-   S'abonner
-     * Actualité
-     * Régions
-     * Faits-divers
-     * Sport
-     * Culture - Loisirs
-     * Magazine
-     * Services
+   Phileas Fogg aura donc traversé le monde sans quitter l’Angleterre.
+   Tout comme, dans la seconde moitié du XX^e siècle, le Robinson de
+   Michel Tournier, dans Vendredi ou les Limbesdu Pacifique, une fois
+   passé le moment de sidération qui suit le naufrage, voyage à rebours en
+   faisant de l’île administrée une Nouvelle-Angleterre. Seul sur
+   Speranza, Robinson conjure tout risque de dépaysement en « dépaysant »
+   l’île, au sens où Furetière emploie le mot pour dire d’un étranger ou
+   d’un provincial qu’on l’a débarrassé de ses traits spécifiques. La
+   première partie du roman, où Robinson réinvente l’agriculture et l’État
+   (la charte), consiste en effet en une annulation de la différence
+   – condition de possibilité du dépaysement –, comme s’il convenait de
+   rendre le monde monochrome (Vendredi en nègre blanc) et monotone (une
+   île du Pacifique sud devenue une petite Europe). Le dépaysement est
+   donc devenu problématique à mesure que le monde se mettait à parler une
+   seule langue : la technique, le capitalisme et l’anglais.
 
-     * À la Une
-     * > les dossiers du moment
-          + Guerre en Ukraine
-          + Covid-19
-     * Fil info
-     * France - Monde
-     * Politique
-     * Société
-     * Économie
-     * Environnement
-     * Santé
-     * People
-     * Éducation
-     * Insolite
-     * Désinfox
-     * Votre Journal & Vous
-          + La vie du journal
-          + La formation ESJ - Ebra
-          + L'Est des Ecoliers
+   Mais la remise en cause des « pays » – un imaginaire borné par un
+   paysage – a des racines plus anciennes. C’est ce que l’on mesure à
+   rapprocher deux scènes emblématiques. Dans une page bien connue des
+   Mythologies, Roland Barthes rappelle que, lors d’un voyage en Afrique
+   noire, André Gide « lisait du Bossuet en descendant le fleuve
+   Congo »17. Une soixantaine d’années plus tard, le héros de La Salle de
+   bain, de Jean-Philippe Toussaint, quittant pour une fois sa salle
+   d’eau, se rend dans une ville d’eau, à savoir Venise ; mais là,
+   indifférent au Grand Canal et à San Marco, il ne quitte guère son hôtel
+   où il lit (en anglais !) les Pensées de Pascal, trouvées par hasard18.
+   Pour différentes que soient ces œuvres, les deux scènes reflètent la
+   même indifférence au monde extérieur, et donc l’impossibilité du
+   dépaysement. Ce à quoi l’aventure du voyage expose, l’auteur ou le
+   personnage s’y refuse. Au cœur de l’Afrique ou de la cité des Doges,
+   ils se plongent dans les classiques du XVII^e siècle français, peu
+   sensibles à la diversité du monde. Plus précisément, ils en appellent
+   l’un et l’autre à des auteurs spirituels. Or, à considérer l’horizon de
+   pensée d’un Pascal ou d’un Bossuet, on voit que le dépaysement occupe
+   une place paradoxale. Certes, il y eut au commencement ce dépaysement
+   qu’a connu l’homme déchu quand l’Éternel l’a expulsé de l’Eden. Mais
+   depuis ce désastre inaugural, le dépaysement est devenu impossible car,
+   dans une perspective théologique, l’homme est partout le même. Les
+   costumes et les coutumes peuvent varier ; mais par-delà les apparences,
+   c’est bien toujours de la même humanité déchue que nous parlons.
+   L’étrange est donc que le christianisme en vient à annuler la
+   possibilité du dépaysement, alors qu’il a été lui-même une religion
+   dépaysée, quittant Jérusalem pour Rome, abandonnant l’hébreu pour le
+   latin, et oubliant les rituels instaurés par l’Ancien Testament (par
+   exemple la circoncision). Or c’est cette religion dépaysée qui s’est
+   située dans une perspective universaliste, annulant les frontières et
+   les identités particulières.
 
-     * L’actualité en Franche-Comté
-          + Besançon
-          + Pontarlier - Haut-Doubs
-          + Vesoul - Haute-Saône
-          + Belfort - Montbéliard
-     * Du côté de la Suisse
-     * L’actualité en Lorraine
-          + Nancy et agglomération
-          + Pont-à-Mousson
-          + Lunéville
-          + Toul
-          + Bar-le-Duc
-          + Verdun
+   Comme on le sait, les dieux se sont tus. Mais l’empreinte demeure. Si
+   bien que la modernité occidentale apparaît l’héritière de cet
+   universalisme premier. La proximité est donc plus grande qu’on ne peut
+   le penser entre les prométhéens (Robinson Crusoé) et les augustiniens :
+   pour les premiers, héritiers du dieu-artisan dans le Timée19, il
+   convient de mettre en ordre le monde, jusqu’à ce qu’il s’ordonne selon
+   les lois de la raison (une et indivisible) ; pour les seconds, qui
+   voient le monde à travers le prisme de la métaphysique, l’humanité
+   connaît en tous lieux la même condition. Du coup, chez des auteurs
+   comme Beckett et Céline, le temps ni l’espace n’existe puisqu’il n’y a
+   rien de nouveau sous le soleil et que le Mal est universel. Le héros de
+   Voyage... peut bien arpenter le monde, partout il rencontre la
+   « nuit ». Quel voyage envisager alors, quand le monde est un
+   « cabanon » ou une « prison »20 (même si, dit Marguerite Yourcenar,
+   « il nous faut malgré tout en faire le tour »21) ? Les fameuses maximes
+   qui émaillent le texte de Céline nous épargnent d’ailleurs toute
+   surprise : dès lors qu’il existe une nature humaine immuable, l’homme
+   et le monde sont partout les mêmes. Pour le moraliste, le déplacement
+   est donc l’occasion, non d’un dépaysement mais d’une confirmation.
+   Alors que le héros d’un roman d’initiation ou de formation, arraché à
+   son lieu premier, s’expose à toutes les formes de dépaysement
+   (géographique, social, culturel...), celui d’un « roman de
+   confrontation »22 détient d’emblée le savoir. Pour cette famille de
+   héros, le monde est sommé, non de nous déconcerter, mais de répondre à
+   notre attente23. Et si jamais il semble s’y refuser, on est en droit de
+   le soumettre.
 
-   Je choisis mon �dition favorite
-     * Tous les faits-divers
-          + Doubs
-          + Haute-Saône
-          + Meurthe-et-Moselle
-          + Meuse
-          + Territoire de Belfort
-     * > les affaires à la une
-          + Affaire Grégory Villemin
-          + Meurtre d'Alexia Daval
-          + Affaire Frédéric Péchier
-          + Procès de l'assassinat de Narumi
-          + Disparition de Maëlys et du Caporal Arthur Noyer
-          + Disparition Delphine Jubillar
+   Mais le monde ne répond pas toujours comme il faudrait. Du coup, celui
+   qui croyait savoir et avait l’illusion de pouvoir, s’expose à cette
+   dépossession, ou à cette déliaison, qu’est le dépaysement. Ce
+   dépaysement qui soudain nous dépouille de tous nos alibis.
 
-   Je choisis mon �dition favorite
-     * Coupe du monde de football
-     * Toute l'actualité sportive
-          + Résultats et classements
-          + Football
-          + Mercato football
-          + Basket-ball
-          + Handball
-          + Volley-ball
-          + Trophée du sportif du mois
-     * Sport lorrain
-          + ASNL : AS Nancy Lorraine
-          + SLUC Nancy Basket
-          + GNVB : Grand Nancy Volley-Ball
-          + Nancy Handball
-          + VNVB : Vandoeuvre Nancy Volley
-          + FC Metz
-     * Sport franc-comtois
-          + FCSM : FC Sochaux Montbéliard
-          + Racing Besançon
-          + ASM Belfort
-          + CA Pontarlier
-          + ESBF : ES Besançon Féminin Handball
-          + GBDH : Grand Besançon Handball
-          + BesAC : Besançon AC Basket
+Je ne suis pas là où je croyais être
 
-   Je choisis mon �dition favorite
-     * Toute l'actualité culturelle
-     * Télévision - Séries - Streaming
-     * Programme TV
-     * Cinéma
-     * Programme ciné
-     * Jeux
-     * Nos podcasts
-     * Nos longs formats
-     * Livres
-     * Pour Sortir, l'agenda des sorties
-     * > les événements à la une
-          + Fêtes de Saint-Nicolas
-          + Les Lumières de Noël de Montbéliard
-          + Le Livre sur la Place
-          + Livres dans la Boucle
-          + Nancy Jazz Pulsations
-          + Centenaire du Territoire de Belfort
-          + Eurockéennes de Belfort
-          + Des flammes à la lumière
-          + Foire Comtoise
-          + Foire Expo de Nancy
-          + Festival Grandes heures nature de Besançon
-          + Festival de la Paille
+   Malgré la charge sémantique du mot, cette dépossession ne relève pas
+   forcément d’un déplacement dans l’espace – même si ce dernier en
+   demeure souvent l’occasion ou le prétexte –mais plus sûrement d’un
+   déplacement de la focale. Ou, si l’on préfère les métaphores spatiales,
+   le dépaysement équivaut à un décentrement, comme dans ces cartes qui, à
+   l’encontre de nos usages, placent au centre un point géographique
+   remarquable (l’un des Pôles), ou bien proportionnent les territoires à
+   d’autres critères que la surface (richesse par habitant ; ressources en
+   eau, etc.). Il s’agit bien toujours du monde que nous connaissons ; et
+   pourtant nous peinons à le reconnaître, du fait que l’échelle ou bien
+   le centre en ont été changés. En effet, tant qu’il existe un point fixe
+   par rapport auquel se situer (géographiquement et intellectuellement),
+   le dépaysement ne peut être que transitoire. On comprend donc la charge
+   affective qui entoure ce point imaginaire, qui a donné naissance à un
+   véritable « syndrome de l’Omphalos », comme dit Bertrand Westphal24.
 
-   Je choisis mon �dition favorite
-     * Tous nos magazines
-          + Santé
-          + Lifestyle
-          + Immobilier
-          + Automobile
-          + Cuisine et Vins
-          + Education / jeunesse
-          + Tourisme et patrimoine
-     * Les Lecteurs Voyageurs
-     * Le JDE - Le Journal des Enfants
-     * #IciOnAgit !
-     * Paroles d'experts
+   Les désemparés, qui attendent tout de l’ailleurs, ont l’impression de
+   ne pas vivre là où ils auraient dû être ; à l’inverse, les dépaysés
+   – ceux qui ont fait l’expérience d’un dépaysement tout intérieur –
+   s’aperçoivent soudain qu’ils ne sont plus où ils croyaient. Tel est
+   bien ce qui est arrivé à l’homme occidental, lui qui s’était attribué
+   la meilleure place : au centre du cosmos et au sommet des espèces. Or,
+   pour reprendre un propos fameux de Freud25, si l’on repense aux
+   blessures narcissiques qu’a subies l’humanité – à savoir la révolution
+   copernicienne, le bouleversement darwinien et « l’invention » de
+   l’inconscient –, on s’aperçoit que ces traumas collectifs consistent à
+   chaque fois en un dépaysement, suite à un décentrement. Avec Copernic,
+   celui qui se croyait au centre se découvre en périphérie ; avec Darwin,
+   celui qui bénéficiait d’un statut d’exception réintègre la loi
+   commune ; et avec l’inconscient, le maître du monde renonce à être le
+   maître en sa propre demeure. Exit le cogito et son impossibilité du
+   dépaysement (ubi cogito, ibisum), car dès lors que l’inconscient mène
+   le jeu, « je pense où je ne suis pas », et du même coup « je suis où je
+   ne pense pas »26, comme le dit Jacques Lacan, usant d’une métaphore
+   spatiale qui traduit bien cette expropriation.
 
-   Je choisis mon �dition favorite
-     * Jeux
-     * Boutique
-     * Voyages
-     * Libra Memoria - avis de décès
-     * > petites annonces
-          + Immobilier
-          + Automobiles
-     * Nos partenaires
-     * Dossiers partenaires
-     * Infos Services
-     * Annonces Judiciaires et Légales
-     * Vie des Sociétés
-     * Marchés publics
-     * France Marchés Portail d’appels d’offres
-     * > nos événements
-          + Les Ailes de Cristal en Lorraine
-          + Les Ailes de Cristal en Franche-Comté
-          + Les Ailes de l'entrepreneuriat
-          + Les Lauriers des collectivités
-          + Les Trophées de l'agriculture
-          + Mon Beau Village
-     * > visite du journal
-          + S’inscrire aux visites du journal
-          + Galerie photo des visiteurs
-     * Le groupe Ebra
-          + Présentation du groupe
-          + Ebra Médias
-          + Ebra Events
+   La « crise de la conscience occidentale » procède de cette dépossession
+   qu’est le dépaysement – vécu difficilement par qui eut longtemps
+   l’impression d’occuper légitimement la première place. Et à travers la
+   référence coloniale, qui en constitue le miroir grossissant, c’est à
+   cette déprise que renvoie Vendredi ou les limbes du Pacifique, commencé
+   à un moment (1962) où l’homme blanc était en train d’abdiquer une part
+   de ses prétentions. Car après avoir regardé en arrière, comme le note
+   Gilles Deleuze dans « Michel Tournier et le monde sans autrui »
+   (postface de l’édition « Folio »), voilà que Robinson soupçonne
+   l’existence d’une « autre île ». Alors qu’une longue traversée n’avait
+   en rien altéré son identité, Robinson accomplit un voyage immobile dont
+   il sort transformé (l’accès à l’extase solaire et aux « limbes »). Et
+   c’est bien ce voyage immobile qui suscite un dépaysement radical. Le
+   dépaysement ne procède donc pas du monde, mais de soi. En cela, le
+   roman de Tournier, publié en 1967, arrivait au moment où vacillaient
+   toute une série de « grands récits » (le catholicisme, le marxisme,
+   l’ambition prométhéenne...), et où une adhésion naïve au monde cédait
+   la place au soupçon.
 
-   Je choisis mon �dition favorite
-   Nancy
+   Mais par-delà ces bouleversements historiques27, notre position a été
+   délégitimée par la philosophie occidentale elle-même. Des penseurs
+   classiques, comme Descartes et Spinoza, pouvaient s’opposer sur bien
+   des points, mais tous deux assignaient à l’homme sa juste place au sein
+   du réel. Au contraire, les philosophies existentielles, qui auront
+   dominé le XX^e siècle, n’ont eu de cesse de remettre en cause la place
+   de l’homme dans le monde, devenue soudain illégitime. On pense à Kafka
+   quand, dans la cathédrale, l’abbé raconte à K. la parabole de « l’homme
+   de la campagne » attendant sur le seuil sans oser le franchir ; à
+   Camus, où le moi se sent « pour toujours étranger à [lui]-même », où le
+   héros d’ « Entre oui et non », appelé d’urgence au chevet de sa mère,
+   se sent « dépaysé comme jamais il ne l’avait été » dès lors que s’est
+   dissipée « l’illusion que la vie recommence tous les jours » ; ou bien
+   encore à Sartre, lorsque Roquentin, contemplant dans le square les
+   fameuses racines, découvre soudain que chaque figurant de cette scène
+   est « de trop »28. Alors que chez Maurice Barrès, les « racines »
+   assignaient à chacun un lieu – un « pays » –, le dégoût qu’elles
+   suscitent fait de Roquentin un « déraciné » – tout comme est déraciné
+   le paysan de Kafka, voué à un entre-deux. Dès lors qu’il n’est pas
+   question ici de s’enfuir vers quelque ailleurs (les aventures
+   indochinoises de Roquentin ne sont plus de mise ; et Rollebon n’est
+   qu’une fiction consolante), le héros doit affronter cette forme de
+   dépaysement existentiel que constitue le silence du monde, c’est-à-dire
+   son indifférence (fût-elle « tendre », comme chez Albert Camus).
+   Héritier dépossédé, chacun de ces personnages doit affronter le
+   désarroi de ces occupants légitimes qui se découvrent soudain dépourvus
+   de titres de séjour et qui, à la question du Grand Veneur, dans La
+   Modification, ne peuvent dire ni qui ils sont ni où ils se trouvent29.
 
-   Nancy
+   Le dépaysement est donc l’apanage d’un univers du relatif. Car dans un
+   temps lointain, où le monde était peuplé de certitudes, il n’y avait
+   place pour lui. Bons chrétiens, les voyageurs « n’attendaient aucune
+   étrangeté [...] bouleversante des peuples de la terre qu’ils
+   rencontraient sur leur chemin »30 ; pas plus que ne les déconcertait la
+   géographie eschatologique de La Divine Comédie. Dans pareil univers
+   mental, la rencontre de l’absolu pouvait susciter un foudroiement :
+   Saul sur le chemin de Damas, anéanti jusqu’à changer de nom. Lors de
+   cette confrontation au Grand Autre, le sujet était arraché à lui-même.
+   Mais ce foudroiement peut-il être considéré comme un dépaysement ? On
+   serait tenté de le croire puisque la conversion consiste,
+   métaphoriquement, à aborder en terre inconnue : Saul sur la route de
+   Damas, les apôtres partant sur la route, le Christ lui-même disant :
+   « Je suis la voie ». Mais le dépaysement consiste-t-il à dépouiller
+   entièrement le vieil homme ? Certainement pas, du fait qu’il procède à
+   la fois d’une altération et d’une permanence (une mémoire). Le
+   dépaysement, ce cheminement déconcertant, n’est donc pas l’apanage du
+   voyageur des extrêmes, mais une expérience commune, propre au simple
+   fait d’exister.
 
-   mer. 30/11/2022
-   Lire le journal
-     * Vidéos
-     * Podcasts
-     * Newsletters
-     * Météo
-     * Libra Memoria
-     * Jeux
-     * Boutique
-     * LeCLUB
-     * Mon Séjour en Montagne
+   Vivre, en effet, c’est affronter un état de dépaysement permanent, dont
+   il nous revient de déterminer la nature et la couleur. On peut choisir
+   d’être au monde sur le mode du dépaysement mélancolique comme le
+   Robinson Crusoé de Saint-John Perse une fois revenu à Londres, dans les
+   Images à Crusoé ; et se complaire dans ces grandes fictions
+   métaphysiques, comme l’allégorie de la Caverne ou le mythe de la Chute,
+   pour qui le fait d’être homme procède d’un dépaysement originel. Mais
+   on peut tout autant s’ouvrir à l’événement, perçu comme avènement ; et
+   faire de cet ébranlement une forme de ravissement. En effet, comme dans
+   la fable des « paroles gelées »31, le dépaysement réintroduit le
+   mouvement dans ce qui s’était figé. Contre le risque du repli, il
+   oblige à « sortir de chez soi », et par là même nous offre la
+   possibilité de penser notre existence et de penser le monde, puisqu’il
+   nous amène à « déplier des questions enfouies sous d’illusoires
+   convictions »32.
 
-   Icone de l'application mobile
+   À condition d’en finir avec l’illusion d’un moi jaloux de son intimité
+   et d’opter au contraire pour un sujet poreux, pour un moi « extime »33,
+   on peut donc redonner à ce dépaysement ontologique toute sa positivité,
+   le constituer en premier moteur et trouver en lui la meilleure manière
+   d’habiter le monde, comme le suggère l’épitaphe de Martinusvon
+   Biberach :
 
-   Retrouvez tous nos contenus et notre journal en numérique
-   Téléchargez gratuitement l'app
-   Suivez-nous
-     * Facebook
-     * Twitter
-     * Instagram
-     * Linkedin
 
-     * Contact
-     * FAQ
-     * CGU du site
-     * Informations légales
-     * Protection des données
-     * Politique RSE
+   Je viens je ne sais d’où,
 
-     *
-     * Culture - Loisirs
-     * « La Maison du loup » : « dépaysement, rêve et émotion » avec Jack
-       London
+   Je suis je ne sais qui,
 
-     * Les lecteurs voyageurs
-     * 🎧 Podcast. La guerre de 1870
-     * 🎧 Podcast. L'épopée de Jeanne d'Arc
-     * 👑 Miss France
+   Je meurs je ne sais quand,
 
-Lunéville « La Maison du loup » : « dépaysement, rêve et émotion » avec Jack
-London
+   Je vais je ne sais où,
 
-   La pièce de Benoit Solès entraîne le spectateur dans l’Ouest américain
-   le temps d’une soirée avec l’auteur de « Croc-Blanc » et un homme
-   sortant de prison. Une confrontation entre un vieux loup et un chien
-   enragé, arrangée par la femme de l’écrivain.
-   Par Propos recueillis par Xavier COLLIN - 19 avr. 2022 à 07:00 - Temps
-   de lecture :
-   |  |
-   Le spectacle se déroule sur la terrasse de la maison de Jack London.
-   Photo © Fabienne RAPPENEAU
+   Je m’étonne d’être aussi joyeux34.
 
-     Comment s’est faite votre rencontre avec Jack London ?
+   [1] Georges PEREC, Espèces d’espaces : Journal d’un usager de l’espace
+   (1^re éd. 1974), Paris, Denoël/Gonthier, 1976, p. 126.
 
-   J’étais un lecteur de cet auteur bien avant d’avoir eu l’idée de créer
-   la pièce « La Maison du loup ». Enfant, j’ai lu « L’Appel de la
-   forêt », « Croc-Blanc »… dans leur version adoucie, car les originaux
-   sont plus cruels. Jeune adulte, j’ai continué avec « Martin Eden », un
-   roman initiatique et d’aventure. J’étais amateur de ce type de livres
-   avec d’autres auteurs, comme Jules Verne et Robert Louis Stevenson.
+   [2] Pierre Corneille, « Au lecteur », Le Menteur, Théâtre complet, II,
+   Paris, Classiques Garnier, 1960, p. 146.
 
-     Pourquoi cette pièce, « La Maison du loup » ? Qu’apporte-t-elle aux
-     spectateurs ?
+   [3] Pierre BAYARD, Comment parler des lieux où l’on n’a pas été, Paris,
+   Minuit, 2011, p. 211.
 
-   Après « La Machine de Turing », j’ai eu envie d’écrire une autre pièce
-   où l’on trouverait de l’aventure. J’ai repensé à Jack London et aux
-   autres auteurs. Et un jour, dans une librairie, je suis tombé sur un
-   vieil exemplaire d’un de ses livres dans lequel j’ai trouvé le titre
-   « Le Vagabond des étoiles ». Je me suis procuré l’ouvrage, je l’ai lu
-   et l’idée de la pièce m’est venue. Le thème de celle-ci est une
-   confrontation entre deux hommes : Jack London, vieux loup endormi par
-   le confort et l’alcool, fait face à un chien enragé. Ed Morrell, sorti
-   de prison, se bat pour un ami condamné à la peine de mort. Un article
-   de ce dernier a interpellé Charmian London qui a arrangé cette
-   rencontre, un personnage très fort qui souhaite raviver la flamme
-   créatrice de son mari. Les deux hommes vont se révéler des choses.
+   [4] « Les Fiancées d’Auvergne » est une chanson populaire interprétée
+   par André VERCHUREN, en 1961.Voir :
+   http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d
+   %27Auvergne, consulté le 27/07/2018.
 
-   Tout se passe sur la terrasse de la maison de Jack London, typique de
-   l’Ouest américain, le temps d’une soirée. Ce spectacle est une
-   invitation au voyage dans le monde de l’auteur où le spectateur
-   trouvera dépaysement, rêve et émotion, une heure trente pour tout
-   oublier.
+   [5] Dans cette réécriture de PERRAULT qu’est La Belle au bois (Paris,
+   Gallimard, 1989), de Philippe Beaussant, la princesse mesure à de
+   petits écarts (de costume, de parlures...) le temps pendant lequel elle
+   a dormi.
 
-     Quel est votre livre préféré de l’auteur ?
+   [6] Charles BAUDELAIRE, Les Fleurs du mal, Paris, Gallimard,
+   poésie-nrf, 2006, p. 47.
 
-   Sans détour, « Martin Eden ». Ce roman initiatique m’a fait le plus
-   ressentir qui était Jack London, à travers ce jeune homme pauvre qui
-   monte dans la société par l’écriture. J’observe que c’est un livre que
-   les gens lisent et relisent à différentes étapes de leur vie. On le
-   retrouve sur les chevets de nombreux lecteurs. Il m’a connecté à
-   L’auteur, c’est son chef-d’œuvre.
+   [7] La « conscience malheureuse » procède du motif hégélien du
+   « tombeau vide », tel que les Saintes Femmes découvrent le tombeau du
+   Christ.
 
-     Une nouvelle pièce ?
+   [8] Clément ROSSET, Le réel et son double, Paris, Gallimard, 1976.
 
-   Oui, elle est en cours d’écriture, mais plus rien à voir avec Jack
-   London. Elle parle de la quête de la pierre philosophale, une sorte de
-   chasse au trésor à la « Da Vinci Code » ou « Au nom de la rose ».
+   [9] Pour la question : « Où est situé l’Eden », voir Pascal QUIGNARD,
+   Les Paradisiaques (1^re éd. 2005), Paris, Gallimard, « Folio », 2007,
+   p. 21-22.
 
-   Le spectacle « La Maison du loup » aura lieu le samedi 23 avril au
-   théâtre à 20 h 30. Réservation au 03 83 76 48 60.
-     * Culture - Loisirs
-     * Spectacle
-     * Lunéville
-     * Lunéville-ville 54A
-     * Edition Lunéville
-     *
+   [10] Sur ce point, je renvoie à Jean DELUMEAU, Une histoire du Paradis,
+   Paris, Fayard, 1992.
 
-   0 commentaire
-   (BUTTON) COMMENTAIRES SUIVANTS
-   Réagir
-   Programme TV
-     * 19:50
-       Pologne / Argentine
-       22:55
-       Le Late avec Alain Chabat
-     * 21:10
-       Les invisibles
-       23:10
-       Infrarouge
-     * 21:10
-       Faut pas rêver
-       23:15
-       Justice en France
-     * 21:00
-       L'épopée joyeuse
-       22:40
-       Onze de légende
-     * 20:55
-       Pour une femme
-       22:45
-       Bonjour Sagan
-     * 21:10
-       Le meilleur pâtissier
-       23:20
-       Le meilleur pâtissier : revanche sous la tente
-     * 21:00
-       La grande librairie
-       22:35
-       C ce soir
-     * 21:20
-       Mongeville
-       23:10
-       Mongeville
-     * 21:05
-       Enquêtes criminelles
-       23:10
-       Enquêtes criminelles
-     * 21:25
-       Taxi 5
-       23:20
-       Taxi 4
-     * 21:05
-       De la ville à la campagne : un changement de vie de tous les défis
-       22:55
-       Ils ont tout quitté pour vivre leur rêve
-     * 21:10
-       Ransom Games
-       23:10
-       King Kong
-     * 20:30
-       Débatdoc
-       22:00
-       Sens Public
-     * 21:10
-       Bruce Springsteen & The E Street Band
-       23:40
-       Bruce Spingsteen : In His Own Words
-     * 21:10
-       Soir info
-       22:30
-       On peut tout se dire
-     * 21:10
-       U-235
-       23:05
-       The tourist
-     * 21:05
-       Noël : la fête préférée des Français
-       22:35
-       Noël : la fête préférée des Français
-     * 21:00
-       New York section criminelle
-       22:50
-       New York section criminelle
-     * 21:05
-       L'Équipe moteur - V6
-       21:55
-       L'Équipe du Soir
-     * 21:05
-       Les Mamans, 1 an après
-       22:00
-       Les Mamans, 1 an après
-     * 21:10
-       Routes sous haute tension
-       22:15
-       Dangers sur la route
-     * 21:10
-       Les reines de la mécanique
-       22:30
-       Les reines de la mécanique
-     * 21:05
-       Amours mortes
-       22:50
-       Enquêtes extraordinaires
-     * 20:00
-       Un œil sur le monde
-       22:00
-       Brunet, Hammett & Cie
+   [11] Cette relation avec le réel est justement ce qui pose problème au
+   pasteur Charles DODGSON, c’est-à-dire Lewis Carroll (les fillettes, la
+   photographie) et à James BARRIE, le créateur de Peter Pan (le nanisme).
 
-   Voir tous les programmes
+   [12] J.-B. Pontalis, Loin (1^re éd. 1980), Paris, Gallimard, « Folio »,
+   1992. Signalé par Michel Gribinski dans son article intitulé
+   « Dépaysement », Le Royaume intermédiaire : Psychanalyse, littérature,
+   autour de J.-B. Pontalis, Paris, Gallimard, « Folio-Essais », 2007.
 
-     * Thématiques
-          + En Franche-Comté
-          + En Lorraine
-          + France - Monde
-          + Faits-divers
-          + Politique
-          + Économie
-          + Environnement
-          + Sport
-          + Lifestyle
-          + Automobile
-          + Santé
-          + Immobilier
-          + Cuisine & vins
-          + Tourisme & patrimoine
-          + Les lecteurs voyageurs
-          + Élections et résultats
-     * Services
-          + Boutique
-          + Programme TV
-          + Météo
-          + Avis de décès
-          + Annonces immobilières
-          + Annonces automobile
-          + Nos partenaires
-          + Infos Services
-          + Pour Sortir
-          + Lire le journal
-          + S'abonner
-          + Newsletters
-          + Application mobile
-          + Archives web
-          + Consulter nos archives
-          + Visiter le journal
-          + Devenir correspondant
-          + Devenir vendeur-colporteur de presse
-     * Les sites du groupe EBRA
-          + Le Républicain Lorrain
-          + Vosges Matin
-          + L'Alsace
-          + Le Bien Public
-          + Le Dauphiné Libéré
-          + Le Journal de Saône-et-Loire
-          + Le Progrès
-          + Les Dernières Nouvelles d'Alsace
-          + Le JDE
-          + Le groupe Ebra
-     * Annonces légales
-          + Annonces judiciaires et légales
-          + Vie des sociétés
-          + Marchés publics
-          + Partenaire de France marchés
+   [13] Pour Lawrence d’Arabie : « Comment me faire une peau arabe ? Ce
+   fut de ma part affectation pure », Les Sept Piliers de la sagesse,
+   notice « Lawrence d’Arabie », Dictionnaire des mythes d’aujourd’hui, s.
+   d. Pierre Brunel, Monaco, Du Rocher, 1999, p. 423. Pour Malraux, voir
+   Jean-Claude LARRAT, « Les deux tentations d’André Malraux » et « La
+   métamorphose comme expérience de la liberté », in Sans oublier Malraux,
+   Paris, Classiques Garnier, 2016.
 
-   Suivez-nous
-     * Facebook
-     * Twitter
-     * Instagram
-     * Linkedin
+   [14] On trouve un bel exemple de cette difficulté dans le roman de
+   François Garde, Ce qu’il advint du Sauvage blanc (Paris, Gallimard,
+   2012), où le héros, abandonné sur une île et devenu un « sauvage »,
+   refuse à son retour, à mesure qu’il réapprend le français, de parler de
+   son état antérieur. Comme s’il fallait conserver intacte la césure.
 
-     * Contact
-     * FAQ
-     * CGU du site
-     * Informations légales
-     * Protection des données
-     * Politique RSE
+   [15] Sa relation entre altération et altération, voir Michel Tournier,
+   Les Météores (1^re éd. 1975), Paris, Gallimard, « Folio », 1977,
+   p. 549.
 
-   OJD OJD Digital Ad Trust Display Digital Ad Trust Display
+   [16] Sur Phileas Fogg et Le Tour du monde en quatre-vingts jours comme
+   roman philosophique, voir Michel Tournier, Les Météores (op. cit.,
+   p. 400-402) et Le Vent Paraclet (1^re éd. 1977), Paris, Gallimard,
+   « Folio », 1979, p. 273-276).
 
-     * A la une
-     * Fil Info
-     * Régions
-     * Vidéo
-     * Rechercher
+   [17] « Gide lisait du Bossuet en descendant le Congo. Cette posture
+   résume assez bien l’idéal de nos écrivains ‘en vacances’, photographiés
+   par Le Figaro : joindre au loisir banal le prestige d’une vocation que
+   rien ne peut arrêter ni dégrader », Roland BARTHES, Mythologies (1^re
+   éd. 1957), Œuvres complètes, I, Paris, Seuil, 1993, p. 580.
 
-   Régions
-     * L’actualité en Lorraine
-          + Nancy et agglomération
-          + Pont-à-Mousson
-          + Lunéville
-          + Toul
-          + Bar-le-Duc
-          + Verdun
-     * L’actualité en Franche-Comté
-          + Besançon
-          + Pontarlier - Haut-Doubs
-          + Vesoul - Haute-Saône
-          + Belfort - Montbéliard
+   [18] Jean-Philippe Toussaint, La Salle de bain, Paris, Minuit, 1985,
+   p. 82 et p. 87.
+
+   [19] L’un des derniers dialogues de Platon.
+
+   [20] Louis-Ferdinand CÉLINE, Voyage au bout de la nuit (1^re éd. 1932),
+   Romans I, Paris, Gallimard, « Bibliothèque de la Pléiade », 1981,
+   respectivement p. 13 et p. 15.
+
+   [21] Marguerite YOURCENAR : « Qui serait assez insensé pour mourir sans
+   avoir fait au moins le tour de sa prison ». La formule se trouve
+   d'abord dans L'Œuvre au Noir, in Œuvres romanesques, Paris, Gallimard,
+   « Bibliothèque de la Pléiade », 1982, p. 564 puis est reprise en
+   épigraphe du texte intitulé « Le Tour de la prison », in Essais et
+   mémoires, Paris, Gallimard, « Bibliothèque de la Pléiade », 1991,
+   p. 595.
+
+   [22] J’emprunte cette notion à un article de Michel Tournier : « Le
+   Rouge et le Noir, roman de confrontation », in Le Vol du vampire,
+   Paris, Mercure de France, 1981, p. 136-137. Dans le domaine de la
+   fiction, on pense à Don Quichotte, qui voit le monde à travers les
+   romans de chevalerie et croit en revivre certains épisodes. Quant aux
+   « idéologues », tout vient corroborer leurs thèses : Bossuet ne cesse
+   de rencontrer dans l’histoire de nouvelles preuves en faveur du
+   providentialisme, et Pangloss dans chaque épisode la démonstration de
+   sa philosophie de l’optimisme.
+
+   [23] D’où ce portrait de Phileas Fogg par Michel Tournier : « C’est un
+   voyageur. Un voyageur en chambre. Il possède du voyage une connaissance
+   abstraite, livresque, et il en déduit a priori qu’on doit pouvoir faire
+   le tour du monde en quatre-vingts jours. La confrontation de ce savoir
+   a priori et de la dure réalité fait tout le contenu du roman [...] »,
+   Le Vent Paraclet, op. cit., p. 273.
+
+   [24] Bertrand Westphal, Le Monde plausible : Espace, lieu, carte,
+   Paris, Minuit, 2011. Sur le besoin de localiser le centre, G. Perec,
+   Espèces d’espaces, op. cit., p. 125.
+
+   [25] Sigmund FREUD, Introduction à la psychanalyse (1^re éd. 1921),
+   trad. S. Jankélévitch, Paris, Payot, 2001, p. 343-344.
+
+   [26] Jacques Lacan, Écrits, Paris, Seuil, 1966, p. 516-517.
+
+   [27] Parmi ces bouleversements, la guerre, que le héros de Comme le
+   temps passe, de Robert Brasillach, décrit comme une forme de
+   « dépaysement », [1937], Paris, Plon, 1989, p. 111.
+
+   [28] Franz KAFKA, Œuvres complètes, Paris, Gallimard, « Bibliothèque de
+   la Pléiade », 1976, p. 453-455. Albert Camus, Le Mythe de Sisyphe, in
+   Essais, Paris, Gallimard, « Bibliothèque de la Pléiade », 1965, p. 111,
+   et « Entre oui et non », L’Envers et l’Endroit, ibid., p. 27. Jean-Paul
+   SARTRE, La Nausée, in Œuvres romanesques, Paris, Gallimard,
+   « Bibliothèque de la Pléiade », 1981, p. 152.
+
+   [29] Michel BUTOR, La Modification, Paris, Minuit, 1957, réédition UGE,
+   1970, collection 10/18, p. 152.
+
+   [30] Jean-Claude LARRAT, Sans oublier Malraux, Paris, Classiques
+   Garnier, 2016, p. 47.
+
+   [31] François RABELAIS, Le Quart Livre, chap. 55-56, éd. G. Defaux et
+   R. Marichal, Librairie Générale Française, 1994, chap. LIV-LVI,
+   p. 529-545.
+
+   [32] Nicole LAPIERRE, Pensons ailleurs (1^re éd. 2004), rééd. Paris,
+   Gallimard, « Folio-Essais », 2006, p. 12. Le titre de cet essai est
+   emprunté à Montaigne : « Nous pensons toujours ailleurs » (chap. « De
+   la diversion », Essais, III, 4, Paris, Gallimard, « Bibliothèque de la
+   Pléiade », 1962, p. 812.
+
+   [33] Cette extimité renvoie bien sûr à une conception nietzschéenne du
+   sujet, dont on retrouve l’écho chez Deleuze (avec, par exemple, la
+   question du moi rhizomatique).
+
+   [34] Cité par Clément ROSSET, Loin de moi : Étude sur l’identité,
+   Paris, Minuit, 1999, p. 91. Fréquemment évoqué, entre autres par Luther
+   qui trouve ce texte scandaleux puisque le chrétien, lui, sait
+   exactement d’où il vient et où il va, ce poème a été l’objet de
+   nombreuses polémiques quant à sa paternité, sa date (XV^e siècle ?) et
+   son statut : épitaphe ? prologue ?
+
+   Résumé
+
+   L’expérience du dépaysement peut constituer à la fois un espoir – pour
+   ceux qui rêvent d’un ailleurs – et un motif d’inquiétude – pour ceux
+   qui craignent de perdre leurs repères et refusent d’affronter
+   l’altérité du monde. Mais si, le plus souvent, il n’est de dépaysement
+   qu’au prix d’un déplacement, il arrive aussi que cette expérience
+   procède simplement d’un regard nouveau sur le réel. Et que, loin de
+   constituer un motif d’anxiété, elle incite le moi à se départir de
+   lui-même et à se réinventer.
+
+
+   Abstract
+
+   The experience of disorientation can be both a hope, for those who
+   dream to be elsewhere and a cause for concern, for those who are afraid
+   to lose their bearings and refuse to face the otherness of the world.
+   Usually, there is change of scenery when there’s a shift, but it also
+   happens that the experience results of a new look at the real. And
+   that, away from being a cause of concerns, it encourages to reinvent
+   oneself, getting rid of the old self.
+
+   Je ne suis pas là où je devrais être
+
+   Je suis chez moi même ailleurs
+
+   Je ne suis pas là où je croyais être
+
+   Jacques POIRIER
+
+   Univ. de Bourgogne-Franche Comté
+   Jacques POIRIER, « Dépaysement et déplacement : du rêve d’ailleurs au
+   voyage immobile », L’Entre-deux, 4 (1) | décembre 2018 | URL :
+   https://www.lentre-deux.com/?b=53 | consulté le 30-11-2022
+
+   BARTHES, Roland, Mythologies (1^re éd. 1957), Œuvres complètes, I,
+   Paris, Seuil, 1993.
+
+
+   BAUDELAIRE, Charles, Les Fleurs du mal (1^re éd. 1857), Paris,
+   Gallimard, poésie-nrf, 2006.
+
+
+   BAYARD, Pierre, Comment parler des lieux où l’on n’a pas été, Paris,
+   Minuit, 2011.
+
+
+   BEAUSSANT, Philippe, La Belle au bois, Paris, Gallimard, 1989.
+
+
+   BRASILLACH, Robert, Comme le temps passe (1^re éd. 1937), Paris, Plon,
+   1989.
+
+
+   BRUNEL, Pierre (dir.), notice « Lawrence d’Arabie », in Dictionnaire
+   des mythes d’aujourd’hui, Monaco, Du Rocher, 1999.
+
+
+   BUTOR, Michel, La Modification, Paris, Minuit, 1957, réédition UGE,
+   1970, collection 10/18.
+
+
+   CAMUS, Albert Le Mythe de Sisyphe, in Essais, Paris, Gallimard,
+   « Bibliothèque de la Pléiade », 1965.
+
+   —, L’Envers et l’Endroit, in Essais, Paris, Gallimard, « Bibliothèque
+   de la Pléiade », 1965.
+
+
+   CÉLINE, Louis-Ferdinand, Voyage au bout de la nuit (1^re éd. 1932),
+   Romans I, Paris, Gallimard, « Bibliothèque de la Pléiade », 1981.
+
+
+   CORNEILLE, Pierre, Le Menteur, Théâtre complet, II, Paris, Classiques
+   Garnier, 1960.
+
+
+   DELUMEAU, Jean, Une histoire du Paradis, Paris, Fayard, 1992.
+
+
+   FREUD, Sigmund, Introduction à la psychanalyse (1^re éd. 1921), trad.
+   S. Jankélévitch, Paris, Payot, 2001.
+
+
+   GARDE, François, Ce qu’il advint du Sauvage blanc, Paris, Gallimard,
+   2012.
+
+
+   GRIBINSKI, Michel, « Dépaysement », Le Royaume intermédiaire :
+   Psychanalyse, littérature, autour de J.-B. Pontalis, Paris, Gallimard,
+   « Folio-Essais », 2007.
+
+
+   KAFKA, Franz, Œuvres complètes, Paris, Gallimard, « Bibliothèque de la
+   Pléiade », 1976.
+
+
+   LACAN, Jacques, Écrits, Paris, Seuil, 1966.
+
+
+   LAPIERRE, Nicole, Pensons ailleurs (1^re éd. 2004), rééd. Paris,
+   Gallimard, « Folio-Essais », 2006.
+
+
+   LARRAT, Jean-Claude, Sans oublier Malraux, Paris, Classiques Garnier,
+   2016.
+
+
+   MONTAIGNE, Michel de, Essais, III, 4, Paris, Gallimard, « Bibliothèque
+   de la Pléiade », 1962.
+
+
+   PONTALIS, J.-B., Loin (1^re éd. 1980), Paris, Gallimard, « Folio »,
+   1992.
+
+
+   QUIGNARD, Pascal, Les Paradisiaques (1^re éd. 2005), Paris, Gallimard,
+   « Folio », 2007.
+
+
+   RABELAIS, François Le Quart Livre, chap. 55-56, éd. G. Defaux et R.
+   Marichal, Librairie Générale Française, 1994.
+
+
+   ROSSET, Clément, Le réel et son double, Paris, Gallimard, 1976.
+
+   —, Loin de moi : Étude sur l’identité, Paris, Minuit, 1999.
+
+
+   SARTRE, Jean-Paul, La Nausée, in Œuvres romanesques, Paris, Gallimard,
+   « Bibliothèque de la Pléiade », 1981.
+
+
+   TOURNIER, Michel, Les Météores (1^re éd. 1975), Paris, Gallimard,
+   « Folio », 1977.
+
+   —, Le Vent Paraclet (1^re éd. 1977), Paris, Gallimard, « Folio », 1979.
+
+   —, Le Vol du vampire, Paris, Mercure de France, 1981.
+
+
+   TOUSSAINT, Jean-Philippe, La Salle de bain, Paris, Minuit, 1985.
+
+
+   YOURCENAR, Marguerite, L'Œuvre au Noir, in Œuvres romanesques, Paris,
+   Gallimard, « Bibliothèque de la Pléiade », 1982,
+
+   —, Essais et mémoires, Paris, Gallimard, « Bibliothèque de la
+   Pléiade », 1991.
+
+
+   WESTPHAL, Bertrand, Le Monde plausible : Espace, lieu, carte, Paris,
+   Minuit, 2011.
+
+   (BUTTON) version alpha 1.3 ©ThéoBlatz-2016

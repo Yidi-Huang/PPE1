@@ -1,1 +1,421 @@
-   Please enable JS and disable any ad blocker
+   Accueil
+
+La forge numérique
+
+   Espace numérique des productions multimédia de la Maison de la
+   Recherche en Sciences Humaines de l'Université de Caen Normandie
+   [LOGO_CNRS_2019_RVB.png] [unicaenRond.png]
+     * A voir
+          + Conférences
+          + Paroles de chercheurs
+          + Des savoirs, des gestes
+          + Témoins et passeurs
+          + Tables rondes
+          + Livres et auteurs
+          + Docus
+          + Atelier de création (FRESH)
+          + Entretiens
+     * A écouter
+          + Conférences
+          + Les cafés de la ville
+          + C'était hier
+          + Chroniques
+     * Instantanés
+     * Expos en ligne
+     * ?
+
+Disciplines
+
+     * Aménagement
+     * Cheval
+     * Physique
+     * Médecine
+     * Sociologie
+     * Société
+     * Sciences politiques
+     * Sciences de la nature
+     * Sciences de l'information et de la communication
+     * Sciences de l'Éducation
+     * Psychologie
+     * Philosophie
+     * Neurosciences
+     * Mathématiques
+     * Anthropologie
+     * Littérature
+     * Linguistique
+     * Informatique
+     * Horticulture
+     * Histoire de l'Art
+     * Histoire
+     * Géographie
+     * Education physique et sportive
+     * Économie
+     * Droit
+     * Biologie
+     * Arts du spectacle
+     * Arts
+     * Archéologie
+
+Référents
+
+     * Abensour (Miguel)
+     * Adorno (Theodor W.)
+     * Althusser (Louis)
+     * Anders (Günther)
+     * Antonioni (Michelangelo)
+     * Aragon (Louis)
+     * Arguedas (José Maria)
+     * Aristote
+     * Arrow (Kenneth)
+     * Artaud (Antonin)
+     * Assises (François d')
+     * Aulagnier (Piera)
+     * Bachelard (Gaston)
+     * Balzac (Honoré de)
+     * Barbey d'Aurevilly (Jules)
+     * Barthes (Roland)
+     * Baudrillard (Jean)
+     * Beck (Philippe)
+     * Benjamin (Walter)
+     * Benn (Gottfried)
+     * Bergson (Henri)
+     * Berlin (Isaiah)
+     * Berlusconi (Silvio)
+     * Bernays (Edward)
+     * Berque (Augustin)
+     * Bessette (Hélène)
+     * Bhabha (Homi)
+     * Bollnow (Otto Friedrich)
+     * Bon (François)
+     * Borges (Jorge Luis)
+     * Botéro (Giovanni)
+     * Boudia (Mohamed)
+     * Brassens (Georges)
+     * Breton (André)
+     * Byatt (A. S.)
+     * Campanella (Tommaso)
+     * Camus (Albert)
+     * Caroll (Lewis)
+     * Cassirer (Ernst)
+     * Castiglione (Baldassare)
+     * Cavalli (Francesco)
+     * Celan (Paul)
+     * Chabrol (Claude)
+     * Challes (Robert)
+     * Chardin (Jean Siméon)
+     * Chaunu (Pierre)
+     * Clément (Gilles)
+     * Comte (Auguste)
+     * Conan Doyle (Arthur)
+     * Condorcet
+     * Condé (Maryse)
+     * Corneille (Thomas)
+     * Cortázar (Julio)
+     * Cunningham (Merce)
+     * Céline (Louis-Ferdinand)
+     * Césaire (Aimé)
+     * Darwin (Charles)
+     * De Vinci (Léonard)
+     * Deleuze (Gilles)
+     * Descartes (René)
+     * Desjardins (Paul)
+     * Desplechin (Arnaud)
+     * Dewey (John)
+     * Diderot
+     * Dumas (Alexandre)
+     * Duras (Marguerite)
+     * Durkheim (Émile)
+     * Duvignaud (Jean)
+     * Engels (Friedrich)
+     * Ernaux (Annie)
+     * Ernst (Max)
+     * Espedal (Tomas)
+     * Feldman (Valentin)
+     * Flaubert (Gustave)
+     * Fonda (Jane)
+     * Foucault (Michel)
+     * Franco (Francisco)
+     * François1er
+     * Frédéric Jacques Temple
+     * Furetière (Antoine)
+     * Garibaldi (Giuseppe)
+     * Gautier (Théophile)
+     * Gilardi (Piero)
+     * Godard (Jean-Luc)
+     * Goethe (Johann Wolfgang von)
+     * Goldmann (Lucien)
+     * Granel (Gérard)
+     * Grimm (Jacob et Wilhelm)
+     * Grotowski (Jerzy)
+     * Gréco (le)
+     * Grémillon (Jean)
+     * Guatelli (Ettore)
+     * Guillaume le Conquérant
+     * Halbwachs (Maurice)
+     * Handke (Peter)
+     * Heidegger (Martin)
+     * Hergé
+     * Homère
+     * Hugo (Victor)
+     * Hume (David)
+     * Husserl (Edmund)
+     * Ingarden (Roman)
+     * Kahn (Albert)
+     * Kant (Emmanuel)
+     * Kiefer (Anselm)
+     * Kierkegaard (Søren)
+     * Klee (Paul)
+     * Koons (Jeff)
+     * Kracauer (Siegfried)
+     * Kristeva (Julia)
+     * Kroeber (Alfred Louis)
+     * Lachiver (Marcel)
+     * Laurens (Camille)
+     * Law de Lauriston (John)
+     * Le Masson du Parc (François)
+     * Lefebvre (Henri)
+     * Lefort (Claude)
+     * Lewis (Clive Staples)
+     * Locke (John)
+     * Lully (Jean-Baptiste)
+     * Lévi-Strauss (Claude)
+     * Lévy (Michel)
+     * Maldiney (Henri)
+     * Mallarmé (Stéphane)
+     * Mann (Thomas)
+     * Mansart (François)
+     * Marcuse (Herbert)
+     * Marigny (marquis de)
+     * Marivaux
+     * Marx (Karl)
+     * Maupassant (Guy de)
+     * Mauss (Marcel)
+     * McEwan (Ian)
+     * Mendras (Henri)
+     * Michel (Jean-Paul)
+     * Miller (Alice)
+     * Mirbeau (Octave)
+     * Monet (Claude)
+     * Monod (Jacques)
+     * Morgan (Lewis Henry)
+     * Morin (Edgar)
+     * Morrison (Toni)
+     * Mortati (Constantino)
+     * Murugan (Perumal)
+     * Nardal (Paulette)
+     * Nassar (Raduan)
+     * Nerval (Gérard de)
+     * Nimier (Roger)
+     * Novarina (Valère)
+     * Page (Russell)
+     * Panckoucke (Charles-Joseph)
+     * Pasolini (Pier Paulo)
+     * Picasso (Pablo)
+     * Piel (Jean)
+     * Platon
+     * Pline
+     * Poe (Edgar Allan)
+     * Polanski (Roman)
+     * Ponge (Francis)
+     * Poutine (Vladimir)
+     * Proust (Marcel)
+     * Prévert (Jacques)
+     * Prévost (l'Abbé)
+     * Péguy (Charles)
+     * Pérec (Georges)
+     * Quignard (Pascal)
+     * Quint (Charles)
+     * Quiroga (Horacio)
+     * Racine (Jean)
+     * Rawls (John)
+     * Raynal (Henri)
+     * Ricardou (Jean)
+     * Rivers (William Halse)
+     * Rivette (Jacques)
+     * Robbe-Grillet (Alain)
+     * Roerich (Nicolas et Elena)
+     * Rorty (Richard)
+     * Rosanvallon (Pierre)
+     * Rousseau (Jean-Jacques)
+     * Saint Louis
+     * Saint-Pierre (abbé de)
+     * Sand (George)
+     * Santerre (Antoine-Joseph)
+     * Sebald (W.G.)
+     * Segalen (Victor)
+     * Sen (Amartya)
+     * Shakespeare (William)
+     * Siegfried (André)
+     * Simondon (Gilbert)
+     * Smith (Adam)
+     * Socrate
+     * Spinoza (Baruch)
+     * Stendhal
+     * Stevenson (Robert Louis)
+     * Storm (Theodor)
+     * Strindberg (August)
+     * Sévigné (Mme de)
+     * Tal Coat (Pierre)
+     * Tardieu (Jean)
+     * Thiers (Adolphe)
+     * Thomas (Louis-Vincent)
+     * Tolkien (John Ronald Reuel)
+     * Trudaine (père & fils)
+     * Truffaut (François)
+     * Van Peebles (Melvin)
+     * Vauban
+     * Vernant (Jean-Pierre)
+     * Vernet (Joseph)
+     * Vidal-Naquet (Pierre)
+     * Vigny (Alfred de)
+     * Vinje (Aasmund Olavsson)
+     * Végèce
+     * Warwick (Kevin)
+     * Watteau (Antoine)
+     * Weber (Max)
+     * Weil (Simone)
+     * Wolf (Christa)
+     * Zaltzman (Nathalie)
+     * Zola (Émile)
+     * Zumthor (Peter)
+
+Événements
+
+     * Semaine de la mémoire 2014 (16)
+     * Semaine de la mémoire 2016 (20)
+     * Semaine de la mémoire 2018 (15)
+     * Semaine de la Mémoire 2021 (12)
+
+   Documents labellisés
+   [mrsh.png]
+
+Dépaysement et déplacement : du rêve d’ailleurs au voyage immobile
+
+   Mobilité | Tourisme | Voyage | Altérité
+   Posté le 23/10/2017
+     __________________________________________________________________
+
+   4097 lectures
+   Jacques Poirier, Professeur honoraire de littérature française
+   Université de Bourgogne
+   Structure de recherche associée à la MRSH : LASLAR
+   Date : 05/10/2017
+   Lieu : Amphi MRSH Caen
+   Durée : 26:39
+   Télécharger ce fichier (mp3)
+   [jacquesPoirier2017Ok.jpg]
+
+   Cette communication a été enregistrée lors du colloque Le Dépaysement
+   au XXe et XXIe s. qui s'est tenu à la MRSH de Caen le 5 octobre 2017.
+
+   Professeur émérite à l'Université de Bourgogne, Jacques Poirier
+   travaille sur les relations de la littérature française et des sciences
+   humaines (deux ouvrages publiés sur les écrivains français et la
+   psychananyse) ainsi que sur les mythes littéraires (Judith et
+   Holopherne, 2004). Il a participé à de nombreux dictionnaires, et a
+   contribué à l'édition en Pléiade des Romans de Michel Tournier (2017).
+   Avec Arlette Bouloumié, il prépare un Dictionnaire Michel Tournier
+   (2018); et il travaille en ce moment à un essai sur "Les Lettres
+   françaises et la psychanalyse (1900-1944)".
+
+   Résumé de la communication
+
+   La proximité phonétique et l’illusion étymologique incitent à percevoir
+   le dépaysement comme le produit d’un déplacement. Dans toute une
+   tradition, dont le tourisme constitue la forme dégradée, le dépaysement
+   passe par la découverte des mondes lointains, ces mondes à l’envers
+   qu’ont pu représenter les îles des mers du Sud au XVIIIe s., ou
+   l’Orient fantasmatique du XIXe siècle, qui offrent au voyageur le
+   spectacle d’un monde à l’envers. Mais le dépaysement est un terme
+   équivoque, qui suggère aussi bien le plaisir que la crainte (la crainte
+   de la dépossession, de n’être plus soi-même). Du coup, si beaucoup sont
+   partis en quête de l’ailleurs, il est d’autres voyageurs qui se sont
+   refusés à tout dépaysement. Quand le Robinson de Michel Tournier
+   choisit de coloniser l’île, il réduit l’écart, et du coup c’est l’île
+   qui se trouve “dépaysée” (arrachée à elle-même) ; quant à Phileas Fogg,
+   il est en mesure de traverser le monde sans jamais être affecté par
+   lui. Comme on le comprend à ces deux exemples, le déplacement peut ne
+   susciter aucun sentiment de dépaysement. À l’inverse, le dépaysement
+   peut atteindre sa plus grande intensité en l’absence de tout
+   déplacement, comme il advient quand, soudain, le monde familier devient
+   autre. Tel est le cas lorsqu’une révolution de la connaissance ou de la
+   pensée entraîne un décentrement, et donc un dépaysement : soudain, nous
+   ne sommes plus au centre (Copernic) ; soudain quelque chose en nous
+   nous échappe (Freud) ; soudain nous apprenons que les dieux s’en sont
+   allés (Le Gai Savoir) ; soudain, nous sommes « de trop » (La Nausée).
+   Il suffit donc que notre regard sur le monde change pour que nous nous
+   retrouvions “dépaysés”, c’est-à-dire en étrange pays dans notre pays
+   lui-même.
+
+
+   Tweet Widget Partager sur Facebook Bouton de partage LinkedIn Google
+   Plus Un
+   Rechercher dans la forge numérique
+
+Sujets
+
+   Adoption Agriculture Agronomie Alimentation Altérité Amour Aménagement
+   Animaux Apprentissage Architecture Archives Arts Attachement
+   Autofiction Autorité Beauté Big Data Bonheur Cartographie Catastrophe
+   Chanson Cheval Cinéma Classes sociales Climat Cognition Collectivité
+   Commerce Communication Complexité Comportement Concept Conflits
+   Conscience Consommation Constitution Coopération Corps Crise Croissance
+   Création Crédit Culture Célébration Danse Dessin Discrimination
+   Documents Droits Décision Démocratie Déplacements Développement
+   Echelles Ecrits Ecriture Ecrivains Edition Education Emploi Endettement
+   Energie Enfance Enfant Entreprise Environnement Epistémologie Equilibre
+   Equitation Esthétique Etats Ethique Europe Evaluation Evolution
+   Expression Famille Fiction Fiscalité Foi Folklore Fondation Formation
+   Futur Genre histoire Historiographie Héritage Identité Idées Image
+   Imaginaire Individualisme Industrialisation Informel Innovation
+   Insertion Institutions Intellectuels Interdisciplinarité Inégalités
+   Italie Itinéraire Jardins Jeu Jeunesse Justice Langage Lexicologie
+   Liberté Lien social Limites Littérature Logement Loisirs Maladie
+   Marginalité Maritime Migration Militaire Minorités Mobilité Mode
+   Modélisation Monnaie Morale Mort Motricité Musique Mutations Mythes
+   Médecine Mémoire Nature Normandie Normes Nucléaire Numérique Orient
+   Orientation Ouvrages Paix Pandémie Parenté Parole Patrimoine Paysage
+   Peinture Pensée Performance Personnage Philosophie Photographie
+   Phénoménologie Plaisir Politique Population Pouvoir Poésie Presse
+   Prison Procréation Progrès Propagande Propriété Protection Précarité
+   Pêche Rebellion Recherche Relations Religion Renaissance Responsabilité
+   Ressources Risques Rituel Ruralité Réseaux Santé Sciences & techniques
+   Scolarité Sens Sensibilité Sexe SHS Sociologie Sociétés Sols Son
+   Souffrance Spectacle Sport Suicide Surréalisme Syndicalisme Sécurité
+   Ségrégation Sémantique Technologie Temps Territoire Théâtre Toponymie
+   Tourisme Transmission Transplantation Transports Travail Urbanisation
+   Urbanisme Utopie Valeurs Vestiges Victimes Vie Vigne Ville Violence
+   Virtuel Voyage Vulnérabilité Vérité Weber Écologie
+
+Partenaires
+
+     * Centre Culturel International de Cerisy (CCIC) (261)
+     * Institut Européen des Jardins et Paysages (52)
+     * Institut Mémoires de l'Edition Contemporaine (IMEC) (36)
+     * Les Boréales (4)
+     * Mémorial de Caen (43)
+     * Mondes Sociaux (2)
+
+Langues
+
+     * [en.png]    Anglais (76)
+     * [pt.png]    Portugais (1)
+     * [es.png]    Espagnol (19)
+     * [it.png]    Italien (4)
+
+Geolocalisation
+
+   Afrique Afrique du sud Algérie Allemagne Amérique du Nord Amérique du
+   Sud Angleterre Argentine Arménie Asie Autriche Balkans Belgique Berlin
+   Bolivie Bretagne Brésil Burkina Faso Caen Cambodge Canada Chili
+   Colombie Corée Côte d'Ivoire Danemark Espagne Europe Finlande France
+   Grèce Guadeloupe Inde Irak Iran Irlande Islande Israël Italie Japon
+   Liban Lituanie Mali Maroc Mauritanie Mer de la Manche Mexique MRSH Caen
+   Nigéria Normandie Norvège Nouvelle-Zélande Pakistan Palestine Paris
+   Pays-Bas Philippines Polynésie française Portugal Pérou Royaume-Uni
+   Russie Suisse Suède Tchécoslovaquie Tobago Togo Trinidad Tunisie
+   Ukraine Uruguay USA v Viet Nam Vénézuela
+   Les documents de la forge les plus consultés
+   [LOGO_CNRS_2019_RVB.png]    [logo-ucbn.png]
+   Abonnements - Fils RSS de la MRSH
+   MRSH-Caen, 2022

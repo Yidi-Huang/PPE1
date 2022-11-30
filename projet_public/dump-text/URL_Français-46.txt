@@ -1,705 +1,249 @@
-   ﻿
+   #Subscribe to recent articles
 
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-PXQZP7N
+   Jump to navigation
 
-     * Télévision
-     * Lire mon journal
-     *
-     *
-     *
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-56TTNCM
 
-   Chaumont
-   1°C / 6°C Annoncez vos évènements Abonnez-vous
-   [logo_header.jpg]
-     *
-     * Haute-Marne
-          + Dernières actus
-               o Haute-Marne : "Je ne travaillerai jamais avec vous !"
-              Haute-Marne : "Je ne travaillerai jamais avec vous !"
-                    # Haute-Marne
-                    # 17h00 - 28/11/2022
-               o Hôpital à Rolampont : le ton monte en terre chaumontaise
-              Hôpital à Rolampont : le ton monte en terre chaumontaise
-                    # Haute-Marne
-                    # 14h26 - 25/11/2022
-               o Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-              Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-                    # Haute-Marne
-                    # 07h00 - 24/11/2022
-          + Les + lus
-               o Hôpital à Rolampont : le ton monte en terre chaumontaise
+     * Close
+     * Menu
 
-Hôpital à Rolampont : le ton monte en terre chaumontaise
-                    # Haute-Marne
-                    # 14h26 - 25/11/2022
-               o Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
+     * Logo Humanité
 
-Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-                    # Haute-Marne
-                    # 07h00 - 24/11/2022
-               o Haute-Marne : une semaine pour découvrir les produits
-                 locaux dans les cantines
+     * Se connecter
 
-Haute-Marne : une semaine pour découvrir les produits locaux dans les
-cantines
-                    # Haute-Marne
-                    # 17h54 - 23/11/2022
-               o Haute-Marne : "Je ne travaillerai jamais avec vous !"
+     * Mes journaux
 
-Haute-Marne : "Je ne travaillerai jamais avec vous !"
-                    # Haute-Marne
-                    # 17h00 - 28/11/2022
-          + Galeries photos
-               o Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-              Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-                    # Haute-Marne
-                    # 07h00 - 24/11/2022
-               o Micro-Folie... quèsaco ? Partons à Val-d'Esnoms pour le
-                 savoir...
-              Micro-Folie... quèsaco ? Partons à Val-d'Esnoms pour le
-                 savoir...
-                    # Haute-Marne
-                    # 10h29 - 22/11/2022
-               o Haute-Marne : 3 points de santé publique qui inquiètent
-                 les syndicats
-              Haute-Marne : 3 points de santé publique qui inquiètent les
-                 syndicats
-                    # Haute-Marne
-                    # 07h00 - 21/11/2022
-          + Vidéos
-               o Les sorties du weekend ! 02/07 et 03/07
-              Les sorties du weekend ! 02/07 et 03/07
-                    # Haute-Marne
-                    # 20h00 - 30/06/2022
-               o Les sorties du weekend ! 02/07 et 03/07
-              Les sorties du weekend ! 02/07 et 03/07
-                    # Haute-Marne
-                    # 20h00 - 30/06/2022
-               o Chaumont : Un voyage dans le passé
-              Chaumont : Un voyage dans le passé
-                    # Haute-Marne
-                    # 09h03 - 17/06/2022
-     * Saint-Dizier
-          + Dernières actus
-               o R1 : Chaumont et Saint-Dizier à domicile
-              R1 : Chaumont et Saint-Dizier à domicile
-                    # Saint-Dizier
-                    # 07h00 - 27/11/2022
-               o La Sainte-Catherine à Saint-Dizier ou à Langres
-              La Sainte-Catherine à Saint-Dizier ou à Langres
-                    # Saint-Dizier
-                    # 07h00 - 26/11/2022
-               o Saint-Dizier : la Bamas ouvre ses portes, une première
-              Saint-Dizier : la Bamas ouvre ses portes, une première
-                    # Saint-Dizier
-                    # 07h00 - 25/11/2022
-          + Les + lus
-               o La Sainte-Catherine à Saint-Dizier ou à Langres
-
-La Sainte-Catherine à Saint-Dizier ou à Langres
-                    # Saint-Dizier
-                    # 07h00 - 26/11/2022
-               o Saint-Dizier : la Bamas ouvre ses portes, une première
-
-Saint-Dizier : la Bamas ouvre ses portes, une première
-                    # Saint-Dizier
-                    # 07h00 - 25/11/2022
-               o Saint-Dizier : les animaux de chez nous se font tirer le
-                 portrait
-
-Saint-Dizier : les animaux de chez nous se font tirer le portrait
-                    # Saint-Dizier
-                    # 17h00 - 24/11/2022
-               o R1 : Chaumont et Saint-Dizier à domicile
-
-R1 : Chaumont et Saint-Dizier à domicile
-                    # Saint-Dizier
-                    # 07h00 - 27/11/2022
-          + Galeries photos
-               o R1 : Chaumont et Saint-Dizier à domicile
-              R1 : Chaumont et Saint-Dizier à domicile
-                    # Saint-Dizier
-                    # 07h00 - 27/11/2022
-               o La Sainte-Catherine à Saint-Dizier ou à Langres
-              La Sainte-Catherine à Saint-Dizier ou à Langres
-                    # Saint-Dizier
-                    # 07h00 - 26/11/2022
-               o Saint-Dizier : les animaux de chez nous se font tirer le
-                 portrait
-              Saint-Dizier : les animaux de chez nous se font tirer le
-                 portrait
-                    # Saint-Dizier
-                    # 17h00 - 24/11/2022
-          + Vidéos
-               o Saint-Dizier : l'Université populaire fait sa "
-                 Révolution "
-              Saint-Dizier : l'Université populaire fait sa " Révolution "
-                    # Saint-Dizier
-                    # 16h45 - 25/02/2022
-               o VIDEO - Coupe rase de bois : la mairie de Narcy temporise
-              VIDEO - Coupe rase de bois : la mairie de Narcy temporise
-                    # Saint-Dizier
-                    # 16h33 - 22/11/2021
-     * Chaumont
-          + Dernières actus
-               o Pour voir plus loin et aller plus haut
-              Pour voir plus loin et aller plus haut
-                    # Chaumont
-                    # 07h00 - 29/11/2022
-               o R1 : Chaumont et Saint-Dizier à domicile
-              R1 : Chaumont et Saint-Dizier à domicile
-                    # Chaumont
-                    # 07h00 - 27/11/2022
-               o Ehpad de Manois : Manger-main, pour que manger reste un
-                 plaisir
-              Ehpad de Manois : Manger-main, pour que manger reste un
-                 plaisir
-                    # Chaumont
-                    # 20h03 - 26/11/2022
-          + Les + lus
-               o Chaumont : la féerie de Noël s'empare de la ville dès le
-                 25 novembre
-
-Chaumont : la féerie de Noël s'empare de la ville dès le 25 novembre
-                    # Chaumont
-                    # 12h00 - 25/11/2022
-               o Pour voir plus loin et aller plus haut
-
-Pour voir plus loin et aller plus haut
-                    # Chaumont
-                    # 07h00 - 29/11/2022
-               o Ehpad de Manois : Manger-main, pour que manger reste un
-                 plaisir
-
-Ehpad de Manois : Manger-main, pour que manger reste un plaisir
-                    # Chaumont
-                    # 20h03 - 26/11/2022
-               o R1 : Chaumont et Saint-Dizier à domicile
-
-R1 : Chaumont et Saint-Dizier à domicile
-                    # Chaumont
-                    # 07h00 - 27/11/2022
-          + Galeries photos
-               o Pour voir plus loin et aller plus haut
-              Pour voir plus loin et aller plus haut
-                    # Chaumont
-                    # 07h00 - 29/11/2022
-               o R1 : Chaumont et Saint-Dizier à domicile
-              R1 : Chaumont et Saint-Dizier à domicile
-                    # Chaumont
-                    # 07h00 - 27/11/2022
-               o Ehpad de Manois : Manger-main, pour que manger reste un
-                 plaisir
-              Ehpad de Manois : Manger-main, pour que manger reste un
-                 plaisir
-                    # Chaumont
-                    # 20h03 - 26/11/2022
-          + Vidéos
-               o Chaumont : Un voyage dans le passé
-              Chaumont : Un voyage dans le passé
-                    # Chaumont
-                    # 09h03 - 17/06/2022
-               o Handi'cathlon, une journée inclusive
-              Handi'cathlon, une journée inclusive
-                    # Chaumont
-                    # 16h52 - 16/06/2022
-               o Vidéo : Avec la chorale du collège Oudinot à Chaumont
-              Vidéo : Avec la chorale du collège Oudinot à Chaumont
-                    # Chaumont
-                    # 17h00 - 26/05/2022
-     * Langres
-          + Dernières actus
-               o Langres : Téléthon... demandez le programme !
-              Langres : Téléthon... demandez le programme !
-                    # Langres
-                    # 07h00 - 28/11/2022
-               o Energie : Langres joue la carte de la sobriété
-              Energie : Langres joue la carte de la sobriété
-                    # Langres
-                    # 17h00 - 27/11/2022
-               o La Sainte-Catherine à Saint-Dizier ou à Langres
-              La Sainte-Catherine à Saint-Dizier ou à Langres
-                    # Langres
-                    # 07h00 - 26/11/2022
-          + Les + lus
-               o La Sainte-Catherine à Saint-Dizier ou à Langres
-
-La Sainte-Catherine à Saint-Dizier ou à Langres
-                    # Langres
-                    # 07h00 - 26/11/2022
-               o Energie : Langres joue la carte de la sobriété
-
-Energie : Langres joue la carte de la sobriété
-                    # Langres
-                    # 17h00 - 27/11/2022
-               o Energie : Langres joue la carte de la sobriété
-
-Energie : Langres joue la carte de la sobriété
-                    # Langres
-                    # 17h00 - 27/11/2022
-               o Langres : Téléthon... demandez le programme !
-
-Langres : Téléthon... demandez le programme !
-                    # Langres
-                    # 07h00 - 28/11/2022
-          + Galeries photos
-               o Langres : Téléthon... demandez le programme !
-              Langres : Téléthon... demandez le programme !
-                    # Langres
-                    # 07h00 - 28/11/2022
-               o La Sainte-Catherine à Saint-Dizier ou à Langres
-              La Sainte-Catherine à Saint-Dizier ou à Langres
-                    # Langres
-                    # 07h00 - 26/11/2022
-               o Micro-Folie... quèsaco ? Partons à Val-d'Esnoms pour le
-                 savoir...
-              Micro-Folie... quèsaco ? Partons à Val-d'Esnoms pour le
-                 savoir...
-                    # Langres
-                    # 10h29 - 22/11/2022
-          + Vidéos
-            Aucun article
-     * Côte-d’Or
-          + Dernières actus
-               o Un marathon dans le sud haut-marnais !
-              Un marathon dans le sud haut-marnais !
-                    # Côte-d’Or
-                    # 07h00 - 29/08/2022
-               o Promenons-nous dans les bois
-              Promenons-nous dans les bois
-                    # Côte-d’Or
-                    # 07h00 - 15/06/2022
-               o Haute-Marne : Un nouvel appel à projets lancé par le Parc
-                 national de forêts
-              Haute-Marne : Un nouvel appel à projets lancé par le Parc
-                 national de forêts
-                    # Côte-d’Or
-                    # 06h45 - 23/02/2022
-          + Les + lus
-               o AG du parc national : des élus quittent la salle
-
-AG du parc national : des élus quittent la salle
-                    # Côte-d’Or
-                    # 11h00 - 11/07/2019
-               o Un marathon dans le sud haut-marnais !
-
-Un marathon dans le sud haut-marnais !
-                    # Côte-d’Or
-                    # 07h00 - 29/08/2022
-               o Création du Parc national : J-9
-
-Création du Parc national : J-9
-                    # Côte-d’Or
-                    # 09h20 - 30/10/2019
-               o Siège du parc : le verdict approche
-
-Siège du parc : le verdict approche
-                    # Côte-d’Or
-                    # 05h55 - 04/05/2019
-               o Un président côte-d'orien pour le Parc national
-
-Un président côte-d'orien pour le Parc national
-                    # Côte-d’Or
-                    # 18h59 - 23/09/2020
-               o TER Châlons – Chaumont du matin : maintien de l’horaire
-                 souhaité par les usagers
-
-TER Châlons – Chaumont du matin : maintien de l’horaire souhaité par les
-usagers
-                    # Côte-d’Or
-                    # 11h28 - 26/11/2018
-          + Galeries photos
-               o Promenons-nous dans les bois
-              Promenons-nous dans les bois
-                    # Côte-d’Or
-                    # 07h00 - 15/06/2022
-               o Haute-Marne : Lilou Pintat se fait une place dans l'élite
-                 à Dijon.
-              Haute-Marne : Lilou Pintat se fait une place dans l'élite à
-                 Dijon.
-                    # Côte-d’Or
-                    # 06h45 - 08/02/2022
-               o Haute-Marne : Pour ou contre les énergies renouvelables
-                 dans le parc national
-              Haute-Marne : Pour ou contre les énergies renouvelables dans
-                 le parc national
-                    # Côte-d’Or
-                    # 06h45 - 07/02/2022
-          + Vidéos
-            Aucun article
-     * Aube
-          + Dernières actus
-               o Dommartin-le-Saint-Père : Transmettre son exploitation
-              Dommartin-le-Saint-Père : Transmettre son exploitation
-                    # Aube
-                    # 06h30 - 07/12/2021
-               o Rives Dervoises : un cinéma itinérant à la campagne
-              Rives Dervoises : un cinéma itinérant à la campagne
-                    # Aube
-                    # 10h12 - 06/12/2021
-               o Aube : 18 collèges dotés de composteurs
-              Aube : 18 collèges dotés de composteurs
-                    # Aube
-                    # 10h51 - 23/11/2021
-          + Les + lus
-               o Troyes : les illuminations de Noël bientôt en place
-
-Troyes : les illuminations de Noël bientôt en place
-                    # Aube
-                    # 16h47 - 20/11/2020
-               o RCF Aube/Haute-Marne ne diffusera plus
-
-RCF Aube/Haute-Marne ne diffusera plus
-                    # Aube
-                    # 12h35 - 12/05/2020
-               o Nigloland : "On s'attendait à pire"
-
-Nigloland : "On s'attendait à pire"
-                    # Aube
-                    # 08h25 - 18/08/2020
-               o Troyes Champagne Métropole met à disposition 50 vélos
-                 électriques en libre-service
-
-Troyes Champagne Métropole met à disposition 50 vélos électriques en
-libre-service
-                    # Aube
-                    # 12h25 - 02/07/2021
-               o Troyes : la Fnac a officiellement quitté le centre-ville
-
-Troyes : la Fnac a officiellement quitté le centre-ville
-                    # Aube
-                    # 10h40 - 24/04/2021
-               o Ces routes auboises qui repassent à 90 km/h
-
-Ces routes auboises qui repassent à 90 km/h
-                    # Aube
-                    # 11h06 - 04/01/2021
-          + Galeries photos
-               o Dommartin-le-Saint-Père : Transmettre son exploitation
-              Dommartin-le-Saint-Père : Transmettre son exploitation
-                    # Aube
-                    # 06h30 - 07/12/2021
-               o Rives Dervoises : un cinéma itinérant à la campagne
-              Rives Dervoises : un cinéma itinérant à la campagne
-                    # Aube
-                    # 10h12 - 06/12/2021
-               o Un 52e album pour René Grolier
-              Un 52e album pour René Grolier
-                    # Aube
-                    # 08h43 - 27/04/2021
-          + Vidéos
-               o Rives Dervoises : un cinéma itinérant à la campagne
-              Rives Dervoises : un cinéma itinérant à la campagne
-                    # Aube
-                    # 10h12 - 06/12/2021
-     * Sport
-          + Dernières actus
-               o Coupe de France : le Sporting Marnaval Club défie Bastia
-              Coupe de France : le Sporting Marnaval Club défie Bastia
-                    # Sport
-                    # 17h00 - 18/11/2022
-               o Haute-Marne : Axel Gobillot, espoir du cyclisme à 14 ans
-              Haute-Marne : Axel Gobillot, espoir du cyclisme à 14 ans
-                    # Sport
-                    # 17h00 - 16/10/2022
-               o Coupe de France : il y aura un haut-marnais au 7e tour
-              Coupe de France : il y aura un haut-marnais au 7e tour
-                    # Sport
-                    # 19h40 - 11/10/2022
-          + Les + lus
-               o Timéo Pelotte, toujours plus vite
-
-Timéo Pelotte, toujours plus vite
-                    # Sport
-                    # 08h30 - 17/02/2019
-               o Vaux-sur-Blaise repêché en Régional1 !
-
-Vaux-sur-Blaise repêché en Régional1 !
-                    # Sport
-                    # 12h44 - 27/06/2019
-               o Beach soccer : Vaux-sur-Blaise n'était pas loin de
-                 l'exploit
-
-Beach soccer : Vaux-sur-Blaise n'était pas loin de l'exploit
-                    # Sport
-                    # 14h00 - 02/07/2019
-               o Le Chaumont FC a de hautes ambitions
-
-Le Chaumont FC a de hautes ambitions
-                    # Sport
-                    # 07h00 - 18/08/2019
-               o Volley : le CVB doit retrouver le succès
-
-Volley : le CVB doit retrouver le succès
-                    # Sport
-                    # 17h00 - 01/11/2019
-               o Succès confirmé du Bike and Run de Bourdons
-
-Succès confirmé du Bike and Run de Bourdons
-                    # Sport
-                    # 13h01 - 25/03/2019
-          + Galeries photos
-               o Coupe de France : le Sporting Marnaval Club défie Bastia
-              Coupe de France : le Sporting Marnaval Club défie Bastia
-                    # Sport
-                    # 17h00 - 18/11/2022
-               o Haute-Marne : Axel Gobillot, espoir du cyclisme à 14 ans
-              Haute-Marne : Axel Gobillot, espoir du cyclisme à 14 ans
-                    # Sport
-                    # 17h00 - 16/10/2022
-               o Coupe de France : il y aura un haut-marnais au 7e tour
-              Coupe de France : il y aura un haut-marnais au 7e tour
-                    # Sport
-                    # 19h40 - 11/10/2022
-          + Vidéos
-               o Handi'cathlon, une journée inclusive
-              Handi'cathlon, une journée inclusive
-                    # Sport
-                    # 16h52 - 16/06/2022
-     * Vos sorties
-          + Agenda des sorties
-          + Concerts et spectacles
-     * Carnet
-     * Annonces légales
-     * Marchés publics
-     * Nos magazines
-          + Seniors d'aujourd'hui
-          + Vie Senior
-
+   (BUTTON)
      * Accueil
-     * Haute-Marne
-     * Saint-Dizier
-     * Chaumont
-     * Langres
-     * Côte-d’Or
-     * Aube
-     * Sport
-     * Vos sorties
-          + Agenda des sorties
-          + Concerts et spectacles
-     * Carnet
+     * Je m'abonne
+     * Toute l'actu
+
+Dommage
+       Billet
+       Berlin, annonçaient lundi les Échos, « adopte une politique moins
+       punitive à l’égard de ses chômeurs » avec une...
+       Maurice Ulrich
+       Réforme des retraites
+       Qatar 2022 plus jamais
+       Mort sur les chantiers du Qatar
+       Climat
+       Salaires et pouvoir d'achat
+          + Politique
+          + Société
+          + Social-Eco
+          + Culture et savoir
+          + Sports
+          + Monde
+          + Planète
+          + Médias
+          + En débat
+          + Vos droits
+          + Science
+       Édition
+       du Mercredi 30 Novembre
+       J'achète
+       Je m'abonne
+     * Réforme des retraites
+     * Qatar 2022 plus jamais
+     * Vidéos
+     * Vie quotidienne
+       Bon et sainFamilleSantéTravailDécouverte
+       Accédez à tous nos conseils pour mieux vivre au quotidien
+       Getty Images/iStockphoto
+       Un grain de beauté, c’est moche docteur ?
+       Le donjon de Vez, qui fait dialoguer architecture mediévale et art
+       contemporain, rouvrira au printemps 2023.© Arnaud Chicurel/
+       hemis.fr / AFP)
+       Une balade dans l’Oise, à la poursuite de l’Automne
+       Getty Images/iStock
+       L’enfant quitte le foyer : fin du monde ou délivrance parentale ?
+       Enfant malade dans la journée, professeur absent, grève… C’est
+       seule qu’il faut faire face aux imprévus. Getty Images/iStockphoto
+       Mamans solos au travail : beaucoup de galères, quelques avancées
+       Édition
+       du Jeudi 24 Novembre
+       J'achète
+       Je m'abonne
+     * Rechercher
+     * La boutique
+       Hors-série
+       Une histoire populaire du foot français
+       124 pages pour vivre l'épopée des Bleus, de 1904 à aujourd'hui,
+       sous un angle inédit.
+       J'achète
+       Revue
+       Déserts médicaux : la vérité, les solutions - La Terre | N°8
+       Notre dossier sur les déserts médicaux, l'élevage agroécologique,
+       nos portraits d'agriculteurs... 100 pages engagées...
+       J'achète
+       Livre
+       ANTIRACISME - 150 ans de combats
+       40 grands textes choisis et présentés par le philosophe Florian
+       Gulli pour construire des solidarités antiracistes...
+       J'achète
+       Livre
+       Les raisons de la guerre en Ukraine
+       Quelles sont les enjeux derrière cette tragédie ? Patrick Le Hyaric
+       propose des pistes d’analyses et de réflexions...
+       J'achète
+       Couplé intégral
+       Papier + numérique
+       [papier.svg] Le quotidien et le magazine papier livrés chez vous.
+       +
+       [numerique.svg] L’accès à tous les contenus payants du site
+       humanite.fr.
+       Je m'abonne
+       Week-end intégral
+       Papier + numérique
+       [papier.svg] Le quotidien du vendredi et le magazine papier livrés
+       chez vous.
+       +
+       [numerique.svg] L’accès à tous les contenus payants du site
+       humanite.fr.
+       Je m'abonne
+       Couplé 100%Web
+       Numérique
+       [numerique.svg] L’accès à tous les contenus payants du site
+       humanite.fr.
+       Je m'abonne
+       Retrouvez vos publications préférées sur le kiosque de l'Humanité
+
+   _______________
+   ×
+   Rechercher
+     * Recherche
+     * user
+          + Mon compte
+     * ventes
+          + Mes journaux
+          + Abonnez-vous
+          + La boutique
+     * Rubrique
+          + À la une
+          + Politique
+          + Social-Eco
+          + Société
+          + Culture et savoir
+          + Médias
+          + Sports
+          + Monde
+          + Planète
+          + En débat
+     * thèmes
+          + Vidéos
+     * Autres services
+          + Annonces légales
+          + Annonces : emplois, vacances...
+     * services
+          + La Fête de l'Humanité
+          + Les voyages de l'Humanité
+
+Dépaysement affaire Bettencourt: l'USM crie à "l'opération de manipulation"
+
+   Publié le
+   Samedi 23 Octobre 2010
+
+   Le président de l'Union syndicale des magistrats (USM), Christophe
+   Régnard, a qualifié samedi "d'opération de manipulation" la demande de
+   dépaysement de l'ensemble des procédures liées à l'affaire Bettencourt
+   par le procureur général de Versailles. "C'est une énorme opération de
+   manipulation pour éviter qu'Isabelle Prévost-Desprez n'aille au bout du
+   dossier (pour abus de faiblesse sur Liliane Bettencourt, visant
+   François-Marie Banier, ndlr). C'est parfaitement scandaleux", a affirmé
+   sur France Info le président de l'USM, syndicat majoritaire chez les
+   magistrats. "On veut dessaisir Isabelle Prévost-Desprez parce qu'elle
+   gêne. Cela fait un an que le parquet général essaye" de la "débarquer",
+   a ajouté Christophe Régnard. Après avoir annoncé la veille qu'il
+   saisissait la Cour de cassation pour un dépaysement du volet d'abus de
+   faiblesse, confié à la juge de Nanterre Isabelle Prévost-Desprez, le
+   procureur Philippe Ingall-Montagnier a déclaré au JDD qu'il souhaitait
+   aussi un dépaysement des enquêtes préliminaires ouvertes par son
+   subordonné, le procureur de Nanterre Philippe Courroye. Le procureur
+   général de Versailles n'a "absolument pas les moyens" de dessaisir le
+   procureur de la République de Nanterre des enquêtes préliminaires qu'il
+   a ouvertes notamment pour financement illégal politique, a précisé M.
+   Régnard. "C'est un magistrat avec une certaine ancienneté. Il le sait
+   parfaitement. Il n'y a aucun moyen procédural pour dessaisir le
+   procureur de la République de Nanterre. On est dans une opération de
+   manipulation", a-t-il estimé. Selon lui, "c'est annoncé pour faire
+   diversion". Isabelle Prévost-Desprez s'était saisie d'un supplément
+   d'information sur un abus de faiblesse de Liliane Bettencourt, dossier
+   dans lequel est poursuivi l'artiste François-Marie Banier, accusé par
+   la fille de l'octogénaire d'avoir extorqué un milliard d'euros de dons.
+   Elle avait renvoyé le procès de M. Banier sine die le 1er juillet suite
+   à la publication dans la presse de conversations téléphoniques
+   clandestines au domicile de l'héritière du groupe de cosmétiques
+   l'Oréal.
+
+   Édition
+   du Mercredi 30 Novembre
+   J'achète
+   Je m'abonne
+
+   Édition
+   du Jeudi 24 Novembre
+   J'achète
+   Je m'abonne
+   Les articles les plus lus
+   Qatar. Homosexualité, alcool : Doha, la schizophrène
+   Une institution a le pouvoir de faire taire Hanouna, mais...
+   Boycotter « Télé Bolloré », le dilemme de la gauche
+   Dans l’Ain, une oasis dans le désert médical
+
+   Partager
+     *
+     *
+     *
+     *
+
+     * Je m'abonne
+
+   Nos rubriques
+     * Politique
+     * Société
+     * Social-Eco
+     * Culture et savoir
+     * Sports
+     * Monde
+     * Planète
+     * Médias
+     * En débat
+     * Vos droits
+     * Science
+
+   Nos thèmes
+     * Vidéos
+     * Les Blogs et Chroniques
+     * Les Lettres Françaises
+
+   Nos services
+     * La Fête de l'Humanité
+     * Les voyages de l'Humanité
      * Annonces légales
-     * Marchés publics
-     * Nos magazines
-          + Seniors d'aujourd'hui
-          + Vie Senior
+     * Les offres d'emploi
+     * Vacances
 
-   En ce moment sur La Voix de la Haute-Marne
+     * Facebook
+     * Twitter
+     * youtube
 
-   En ce moment
-   covid-19
-   OK ____________________
+   Nos applications mobiles
+     * Sur Google Play
+     * Sur l'App Store
 
-L'incroyable histoire de la tribu Abelam racontée à Langres
-
-     * Dans Langres
-     * 09h22 - 04/05/2022
-     * Par Orianne Roger
-     * 0 Commentaire
-
-   L'exposition "Vannerie papou" a été inaugurée le 3 avril à l'occasion
-   des Journées européennes des métiers d'art, à Langres. &copy; photo :
-   Orianne Roger
-   L'exposition "Vannerie papou" a été inaugurée le 3 avril à l'occasion
-   des Journées européennes des métiers d'art, à Langres. - photo :
-   Orianne Roger
-   Lancée à l'occasion des Journées des métiers d'art, l'exposition
-   "Vannerie papou" est visible jusqu'au 29 mai au Musée Diderot de
-   Langres. Plongée dans la culture étonnante de la tribu Abelam. Des
-   visites flash auront lieu les 8 et 22 mai, à 14 h 30.
-
-   "Pour commencer, je vais vous demander simplement d'oublier tout, vos
-   références historiques, votre culture, votre religion ; de façon que
-   vous puissiez aller vers une population qui vit encore de manière dite
-   ''traditionnelle''". Olivier Caumont, conservateur du Musée Diderot, à
-   Langres, posait le décor en introduction d'une visite flash sur
-   l'exposition "Vannerie papou" dédiée à la tribu Abelam, dimanche
-   4 avril.
-
-Un vrai dépaysement
-
-   C'est ainsi que le visiteur peut profiter pleinement de cette
-   présentation pleine de surprises à Langres. La Nouvelle Guinée, "tout
-   le monde sait où elle est, on y pense tous les matins au réveil", lance
-   Olivier Caumont avec malice pour souligner le dépaysement proposé ici.
-   Il s'agit de la troisième plus grande île de la planète et elle est
-   située au nord de l'Australie.
-
-   "C'est la partie du monde dans laquelle il y a la plus grande diversité
-   linguistique, plus de 850 langues présentes sur cette île, donc autant
-   de cultures différentes", raconte-t-il. Au Musée Diderot, le visiteur
-   aura l'occasion de découvrir une population qu'on appelle Abelam.
-
-Une société animiste unique au monde
-
-   Cette société patriarcale et animiste (la croyance en la présence
-   d'esprits dans les choses de la nature, vivantes ou inertes, ndlr.) est
-   connue dans le monde entier pour une production en vannerie spécifique
-   et unique au monde : les masques à ignames. "Les ignames, ce sont des
-   légumes, indique Olivier Caumont. Ce qui est présenté ici ce sont donc
-   des masques réalisés pour décorer des légumes". Le conservateur avait
-   annoncé un vrai bouleversement de nos codes européens et il n'avait pas
-   du tout survendu son sujet.
-
-   [8681-tab.jpg] Les masques réalisés par les Abelam proposent un tissage
-   extrêmement fin. -
-
-   Pour rentrer dans le détail, les ignames, cultivées partout dans le
-   monde dans les zones tropicales, sont des sortes de carottes blanches
-   d'un à trois mètres de longs. La tribu Abelam distingue les ignames
-   courtes d'un mètre de long, des ignames longues de deux à trois mètres
-   et voue un culte à cette deuxième espèce. "Autour de ce légume se
-   développent un rituel, une relation entre les hommes, la société, les
-   ancêtres, l'esprit de l'igname qui structurent toute la population,
-   toutes les croyances. C'est aussi fort que notre société qui serait
-   structurée par l'islam, le christianisme ou le judaïsme".
-
-   [1187-tab.jpg] Des cérémonies de présentation des ignames sont
-   organisées dans les villages Abelam plusieurs fois à l'année et
-   déterminent la position sociale des membres de la tribu. -
-   0 COMMENTAIRE
-   Partager :
-     *
-     *
-     *
-     *
-
-     * langres
-     * haute-marne
-     * exposition
-     * masque
-     * tribu abelam
-     * vannerie papou
-     * musée diderot
-     * papouasie nouvelle-guinée
-     * vannerie
-     * animisme
-     * abelam
-
-     * A LA UNE
-     * LANGRES
-
-Autres articles
-
-     * Langres  : au programme des Rencontres philosophiques
-    Langres  : au programme des Rencontres philosophiques
-          + LANGRES
-          + 17h00 - 13/09/2022
-     * Grand Langres : qui veut jouer ?
-    Grand Langres : qui veut jouer ?
-          + LANGRES
-          + 05h44 - 08/09/2022
-     * Haute-Marne : booster la culture scientifique et technique
-    Haute-Marne : booster la culture scientifique et technique
-          + LANGRES
-          + 17h00 - 05/09/2022
-     * Langres : Les associations en fête à la salle Jean-Favre !
-    Langres : Les associations en fête à la salle Jean-Favre !
-          + LANGRES
-          + 18h00 - 02/09/2022
-     * Langres : Silence plateau et... Action !
-    Langres : Silence plateau et... Action !
-          + LANGRES
-          + 07h00 - 01/09/2022
-     * Langres : Attirer les étudiants en médecine
-    Langres : Attirer les étudiants en médecine
-          + LANGRES
-          + 17h00 - 30/08/2022
-
-Commentez l'article
-
-   Votre adresse email ne sera pas publiée. * Champs requis
-
-   Votre nom *_________
-
-   Votre email *_______
-
-
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-
-   ENVOYER Annuler
-
-0 Commentaire
-
-Top 5
-
-     * Hôpital à Rolampont : le ton monte en terre chaumontaise
-
-Hôpital à Rolampont : le ton monte en terre chaumontaise
-          + HAUTE-MARNE
-     * La Sainte-Catherine à Saint-Dizier ou à Langres
-
-La Sainte-Catherine à Saint-Dizier ou à Langres
-          + SAINT-DIZIER
-     * Energie : Langres joue la carte de la sobriété
-
-Energie : Langres joue la carte de la sobriété
-          + LANGRES
-     * Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-
-Sud Haute-Marne : Lucas, jeune forgeron en quête de lieu
-          + HAUTE-MARNE
-     * Chaumont : la féerie de Noël s'empare de la ville dès le 25
-       novembre
-
-Chaumont : la féerie de Noël s'empare de la ville dès le 25 novembre
-          + CHAUMONT
-
-Météo
-
-   [meteo_bouton.jpg]
-
-Restez informé
-
-   Inscrivez-vous à la newsletter
-   ____________________ OK
-
-La Une de la semaine
-
-   Lire le journal
-
-Abonnez-vous !
-
-   [boutique.jpg]
-
-     La Voix de la Haute-Marne
-
-
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-
-   Envoyer [BUTTON Input] (not implemented)_______
-
-   [logo_footer.png]
-
-À propos
-
-La Voix de la Haute-Marne
-
-   8, rue des Chalets
-   52000 Chaumont
-   France
-
-Téléphone & Fax
-
-   Tél: 03 25 87 08 65
-   Fax: 03 25 88 80 79
      * Mentions légales
-     * Conditions d'utilisation
-     * Qui sommes-nous ?
-     * Nous contacter
+     * Comediance - Régie publicitaire
+     * Où acheter nos titres ?
+     * Contacts
+     * C.G.U.
+     * Cookies
+     * Historique
+     * RSS
 
-     *
-     *
-     *
+     * À la une
+     * Partager
+     * Journal
+     * S'abonner
 
-   © Copyright La News Company - 2022
-     * Activer Notifications
-     * Désactiver Notifications
-     * Haut du site
+   [hit.xiti?col=1&amp;from=p&amp;s=484057&amp;s2=28&amp;p=depaysement_aff
+   aire_bettencourt_lusm_crie_a_loperation_de_manipulation_448752]

@@ -1,580 +1,511 @@
-   Rechercher…____ OK
-   + de critères
-     * Dalloz actualité sur Android
-     * Dalloz actualité sur iOS
-     * Fils d'info RSS
-     * Dalloz actualité sur Youtube
+   #alternate
 
-   Courriel : * Adresse email ..._______
-   (*) Abonnez-vous
-   ( ) Me désabonner
-   OK
-   Recevez gratuitement notre newsletter
-     * Administratif
-          + Acte
-          + Bien
-          + Collectivité territoriale
-          + Compétence
-          + Contrat et marché
-          + Droit économique
-          + Droit fondamental et liberté publique
-          + Election
-          + Environnement
-          + Finance et fiscalité
-          + Fonction publique
-          + Institution administrative
-          + Police
-          + Procédure contentieuse
-          + Responsabilité
-          + Service public
-          + Urbanisme
-     * Affaires
-          + Assurance
-          + Banque - Crédit
-          + Compliance
-          + Concurrence - Distribution
-          + Consommation
-          + Contrat - Responsabilité
-          + Entreprise en difficulté
-          + Fiscalité
-          + Fonds de commerce et commerçants
-          + Propriété intellectuelle
-          + Société et marché financier
-          + Sûretés et garantie
-          + Transport
-     * Civil
-          + Arbitrage - Médiation - Conciliation
-          + Bien - Propriété
-          + Contrat et obligations
-          + Droit et liberté fondamentaux
-          + Droit international et communautaire
-          + Famille - Personne
-          + Filiation
-          + Mariage - Divorce - Couple
-          + Procédure civile
-          + Profession juridique et judiciaire
-          + Responsabilité
-          + Succession - Libéralité
-          + Sûretés
-          + Voie d'exécution
-     * Européen
-          + Bien - Propriété
-          + Citoyenneté - Nationalité - Étranger
-          + Convention - Traité - Acte
-          + Droit économique
-          + Droit public
-          + Famille - Personne
-          + Pénal
-          + Principes - Généralités
-          + Propriété intellectuelle
-          + Souveraineté - État - Défense
-     * Immobilier
-          + Assurance
-          + Bail
-          + Construction
-          + Copropriété et ensembles immobiliers
-          + Domaine
-          + Droit rural
-          + Environnement
-          + Expertise
-          + Expropriation
-          + Logement social
-          + Propriété
-          + Urbanisme
-          + Vente
-     * IP/IT et Communication
-          + Audiovisuel
-          + Communications électroniques
-          + Contrat – Responsabilité
-          + Cyberdélinquance
-          + Droit de la presse
-          + Infrastructures et réseaux
-          + Intelligence artificielle
-          + Droits fondamentaux
-          + Patrimoine et culture
-          + Propriété industrielle
-          + Propriété littéraire et artistique
-          + Protection des données
-          + Statut professionnel
-     * Pénal
-          + Atteinte à l'autorité de l'état
-          + Atteinte à la personne
-          + Atteinte aux biens
-          + Circulation et transport
-          + Criminalité organisée et terrorisme
-          + Droit pénal des affaires
-          + Droit pénal général
-          + Droit pénal international
-          + Enquête
-          + Environnement et urbanisme
-          + Etranger
-          + Instruction
-          + Jugement
-          + Mineur
-          + Peine et exécution des peines
-          + Presse et communication
-     * Social
-          + Accident, maladie et maternité
-          + Contrat de travail
-          + Contrôle et contentieux
-          + Droit international et communautaire
-          + Hygiène - Sécurité - Conditions de travail
-          + IRP et syndicat professionnel
-          + Négociation collective
-          + Protection sociale
-          + Rémunération
-          + Retraite
-          + Rupture du contrat de travail
-          + Santé publique
-          + Statuts particuliers
-          + Temps de travail
-     * Avocat
-          + Communication
-          + Déontologie
-          + Gestion et comptabilité du cabinet
-          + Honoraires
-          + Organisation de la profession
-          + Procédure
-
-   Jump to Navigation
-   (BUTTON) Menu
-   Connexion
-   [decouvrez-dalloz-actualite.png]
-   Accueil
-   Dalloz Actualité
-   Le quotidien du droit en ligne
-   Connexion
-   Édition du 30 novembre 2022 Éditions précédentes
-   Rechercher…____ OK
-   + de critères
-   (BUTTON) Recherche
-     *
-     *
-     *
-     *
-
-   Courriel : * Adresse email ..._______
-   (*) Abonnez-vous
-   ( ) Me désabonner
-   OK
-   Recevez gratuitement notre newsletter
-     * Administratif
-          + Toute la matière
-          + > Acte
-          + > Bien
-          + > Collectivité territoriale
-          + > Compétence
-          + > Contrat et marché
-          + > Droit économique
-          + > Droit fondamental et liberté publique
-          + > Election
-          + > Environnement
-          + > Finance et fiscalité
-          + > Fonction publique
-          + > Institution administrative
-          + > Police
-          + > Procédure contentieuse
-          + > Responsabilité
-          + > Service public
-          + > Urbanisme
-     * Affaires
-          + Toute la matière
-          + > Assurance
-          + > Banque - Crédit
-          + > Compliance
-          + > Concurrence - Distribution
-          + > Consommation
-          + > Contrat - Responsabilité
-          + > Entreprise en difficulté
-          + > Fiscalité
-          + > Fonds de commerce et commerçants
-          + > Propriété intellectuelle
-          + > Société et marché financier
-          + > Sûretés et garantie
-          + > Transport
-     * Civil
-          + Toute la matière
-          + > Arbitrage - Médiation - Conciliation
-          + > Bien - Propriété
-          + > Contrat et obligations
-          + > Droit et liberté fondamentaux
-          + > Droit international et communautaire
-          + > Famille - Personne
-          + > Filiation
-          + > Mariage - Divorce - Couple
-          + > Procédure civile
-          + > Profession juridique et judiciaire
-          + > Responsabilité
-          + > Succession - Libéralité
-          + > Sûretés
-          + > Voie d'exécution
-     * Européen
-          + Toute la matière
-          + > Bien - Propriété
-          + > Citoyenneté - Nationalité - Étranger
-          + > Convention - Traité - Acte
-          + > Droit économique
-          + > Droit public
-          + > Famille - Personne
-          + > Pénal
-          + > Principes - Généralités
-          + > Propriété intellectuelle
-          + > Souveraineté - État - Défense
-     * Immobilier
-          + Toute la matière
-          + > Assurance
-          + > Bail
-          + > Construction
-          + > Copropriété et ensembles immobiliers
-          + > Domaine
-          + > Droit rural
-          + > Environnement
-          + > Expertise
-          + > Expropriation
-          + > Logement social
-          + > Propriété
-          + > Urbanisme
-          + > Vente
-     * IP/IT et Communication
-          + Toute la matière
-          + > Audiovisuel
-          + > Communications électroniques
-          + > Contrat – Responsabilité
-          + > Cyberdélinquance
-          + > Droit de la presse
-          + > Infrastructures et réseaux
-          + > Intelligence artificielle
-          + > Droits fondamentaux
-          + > Patrimoine et culture
-          + > Propriété industrielle
-          + > Propriété littéraire et artistique
-          + > Protection des données
-          + > Statut professionnel
-     * Pénal
-          + Toute la matière
-          + > Atteinte à l'autorité de l'état
-          + > Atteinte à la personne
-          + > Atteinte aux biens
-          + > Circulation et transport
-          + > Criminalité organisée et terrorisme
-          + > Droit pénal des affaires
-          + > Droit pénal général
-          + > Droit pénal international
-          + > Enquête
-          + > Environnement et urbanisme
-          + > Etranger
-          + > Instruction
-          + > Jugement
-          + > Mineur
-          + > Peine et exécution des peines
-          + > Presse et communication
-     * Social
-          + Toute la matière
-          + > Accident, maladie et maternité
-          + > Contrat de travail
-          + > Contrôle et contentieux
-          + > Droit international et communautaire
-          + > Hygiène - Sécurité - Conditions de travail
-          + > IRP et syndicat professionnel
-          + > Négociation collective
-          + > Protection sociale
-          + > Rémunération
-          + > Retraite
-          + > Rupture du contrat de travail
-          + > Santé publique
-          + > Statuts particuliers
-          + > Temps de travail
-     * Avocat
-          + Toute la matière
-          + > Communication
-          + > Déontologie
-          + > Gestion et comptabilité du cabinet
-          + > Honoraires
-          + > Organisation de la profession
-          + > Procédure
+   Aller au contenu
 
    (BUTTON) Menu
-   Connexion
-   Accueil
-   Dalloz Actualité
-   Le quotidien du droit en ligne
-   Connexion
-   ^-A^+A
-   Article
+   Abonnez-vous 0,99€ le premier moisRechercher
+   Notre application
+   Soyez alerté en temps réel
+   avec l'application Le Figaro
 
-   Dépaysement du litige : renvoi opéré sur le fondement de l’article 6, §
-   1, de la Convention
-   CIVIL | Procédure civile
+   Rubriques et services du Figaro
+     * Guerre en Ukraine
+     * Politique
+     * International
+     * Société
+     * Vox
+     * Économie
+     * Sport
+     * Culture
+     * Voyage
+     * Style
+     * Madame
+     * Vin
 
-   C’est sans excéder ses pouvoirs qu’une cour d’appel, après avoir écarté
-   les dispositions de l’article 47 du code de procédure civile, a décidé,
-   sur le fondement de l’article 6, § 1, de la Convention européenne des
-   droits de l’homme, qu’il convenait de renvoyer l’affaire devant une
-   juridiction limitrophe de celle territorialement compétente.
-   par Medhi Kebirle 30 janvier 2019
-   Soc. 19 déc. 2018, FS-P+B, n° 17-26.376
+   (BUTTON)
 
-   L’exigence d’impartialité est au cœur de cette décision de la Cour de
-   cassation.
+   (BUTTON)
 
-   Contestant son licenciement, le salarié d’une société a saisi un
-   conseil de prud’hommes de Metz. L’employeur a conclu à l’incompétence
-   territoriale de ce conseil au profit du conseil de prud’hommes voisin –
-   celui de Thionville, par application des dispositions de l’article
-   R. 1412-1 du code du travail, lequel pose les critères de la compétence
-   territoriale de cette juridiction. Se prévalant de l’article 6, § 1, de
-   la Convention européenne des droits de l’homme et de son droit à ce que
-   sa cause soit entendue par un tribunal impartial, le salarié a
-   revendiqué la compétence du conseil de prud’hommes initialement saisi
-   au motif que la responsable des ressources humaines de la société,
-   signataire de la lettre de licenciement, était conseiller prud’homme au
-   conseil de Thionville. Une cour d’appel a infirmé le jugement du
-   conseil de prud’hommes de Metz s’étant déclaré territorialement
-   incompétent. Elle a déclaré ce conseil compétent pour connaître du
-   litige et a renvoyé l’affaire devant lui.
+   Rubriques et services du Figaro
+     * Le Figaro Live
+     * Le Figaro Magazine
+     * La Vérification
+     * Le Figaro Étudiant
+     * Faits divers
+     * Santé
+     * Sciences
+     * Fig Data
+     * Tech et web
+     * Bourse
+     * Le Figaro Immobilier
+     * Emploi
+     * Art de vivre
+     * Automobile
+     * Langue française
+     * Golf
+     * Histoire
+     * TVMag
+     * Programme TV
+     * Maison et Jardin
+     * Le Figaroscope
+     * Carnet du jour
+     * Guide achat
+     * Services
+     * Billetterie
+     * Podcasts
+     * La question du jour
 
-   Saisi d’un pourvoi, la Cour de cassation conclut à l’irrecevabilité du
-   recours en livrant un visa particulièrement riche : les articles 47,
-   606, 607, 607-1 et 608 du code de procédure civile ainsi que les
-   principes qui régissent l’excès de pouvoir.
+   Nos journaux et magazines
+     * Le Figaro
+     * Le Figaro Magazine
+     * Madame Figaro
+     * TV Magazine
 
-   Elle souligne dans un attendu de principe que ne peuvent être frappés
-   d’un pourvoi en cassation indépendamment du jugement sur le fond, hors
-   les cas spécifiés par la loi, les décisions en dernier ressort qui se
-   bornent à statuer sur une exception de procédure, une fin de
-   non-recevoir ou tout autre incident sans mettre fin à l’instance. Il
-   n’est dérogé à cette règle, comme à toute autre règle interdisant ou
-   différant un recours, qu’en cas d’excès de pouvoir.
+   Les sites du Groupe Figaro
+     * Figaro Store
+     * TickeTac.com
+     * Le Particulier
+     * Météo Consult
+     * La chaîne météo
+     * Figaro Nautisme
+     * Les voyages F
+     * Cadremploi
+     * Keljob
+     * Insiders
+     * Immobilier
+     * Immoneuf
+     * Propriétés de France
+     * Achat Terrain
+     * Choose your boss
+     * Marco Vasco
+     * Maisons du voyage
 
-   Elle énonce ensuite que l’arrêt, qui a statué sur une demande de renvoi
-   devant une autre juridiction fondée sur l’inapplicabilité des
-   dispositions de l’article 47 du code de procédure civile, a statué sur
-   une exception de procédure sans mettre fin à l’instance. Elle ajoute
-   que l’exigence d’impartialité s’impose aux juridictions à l’encontre
-   desquelles le grief peut être invoqué indépendamment des cas visés par
-   l’article 47 précité. En l’occurrence, c’était sans excéder ses
-   pouvoirs que la cour d’appel, après avoir écarté les dispositions de
-   l’article 47 du code de procédure civile au motif que la responsable
-   des ressources humaines de la société n’était pas partie à la procédure
-   au sens de ce texte, a décidé, sur le fondement de l’article 6, § 1, de
-   la Convention européenne, qu’il convenait cependant de renvoyer
-   l’affaire devant une juridiction limitrophe de celle territorialement
-   compétente.
+   Se connecter (BUTTON) Mon compte
+     * Mon espace personnel
+     * Mes newsletters
+     * Mes commentaires
+     * S'abonner
+     * Aide et contact
+     * Se déconnecter
 
-   C’est une décision très intéressante que livre ici la haute
-   juridiction. Sa bonne compréhension nécessite de distinguer deux temps.
+   Lire Société en PDF en ligne Lire le journal
+   Abonnez-vous 0,99€ le premier mois
 
-   Le premier temps concerne la demande de dépaysement. Cette demande est
-   ordinairement fondée sur l’article 47 du code de procédure civile qui
-   dispose que, lorsqu’un magistrat ou un auxiliaire de justice est partie
-   à un litige qui relève de la compétence d’une juridiction dans le
-   ressort de laquelle celui-ci exerce ses fonctions, le demandeur peut
-   saisir une juridiction située dans un ressort limitrophe. Le but de ce
-   mécanisme de renvoi est de sauvegarder l’impartialité objective de la
-   juridiction saisie et de lui permettre de statuer sans qu’un soupçon de
-   partialité plane sur elle en raison de l’implication d’un magistrat qui
-   la compose dans l’affaire en cause. Dans ce cas, le code permet de
-   déroger aux règles de compétence territoriale pour garantir une pleine
-   sérénité au processus juridictionnel.
+    1. Accueil
+    2. Actualité
+    3. Société
 
-   Le domaine d’application de la prérogative ainsi octroyée aux plaideurs
-   est circonscrit par une double exigence qui permet d’obtenir un tel
-   renvoi (Civ. 2^e, 6 janv. 2012, n° 10-27.998, D. 2012. 226
-   [type_dalloz_fr_link.png] ; ibid. 825, point de vue B. Beignier
-   [type_dalloz_fr_link.png] ). D’abord, doit être mise en cause une
-   personne ayant qualité de magistrat ou d’auxiliaire de justice dans un
-   litige relevant de la compétence d’une juridiction dans le ressort de
-   laquelle la personne visée « exerce ses fonctions ». Ensuite, la
-   personne doit être concernée par le litige, c’est-à-dire qu’elle doit
-   être partie au sens procédural du terme. Autrement dit, l’article 47 du
-   code de procédure civile n’est applicable que lorsque le magistrat ou
-   l’auxiliaire de justice est partie au litige soit en son nom personnel,
-   soit en sa qualité de représentant légal d’une partie. En l’occurrence,
-   c’est sur cette deuxième condition que le renvoi était exclu. Le
-   conseiller visé par le salarié dans sa demande de dépaysement n’était
-   pas à proprement parler partie au litige qui l’opposait à son
-   employeur. C’était simplement un employé de la même entreprise.
-   Partant, une demande de dépaysement fondée sur l’article 47 ne pouvait
-   prospérer. C’est la raison pour laquelle le salarié a opté pour
-   l’article 6, § 1, de la Convention européenne. Ce texte fonde le droit
-   à un procès équitable, lequel a pour composante le droit à être jugé
-   par un tribunal impartial et indépendant. L’invocation de cet article
-   s’explique, d’après les termes employés dans la décision rapportée, par
-   l’inapplicabilité de l’article 47 précité. La haute juridiction en tire
-   une conséquence : c’est parce que la demande de renvoi était liée à
-   cette dernière disposition que la voie du pourvoi en cassation était
-   fermée à l’encontre de la décision de la cour d’appel ayant refusé le
-   dépaysement.
+Qu'est-ce que le dépaysement judiciaire ?
 
-   Pour parvenir à ce résultat, la Cour de cassation applique une solution
-   qu’elle adopte classiquement dans les hypothèses où les juges du fond
-   se sont prononcés sur l’application de l’article 47 du code de
-   procédure civile. Elle juge de façon constante qu’est irrecevable, sauf
-   excès de pouvoir du juge, le pourvoi en cassation formé indépendamment
-   du jugement sur le fond contre une décision se bornant à rejeter une
-   demande de renvoi devant une juridiction limitrophe présentée en
-   application de l’article 47 précité (Soc. 30 avr. 2003, n° 01-60.870,
-   Dalloz jurisprudence). Cette irrecevabilité s’explique techniquement
-   par le type de décision rendue dans une telle hypothèse. Si le pourvoi
-   est impossible, c’est parce qu’il est formé à l’encontre d’une décision
-   statuant sur une exception de procédure sans mettre fin à l’instance
-   (v. Soc. 28 janv. 2016, n° 15-10.145, Gaz. Pal. 17 mai 2016, p. 66,
-   obs. C. Bléry). Il résulte des articles 607 et 608 que les décisions en
-   dernier ressort qui se bornent à statuer sur une exception de
-   procédure, une fin de non-recevoir ou tout autre incident, « sans
-   mettre fin à l’instance », ne peuvent être frappées de pourvoi en
-   cassation indépendamment des jugements sur le fond que dans les cas
-   spécifiés par la loi. En l’occurrence, recourant à une sorte de
-   parallélisme des formes, la Cour de cassation applique cette règle à
-   une demande de renvoi fondée, non sur l’applicabilité de l’article 47
-   mais sur sa non-applicabilité. Autrement dit, il convenait selon elle
-   de traiter de la même façon la demande fondée sur ce texte et celle qui
-   était justifiée par son inapplicabilité. Elle en tire une conséquence :
-   parce qu’en l’occurrence, la cour d’appel avait renvoyé l’affaire
-   devant une juridiction, elle avait statué sur une exception de
-   procédure sans mettre fin à l’instance, de sorte que le pourvoi
-   immédiat était impossible. La seule possibilité de contourner cette
-   impossibilité était de démontrer un excès de pouvoir de la juridiction
-   ayant connu de la demande.
+   Par Thomas Vampouille
+   Publié le 09/11/2011 à 15:06, Mis à jour le 09/11/2011 à 16:09
 
-   C’est là qu’intervient le second temps de la décision rendue. Pour la
-   Cour de cassation, les dispositions de l’article 47 du code de
-   procédure civile n’étaient pas le seul moyen de solliciter le renvoi de
-   l’affaire devant une autre juridiction que celle qui aurait dû en
-   connaître. À cette voie procédurale spéciale s’ajoute une voie plus
-   générale fondée sur l’article 6, § 1, de la Convention européenne des
-   droits de l’homme. Le droit à un procès équitable impliquant une
-   « exigence d’impartialité », selon les termes employés par la Cour
-   régulatrice, le plaideur peut l’invoquer pour provoquer le dépaysement
-   de son affaire. Le juge quant à lui, peut fonder sa décision de renvoi
-   sur ce texte sans encourir le grief d’un excès de pouvoir. Le
-   raisonnement n’est guère contestable dès lors que la Convention
-   européenne est un texte d’application directe devant les juridictions
-   nationales et qu’il vise lui aussi à garantir l’impartialité de la
-   juridiction appelée à trancher le litige.
+   FOCUS - En matière pénale, la Cour de cassation peut transférer une
+   affaire d'un tribunal à un autre. Explications.
 
-   La première tient à l’articulation de ces deux biais par lesquels un
-   dépaysement peut intervenir. Au terme de cet arrêt, il est possible de
-   dire qu’il existe deux possibilités : une spéciale reposant sur les
-   dispositions du code de procédure civile et en général fondée sur la
-   Convention européenne. Chaque fois que la première ne trouve pas à
-   s’appliquer, faute pour la partie qui s’en prévaut de réunir les
-   conditions de son application, elle peut recourir à la seconde. Le
-   général comble les lacunes du spécial. C’est ce qui apparaît en
-   l’occurrence puisque le cas de figure mis en avant par le plaideur ne
-   pouvait entrer dans le champ de l’article 47 du code de procédure
-   civile. Il entrait cependant dans celui de la Convention. La solution
-   adoptée permet de dire que l’article 47 ne contient pas tous les cas de
-   dépaysement qu’il est possible de mettre en avant devant une
-   juridiction normalement compétente pour obtenir le renvoi de l’affaire.
-   De ce point de vue, elle peut être rapprochée d’une tendance globale
-   qui consiste à envisager l’article 6, § 1, de la Convention européenne
-   comme un palliatif des lacunes des textes de droit interne en ce qui
-   concerne l’exigence d’impartialité. Au visa de cet article 6, la haute
-   juridiction a déjà admis, à propos des cas de récusation prévus par
-   l’article 341 du code de procédure civile (v. aujourd’hui COJ, art.
-   L. 111-6), que ce texte « n’épuise pas nécessairement l’exigence
-   d’impartialité requise de toute juridiction » (Civ. 1^re, 28 avr. 1998,
-   n° 96-11.637, Bull. civ. I, n° 155 ; D. 1998. 131
-   [type_dalloz_fr_link.png] ; RTD civ. 1998. 744, obs. R. Perrot
-   [type_dalloz_fr_link.png]  ; JCP 1998. I. 173, n° 16, obs. Cadiet ;
-   Civ. 2^e, 27 mai 2004, n° 02-15.726, Bull. civ. II, n° 245 ; D. 2004.
-   1863 [type_dalloz_fr_link.png] ). À « l’amas de situations
-   particulières » (R. Perrot, art. préc.) la haute juridiction répond par
-   la généralité de ce texte supranational.
+   • Qu'est-ce qu'un dépaysement judiciaire ? En principe, c'est le
+   tribunal où a été commise l'infraction (en matière pénale) ou bien
+   celui dans lequel vit le justiciable (en matière civile) qui est
+   compétent. Le dépaysement judiciaire consiste à dessaisir cette
+   juridiction «naturelle» pour renvoyer l'affaire à un autre tribunal.
 
-   Cela nous conduit à la deuxième remarque. L’arrêt rapporté permet de
-   souligner l’existence de deux séries de causes de dépaysement fondées
-   sur deux textes distincts mais quid de leurs régimes juridiques ? Celui
-   de l’article 47 ne pose pas de difficulté puisqu’il règle lui-même la
-   question. Il précise qu’à peine d’irrecevabilité, la demande est
-   présentée dès que son auteur a connaissance de la cause de renvoi et
-   souligne qu’en cas de renvoi, il est procédé comme il est dit à
-   l’article 82 du code de procédure civile. Pour le dépaysement fondé sur
-   l’article 6, § 1, les choses sont moins claires dans la mesure où le
-   texte ne dit évidemment rien de cette situation. La haute juridiction
-   donne ici une réponse en énonçant que la demande de renvoi fondée sur
-   l’inapplicabilité de l’article 47 du code de procédure civile –
-   c’est-à-dire celle qui est fondée sur l’article 6, § 1, de la
-   Convention européenne – est une exception de procédure… Il convient
-   donc d’appliquer à cette demande le régime juridique de cette dernière.
-   On sait gré à la haute juridiction d’avoir ainsi pris soin de préciser
-   la qualification de cette demande atypique. Cela permettra d’éviter les
-   atermoiements et d’assurer une certaine rigueur au traitement d’une
-   demande qui n’est pas prévue par le code de procédure civile. « Quand
-   on ouvre les vannes, il est bon de surveiller la résistance des
-   digues » (R. Perrot, art. préc.).
+   • Dans quels cas une telle mesure peut-elle être prise ?En matière
+   civile, la loi prévoit que lorsqu'un magistrat est impliqué dans le
+   tribunal où il exerce habituellement, la partie adverse peut saisir une
+   autre juridiction.
 
-   [decouvrez-dalloz-actualite-art.jpg]
+   Dans le code pénal, modifié par une loi de 1993, le dépaysement peut
+   être demandé «pour cause de suspicion légitime» à l'égard du tribunal,
+   «pour sûreté publique» ou «dans l'intérêt d'une bonne administration de
+   la justice». En clair, le plus souvent, pour préserver l'institution
+   judiciaire de pressions extérieures trop fortes ou quand des acteurs de
+   l'appareil judiciaire sont mis en cause.
 
-Commentaires
+   • Qui décide d'un dépaysement ? Selon le code pénal, seule la Cour de
+   cassation peut dessaisir une juridiction pour en saisir une autre. La
+   demande est faite par le procureur général ou par toute partie prenante
+   à l'affaire. La Cour a huit jours pour se prononcer.
 
-   par le 3 octobre 2021 - 10:08.
+   • Est-ce une procédure courante ? Le dépaysement a longtemps été
+   systématique dans les affaires politico-judiciaires. En 1992, le procès
+   d'Henri Emmanuelli dans l'affaire du financement occulte du Parti
+   socialiste dans la Sarthe avait ainsi eu lieu dans les Côtes d'Armor.
+   Mais la banalisation des affaires politico-judicaires a mis fin à cette
+   procédure systématique.
 
-   Bonjour, si l'article 47 dispose que l'action en dépaysement doit être
-   invoquée dès la connaissance du renvoi sous peine de nullité de la
-   requête, qu'en est il du délai si la requête s'appuie sur l'article 6-1
-   de la CEDH ? Peut on, justement, suivant l'article 6, déposer une
-   requête a tout moment dans le délai du débat ?
+   Aujourd'hui, les procédures de dépaysement résultent principalement de
+   la mise en cause des magistrats censés jugés l'affaire ou de
+   l'implication de magistrats dans le dossier. Plusieurs volets du
+   dossier des disparues de l'Yonne, normalement instruits à Auxerre, ont
+   ainsi été dépaysés à Paris en 2002 pour «lever le trouble et la
+   légitime émotion des familles» à la suite «d'accusations et
+   insinuations» à l'encontre de l'institution judiciaire.
 
-   Merci pour votre réponse.
-     * haut de page
+   À l'inverse, certaines grandes affaires n'ont pas été dépaysées malgré
+   des demandes insistantes. C'est le cas par exemple de l'affaire
+   impliquant pour «abus de confiance» l'ancien maire de Lyon Michel Noir
+   en 1996, ou de l'affaire du tueur en série Patrice Alègre, maintenue à
+   Toulouse en 2003. De même, le procès de la catastrophe du stade de
+   Furiani en 1992 a été maintenu à Bastia, ainsi que l'affaire dite des
+   «paillotes», dans laquelle était impliquée l'ancien préfet Bernard
+   Bonnet.
 
-Réagissez à cet article
+   • Pourquoi certains magistrats s'opposent-ils à cette procédure ? À
+   l'occasion de l'affaire du Carlton de Lille - où le dessaisissement
+   avait été demandé parce qu'un avocat et un policier locaux étaient mis
+   en cause - l'Union syndicale des magistrats (USM) s'est élevée contre
+   «l'utilisation désormais habituelle» de la procédure dans les affaires
+   sensibles. Récemment, des demandes de dépaysement ont ainsi été
+   examinées dans les affaires Bettencourt (acceptée), Médiator (rejetée)
+   et Clearstream (rejetée).
 
-   Votre nom : * Visiteur______________________
-   Votre adresse e-mail : * ______________________________
-   Le contenu de ce champ sera maintenu privé et ne sera pas affiché
-   publiquement.
-   Votre commentaire : *
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   Enregistrer
-     * haut de page
+   Pour l'USM, majoritaire dans la magistrature, cette «utilisation
+   répétée est de nature à nuire au bon déroulement des enquêtes, à faire
+   peser sur les magistrats instructeurs et les juridictions
+   correctionnelles une menace permanente de dessaisissement et à porter
+   ainsi atteinte à l'indépendance de la justice».L'USM soulignait en
+   outre qu'une telle décision entraîne «un retard de plusieurs mois des
+   investigations, nécessairement préjudiciable à la manifestation de la
+   vérité». Le nouveau juge désigné doit en effet reprendre tout le
+   dossier à zéro.
+   Sujets
+     * justice
+     * focus
 
-Sur le même thème
+   2 commentaires
+     * Olivier123456
+       le 09/11/2011 à 19:52
+       Tiens, ce n'est pas plutôt quand les magistrats se font payer des
+       voyages d'études aux frais de la République?
+     * Philippe Laurent 4
+       le 09/11/2011 à 15:52
+       "l'Union syndicale des magistrats (USM) s'est élevée contre
+       «l'utilisation désormais habituelle» de la procédure dans les
+       affaires sensibles": qui peut encore croire à l'objectivité de ce
+       syndicat capable par le biais de son porte parole de dire tout et
+       son contraire dans la même interview, ou pour le moins de démontrer
+       que ces fonctionnaires sont très loin des réalités de la société
+       civile.?. La ligne de conduite, c'est plutôt: "dépaysement" quand
+       une affaire de droite est gérée par un magistrat à la sensibilité
+       de droite (ce qui est rare), et "non-dépaysement" quand une affaire
+       de gauche est gérée dans une ville de gauche par des magistrats de
+       gauche.!. Cherchez l'erreur.!.
 
-     * Citer suffit !
-     * Conclusions en appel, il va falloir maintenant imprimer !
-     * Panorama rapide de l’actualité « civile » de la semaine du 14
-       novembre 2022
-     * Le contentieux « Google Ads » devant le juge des référés
-     * Exequatur : quelle est la juridiction compétente ?
-     * Concentration des prétentions et procédure collective, maîtres du
-       suspense
-     * L’amputation d’un délai pour conclure ne se répare pas par une note
-       en délibéré
-     * Nullité de la clause de reversement de rémunération d’expertise
-       judiciaire
-     * Erreur sur la désignation d’une partie dans les conclusions
-       d’appel, la cour de cassation fixe l’objectif
-     * Un magistrat ne cesse ses anciennes fonctions qu’à compter de son
-       installation dans les nouvelles
+   (BUTTON) Lire les 2 commentaires
 
-   Édition du 30 novembre 2022 Éditions précédentes
-   Dalloz Actualité > La rédaction
-     * Portail des Éditions Dalloz
-     * Qui sommes-nous
-     * Contactez-nous
-     * Dalloz recrute
-     * CGV
+   À lire aussi
+
+Que signifierait la mise sous tutelle de la Ville de Paris ?
+
+   Que signifierait la mise sous tutelle de la Ville de Paris&nbsp;? Que
+   signifierait la mise sous tutelle de la Ville de Paris&nbsp;?
+
+   FOCUS - Rongée par une dette exponentielle sous le mandat d'Anne
+   Hidalgo, la capitale est sous le coup de cette menace brandie par le
+   gouvernement.
+   Regarder la vidéo
+
+L’Hermione, la célèbre «frégate des Lumières» en pleine tempête
+
+   L’Hermione, la célèbre «frégate des Lumières» en pleine tempête
+   L’Hermione, la célèbre «frégate des Lumières» en pleine tempête
+
+   RÉCIT - Attaqué par des champignons qui rongent sa coque, le
+   trois-mâts, réplique du navire de La Fayette, est immobilisé et
+   l’association qui veille sur lui cherche désespérément un soutien
+   financier pour le sauver.
+
+Le quartier de la tour Eiffel miné par l’insécurité
+
+   Le quartier de la tour Eiffel miné par l’insécurité Le quartier de la
+   tour Eiffel miné par l’insécurité
+
+   RÉCIT - Les riverains dénoncent les maux qui affectent le Champ-de-Mars
+   et l’indifférence de la ville de Paris.
+
+   Plus de services
+   L'actualité à ne pas manquer
+     * Résultats des élections
+     * Covid-19
+     * Guerre en Ukraine
+     * Tension Iran-Etats Unis
+     * Corée-Du-Nord
+     * Actualité politique en temps réel
+     * Analyses, débats politiques et sociétaux
+     * Actualité et réseaux sociaux
+
+   Programme TV
+     * Programme TV ce soir
+     * Programme TV en ce moment
+     * Programme TV TNT
+     * Séries Netflix, HBO, OCS et TV
+     * Election et photos Miss France
+     * Programme TV Canalsat
+     * Programme TV Free
+     * Programme TV SFR
+     * Actu people
+
+   Sport
+     * Calendriers et résultats des matchs en direct
+     * Résultats, classement général Tour De France
+     * Ballon d'Or France Football
+     * Actualité cyclisme
+     * Coupe du monde 2022
+     * Transferts football
+     * Classement Ligue 1
+     * Jeux olympiques
+     * Résultats Euro 2020
+     * Classement top 14
+
+   Madame
+     * Horoscope du jour
+     * Guide du mariage
+     * Recettes de cuisine
+     * Brigitte Macron
+     * Actu mode
+     * Apéritif dînatoire
+     * Recette pâte à crêpe
+     * Tendance bijoux
+     * Meghan Markle
+     * Gainer son corps
+
+   Santé
+     * Fiches et guides des médicaments
+     * Astuces et conseils bien-être
+     * Santé et sexualité
+     * Index des maladies
+     * Conseils alimentation, nutrition et santé
+     * L'encyclopédie des organes
+     * Conseils en psychologie
+     * La pollution va t-elle nous tuer ?
+     * Apnée du sommeil : Comment mieux dormir ?
+     * 15 mythes sur les vertus des aliments
+
+   Guide d'achat
+     * Guide d'achat maison et jardin
+     * Guide d'achat santé et beauté
+     * Guide d’achat high-tech
+     * Guide d'achat smartphones et tablettes
+     * Comment choisir le meilleur extracteur de jus ?
+     * Quelle est la meilleure montre connectée ?
+     * Quel est le meilleur home cinéma sans fil ?
+     * Comparatif semelle gel
+     * Quel épilateur électrique choisir ?
+     * Bons plans
+
+   Éducation et orientation
+     * Résultats Bac
+     * Révisions du Bac
+     * Parcoursup
+     * Annuaire des écoles de commerce
+     * Les entreprises qui recrutent
+     * Trouver un stage
+     * Résultats Brevet des collèges
+     * Classement des écoles de commerce
+     * Trouver une alternance
+     * Agenda étudiant : JPO, salons…
+
+   Culture
+     * Succession de Johnny Hallyday
+     * Sorties cinéma
+     * Guide arts et expositions
+     * Actualité musicale
+     * Actualité jeux-vidéo
+     * Citations et proverbes
+     * Réservation de spectacles et théâtre
+     * Sortir à Paris
+     * Histoire de France
+     * Langue française
+
+   Codes promos et réductions
+     * Code promo Wish
+     * Code promo Cdiscount
+     * Code promo SheIn
+     * Code promo eBay
+     * Code promo AliExpess
+     * Code promo Deliveroo
+     * Code promo Nike
+     * Code promo Sephora
+     * Code promo Showroomprive
+     * Code promo Asos
+
+   Offres d'emploi
+     * Toutes les offres d'emploi
+     * Emploi à Paris
+     * Emploi à Lyon
+     * Emploi à Toulouse
+     * Emploi à Nantes
+     * Emploi à Bordeaux
+     * Emploi commercial
+     * Emploi contrôleur de gestion
+     * Emploi logistique
+     * Emploi communication
+
+   Annonces immobilières
+     * Annonces immobilières
+     * Achat appartement Paris
+     * Achat appartement Nice
+     * Achat appartement Cannes
+     * Achat appartement Bordeaux
+     * Achat appartement Lyon
+     * Achat appartement Aix-en-provence
+     * Achat maison Bordeaux
+     * Achat maison Marseille
+     * Achat maison Montpellier
+
+   Économie argent et finances
+     * Simulateur de seuil de richesse
+     * Actualité économique et analyses
+     * Impôts sur le revenu : simulateur
+     * Palmarès des villes où investir dans l'immobilier
+     * Studios et 2-pièces : les loyers ville par ville
+     * Calculer l'impôt à payer
+     * Barême des droits de succession et donation
+     * Indice de référence des loyers (IRL)
+     * En France, les hauts revenus sont-ils tous des «riches»?
+     * Carte familles nombreuses : jusqu’à 75 % de réduction sur les
+       billets de train
+
+   Voyage
+     * Guide des croisières
+     * Guide voyage Jordanie
+     * Guide voyage Namibie
+     * Guide voyage Maroc
+     * Guide voyage New York
+     * Guide voyage Birmanie
+     * Guide voyage Lille
+     * Guide voyage Antilles
+     * Guide voyage Japon
+     * Guide voyage Amsterdam
+
+   Les magazines Figaro
+     * Le Figaro Magazine
+     * Madame Figaro
+     * Le Figaro
+     * Le Figaro Hors-Série
+     * Le Figaro Histoire
+     * TV Magazine
+     * F, l'art de vivre
+
+   Services
+     * SCPI de rendement
+     * Changer d’assurance de prêt immobilier
+     * Le Village de l'emploi avis
+     * Alarme maison
+     * Demande de carte grise en ligne
+     * Définition du portage salarial
+     * Stress et troubles du sommeil
+     * A savoir en France
+
+   Résultats des élections législatives par département
+     * Résultats des élections législatives Hauts-de-Seine
+     * Résultats des élections législatives Seine-Saint-Denis
+     * Résultats des élections législatives Val-de-Marne
+     * Résultats des élections législatives Val-d'Oise
+
+   Résultats des élections législatives par ville
+     * Résultats des élections législatives Paris
+     * Résultats des élections législatives Marseille
+     * Résultats des élections législatives Lyon
+     * Résultats des élections législatives Toulouse
+     * Résultats des élections législatives Nice
+     * Résultats des élections législatives Nantes
+     * Résultats des élections législatives Montpellier
+     * Résultats des élections législatives Strasbourg
+     * Résultats des élections législatives Bordeaux
+     * Résultats des élections législatives Lille
+     * Résultats des élections législatives Rennes
+     * Résultats des élections législatives Reims
+     * Résultats des élections législatives Saint-Étienne
+
+   Résultats des élections législatives par région
+     * Résultats des élections législatives Auvergne-Rhône-Alpes
+     * Résultats des élections législatives Bourgogne-Franche-Comté
+     * Résultats des élections législatives Bretagne
+     * Résultats des élections législatives Centre-Val de Loire
+     * Résultats des élections législatives Corse
+     * Résultats des élections législatives Grand Est
+     * Résultats des élections législatives Hauts-de-France
+     * Résultats des élections législatives Ile-de-France
+     * Résultats des élections législatives Normandie
+     * Résultats des élections législatives Nouvelle-Aquitaine
+     * Résultats des élections législatives Occitanie
+     * Résultats des élections législatives Pays de la Loire
+     * Résultats des élections législatives Provence-Alpes-Côte d'Azur
+
+   Suivez l’actu en temps réelavec l’application Le Figaro
+   (BUTTON)
+   Vous avez choisi de refuser les cookies
+   Et pourtant, la publicité personnalisée est un moyen de soutenir le
+   travail de notre rédaction qui s’engage à vous proposer chaque jour une
+   information de qualité. En acceptant les cookies, vous pourrez accéder
+   aux contenus et fonctionnalités gratuites que propose notre site.
+
+   À tout moment, vous pouvez modifier vos choix via le bouton “paramétrer
+   les cookies” en bas de page.
+   (BUTTON) Accepter les cookiesouRefuser et s'abonner
+
+   Qu'est-ce que le dépaysement judiciaire ?
+   S'ABONNER
+   (BUTTON) Fermer
+   (BUTTON) Imprimer
+   Partager (BUTTON) 24
+
+   Partager via :
+     * Mail
+     * Facebook
+     * Twitter
+     * WhatsApp
+     * (BUTTON) Copier
+     * Messenger
+
+   (BUTTON)
+
+   2 commentaires
+
+   2
+   S'abonner
+
+   Nos liens utiles
+     * Les vidéos Figaro Live
+     * Les podcasts du Figaro
+     * Les programmes TV
+     * Les résultats sportifs
+     * Carnet du jour
+     * Figaro Store
+
+   Le Figaro
+   Le Kiosque
+
+   Le Figaro
+   Lire ce numéro
+   Abonnement
+     * Découvrez toutes les offres
+       Les articles en illimité à partir de 0,99€ sans engagement
+     * Gérer votre abonnement
+     * Espace personnel
+
+   Applications mobiles
+     * Le Figaro : iPhone | Android
+     * Le Figaro Jeux : iPhone | Android
+     * Le Kiosque Le Figaro : iPhone | Android
+     * Le Figaro Cuisine : iPhone | Android
+
+   Nos newsletters
+   Inscrivez-vous aux newsletters
+   Suivez-nous sur :
+     * (BUTTON) Paramétrer les cookies
+     * Plan du site
+     * Confidentialité
      * CGU
+     * CGV
+     * Info cookies
+     * Charte
+     * Aide et contact
      * Mentions légales
-     * Paramétrer vos cookies
-     * Retrouvez-vous sur Facebook et Twitter
+     * Abonnements
+     * Newsletter
+     * Publicité
+     * Sitemap
 
-   © DALLOZ 2022
-   image xiti
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-TC6DVH

@@ -1,450 +1,709 @@
-   #publisher alternate
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-W7NLSLH
 
-   publicité
+   Pour soutenir votre journalisme local, abonnez-vous !
 
-   Naviguez dans l'univers
+   Pourquoi voyez-vous ce message ?
 
-     *
-     *
-     *
+   Vous avez choisi de refuser le dépôt de cookies, vous pouvez à tout
+   moment modifier votre choix, ici.
+
+   Le contenu de ce site est le fruit du travail de journalistes qui vous
+   apportent chaque jour une information locale de qualité, fiable,
+   complète, et des services en ligne innovants. Ce travail s’appuie sur
+   les revenus complémentaires de la publicité et de l’abonnement.
+   Je m'abonne
+
+   Déjà abonné ?
+   Connectez-vous
+
+   Définir votre page d'accueil
+     * Bar-le-Duc
+     * Belfort - Héricourt - Montbéliard
+     * Besançon
+     * Lunéville
+     * Nancy
+     * Pont-à-Mousson
+     * Pontarlier - Haut-Doubs
+     * Toul
+     * Verdun
+     * Vesoul - Haute-Saône
+
+     * Vidéos
+     * Podcasts
+     * Newsletters
+     * Météo
+     * Libra Memoria
+     * Jeux
+     * Boutique
+     * LeCLUB
+     * Mon Séjour en Montagne
+
+   Nancy
+
+   Nancy
+
+   mer. 30/11/2022
+   Lire le journal
+   L'Est Républicain
+   S'abonner Se connecter Me connecter/ M’inscrire
+   Création de compte
+     * Activer JavaScript dans votre navigateur pour accéder à
+       l'inscription sur notre site
+
+   Civilité
+   (*) Madame ( ) Monsieur ( ) Société
+   Siret ____________________
+   Nom ____________________
+   Prénom ____________________
+   Adresse e-mail ____________________
+   Mot de passe ____________________
+   [ ] Je souhaite recevoir les communications et les exclusivités du
+   Groupe EBRA
+   [ ] Je souhaite recevoir les communications des partenaires du Groupe
+   EBRA
+   [ ] J'ai lu et accepté les Conditions générales d'utilisation
+
+   Si vous voyez ce champ, ne le remplissez pas ____________________
+   Je m'inscris
+
+   L'Est Républicain, en tant que responsable de traitement, recueille
+   dans ce formulaire des informations qui sont enregistrées dans un
+   fichier informatisé par son Service Relations Clients, la finalité
+   étant d’assurer la création et la gestion de votre compte, ainsi que
+   des abonnements et autres services souscrits. Si vous y avez consenti,
+   ces données peuvent également être utilisées pour l’envoi de
+   newsletters et/ou d’offres promotionnelles par L'Est Républicain, les
+   sociétés qui lui sont affiliées et/ou ses partenaires commerciaux. Vous
+   pouvez exercer en permanence vos droits d’accès, rectification,
+   effacement, limitation, opposition, retirer votre consentement et/ou
+   pour toute question relative au traitement de vos données à caractère
+   personnel en contactant lerabonnement@estrepublicain.fr ou consulter
+   les liens suivants : Protection des données, CGU du site et Contact. Le
+   Délégué à la Protection des Données personnelles (dpo@ebra.fr) est en
+   copie de toute demande relative à vos informations personnelles.
+   Vous êtes déjà inscrit ? Connectez-vous
+   L'Est Républicain
+     * Actualité
+     * Régions
+     * Faits-divers
+     * Sport
+     * Culture - Loisirs
+     * Magazine
+     * Services
      *
 
-   (BUTTON)
+     * À la Une
+     * > les dossiers du moment
+          + Guerre en Ukraine
+          + Covid-19
+     * Fil info
+     * France - Monde
+     * Politique
+     * Société
+     * Économie
+     * Environnement
+     * Santé
+     * People
+     * Éducation
+     * Insolite
+     * Désinfox
+     * Votre Journal & Vous
+          + La vie du journal
+          + La formation ESJ - Ebra
+          + L'Est des Ecoliers
 
-   Naviguer dans l'univers
-     __________________________________________________________________
+     * L’actualité en Franche-Comté
+          + Besançon
+          + Pontarlier - Haut-Doubs
+          + Vesoul - Haute-Saône
+          + Belfort - Montbéliard
+     * Du côté de la Suisse
+     * L’actualité en Lorraine
+          + Nancy et agglomération
+          + Pont-à-Mousson
+          + Lunéville
+          + Toul
+          + Bar-le-Duc
+          + Verdun
 
-     *
-     *
-     *
-     *
-     *
+   Je choisis mon édition favorite
+     * Tous les faits-divers
+          + Doubs
+          + Haute-Saône
+          + Meurthe-et-Moselle
+          + Meuse
+          + Territoire de Belfort
+     * > les affaires à la une
+          + Affaire Grégory Villemin
+          + Meurtre d'Alexia Daval
+          + Affaire Frédéric Péchier
+          + Procès de l'assassinat de Narumi
+          + Disparition de Maëlys et du Caporal Arthur Noyer
+          + Disparition Delphine Jubillar
 
-   (BUTTON)
-   Mes coachings Mes coachings
-   Astro Consult' Astro Consult'
+     * Coupe du monde de football
+     * Toute l'actualité sportive
+          + Résultats et classements
+          + Football
+          + Mercato football
+          + Basket-ball
+          + Handball
+          + Volley-ball
+          + Trophée du sportif du mois
+     * Sport lorrain
+          + ASNL : AS Nancy Lorraine
+          + SLUC Nancy Basket
+          + GNVB : Grand Nancy Volley-Ball
+          + Nancy Handball
+          + VNVB : Vandoeuvre Nancy Volley
+          + FC Metz
+     * Sport franc-comtois
+          + FCSM : FC Sochaux Montbéliard
+          + Racing Besançon
+          + ASM Belfort
+          + CA Pontarlier
+          + ESBF : ES Besançon Féminin Handball
+          + GBDH : Grand Besançon Handball
+          + BesAC : Besançon AC Basket
+
+     * Toute l'actualité culturelle
+     * Télévision - Séries - Streaming
+     * Programme TV
+     * Cinéma
+     * Programme ciné
+     * Jeux
+     * Nos podcasts
+     * Nos longs formats
+     * Livres
+     * Pour Sortir, l'agenda des sorties
+     * > les événements à la une
+          + Fêtes de Saint-Nicolas
+          + Les Lumières de Noël de Montbéliard
+          + Le Livre sur la Place
+          + Livres dans la Boucle
+          + Nancy Jazz Pulsations
+          + Centenaire du Territoire de Belfort
+          + Eurockéennes de Belfort
+          + Des flammes à la lumière
+          + Foire Comtoise
+          + Foire Expo de Nancy
+          + Festival Grandes heures nature de Besançon
+          + Festival de la Paille
+
+     * Tous nos magazines
+          + Santé
+          + Lifestyle
+          + Immobilier
+          + Automobile
+          + Cuisine et Vins
+          + Education / jeunesse
+          + Tourisme et patrimoine
+     * Les Lecteurs Voyageurs
+     * Le JDE - Le Journal des Enfants
+     * #IciOnAgit !
+     * Paroles d'experts
+
+     * Jeux
+     * Boutique
+     * Voyages
+     * Libra Memoria - avis de décès
+     * > petites annonces
+          + Immobilier
+          + Automobiles
+     * Nos partenaires
+     * Dossiers partenaires
+     * Infos Services
+     * Annonces Judiciaires et Légales
+     * Vie des Sociétés
+     * Marchés publics
+     * France Marchés Portail d’appels d’offres
+     * > nos événements
+          + Les Ailes de Cristal en Lorraine
+          + Les Ailes de Cristal en Franche-Comté
+          + Les Ailes de l'entrepreneuriat
+          + Les Lauriers des collectivités
+          + Les Trophées de l'agriculture
+          + Mon Beau Village
+     * > visite du journal
+          + S’inscrire aux visites du journal
+          + Galerie photo des visiteurs
+     * Le groupe Ebra
+          + Présentation du groupe
+          + Ebra Médias
+          + Ebra Events
+
+   Rechercher
+     * Dans un article
+     * Dans ma ville
+
+   ____________________ Ok
+   ____________________ Ok
+     * Besançon
+     * Nancy
+     * Belfort
+     * Montbéliard
+     * Lunéville
+     * Verdun
+     * Toul
+     * Bar-le-Duc
+     * Vesoul
+     * Pont-à-Mousson
+     * Lure
+
+   L'édition du soir en numérique dès 21h30 Le journal en numérique dès 5h
+   Accédez à tous les contenus en illimité
    S'abonner
-   Mes favoris Mes favoris
-   Se connecter
-   (BUTTON)
-    1. Gérer mon profil
-    2. Mes notifications
-    3. Déconnexion
-
-   (BUTTON)
-
-     * Mes favoris
-     * Gérer mon profil
-     * Mes notifications
-
-   (BUTTON) Déconnexion
-
-   (BUTTON)
-
-   ____________________
-    1. Mes favoris
-    2. Actu (BUTTON)
-         1. News actu
-         2. Société
-         3. Dossiers people
-         4. Ciné
-         5. Tops Actu
-    3. Beauté (BUTTON)
-         1. News Beauté
-         2. Maquillage
-         3. Coiffure
-         4. Soins
-         5. Parfums
-         6. Tops Beauté
-    4. Cuisine (BUTTON)
-         1. News cuisine
-         2. Recettes
-         3. Idées recettes
-         4. Tendance food
-         5. Astuces cuisine
-         6. Cuisine des chefs
-         7. Vin, cocktail, jus...
-         8. Tops Cuisine
-    5. Pouvoir d'achat
-    6. Rencontres
-    7. Santé (BUTTON)
-         1. News Santé
-         2. Maladie
-         3. Médicaments
-         4. Professionnel de santé
-         5. Actes médicaux
-         6. Anatomie
-         7. Vivantes
-         8. Santé pratique
-         9. Médecine douce
-        10. Nutrition
-        11. Forme
-        12. Psycho
-        13. Nos experts santé
-        14. Tops Santé
-    8. Horoscope (BUTTON)
-         1. Vos prévisions astro
-         2. Astro Consult'
-         3. Horoscope amoureux
-         4. Tarot
-         5. Numérologie
-         6. Tops Horoscope
-    9. Mode (BUTTON)
-         1. News Mode
-         2. Tendance mode
-         3. Conseils mode
-         4. Accessoires mode
-         5. Tops Mode
-   10. Enfant (BUTTON)
-         1. News enfant
-         2. Prénom
-         3. Grossesse
-         4. Bébé
-         5. Enfants
-         6. Tops Enfant
-   11. Minceur (BUTTON)
-         1. News minceur
-         2. Recettes minceur
-         3. Astuces minceur
-         4. Régimes
-         5. Tops Minceur
-   12. Déco & maison (BUTTON)
-         1. News déco & maison
-         2. Tendance déco
-         3. DIY
-         4. Maison pratique
-         5. Arts de la table
-         6. Jardin
-         7. Tops Déco & maison
-   13. Vie pratique (BUTTON)
-         1. Voyage
-         2. Travail
-         3. Famille
-         4. Argent
-         5. High Tech
-   14. Amour (BUTTON)
-         1. News amour
-         2. Couple
-         3. Mariage
-         4. Sexo
-         5. Jouir
-         6. Divorce rupture
-         7. Tops Amour
-   15. Jeux (BUTTON)
-         1. Jeux de lettres
-         2. Jeux de chiffres
-         3. Coloriages
-         4. Concours
-         5. Tests de personnalité
-         6. Quiz
-   16. Animaux (BUTTON)
-         1. News animaux
-         2. Animaux pratique
-         3. Chiens et chats de race
-         4. Tops Animaux
-   17. Simone
-   18.
-         1. Minceur
-         2. Déco & maison
-         3. Vie pratique
-         4. Amour
-         5. Jeux
-         6. Animaux
-         7. Simone
-   19. S'abonner au magazine
-   20. Newsletter
-   21. Mes Coachings
-   22.
-
-   NAVIGUEZ DANS L’UNIVERS
-
-   S'abonner
-   Newsletter
-
-   Nos engagements : Vivantes Jouir Pouvoir d'achat
-
-    1. Accueil
-    2. Vie pratique
-    3. Voyage
-
-Guernesey, Sercq, Aurigny : notre itinéraire pour découvrir les îles
-Anglo-Normandes
-
-   ____________________ (BUTTON) Rechercher
-
-   Mes favoris
-
-   Guernesey, Sercq, Aurigny : notre itinéraire pour découvrir les îles
-   Anglo-Normandes © Didier Rosière
-
-   (BUTTON)
-   Imprimer la page
-   (BUTTON)
-   Copier le lien
-   Lien copié !
-   (BUTTON)
-   Ajouter à mes favoris
-   (BUTTON)
-   Retirer de mes favoris
-   (BUTTON)
-   Partager sur Facebook
-   (BUTTON)
-   Partager sur Pinterest
-
-   Ajoutez cet article à vos favoris en cliquant sur ce bouton !
-   (BUTTON) J'ai compris !
-
-   L’île anglo-normande de Guernesey et ses voisines offrent une nature
-   verdoyante, un grand bol d’air marin et une appréciable douceur de
-   vivre.
-   Écrit par  Didier Rosière
-   Publié le 28/10/2022 à 19h15, mis à jour le 3/11/2022 à 10h38
-
-Restez informée
-
-   guernesey (BUTTON) Suivre ce sujet Ne plus suivre
-
-   Dépendance de la couronne britannique et non du Royaume-Uni, comme sa
-   voisine Jersey, le baillage de Guernesey cultive sa singularité héritée
-   d’une histoire séculaire. A quelques encablures des côtes françaises,
-   ce mini-royaume regroupe de multiples îles comme Sercq, Aurigny, Herm…
-   qui offrent autant de visages d’une nature diverse et généreuse et
-   d’une culture unique et soigneusement entretenue. Comme nombre de
-   visiteurs du Royaume-Uni qui en ont fait leur riviera, on s’y dépayse,
-   on s’y ressource et on goûte un art de vivre typiquement insulaire.
-
-L'île de Guernesey, so British
-
-   Des façades colorées, des pubs, des routes étroites bordées de murets
-   en pierre et des maisons basses ornées de jardin coquets : bien
-   qu’anglo-normande et traversée par quelques "ruettes tranquilles "
-   menant aux lieux-dits de Port-Soif, Rocque-Poisson ou encore Bordeaux,
-   l’île de Guernesey (Guernsey) respire un air avant tout très anglais.
-   Au-delà de Saint-Pierre-Port, la petite capitale animée, on découvre
-   une campagne vallonnée et verdoyante, avant de déboucher sur d’immenses
-   plages, comme à Vazon Bay ou à Rocquaine Bay, ou, plus au sud, sur de
-   hautes falaises battues par les flots.
-   La côte sud de Guernesey est bordée de falaises, où demeurent quelques
-   ouvrages défensifs datant de l’occupation allemande. © Didier Rosière
-
-Visite de Hauteville House, la maison de Victor Hugo à Guernesey
-
-   On visite absolument Hauteville House, la maison inlassablement
-   aménagée, décorée et meublée par Victor Hugo, dans un style exubérant
-   témoignage de la personnalité bouillonnante de l’auteur, qui vécut ici
-   quatorze de ses années d’exil, et où il écrivit nombre de
-   chefs-d’œuvre. 14 €/pers.
-   L’insolite maison de Victor Hugo. © Didier Rosière
-
-Insolite : des produits frais en libre-service à Guernesey
-
-   Le long des routes de Guernesey, on peut acheter des œufs frais, des
-   fruits et légumes ou des plantes en se servant tout simplement dans les
-   Hedge Veg, ces boîtes colorées installées et approvisionnées par les
-   producteurs, et en déposant le prix affiché dans la caisse mise à
-   disposition, baptisée Honesty Box.
-
-   Visitguernsey.com
-   Hedge Veg. © Didier Rosière
-
-L'île de Sercq, un voyage dans le temps
-
-   Dès que le bateau accoste l’unique quai du minuscule port de Sercq, au
-   pied de ce plateau rocheux d’à peine plus de 5 km2 , le visiteur a la
-   sensation d’aborder un monde à part. Une impression rapidement
-   confirmée en découvrant le hameau principal, qui rassemble quelques
-   maisons autour d’une rue non goudronnée. C’est donc à pied, à vélo, à
-   cheval ou en carriole que l’on arpente par de confortables chemins
-   cette île au littoral abrupt et découpé, qui accueille moins de 500
-   habitants. Dans un certain "éloignement du monde", une promenade
-   bucolique et intemporelle au charme puissant.
-
-   On loue un vélo pour atteindre La Coupée, l’isthme étroit et
-   spectaculaire qui surplombe le rivage d’une centaine de mètres pour
-   relier la grande et la petite Serq, et offre un magnifique point de vue
-   sur la mer et les îles de Guernesey et Herm (avenuecylcessark.com, 9 €
-   la journée).
-   La Coupée, à Sercq. © Getty Images/iStockphoto
-
-L'île d'Aurigny, place forte
-
-   Une nature paisible et propice à de belles balades et à l’observation
-   des oiseaux, de longues plages de sable clair baignées par une eau
-   translucide, et un unique et coquet village… Aurigny (Alderney) offre
-   un dépaysement des plus séduisants, en parfait contraste avec son
-   histoire singulière : à un peu plus de dix kilomètres du littoral
-   français, l’île a eu de tout temps un caractère stratégique. En
-   témoignent les nombreux forts de l’époque victorienne, et même les
-   vestiges d’un fort romain. Vidée de sa population dès 1940 par le
-   gouvernement britannique, Aurigny a été occupée jusqu’en 1945 par
-   l’armée allemande et hérissée de défenses impressionnantes, dont
-   certaines encore visibles sont ouvertes à la visite.
-
-   On se lance dans le Coast Path Challenge, 16 kilomètres de balade tout
-   autour de l’île, entre plages, falaises et prairies, et ponctuée de 36
-   points d’intérêt naturels et historiques. Visitalderney.com
-   Aurigny. © Didier Rosière
-
-Que rapporter de Guernesey ?
-
-   Un pull marin. Confectionnés en laine d’Angleterre depuis le XVIIème
-   siècle pour habiller les pêcheurs de l’archipel, puis utilisés par la
-   Royal Navy, les Guernsey Jumpers sont toujours fabriqués selon la
-   tradition. Environ 100 € pour un pull. Letricoteur.co,
-   guernseywoollens.com
-   © Guernsey Woollens
-
-   A lire aussi :
-
-   ⋙ Evasion dans les îles anglo-normandes
-
-   ⋙ 7 îles de rêve à découvrir en France
-
-   ⋙ Quels étaient les plats préférés de Victor Hugo ?
-   Par la rédaction
-
-Restez informée
-
-   guernesey (BUTTON) Suivre ce sujet Ne plus suivre
-
-Articles associés
-
-   Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les
-   îles anglo-normandes
-
-Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les îles
-anglo-normandes
-
-Evasion dans les îles anglo-normandes
-
-Notre itinéraire à pied pour découvrir l'ïle de la Réunion
-
-Voyage en Sardaigne : nos idées d'itinéraires pour découvrir l'Ile
-
-7 îles de rêve à découvrir en France
-
-   banner
-
-   Coaching gratuit
-
-   Maison au naturel
-
-   Changez vos habitudes et apprenez à entretenir votre maison sans
-   produit chimique. En savoir plus
-
-Encore plus de...
-
-    1. guernesey
-    2. île
-
-   Apprenez à entretenir votre maison au naturel
-   Apprenez à entretenir votre maison au naturel
-   Je découvre le coaching gratuit
-
-   (BUTTON)
-   Partager sur Facebook
-   (BUTTON)
-   Partager sur Pinterest
-   (BUTTON)
-   Ajouter à mes favoris
-   (BUTTON)
-   Retirer de mes favoris
-   (BUTTON)
-   Copier le lien
-   Lien copié !
-   (BUTTON)
-   Partager sur WhatsApp
-
-   Ajoutez cet article à vos favoris en cliquant sur ce bouton !
-   (BUTTON) J'ai compris !
-   (BUTTON)
-   Vos thèmes favoris tous les jours dans votre boîte mail !
-   Recevoir la newsletter
-   (BUTTON)
-
-À lire aussi
-
-   Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les
-   îles anglo-normandes
-   Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les
-   îles anglo-normandes
-
-Découvrez aussi …
-
-   Nos idées d'itinéraires pour découvrir la Picardie
-
-Nos idées d'itinéraires pour découvrir la Picardie
-
-   Découvrez les Baléares, d’île en île
-
-Découvrez les Baléares, d’île en île
-
-   Noirmoutier, Marais poitevin, île d’Yeu : notre itinéraire de balade
-   nature et iodée en Vendée
-
-Noirmoutier, Marais poitevin, île d’Yeu : notre itinéraire de balade nature
-et iodée en Vendée
-
-   Florida Keys, une balade d’île en île
-
-Florida Keys, une balade d’île en île
-
-   Nos idées d'itinéraires pour découvrir Autun
-
-Nos idées d'itinéraires pour découvrir Autun
-
-   Notre itinéraire pour découvrir le Danube en vélo
-
-Notre itinéraire pour découvrir le Danube en vélo
-
-   L’itinéraire idéal pour découvrir la forêt de Brocéliande
-
-L’itinéraire idéal pour découvrir la forêt de Brocéliande
-
-   Séjour dans le Var : 8 adresses gourmandes pour découvrir les
-   spécialités de l'île des Embiez
-
-Séjour dans le Var : 8 adresses gourmandes pour découvrir les spécialités de
-l'île des Embiez
-
-   Voyage à Nîmes : nos idées d'itinéraire pour découvrir la ville
-
-Voyage à Nîmes : nos idées d'itinéraire pour découvrir la ville
-
-   Voyage en Turquie : nos idées d'itinéraires pour découvrir lstanbul
-
-Voyage en Turquie : nos idées d'itinéraires pour découvrir lstanbul
-
-   Visiter Montpellier : nos idées d'itinéraires pour découvrir la ville
-
-Visiter Montpellier : nos idées d'itinéraires pour découvrir la ville
-
-   Voyage en Ecosse : nos idées d'itinéraires pour découvrir les Highlands
-
-Voyage en Ecosse : nos idées d'itinéraires pour découvrir les Highlands
-
-   Visiter Rochefort : nos idées d'itinéraire pour découvrir la ville
-
-Visiter Rochefort : nos idées d'itinéraire pour découvrir la ville
-
-Le magazine
-
-   Abonnement magazines Prisma Media
-     __________________________________________________________________
-
-   ©2022 - Prisma Média - Groupe Vivendi - Tous droits réservés
-     * Conditions générales d'utilisation
-     * Mentions Légales
-     * Charte pour la protection des données
-     * Publicité
-     * Contacts
-     * Équipe éditoriale
-     * Mon profil
-     * Rejoignez Prisma Media
-     * Votre kiosque
-     * Paramétrer vos cookies
-
-   Fréquentation certifiée par l'OJD - CPPAP : 0215 W 90266
-   facebook instagram pinterest
-
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-65VZ
+     * Actualité
+     * Régions
+     * Faits-divers
+     * Sport
+     * Culture - Loisirs
+     * Magazine
+     * Services
+
+     * À la Une
+     * > les dossiers du moment
+          + Guerre en Ukraine
+          + Covid-19
+     * Fil info
+     * France - Monde
+     * Politique
+     * Société
+     * Économie
+     * Environnement
+     * Santé
+     * People
+     * Éducation
+     * Insolite
+     * Désinfox
+     * Votre Journal & Vous
+          + La vie du journal
+          + La formation ESJ - Ebra
+          + L'Est des Ecoliers
+
+     * L’actualité en Franche-Comté
+          + Besançon
+          + Pontarlier - Haut-Doubs
+          + Vesoul - Haute-Saône
+          + Belfort - Montbéliard
+     * Du côté de la Suisse
+     * L’actualité en Lorraine
+          + Nancy et agglomération
+          + Pont-à-Mousson
+          + Lunéville
+          + Toul
+          + Bar-le-Duc
+          + Verdun
+
+   Je choisis mon �dition favorite
+     * Tous les faits-divers
+          + Doubs
+          + Haute-Saône
+          + Meurthe-et-Moselle
+          + Meuse
+          + Territoire de Belfort
+     * > les affaires à la une
+          + Affaire Grégory Villemin
+          + Meurtre d'Alexia Daval
+          + Affaire Frédéric Péchier
+          + Procès de l'assassinat de Narumi
+          + Disparition de Maëlys et du Caporal Arthur Noyer
+          + Disparition Delphine Jubillar
+
+   Je choisis mon �dition favorite
+     * Coupe du monde de football
+     * Toute l'actualité sportive
+          + Résultats et classements
+          + Football
+          + Mercato football
+          + Basket-ball
+          + Handball
+          + Volley-ball
+          + Trophée du sportif du mois
+     * Sport lorrain
+          + ASNL : AS Nancy Lorraine
+          + SLUC Nancy Basket
+          + GNVB : Grand Nancy Volley-Ball
+          + Nancy Handball
+          + VNVB : Vandoeuvre Nancy Volley
+          + FC Metz
+     * Sport franc-comtois
+          + FCSM : FC Sochaux Montbéliard
+          + Racing Besançon
+          + ASM Belfort
+          + CA Pontarlier
+          + ESBF : ES Besançon Féminin Handball
+          + GBDH : Grand Besançon Handball
+          + BesAC : Besançon AC Basket
+
+   Je choisis mon �dition favorite
+     * Toute l'actualité culturelle
+     * Télévision - Séries - Streaming
+     * Programme TV
+     * Cinéma
+     * Programme ciné
+     * Jeux
+     * Nos podcasts
+     * Nos longs formats
+     * Livres
+     * Pour Sortir, l'agenda des sorties
+     * > les événements à la une
+          + Fêtes de Saint-Nicolas
+          + Les Lumières de Noël de Montbéliard
+          + Le Livre sur la Place
+          + Livres dans la Boucle
+          + Nancy Jazz Pulsations
+          + Centenaire du Territoire de Belfort
+          + Eurockéennes de Belfort
+          + Des flammes à la lumière
+          + Foire Comtoise
+          + Foire Expo de Nancy
+          + Festival Grandes heures nature de Besançon
+          + Festival de la Paille
+
+   Je choisis mon �dition favorite
+     * Tous nos magazines
+          + Santé
+          + Lifestyle
+          + Immobilier
+          + Automobile
+          + Cuisine et Vins
+          + Education / jeunesse
+          + Tourisme et patrimoine
+     * Les Lecteurs Voyageurs
+     * Le JDE - Le Journal des Enfants
+     * #IciOnAgit !
+     * Paroles d'experts
+
+   Je choisis mon �dition favorite
+     * Jeux
+     * Boutique
+     * Voyages
+     * Libra Memoria - avis de décès
+     * > petites annonces
+          + Immobilier
+          + Automobiles
+     * Nos partenaires
+     * Dossiers partenaires
+     * Infos Services
+     * Annonces Judiciaires et Légales
+     * Vie des Sociétés
+     * Marchés publics
+     * France Marchés Portail d’appels d’offres
+     * > nos événements
+          + Les Ailes de Cristal en Lorraine
+          + Les Ailes de Cristal en Franche-Comté
+          + Les Ailes de l'entrepreneuriat
+          + Les Lauriers des collectivités
+          + Les Trophées de l'agriculture
+          + Mon Beau Village
+     * > visite du journal
+          + S’inscrire aux visites du journal
+          + Galerie photo des visiteurs
+     * Le groupe Ebra
+          + Présentation du groupe
+          + Ebra Médias
+          + Ebra Events
+
+   Je choisis mon �dition favorite
+   Nancy
+
+   Nancy
+
+   mer. 30/11/2022
+   Lire le journal
+     * Vidéos
+     * Podcasts
+     * Newsletters
+     * Météo
+     * Libra Memoria
+     * Jeux
+     * Boutique
+     * LeCLUB
+     * Mon Séjour en Montagne
+
+   Icone de l'application mobile
+
+   Retrouvez tous nos contenus et notre journal en numérique
+   Téléchargez gratuitement l'app
+   Suivez-nous
+     * Facebook
+     * Twitter
+     * Instagram
+     * Linkedin
+
+     * Contact
+     * FAQ
+     * CGU du site
+     * Informations légales
+     * Protection des données
+     * Politique RSE
+
+     *
+     * Culture - Loisirs
+     * « La Maison du loup » : « dépaysement, rêve et émotion » avec Jack
+       London
+
+     * Les lecteurs voyageurs
+     * 🎧 Podcast. La guerre de 1870
+     * 🎧 Podcast. L'épopée de Jeanne d'Arc
+     * 👑 Miss France
+
+Lunéville « La Maison du loup » : « dépaysement, rêve et émotion » avec Jack
+London
+
+   La pièce de Benoit Solès entraîne le spectateur dans l’Ouest américain
+   le temps d’une soirée avec l’auteur de « Croc-Blanc » et un homme
+   sortant de prison. Une confrontation entre un vieux loup et un chien
+   enragé, arrangée par la femme de l’écrivain.
+   Par Propos recueillis par Xavier COLLIN - 19 avr. 2022 à 07:00 - Temps
+   de lecture :
+   |  |
+   Le spectacle se déroule sur la terrasse de la maison de Jack London.
+   Photo © Fabienne RAPPENEAU
+
+     Comment s’est faite votre rencontre avec Jack London ?
+
+   J’étais un lecteur de cet auteur bien avant d’avoir eu l’idée de créer
+   la pièce « La Maison du loup ». Enfant, j’ai lu « L’Appel de la
+   forêt », « Croc-Blanc »… dans leur version adoucie, car les originaux
+   sont plus cruels. Jeune adulte, j’ai continué avec « Martin Eden », un
+   roman initiatique et d’aventure. J’étais amateur de ce type de livres
+   avec d’autres auteurs, comme Jules Verne et Robert Louis Stevenson.
+
+     Pourquoi cette pièce, « La Maison du loup » ? Qu’apporte-t-elle aux
+     spectateurs ?
+
+   Après « La Machine de Turing », j’ai eu envie d’écrire une autre pièce
+   où l’on trouverait de l’aventure. J’ai repensé à Jack London et aux
+   autres auteurs. Et un jour, dans une librairie, je suis tombé sur un
+   vieil exemplaire d’un de ses livres dans lequel j’ai trouvé le titre
+   « Le Vagabond des étoiles ». Je me suis procuré l’ouvrage, je l’ai lu
+   et l’idée de la pièce m’est venue. Le thème de celle-ci est une
+   confrontation entre deux hommes : Jack London, vieux loup endormi par
+   le confort et l’alcool, fait face à un chien enragé. Ed Morrell, sorti
+   de prison, se bat pour un ami condamné à la peine de mort. Un article
+   de ce dernier a interpellé Charmian London qui a arrangé cette
+   rencontre, un personnage très fort qui souhaite raviver la flamme
+   créatrice de son mari. Les deux hommes vont se révéler des choses.
+
+   Tout se passe sur la terrasse de la maison de Jack London, typique de
+   l’Ouest américain, le temps d’une soirée. Ce spectacle est une
+   invitation au voyage dans le monde de l’auteur où le spectateur
+   trouvera dépaysement, rêve et émotion, une heure trente pour tout
+   oublier.
+
+     Quel est votre livre préféré de l’auteur ?
+
+   Sans détour, « Martin Eden ». Ce roman initiatique m’a fait le plus
+   ressentir qui était Jack London, à travers ce jeune homme pauvre qui
+   monte dans la société par l’écriture. J’observe que c’est un livre que
+   les gens lisent et relisent à différentes étapes de leur vie. On le
+   retrouve sur les chevets de nombreux lecteurs. Il m’a connecté à
+   L’auteur, c’est son chef-d’œuvre.
+
+     Une nouvelle pièce ?
+
+   Oui, elle est en cours d’écriture, mais plus rien à voir avec Jack
+   London. Elle parle de la quête de la pierre philosophale, une sorte de
+   chasse au trésor à la « Da Vinci Code » ou « Au nom de la rose ».
+
+   Le spectacle « La Maison du loup » aura lieu le samedi 23 avril au
+   théâtre à 20 h 30. Réservation au 03 83 76 48 60.
+     * Culture - Loisirs
+     * Spectacle
+     * Lunéville
+     * Lunéville-ville 54A
+     * Edition Lunéville
+     *
+
+   0 commentaire
+   (BUTTON) COMMENTAIRES SUIVANTS
+   Réagir
+   Programme TV
+     * 19:50
+       Pologne / Argentine
+       22:55
+       Le Late avec Alain Chabat
+     * 21:10
+       Les invisibles
+       23:10
+       Infrarouge
+     * 21:10
+       Faut pas rêver
+       23:15
+       Justice en France
+     * 21:00
+       L'épopée joyeuse
+       22:40
+       Onze de légende
+     * 20:55
+       Pour une femme
+       22:45
+       Bonjour Sagan
+     * 21:10
+       Le meilleur pâtissier
+       23:20
+       Le meilleur pâtissier : revanche sous la tente
+     * 21:00
+       La grande librairie
+       22:35
+       C ce soir
+     * 21:20
+       Mongeville
+       23:10
+       Mongeville
+     * 21:05
+       Enquêtes criminelles
+       23:10
+       Enquêtes criminelles
+     * 21:25
+       Taxi 5
+       23:20
+       Taxi 4
+     * 21:05
+       De la ville à la campagne : un changement de vie de tous les défis
+       22:55
+       Ils ont tout quitté pour vivre leur rêve
+     * 21:10
+       Ransom Games
+       23:10
+       King Kong
+     * 20:30
+       Débatdoc
+       22:00
+       Sens Public
+     * 21:10
+       Bruce Springsteen & The E Street Band
+       23:40
+       Bruce Spingsteen : In His Own Words
+     * 21:10
+       Soir info
+       22:30
+       On peut tout se dire
+     * 21:10
+       U-235
+       23:05
+       The tourist
+     * 21:05
+       Noël : la fête préférée des Français
+       22:35
+       Noël : la fête préférée des Français
+     * 21:00
+       New York section criminelle
+       22:50
+       New York section criminelle
+     * 21:05
+       L'Équipe moteur - V6
+       21:55
+       L'Équipe du Soir
+     * 21:05
+       Les Mamans, 1 an après
+       22:00
+       Les Mamans, 1 an après
+     * 21:10
+       Routes sous haute tension
+       22:15
+       Dangers sur la route
+     * 21:10
+       Les reines de la mécanique
+       22:30
+       Les reines de la mécanique
+     * 21:05
+       Amours mortes
+       22:50
+       Enquêtes extraordinaires
+     * 20:00
+       Un œil sur le monde
+       22:00
+       Brunet, Hammett & Cie
+
+   Voir tous les programmes
+
+     * Thématiques
+          + En Franche-Comté
+          + En Lorraine
+          + France - Monde
+          + Faits-divers
+          + Politique
+          + Économie
+          + Environnement
+          + Sport
+          + Lifestyle
+          + Automobile
+          + Santé
+          + Immobilier
+          + Cuisine & vins
+          + Tourisme & patrimoine
+          + Les lecteurs voyageurs
+          + Élections et résultats
+     * Services
+          + Boutique
+          + Programme TV
+          + Météo
+          + Avis de décès
+          + Annonces immobilières
+          + Annonces automobile
+          + Nos partenaires
+          + Infos Services
+          + Pour Sortir
+          + Lire le journal
+          + S'abonner
+          + Newsletters
+          + Application mobile
+          + Archives web
+          + Consulter nos archives
+          + Visiter le journal
+          + Devenir correspondant
+          + Devenir vendeur-colporteur de presse
+     * Les sites du groupe EBRA
+          + Le Républicain Lorrain
+          + Vosges Matin
+          + L'Alsace
+          + Le Bien Public
+          + Le Dauphiné Libéré
+          + Le Journal de Saône-et-Loire
+          + Le Progrès
+          + Les Dernières Nouvelles d'Alsace
+          + Le JDE
+          + Le groupe Ebra
+     * Annonces légales
+          + Annonces judiciaires et légales
+          + Vie des sociétés
+          + Marchés publics
+          + Partenaire de France marchés
+
+   Suivez-nous
+     * Facebook
+     * Twitter
+     * Instagram
+     * Linkedin
+
+     * Contact
+     * FAQ
+     * CGU du site
+     * Informations légales
+     * Protection des données
+     * Politique RSE
+
+   OJD OJD Digital Ad Trust Display Digital Ad Trust Display
+
+     * A la une
+     * Fil Info
+     * Régions
+     * Vidéo
+     * Rechercher
+
+   Régions
+     * L’actualité en Lorraine
+          + Nancy et agglomération
+          + Pont-à-Mousson
+          + Lunéville
+          + Toul
+          + Bar-le-Duc
+          + Verdun
+     * L’actualité en Franche-Comté
+          + Besançon
+          + Pontarlier - Haut-Doubs
+          + Vesoul - Haute-Saône
+          + Belfort - Montbéliard

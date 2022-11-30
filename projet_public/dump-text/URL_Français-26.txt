@@ -1,251 +1,412 @@
-   (BUTTON) Accès au menu d’accessibilité
-     * aller au contenu principal
-     * aller au menu de navigation
-     * aller au moteur de recherche
-     * aller au direct tv
-     * aller au direct radio
+   Rechercher…____ OK
+   + de critères
+     * Dalloz actualité sur Android
+     * Dalloz actualité sur iOS
+     * Fils d'info RSS
+     * Dalloz actualité sur Youtube
 
-   (BUTTON) Menu principal
-   franceinfo Culture
-   ____________________ (BUTTON) Rechercher
-     * accueil
-     * le live
-     * direct tv
-     * direct radio
-     * vidéos
-     * radio
-     * jt
-     * magazines
+   Courriel : * Adresse email ..._______
+   (*) Abonnez-vous
+   ( ) Me désabonner
+   OK
+   Recevez gratuitement notre newsletter
+     * Administratif
+          + Acte
+          + Bien
+          + Collectivité territoriale
+          + Compétence
+          + Contrat et marché
+          + Droit économique
+          + Droit fondamental et liberté publique
+          + Election
+          + Environnement
+          + Finance et fiscalité
+          + Fonction publique
+          + Institution administrative
+          + Police
+          + Procédure contentieuse
+          + Responsabilité
+          + Service public
+          + Urbanisme
+     * Affaires
+          + Assurance
+          + Banque - Crédit
+          + Compliance
+          + Concurrence - Distribution
+          + Consommation
+          + Contrat - Responsabilité
+          + Entreprise en difficulté
+          + Fiscalité
+          + Fonds de commerce et commerçants
+          + Propriété intellectuelle
+          + Société et marché financier
+          + Sûretés et garantie
+          + Transport
+     * Civil
+          + Arbitrage - Médiation - Conciliation
+          + Bien - Propriété
+          + Contrat et obligations
+          + Droit et liberté fondamentaux
+          + Droit international et communautaire
+          + Famille - Personne
+          + Filiation
+          + Mariage - Divorce - Couple
+          + Procédure civile
+          + Profession juridique et judiciaire
+          + Responsabilité
+          + Succession - Libéralité
+          + Sûretés
+          + Voie d'exécution
+     * Européen
+          + Bien - Propriété
+          + Citoyenneté - Nationalité - Étranger
+          + Convention - Traité - Acte
+          + Droit économique
+          + Droit public
+          + Famille - Personne
+          + Pénal
+          + Principes - Généralités
+          + Propriété intellectuelle
+          + Souveraineté - État - Défense
+     * Immobilier
+          + Assurance
+          + Bail
+          + Construction
+          + Copropriété et ensembles immobiliers
+          + Domaine
+          + Droit rural
+          + Environnement
+          + Expertise
+          + Expropriation
+          + Logement social
+          + Propriété
+          + Urbanisme
+          + Vente
+     * IP/IT et Communication
+          + Audiovisuel
+          + Communications électroniques
+          + Contrat – Responsabilité
+          + Cyberdélinquance
+          + Droit de la presse
+          + Infrastructures et réseaux
+          + Intelligence artificielle
+          + Droits fondamentaux
+          + Patrimoine et culture
+          + Propriété industrielle
+          + Propriété littéraire et artistique
+          + Protection des données
+          + Statut professionnel
+     * Pénal
+          + Atteinte à l'autorité de l'état
+          + Atteinte à la personne
+          + Atteinte aux biens
+          + Circulation et transport
+          + Criminalité organisée et terrorisme
+          + Droit pénal des affaires
+          + Droit pénal général
+          + Droit pénal international
+          + Enquête
+          + Environnement et urbanisme
+          + Etranger
+          + Instruction
+          + Jugement
+          + Mineur
+          + Peine et exécution des peines
+          + Presse et communication
+     * Social
+          + Accident, maladie et maternité
+          + Contrat de travail
+          + Contrôle et contentieux
+          + Droit international et communautaire
+          + Hygiène - Sécurité - Conditions de travail
+          + IRP et syndicat professionnel
+          + Négociation collective
+          + Protection sociale
+          + Rémunération
+          + Retraite
+          + Rupture du contrat de travail
+          + Santé publique
+          + Statuts particuliers
+          + Temps de travail
+     * Avocat
+          + Communication
+          + Déontologie
+          + Gestion et comptabilité du cabinet
+          + Honoraires
+          + Organisation de la profession
+          + Procédure
 
+   Jump to Navigation
+   (BUTTON) Menu
+   Connexion
+   [decouvrez-dalloz-actualite.png]
    Accueil
-     * à la une
-     * musique (BUTTON) Sous-menu musique
-     * cinéma (BUTTON) Sous-menu cinéma
-     * séries (BUTTON) Sous-menu séries
-     * arts-expos (BUTTON) Sous-menu arts-expos
-     * spectacles (BUTTON) Sous-menu spectacles
-     * livres (BUTTON) Sous-menu livres
-     * bd (BUTTON) Sous-menu bd
-     * mode (BUTTON) Sous-menu mode
-     * patrimoine (BUTTON) Sous-menu patrimoine
-     * jeux vidéo
-     * tout franceinfo: (BUTTON) Sous-menu tout franceinfo:
-          + accueil
-          + vidéos
-          + radio
-          + jt
-          + sports
-          + le live
-          + magazine
-          + direct tv
-          + politique
-          + élections
-          + faits divers
-          + société
-          + éco/conso
-          + monde
-          + culture
-          + direct radio
-          + santé
-          + sciences
-          + environnement
-          + météo
-          + vrai ou fake
+   Dalloz Actualité
+   Le quotidien du droit en ligne
+   Connexion
+   Édition du 30 novembre 2022 Éditions précédentes
+   Rechercher…____ OK
+   + de critères
+   (BUTTON) Recherche
+     *
+     *
+     *
+     *
 
-     * Confidentialité
-     * Newsletters
+   Courriel : * Adresse email ..._______
+   (*) Abonnez-vous
+   ( ) Me désabonner
+   OK
+   Recevez gratuitement notre newsletter
+     * Administratif
+          + Toute la matière
+          + > Acte
+          + > Bien
+          + > Collectivité territoriale
+          + > Compétence
+          + > Contrat et marché
+          + > Droit économique
+          + > Droit fondamental et liberté publique
+          + > Election
+          + > Environnement
+          + > Finance et fiscalité
+          + > Fonction publique
+          + > Institution administrative
+          + > Police
+          + > Procédure contentieuse
+          + > Responsabilité
+          + > Service public
+          + > Urbanisme
+     * Affaires
+          + Toute la matière
+          + > Assurance
+          + > Banque - Crédit
+          + > Compliance
+          + > Concurrence - Distribution
+          + > Consommation
+          + > Contrat - Responsabilité
+          + > Entreprise en difficulté
+          + > Fiscalité
+          + > Fonds de commerce et commerçants
+          + > Propriété intellectuelle
+          + > Société et marché financier
+          + > Sûretés et garantie
+          + > Transport
+     * Civil
+          + Toute la matière
+          + > Arbitrage - Médiation - Conciliation
+          + > Bien - Propriété
+          + > Contrat et obligations
+          + > Droit et liberté fondamentaux
+          + > Droit international et communautaire
+          + > Famille - Personne
+          + > Filiation
+          + > Mariage - Divorce - Couple
+          + > Procédure civile
+          + > Profession juridique et judiciaire
+          + > Responsabilité
+          + > Succession - Libéralité
+          + > Sûretés
+          + > Voie d'exécution
+     * Européen
+          + Toute la matière
+          + > Bien - Propriété
+          + > Citoyenneté - Nationalité - Étranger
+          + > Convention - Traité - Acte
+          + > Droit économique
+          + > Droit public
+          + > Famille - Personne
+          + > Pénal
+          + > Principes - Généralités
+          + > Propriété intellectuelle
+          + > Souveraineté - État - Défense
+     * Immobilier
+          + Toute la matière
+          + > Assurance
+          + > Bail
+          + > Construction
+          + > Copropriété et ensembles immobiliers
+          + > Domaine
+          + > Droit rural
+          + > Environnement
+          + > Expertise
+          + > Expropriation
+          + > Logement social
+          + > Propriété
+          + > Urbanisme
+          + > Vente
+     * IP/IT et Communication
+          + Toute la matière
+          + > Audiovisuel
+          + > Communications électroniques
+          + > Contrat – Responsabilité
+          + > Cyberdélinquance
+          + > Droit de la presse
+          + > Infrastructures et réseaux
+          + > Intelligence artificielle
+          + > Droits fondamentaux
+          + > Patrimoine et culture
+          + > Propriété industrielle
+          + > Propriété littéraire et artistique
+          + > Protection des données
+          + > Statut professionnel
+     * Pénal
+          + Toute la matière
+          + > Atteinte à l'autorité de l'état
+          + > Atteinte à la personne
+          + > Atteinte aux biens
+          + > Circulation et transport
+          + > Criminalité organisée et terrorisme
+          + > Droit pénal des affaires
+          + > Droit pénal général
+          + > Droit pénal international
+          + > Enquête
+          + > Environnement et urbanisme
+          + > Etranger
+          + > Instruction
+          + > Jugement
+          + > Mineur
+          + > Peine et exécution des peines
+          + > Presse et communication
+     * Social
+          + Toute la matière
+          + > Accident, maladie et maternité
+          + > Contrat de travail
+          + > Contrôle et contentieux
+          + > Droit international et communautaire
+          + > Hygiène - Sécurité - Conditions de travail
+          + > IRP et syndicat professionnel
+          + > Négociation collective
+          + > Protection sociale
+          + > Rémunération
+          + > Retraite
+          + > Rupture du contrat de travail
+          + > Santé publique
+          + > Statuts particuliers
+          + > Temps de travail
+     * Avocat
+          + Toute la matière
+          + > Communication
+          + > Déontologie
+          + > Gestion et comptabilité du cabinet
+          + > Honoraires
+          + > Organisation de la profession
+          + > Procédure
 
-   Cet article date de plus d'un an.
+   (BUTTON) Menu
+   Connexion
+   Accueil
+   Dalloz Actualité
+   Le quotidien du droit en ligne
+   Connexion
+   ^-A^+A
+   Article
 
-Eurockéennes de Belfort : "Une parenthèse de dépaysement" pour "un festival de
-             sortie de crise", selon le directeur Jean-Paul Roland
+   Demande de dépaysement en appel : quand la « multipostulation »
+   complique les choses !
+   AVOCAT
+   CIVIL | Procédure civile | Profession juridique et judiciaire
 
-   Le festival ouvre ses portes ce mardi sur la presqu’île du Malsaucy.
-   Une trentaine d’artistes sont à l'affiche durant cinq jours.
+   Il résulte de l’article 47 du code de procédure civile que, si une
+   demande de renvoi peut être formée à tous les stades de la procédure
+   et notamment en cause d’appel, elle doit cependant, à peine
+   d’irrecevabilité, être présentée dès que son auteur a connaissance de
+   la cause de renvoi.
+   par Corinne Bléryle 7 mai 2018
+   Civ. 2^e, 12 avr. 2018, F-P+B+I, n° 17-17.241
 
-   Article rédigé par
-   franceinfo
-   Radio France
+   L’article 47 du code de procédure civile, qui permet le dépaysement du
+   procès lorsqu’un juge ou un auxiliaire de justice est concerné – quelle
+   que soit sa position procédurale – au profit d’une juridiction
+   limitrophe, retient régulièrement l’attention de la Cour de cassation
+   (v. aussi L. Cadiet et E. Jeuland, Droit judiciaire privé, 9^e éd.,
+   LexisNexis 2016, n° 167 : les auteurs évoquent « l’important
+   contentieux dont ce texte est l’objet »). Sa nature a suscité des
+   hésitations en doctrine et en jurisprudence. Depuis 2014, l’article 47
+   n’est plus vu comme un privilège de juridiction, afin d’encadrer son
+   application, mais comme une exception de procédure (pour une
+   qualification implicite : V. Civ 2^e, 26 juin 2014, n° 13-20.396, JCP
+   2014. 985, note D. Cholet : cette qualification « n’entraîne toutefois
+   pas l’abandon de la jurisprudence qui lui dénie celle d’exception
+   d’incompétence », jurisprudence d’ailleurs pas si évidente ; et,
+   qualifiant expressément la défense tirée de l’article 47 d’exception de
+   procédure, v. Civ 2^e, 15 oct. 2015, n° 14-22.236, FS-P+B, Dalloz
+   actualité, 4 nov. 2015, obs. M. Kébir isset(node/175260) ? node/175260
+   : NULL, 'fragment' => isset() ? : NULL, 'absolute' => )) .'"'>175260 ;
+   JCP 2016. 6, note P. Cagnoli). Cela a aussi des conséquences quant à
+   l’exercice des voies de recours (Civ. 2^e, 15 oct. 2015, préc. et Civ
+   2^e, 28 janv. 2016, n° 15-10.145, Gaz. Pal. 17 mai 2016, p. 65, note C.
+   Bléry : « l’arrêt, qui a été rendu sur le fondement de l’article 47 du
+   Code de procédure civile, a statué sur une exception de procédure sans
+   mettre fin à l’instance », le plaideur doit donc attendre l’arrêt au
+   fond de la juridiction du second degré et former un pourvoi en
+   cassation sur le tout).
 
-   Publié le 20/07/2021 18:23
-   Temps de lecture : 2 min.
+   C’est une autre question qui est abordée par l’arrêt commenté et qui
+   tient au moment où la demande en dépaysement est présentée, question
+   rendue encore plus complexe du fait des règles de la « multipostulation
+   » en région parisienne.
 
-   Les Eurockéennes de Belfort, lors de l'édition 2019. (LIONEL VADAM /
-   MAXPPP) Les Eurockéennes de Belfort, lors de l'édition 2019. (LIONEL
-   VADAM / MAXPPP)
+   Dans notre affaire, une avocate inscrite au barreau de Paris forme
+   opposition à une contrainte délivrée à son encontre devant le
+   tribunal des affaires de sécurité sociale des Hauts-de-Seine
+   (Nanterre). Elle demande et obtient alors le dépaysement au profit du
+   tribunal des affaires de sécurité sociale du Val-d’Oise (Pontoise) en
+   application de l’article 47, alinéa 2, du code de procédure civile.
+   Elle interjette appel du jugement. Devant la cour d’appel de
+   Versailles, l’avocate demande à nouveau le renvoi de l’affaire devant
+   une juridiction limitrophe. La juridiction du second degré rejette sa
+   demande de délocalisation de la procédure, au motif que l’avocate
+   aurait dû saisir en première instance un tribunal n’étant pas dans son
+   ressort (à elle, cour d’appel de Versailles) et statue sur l’appel.
+   L’avocate se pourvoit : en substance, l’auxiliaire de justice qui
+   demande le dépaysement d’une affaire est obligé de saisir une
+   juridiction située dans un ressort limitrophe et s’il exerce ses
+   fonctions devant la juridiction d’appel de ce premier tribunal, il peut
+   demander un nouveau dépaysement en cause d’appel.
 
-   Le festival des Eurockéennes de Belfort, qui ouvre ses portes mardi 20
-   juillet, est conçu comme "une parenthèse de dépaysement", selon le
-   directeur Jean-Paul Roland, invité sur franceinfo. Si le premier jour
-   sera sans pass sanitaire mais avec masque, la suite sera sans masque
-   mais avec pass. Ce sera "une sorte de nouveau défi à relever" pour "un
-   festival de sortie de crise" qui mettra en avant une "diversité
-   musicale", affirme Jean-Paul Roland.
+   La deuxième chambre civile rejette l’argumentation en posant le
+   principe énoncé en tête du commentaire :
+   - « ayant relevé, d’une part, que M^me X., avocat inscrit au barreau de
+   Paris, ne pouvait ignorer que les avocats inscrits au barreau de l’un
+   des tribunaux de grande instance...
 
-   franceinfo : Est-ce que vous ressentez une appréhension ou une certaine
-   peur pour le lancement de cette édition 2021 ?
+   Il vous reste 75% à lire.
 
-   Jean-Paul Roland : Non, pas vraiment peur. Je pense qu'il y avait
-   vraiment une forte envie territoriale de l'ensemble des gens qui
-   travaillent avec nous, qui nous ont poussés à monter une édition. C'est
-   certes avec une jauge beaucoup plus réduite. On fait d'habitude 135 000
-   personnes, on va passer à 5 000. Il y a juste deux scènes, mais on
-   avait quand même des exigences : de rester au Malsaucy, parce que c'est
-   le repère, d'avoir une diversité musicale, avec Acid Arab, mais aussi
-   des artistes congolais, des artistes palestiniens. L'idée, c'était
-   quand même de proposer une parenthèse de dépaysement.
+   Vous êtes abonné(e) ou disposez de codes d'accès : CONNEXION
 
-   Est-ce que cela a été compliqué d'improviser une programmation en
-   quelques semaines ?
+   [decouvrez-dalloz-actualite-art.jpg]
 
-   Si je fais un peu le fanfaron, je dirais qu'on a attendu les précisions
-   du président Macron pour se mettre autour de la table et construire un
-   festival dans l'urgence. Mais je crois que c'est ce qu'on voulait
-   faire, c'est-à-dire de ne pas le penser avant.
+Sur le même thème
 
-     "C'est un festival effectivement de crise, mais c'est plutôt un
-     festival qu'on espère de sortie de crise."
+     * Citer suffit !
+     * Conclusions en appel, il va falloir maintenant imprimer !
+     * Panorama rapide de l’actualité « civile » de la semaine du 14
+       novembre 2022
+     * Le contentieux « Google Ads » devant le juge des référés
+     * Exequatur : quelle est la juridiction compétente ?
+     * Concentration des prétentions et procédure collective, maîtres du
+       suspense
+     * L’amputation d’un délai pour conclure ne se répare pas par une note
+       en délibéré
+     * Nullité de la clause de reversement de rémunération d’expertise
+       judiciaire
+     * Erreur sur la désignation d’une partie dans les conclusions
+       d’appel, la cour de cassation fixe l’objectif
+     * Un magistrat ne cesse ses anciennes fonctions qu’à compter de son
+       installation dans les nouvelles
 
-   Jean-Paul Roland, directeur des Eurockéennes de Belfort
+   Édition du 30 novembre 2022 Éditions précédentes
+   Dalloz Actualité > La rédaction
+     * Portail des Éditions Dalloz
+     * Qui sommes-nous
+     * Contactez-nous
+     * Dalloz recrute
+     * CGV
+     * CGU
+     * Mentions légales
+     * Paramétrer vos cookies
+     * Retrouvez-vous sur Facebook et Twitter
 
-   à franceinfo
-
-   Bien entendu, cela reste compliqué. Mais si vous ne voulez pas avoir
-   d'emmerdes, comme on dit, il ne faut pas faire de festival.
-
-   Est-ce que vous comprenez les incertitudes inhérentes à la situation
-   sanitaire que nous connaissons ?
-
-   Bien sûr. Les Eurockéennes ont participé à un concert test. Donc on a
-   eu plusieurs épisodes. On a eu les épisodes d'annulations, les épisodes
-   de doutes. Il a fallu sauver aussi les structures. On est quand même
-   neuf à l'année. Et puis, bien entendu, le pass sanitaire qui arrive,
-   mais dont on se doutait. Avec une particularité pour cette édition,
-   puisque le premier jour aujourd'hui, c'est sans pass sanitaire, et les
-   autres jours avec pass sanitaire. On prend ça comme une sorte de
-   nouveau défi à relever pour nous. Mais on a vraiment une bonne ambiance
-   au sein de nos équipes avec en plus le soleil au firmament.
-
-   Et concernant le masque, ce soir c'est partout, mais demain, plus
-   besoin de masque. Quelle formule qui vous convient le mieux ? Un pass
-   et pas de masque, ou pas de pass et un masque ?
-
-   Je vous dirai ça dans deux jours. Mais je m'aperçois que dans nos
-   équipes, même si ce n'est pas obligatoire, la majorité des personnes
-   sont vaccinées. C'est vrai qu'on a plutôt envie d'être avec pass
-   sanitaire et sans masque. Mais il y a une différence entre les gens qui
-   travaillent, qui auront toujours le masque. Et puis pour le public,
-   c'est simplement aujourd'hui qu'ils auront le masque. Mais encore une
-   fois, comme tout festival, je pense qu'on l'a construit, le décor est
-   là. On va juste voir comment les gens le vivent.
-
-   Voir les commentaires
-
-   Partager :
-   (BUTTON) Partager sur Twitter (BUTTON) Partager sur Facebook (BUTTON)
-   Partager par mail (BUTTON) Partager le lien
-
-   actualités analyses vidéos
-
-   Prolongez votre lecture autour de ce sujet
-   tout l'univers Les Eurockéennes
-
-   articles sur le même thème
-
-   sur le même thème
-     * Sophie Adenot, lieutenant-colonel dans l’armée de l’air, la
-       nouvelle astronaute française.&nbsp; (ARMEE DE L'AIR ET DE
-       L'ESPACE) Sophie Adenot, lieutenant-colonel dans l’armée de l’air,
-       la nouvelle astronaute française.&nbsp; (ARMEE DE L'AIR ET DE
-       L'ESPACE)
-       De quel(le) astronaute rêvent les chansons ?
-     * Daniel Vangarde, au milieu de ses multiples instruments. (Archives
-       Zagora / DR) Daniel Vangarde, au milieu de ses multiples
-       instruments. (Archives Zagora / DR)
-       Daniel Vangarde, ou la redécouverte permanente d'un créateur de
-       musiques intemporelles
-     * La Playlist de franceinfo, à retrouver le samedi sur l'antenne et
-       sur le site. (THIERRY GACHON / MAXPPP) La Playlist de franceinfo, à
-       retrouver le samedi sur l'antenne et sur le site. (THIERRY GACHON /
-       MAXPPP)
-       IAM, Quantum Quantum, SCH et Feu! Chatterton
-     * Le groupe "Imagine Dragons" lors des American Music Awards 2022 au
-       Microsoft Theatre, le 20 novembre 2022 à Los Angeles.&nbsp; (MATT
-       WINKELMEYER / GETTY IMAGES NORTH AMERICA) Le groupe "Imagine
-       Dragons" lors des American Music Awards 2022 au Microsoft Theatre,
-       le 20 novembre 2022 à Los Angeles.&nbsp; (MATT WINKELMEYER / GETTY
-       IMAGES NORTH AMERICA)
-       "Imagine Dragons" en concert au château de Chambord en 2023
-     * "L'inconnu" de&nbsp;Tod Browning et son héros Alonzo l'homme sans
-       bras, parmi&nbsp;les films à la bande originale revisitée. (France
-       3 Alpes) "L'inconnu" de&nbsp;Tod Browning et son héros Alonzo
-       l'homme sans bras, parmi&nbsp;les films à la bande originale
-       revisitée. (France 3 Alpes)
-       Le festival "Le tympan dans l'œil" fait vibrer Grenoble au rythme
-       des ciné-concerts
-
-   les sujets associés
-     * Les Eurockéennes
-     * Musique
-     * Culture
-
-   Vu d'Europe
-
-   Franceinfo sélectionne chaque jour des contenus issus de médias
-   audiovisuels publics européens, membres de l'Eurovision. Ces contenus
-   sont publiés en anglais ou en français.
-
-   contenus sponsorisés
-
-   Commentaires :
-
-   Connectez-vous à votre compte franceinfo pour participer à la
-   conversation.
-
-   (BUTTON) Voir les commentaires
-
-    1. Accueil
-    2. Culture
-    3. Musique
-    4. Les Eurockéennes
-
-   Abonnement Newsletter
-
-   toute l’actu dès 7h30
-   ____________________
-
-   Votre adresse e-mail
-   (BUTTON) s'inscrire
-   France Télévisions utilise votre adresse e-mail afin de vous adresser
-   des newsletters.
-   Pour exercer vos droits, contactez-nous.
-   Notre politique de confidentialité Contactez-nous
-
-   Notre compte Twitter (nouvel onglet) Notre compte Facebook (nouvel
-   onglet) Notre compte Instagram (nouvel onglet) Notre compte Youtube
-   (nouvel onglet)
-
-     * le live
-     * direct tv
-     * direct radio
-
-   Soyez alerté(e) en temps réel avec l'application franceinfo :
-
-   App store
-   Play store
-
-   Télécharger l'application
-
-     * Politique de confidentialité
-     * CGU et mentions légales
-     * Gérer mes traceurs
-
-     * Nous contacter
-     * Qui sommes-nous?
-     * Charte déontologique
-     * Devenir annonceur
-     * Recrutement
-
-   [hit.xiti?s=573499&s2=9&p=musique::articles::eurockeennes_de_belfort_un
-   e_parenthese_de_depaysement_pour_un_festival_de_sortie_de_crise_selon_l
-   e_directeur_jean_paul_roland__4709545]
+   © DALLOZ 2022
+   image xiti
