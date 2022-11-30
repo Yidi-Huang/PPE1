@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Définition de dépaysement | Dictionnaire français</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<script type="c484b14a70beb65fa41c6835-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","errorBeacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-c987760640084f16d71","applicationID":"183693788","transactionName":"JhpeRQoXDl4EFExFWBcRQx4cEQFGCAkNXFYMB1VuCxANRQ==","queueTime":0,"applicationTime":90,"agent":""}</script>
+<script type="c484b14a70beb65fa41c6835-text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.eu01.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-c987760640084f16d71",applicationID:"183693788"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="description" content="Définition de dépaysement : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « dépaysement »">
+<link rel="canonical" href="https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.lalanguefrancaise.com/assets/favicon-5183ad07de70c72606983b28310216f6c47d78d94d2fd5d37524f9f01ded28a0.png" />
+<link rel="manifest" href="/manifest.json">
+<meta name="keywords" content="dépaysement,définition dépaysement,dépaysement définition,citation dépaysement,synonyme dépaysement, antonyme dépaysement,phonétique dépaysement,étymologie dépaysement,vidéos dépaysement,traduction dépaysement">
+
+<meta property="og:title" content="Définition de dépaysement | Dictionnaire français">
+<meta property="og:url" content="https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement">
+<meta property="og:image" content="https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/depaysement.png">
+<meta property="og:description" content="Définition de dépaysement : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « dépaysement »">
+<meta property="og:site_name" content="La langue française">
+<meta property="og:type" content="article">
+<meta property="article:publisher" content="https://www.facebook.com/lalanguefr/">
+<meta property="fb:app_id" content="688270328024906">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@LLfrancaise">
+<meta name="twitter:title" content="Définition de dépaysement | Dictionnaire français">
+<meta name="twitter:description" content="Définition de dépaysement : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « dépaysement »">
+<meta name="twitter:creator" content="@LLfrancaise">
+<meta name="twitter:image" content="https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/depaysement.png">
+<meta property="twitter:domain" content="www.lalanguefrancaise.com">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="o5xJEFelH9MKKg2U1ISN_tOaRQIhgkwVAG6o783nY_Q0pOZXmMjcLEMRVWAHANu-UZG7aZKjbPY0-pYCGC7fhQ" />
+<link rel="alternate" type="application/rss+xml" title="Flux RSS | La langue française" href="https://www.lalanguefrancaise.com/flux.rss" />
+
+<script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.lalanguefrancaise.com"
+      },{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Dictionnaire",
+				"item": "https://www.lalanguefrancaise.com/dictionnaire"
+			},{
+				"@type": "ListItem",
+				"position": 3,
+				"name": "Définitions du mot « dépaysement »",
+				"item": "https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement"
+			}]
+		}</script><script type="application/ld+json">
+		{
+				"@context": "http://schema.org",
+				"@type": "Article",
+				"mainEntityOfPage": {
+						"@type": "WebPage",
+						"@id": "https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement"
+				},
+				"headline": "Dépaysement : définition de « dépaysement » | La langue française",
+				"datePublished": "2020-06-25 21:52:16 UTC",
+				"dateModified": "2022-10-03 10:16:22 UTC",
+				"author": {
+						"@type": "Person",
+						"name": "La langue française"
+				},
+				"description": "Définition de dépaysement : dictionnaires de référence, étymologie, phonétique, citations littéraires, synonymes et antonymes de « dépaysement »",
+				"image": {
+						"@type": "ImageObject",
+						"url": "https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/depaysement.png",
+						"width": 1024,
+						"height": 526
+				},
+				"publisher": {
+						"@type": "Organization",
+						"name": "La langue française",
+						"logo": {
+								"@type": "ImageObject",
+								"url": "https://www.lalanguefrancaise.com/wp-content/uploads/2018/01/cropped-favicon-192x192.png",
+								"width": 192,
+								"height": 192
+						}
+				}
+		}
+		</script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" media="all" href="https://www.lalanguefrancaise.com/assets/application-3b7de95689e350882b141b0069b95bc2a143282caba655f0ea2d6c355ddc0c64.css" data-turbolinks-track="reload" />
+<script src="https://www.lalanguefrancaise.com/packs/js/application-4fc36a6702795e015832.js" data-turbolinks-track="reload" type="c484b14a70beb65fa41c6835-text/javascript"></script>
+
+<script type="c484b14a70beb65fa41c6835-text/javascript" async='async' src='https://cdn-a.yieldlove.com/v2/yieldlove.js?lalanguefrancaise.com'></script>
+<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js' type="c484b14a70beb65fa41c6835-text/javascript"></script>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+
+				var googletag = googletag || {};
+
+				googletag.cmd = googletag.cmd || [];
+
+				googletag.cmd.push(function() {
+
+					googletag.pubads().disableInitialLoad();
+
+					googletag.enableServices();
+
+				});
+
+			</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NHKT9P60Z" type="c484b14a70beb65fa41c6835-text/javascript"></script>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-1NHKT9P60Z');
+		</script>
+</head>
+<body>
+<header id="header-container">
+<div>
+<div>
+<div id="header-social-icons">
+<span>
+<a title="Nous suivre sur Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/lalanguefr">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="c484b14a70beb65fa41c6835-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+<a title="Nous suivre sur Twitter" target="_blank" rel="noopener" href="https://twitter.com/LLfrancaise">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="c484b14a70beb65fa41c6835-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+<a title="Nous suivre sur Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/lalangue_fr/">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="c484b14a70beb65fa41c6835-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m12.004 5.838c-3.403 0-6.158 2.758-6.158 6.158 0 3.403 2.758 6.158 6.158 6.158 3.403 0 6.158-2.758 6.158-6.158 0-3.403-2.758-6.158-6.158-6.158zm0 10.155c-2.209 0-3.997-1.789-3.997-3.997s1.789-3.997 3.997-3.997 3.997 1.789 3.997 3.997c.001 2.208-1.788 3.997-3.997 3.997z" fill="currentColor" data-original="#000000" style="" class="" /><path xmlns="http://www.w3.org/2000/svg" d="m16.948.076c-2.208-.103-7.677-.098-9.887 0-1.942.091-3.655.56-5.036 1.941-2.308 2.308-2.013 5.418-2.013 9.979 0 4.668-.26 7.706 2.013 9.979 2.317 2.316 5.472 2.013 9.979 2.013 4.624 0 6.22.003 7.855-.63 2.223-.863 3.901-2.85 4.065-6.419.104-2.209.098-7.677 0-9.887-.198-4.213-2.459-6.768-6.976-6.976zm3.495 20.372c-1.513 1.513-3.612 1.378-8.468 1.378-5 0-7.005.074-8.468-1.393-1.685-1.677-1.38-4.37-1.38-8.453 0-5.525-.567-9.504 4.978-9.788 1.274-.045 1.649-.06 4.856-.06l.045.03c5.329 0 9.51-.558 9.761 4.986.057 1.265.07 1.645.07 4.847-.001 4.942.093 6.959-1.394 8.453z" fill="currentColor" data-original="#000000" style="" class="" /><circle xmlns="http://www.w3.org/2000/svg" cx="18.406" cy="5.595" r="1.439" fill="currentColor" data-original="#000000" style="" class="" /></g></svg>
+</a>
+<a title="Nous suivre sur LinkedIn" target="_blank" rel="noopener" href="https://www.linkedin.com/company/la-langue-francaise">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<rect y="160" width="114.496" height="352" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896    c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320    c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<circle cx="56" cy="56" r="56" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
+</a>
+<a title="Nous suivre sur TikTok" target="_blank" rel="noopener" href="https://www.tiktok.com/@lalanguefrancaise.com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2859 3333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" fill="currentColor" clip-rule="evenodd" width="16" height="16"><path d="M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1h551z" /></svg></a>
+<a title="Nous suivre sur YouTube" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UC0JP3WjJJXafhYmU3KBt4tw">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 310 310" fill="currentColor" xml:space="preserve" width="16" height="16">
+<g id="XMLID_822_">
+<path id="XMLID_823_" d="M297.917,64.645c-11.19-13.302-31.85-18.728-71.306-18.728H83.386c-40.359,0-61.369,5.776-72.517,19.938
+		C0,79.663,0,100.008,0,128.166v53.669c0,54.551,12.896,82.248,83.386,82.248h143.226c34.216,0,53.176-4.788,65.442-16.527
+		C304.633,235.518,310,215.863,310,181.835v-53.669C310,98.471,309.159,78.006,297.917,64.645z M199.021,162.41l-65.038,33.991
+		c-1.454,0.76-3.044,1.137-4.632,1.137c-1.798,0-3.592-0.484-5.181-1.446c-2.992-1.813-4.819-5.056-4.819-8.554v-67.764
+		c0-3.492,1.822-6.732,4.808-8.546c2.987-1.814,6.702-1.938,9.801-0.328l65.038,33.772c3.309,1.718,5.387,5.134,5.392,8.861
+		C204.394,157.263,202.325,160.684,199.021,162.41z" />
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</a>
+</span>
+</div>
+<div>
+<span>
+<a title="La langue française" width="300" height="50" href="/"><img alt="La langue française" width="300" height="50" src="https://www.lalanguefrancaise.com/assets/logo-llfr-2021-a5b9f65af0ccc6b7a8ca21c922904eb4a3578a6d5d8793117dfb4c6a3b1ff2e8.svg" /></a>
+</span>
+</div>
+<div id="login-menu">
+<span>
+<a title="Découvrir nos abonnements" class="connexion-cta" data-turbolinks="false" href="/abonnements">Abonnements</a>
+<a title="Connexion" class="connexion-cta" href="/utilisateurs/connexion">Connexion</a>
+<a title="S&#39;abonner" class="cta" href="/utilisateurs/inscription">S&#39;abonner</a>
+</span>
+</div>
+</div>
+<nav>
+<a title="Dictionnaire" href="/dictionnaire">Dictionnaire</a>
+<a title="Conjugaison" href="/conjugaison">Conjugaison</a>
+<a title="Orthographe" href="/orthographe">Orthographe</a>
+<a title="Expressions" href="/expressions">Expressions</a>
+<a title="Proverbes" href="/proverbes">Proverbes</a>
+<a title="Littérature" href="/litterature">Littérature</a>
+<a title="Grammaire" href="/grammaire">Grammaire</a>
+<a title="Linguistique" href="/linguistique">Linguistique</a>
+<a title="Quiz" href="/quiz">Quiz</a>
+<a title="Dictées" href="/dictees">Dictées</a>
+<a title="Cours orthographe" href="https://www.lalanguefrancaise.com/formations">Cours orthographe</a>
+</nav>
+</div>
+</header>
+<header id="header-reponsive-container" class="nav-down">
+<div>
+<div>
+<div id="header-hamburger-menu">
+<span>
+
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+<g>
+<path d="M492,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,236,492,236z" />
+</g>
+</g>
+<g>
+<g>
+<path d="M492,76H20C8.954,76,0,84.954,0,96s8.954,20,20,20h472c11.046,0,20-8.954,20-20S503.046,76,492,76z" />
+</g>
+</g>
+<g>
+<g>
+<path d="M492,396H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h472c11.046,0,20-8.954,20-20
+			C512,404.954,503.046,396,492,396z" />
+</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</span>
+</div>
+<div>
+<span>
+<a title="La langue française" width="200" heigh="29" href="/"><img alt="La langue française" width="200" heigh="29" src="https://www.lalanguefrancaise.com/assets/logo-mobile-7aaac30fece9b89c09381f92a62e87adc206957b00ffea336cec70a163dadebc.svg" /></a>
+</span>
+</div>
+<div>
+<span id="login-responsive-menu">
+<a href="/utilisateurs/connexion"><img alt="Se connecter" title="Se connecter" width="18" height="18" src="https://www.lalanguefrancaise.com/assets/account-447efc035b8a51756ca6222552136901468e7398d89bfc42765f96d5ebff4218.svg" /></a>
+</span>
+</div>
+</div>
+<nav id="hamburger-nav">
+<a title="Dictionnaire" href="/dictionnaire">Dictionnaire</a>
+<a title="Conjugaison" href="/conjugaison">Conjugaison</a>
+<a title="Orthographe" href="/orthographe">Orthographe</a>
+<a title="Expressions" href="/expressions">Expressions</a>
+<a title="Proverbes" href="/proverbes">Proverbes</a>
+<a title="Littérature" href="/litterature">Littérature</a>
+<a title="Grammaire" href="/grammaire">Grammaire</a>
+<a title="Linguistique" href="/linguistique">Linguistique</a>
+<a title="Quiz" href="/quiz">Quiz</a>
+<a title="Dictées" href="/dictees">Dictées</a>
+<a title="Cours orthographe" href="https://www.lalanguefrancaise.com/formations">Cours orthographe</a>
+<div>
+<a title="S&#39;abonner" class="cta-blue" href="/utilisateurs/inscription">S&#39;abonner</a>
+</div>
+</nav>
+</div>
+</header>
+<div id="topad-center">
+
+<div id='div-gpt-ad-1407836140803-0'>
+ <script type="c484b14a70beb65fa41c6835-text/javascript">
+								if (window.innerWidth >= 990) {
+									googletag.cmd.push(function() {
+										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_970x250_1', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1407836140803-0').addService(googletag.pubads());
+										googletag.display('div-gpt-ad-1407836140803-0');
+									});
+								}
+
+								if (window.innerWidth < 990) {
+									googletag.cmd.push(function() {
+										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_m_336x280_1', [[336, 280], [300, 250]], 'div-gpt-ad-1407836140803-0').addService(googletag.pubads());
+										googletag.display('div-gpt-ad-1407836140803-0');
+									});
+								}
+							</script>
+</div>
+</div>
+<form id="form-search" data-controller="autocomplete search" data-autocomplete-url-value="/search_dico" action="/dictionnaire/recherche" accept-charset="UTF-8" data-remote="true" method="get">
+<div id="search-container">
+<div>
+<input type="image" src="/assets/loupe.svg" alt="Recherche">
+<input type="text" name="q" data-autocomplete-target="input" placeholder="Rechercher les définitions d'un mot…" id="search-dico" data-path="/dictionnaire/recherche/" data-target="search.input" data-action="keydown->search#enterSearch" data-path="/dictionnaire/recherche/" />
+</div>
+<ul data-autocomplete-target="results" id="search-results"></ul>
+</div>
+</form>
+<div id="daily-header-container">
+<ul>
+<a href="/dictees/chanson-francaise-dictee">DICTÉE | Cette dictée est tirée d&#39;une chanson française très connue</a>
+<a title="Quiz : « calendrier de l’avent » ou « calendrier de l’avant » ?" href="/quiz/quiz-calendrier-avent">QUIZ | Quiz : « calendrier de l’avent » ou « calendrier de...</a>
+<a href="/dictionnaire/definition/trapeziste">MOT DU JOUR | Trapéziste</a>
+</ul>
+</div>
+<div id="main-container">
+<div>
+<p class="notice"></p>
+<p class="alert"></p>
+<article id="dictionnaire-article">
+<p id="breadscrumb"><a href="/">Accueil</a> > <a href="/dictionnaire">Dictionnaire</a> > Définitions du mot « dépaysement »</p>
+<h1>Dépaysement</h1>
+<div id="sommaire">
+<p>Sommaire</p>
+<ul id="toc-list">
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#0">Définitions de « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#1">Étymologie de « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#2">Phonétique de « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#3">Évolution historique de l’usage du mot « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#4">Citations contenant le mot « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#5">Images d&#39;illustration du mot « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#6">Traductions du mot « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#7">Synonymes de « dépaysement »</a></li>
+<li><a data-turbolinks="false" href="/dictionnaire/definition/depaysement#8">Combien de points fait le mot dépaysement au Scrabble ?</a></li>
+</ul>
+</div>
+
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+				googletag.cmd.push(function() {
+						if (window.innerWidth >= 960) {
+								googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_728x90_1', [728, 90], 'div-gpt-ad-1407836099467-0').addService(googletag.pubads());
+						}
+
+						if (window.innerWidth < 960) {
+								googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_m_300x250_2', [300, 250], 'div-gpt-ad-1407836099467-0').addService(googletag.pubads());
+						}
+
+						googletag.pubads().enableSingleRequest();
+						googletag.enableServices();
+				});
+		</script>
+<div class="adincontent">
+<div id='div-gpt-ad-1407836099467-0'>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+							googletag.cmd.push(function() { googletag.display('div-gpt-ad-1407836099467-0'); });
+					</script>
+</div>
+</div>
+<div id="container-word-variants-table">
+<table>
+<thead>
+<tr>
+<th><span class="sr-only">Variantes</span></th>
+<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+Singulier
+</th>
+<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+Pluriel
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Masculin
+</td>
+<td>
+dépaysement
+</td>
+<td>
+dépaysements
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<section id="definition">
+<h2 id="0">Définitions de « dépaysement »</h2>
+<div id="tlfi">
+<h3>Trésor de la Langue Française informatisé</h3>
+<div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div id="art25914">
+<h3 class="tlf_cvedette">
+<span class="tlf_cmot">DÉPAYSEMENT,</span> <span class="tlf_ccode">subst. masc.</span>
+</h3>
+<span class="tlf_cdefinition">Action de dépayser; résultat de cette action.</span> <div class="tlf_parah">
+<span class="tlf_cplan"><b>A.−</b></span> <span class="tlf_cdefinition">Changement de pays, de lieu.</span> <span class="tlf_csynonime">(Quasi-)synon. <i>exil</i> :</span><div class="tlf_tabulation"><span class="tlf_cexemple">1. Il était, hier, difficile de préciser dans quelle mesure un Anglais établi au Canada, comme Goldwin Smith, appartenait à la littérature canadienne (...) La publication simultanée des œuvres dans plusieurs <i>pays,</i> les <i>déplacements</i> des auteurs et leurs <b>dépaysements</b> prolongés compliquent davantage encore, aujourd'hui, la tâche du classificateur.
+<span class="tlf_cpublication"><i>Arts et litt. dans la société contemp.,</i></span><span class="tlf_cdate">1936</span>, p. 4210.</span></div>
+<div class="tlf_paraputir">− <span class="tlf_cemploi"><i>P. ext.</i></span> <span class="tlf_cdefinition">Changement généralement volontaire de mode de vie, d'occupations, d'habitudes.</span> <span class="tlf_cexemple"><i>Chercher une espèce de dépaysement</i> (<span class="tlf_cauteur"><span class="tlf_smallcaps">Goncourt</span></span><span class="tlf_ctitre">, <i>Journal,</i></span><span class="tlf_cdate">1863</span>, p. 1359).</span><span class="tlf_cexemple"><i>L'altérité du simulateur est aussi peu sérieuse et aussi éphémère que le dépaysement des bals masqués</i> (<span class="tlf_cauteur"><span class="tlf_smallcaps">Jankélévitch</span></span><span class="tlf_ctitre">, <i>Je-ne-sais-quoi,</i></span><span class="tlf_cdate">1957</span>, p. 30).</span>
+</div>
+</div>
+<div class="tlf_parah">
+<span class="tlf_cplan"><b>B.−</b></span> <span class="tlf_cemploi"><i>Au fig.</i></span> <span class="tlf_cdefinition">Désarroi d'une personne placée dans un cadre inhabituel, un milieu inconnu, une situation inattendue.</span> <span class="tlf_cexemple"><i>Est-ce vraiment le simple changement de l'horaire qui provoque en vous ce bouleversement, ce dépaysement </i>(<span class="tlf_cauteur"><span class="tlf_smallcaps">Butor</span></span><span class="tlf_ctitre">, <i>Modif.,</i></span><span class="tlf_cdate">1957</span>, p. 23):</span><div class="tlf_tabulation"><span class="tlf_cexemple">2. Il y a en premier lieu un surcroît de <b>dépaysement</b> et de <i>malaise</i> psychologique qui tient à la terminologie : certains constructeurs ou maîtres d'ouvrages parlent de « blocs » ou de « cellules » (appartement)...
+<span class="tlf_cpublication"><i>Gds ensembles habit.,</i></span><span class="tlf_cdate">1963</span>, p. 26.</span></div>
+<div class="tlf_parsynt"><span class="tlf_csyntagme"><b>PARAD.</b> (Quasi-)synon. <i>désorientation, égarement, embarras; </i>anton. <i>acclimatation, familiarisation.</i></span></div>
+</div>
+<div class="tlf_parothers">
+<b>Prononc. :</b> [depεizmɑ
+̃] ou [depeizmɑ
+̃]. <i>Cf. dépayser. </i><b>Étymol. et Hist.</b> 2<sup>e</sup>moitié <span class="tlf_smallcaps">xvi</span><sup>e</sup>s. « action de s'en aller dans un autre pays » (<span class="tlf_smallcaps">E. Pasquier</span>, <i>Recherches,</i> IV, 5 ds <span class="tlf_smallcaps">Hug.</span>); 1834 fig. (<span class="tlf_smallcaps">Sainte-Beuve</span>, <i>Volupté,</i> t. 1, p. 121 : Le <b>dépaysement</b> surtout et la variété des lieux, quand on commence d'aimer, tournent au profit de l'amour). Dér. du rad. de <i>dépayser</i>*; suff. <i>-ment</i><sup>1</sup>*. <b>Fréq. abs. littér. :</b> 54.</div>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="c484b14a70beb65fa41c6835-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'7722e0408f2df16c',m:'7B5De8EH5QFN2CiG3.NG198VeaZF1rXCjN_JyqFEMzk-1669803893-0-Abn0O8sq8Zr6T6tLEOoljDsbnOkDluUd7fDErMteIlVlQk9J1valZaLQaPUlFQbeF6VPFSgGkgAeswzC/cl1k4BjTdQX1mNfb92YLp2pJ5R2wHEs0UW4b1yb/xUWupN3uZZbHAIwUxlMMopEE9TXffiPmT8Io2CmX7FjXmFmjIcL',s:[0xde9c030f47,0x5063735c03],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
+<br />
+</div>
+</div>
+<div id="wiktionnaire">
+<h3>Wiktionnaire</h3>
+<div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<h4>Nom commun - français</h4>
+<p><b>dépaysement</b> <span class="API" title="Prononciation API">\de.pɛ.iz.mɑ̃\</span> <span class="ligne-de-forme"><i>masculin</i></span>
+</p>
+<ol>
+<li>
+Changement d’environnement ou d’habitudes.
+<ul>
+<li>
+<i>Lorsque je revis en souvenir les premiers temps de mon séjour dans les Syrtes, c’est toujours avec une vivacité intense que revient à moi l’impression anormalement forte de <b>dépaysement</b> que je ressentis dès mon arrivée, et toujours à ce rapide voyage qu’elle s’attache pour moi avec le plus de prédilection.</i> <span class="sources"><span class="tiret">— </span>(Julien Gracq, <i>Le Rivage des Syrtes</i>, José Corti, 1951)</span>
+</li>
+<li>
+<i>Le <b>dépaysement</b> et l’éloignement ont toujours aidé l’écrivain à plonger au fond de lui…</i> <span class="sources"><span class="tiret">— </span>(Ali Daher, <i>la Nation.dj</i>, 2003)</span>
+</li>
+<li>
+<i>Le lac des Settons est un pôle touristique majeur du Morvan. A cheval sur les communes de Montsauche et de Moux, ce site sait allier divertissements et <b>dépaysement</b>.</i> <span class="sources"><span class="tiret">— </span>(Le Petit Futé Bourgogne 2009, page 322)</span>
+</li>
+<li><i><b>Dépaysement</b> garanti !</i></li>
+</ul>
+</li>
+<li>
+<i>(<span title="Le droit désigne l’ensemble des règles écrites qui régissent la société." id="fr-droit">Droit</span>)</i> Déplacement d'un procès hors de la juridiction où il doit être normalement tenu.
+<ul><li><i>Pour échapper à l'émotion populaire, le ministre a décidé le <b>dépaysement</b> à Paris du procès du bourreau de Béthunes.</i></li></ul>
+</li>
+<li>
+<span class="emploi"><span id="désuet"></span><i>(<span class="texte">Désuet</span>)</i></span> Exil.</li>
+</ol>
+</body></html>
+</div>
+<span class="attribution">Wiktionnaire - licence Creative Commons attribution partage à l’identique 3.0</span>
+</div>
+<div id="littre">
+<h3>Littré (1872-1877)</h3>
+<div>
+<div class="entete">
+<strong>DÉPAYSEMENT</strong> <em id="prn">(dé-pè-i-ze-man)</em> <b><abbr title="substantif masculin">s. m.</abbr></b>
+</div>
+<ul class="corps">
+<li class="v">Action de dépayser.<p>Changement d'habitudes, d'occupations, d'idées.</p>
+</li>
+</ul>
+<div class="r supplement">
+<h3>SUPPLÉMENT AU DICTIONNAIRE</h3>
+<p>DÉPAYSEMENT. <em>Ajoutez :</em> - HIST. XVI<sup>e</sup> s. <cite><q>Quelque depaysement que fist l'esclave, il ne se pouvoit affranchir au prejudice de son maistre</q>, <span class="src">Pasquier, <em class="ref" title="Les recherches de la France">Recherches, IV, 5</em>.</span></cite></p>
+</div>
+</div>
+<span class="attribution">Version électronique créée par François Gannaz - http://www.littre.org - licence Creative Commons Attribution</span>
+</div>
+</section>
+<section id="etymologie">
+<h2 id="1">Étymologie de « dépaysement »</h2>
+<div id="littré">
+<div class="r etymologie">
+<p>Dépayser.</p>
+</div>
+<span class="attribution">Version électronique créée par François Gannaz - http://www.littre.org - licence Creative Commons Attribution</span>
+</div>
+<br>
+<div id="wiktionnaire">
+<dl><dd>De <i><a href="/dictionnaire/definition/depayser" title="Définition de dépayser">dépayser</a></i> avec le suffixe <i>-ment</i>.</dd></dl>
+<span class="attribution">Wiktionnaire - licence Creative Commons attribution partage à l’identique 3.0</span>
+</div>
+<br>
+</section>
+<div class='ad-video-content'>
+
+<div id='div-gpt-ad-1407836166419-0'>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+					if (window.innerWidth >= 960) {
+						googletag.cmd.push(function() {
+							googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_640x480_1', [640, 480], 'div-gpt-ad-1407836166419-0').addService(googletag.pubads());
+							googletag.display('div-gpt-ad-1407836166419-0');
+						});
+					}
+					if (window.innerWidth < 960) {
+						googletag.cmd.push(function() {
+							googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_m_300x250_3', [300, 250], 'div-gpt-ad-1407836166419-0').addService(googletag.pubads());
+							
+							googletag.pubads().enableSingleRequest();
+							googletag.enableServices();
+						});
+					}
+				</script>
+</div>
+</div>
+<section id="phonetique">
+<h2 id="2">Phonétique du mot « dépaysement »</h2>
+<div>
+<table>
+<thead>
+<tr>
+<th>Mot</th>
+<th>Phonétique (Alphabet Phonétique International)</th>
+<th>Prononciation</th>
+</thead>
+<tbody>
+<tr>
+<td>dépaysement</td>
+<td>depaizœmɑ̃</td>
+<td style="text-align:center;">
+<audio id="player-phonetic" src="https://s3.eu-west-3.amazonaws.com/dictionnaire-prononciation/depaysement.mp3" type="audio/mp3"></audio>
+<span id="player-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('player-phonetic').play()" data-cf-modified-c484b14a70beb65fa41c6835-="">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="25" height="25" x="0" y="0" viewBox="0 0 320.001 320.001" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<path xmlns="http://www.w3.org/2000/svg" d="M295.84,146.049l-256-144c-4.96-2.784-11.008-2.72-15.904,0.128C19.008,5.057,16,10.305,16,16.001v288  c0,5.696,3.008,10.944,7.936,13.824c2.496,1.44,5.28,2.176,8.064,2.176c2.688,0,5.408-0.672,7.84-2.048l256-144  c5.024-2.848,8.16-8.16,8.16-13.952S300.864,148.897,295.84,146.049z" fill="#002d7d" data-original="#000000" style="" />
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="ngram">
+<h2 id="3">Évolution historique de l’usage du mot « dépaysement »</h2>
+<div id="ngram-iframe-container"><iframe loading="lazy" name="ngram_chart" src="https://books.google.com/ngrams/interactive_chart?content=d%C3%A9paysement&year_start=1700&year_end=2008&corpus=19&smoothing=3&direct_url=t1%3B%2Cd%C3%A9paysement%3B%2Cc0" width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no></iframe></div>
+<p class="attribution">Source : Google Books Ngram Viewer, application linguistique permettant d’observer l’évolution au fil du temps du nombre d'occurrences d’un ou de plusieurs mots dans les textes publiés.</p>
+</section>
+<section id="citations">
+<h2 id="4">Citations contenant le mot « dépaysement »</h2>
+<ul>
+<li>
+<blockquote>
+Le <em>dépaysement</em>, soit, pourvu qu'on en contrôle ses entrées et ses sorties.
+<cite>
+De Pierre Karch / Noëlle à Cuba
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Seul le <em>dépaysement</em> constitue un remède à la douleur.
+<cite>
+De Claude Lelouch / Itinéraire d&#39;un enfant très gâté
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+La Cabane de Domengé est une cabane perchée dans les arbres qui offre un <em>dépaysement</em> total, dans un confort 4 étoiles !
+<cite>France Bleu, Fichous-Riumayou : La Cabane de Domengé un rêve d&#39;enfant</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Mais la question à l’ordre du jour de l’audience ce lundi était celle du <em>dépaysement</em> de l’affaire. Pour qu’elle soit jugée ailleurs qu’à Papeete. « La seule question aujourd’hui est celle du lieu », a ainsi prévenu la juge, rappelant qu’elle s’exposait à des sanctions disciplinaires si elle s’avisait de juger l’affaire en Polynésie alors qu’elle exerce dans la même juridiction que le Procureur Leroy.
+<cite>, Affaire Temaru/Leroy : l’inéluctable dépaysement | La Dépêche de Tahiti</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Amoureux d’activité pleine nature, venez séjourner en Terres d’Oh ! Laissez-vous séduire par les paysages alentours à bord d’un bateau, à pied ou à vélo. Un <em>dépaysement</em> garanti à deux pas de chez vous. Retrouvez toutes les idées sorties sur www.terres-d-oh.com
+Envie d’évasion ? Reprenez goût à la liberté et venez profiter de nos itinéraires sur www.terres-d-oh.com. Une multitude d’offres vous attende pour un <em>dépaysement</em> garanti ! Terres d’Oh ! prenez le temps de vous laisser surprendre..
+<cite>, Depaysement garanti pres de chez vous : Balade, visite guidee a Sarreguemines</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Le <em>dépaysement</em>, soit, pourvu qu'on en contrôle ses entrées et ses sorties.
+<cite>
+De Pierre Karch / Noëlle à Cuba
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Seul le <em>dépaysement</em> constitue un remède à la douleur.
+<cite>
+De Claude Lelouch / Itinéraire d&#39;un enfant très gâté
+, </cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+La Cabane de Domengé est une cabane perchée dans les arbres qui offre un <em>dépaysement</em> total, dans un confort 4 étoiles !
+<cite>France Bleu, Fichous-Riumayou : La Cabane de Domengé un rêve d&#39;enfant</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Mais la question à l’ordre du jour de l’audience ce lundi était celle du <em>dépaysement</em> de l’affaire.
+<cite>, Affaire Temaru/Leroy : l’inéluctable dépaysement | La Dépêche de Tahiti</cite>
+</blockquote>
+</li>
+<li>
+<blockquote>
+Une multitude d’offres vous attende pour un <em>dépaysement</em> garanti !
+<cite>, Depaysement garanti pres de chez vous : Balade, visite guidee a Sarreguemines</cite>
+</blockquote>
+</li>
+</ul>
+</section>
+<section id="illustrations">
+<h2 id="5">Images d'illustration du mot « dépaysement »</h2>
+<small>⚠️ Ces images proviennent de Unsplash et n'illustrent pas toujours parfaitement le mot en question.</small>
+<ul>
+<li>
+<img title="The cruise ship dock at Skagway with artwork commemorating the ships that have visited here. " alt="The cruise ship dock at Skagway with artwork commemorating the ships that have visited here. " loading="lazy" src="https://images.unsplash.com/photo-1584265680512-7d97d655e09e?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@noaa?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par NOAA" target="_blank">NOAA</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="
+In a small corner of the vast Great Sandy Desert in Western Australia, large sand dunes—the only sand in this desert of scrub and rock—appear as lines stretching from left to right. The light-colored fan shapes are scars from wildfires." alt="
+In a small corner of the vast Great Sandy Desert in Western Australia, large sand dunes—the only sand in this desert of scrub and rock—appear as lines stretching from left to right. The light-colored fan shapes are scars from wildfires." loading="lazy" src="https://images.unsplash.com/photo-1576158129799-c4a7a6436de4?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="It is easy to see from this image why people have been drawn to the Nile River in Egypt for thousands of years. Green farmland marks a distinct boundary between the Nile floodplain and the surrounding harsh desert." alt="It is easy to see from this image why people have been drawn to the Nile River in Egypt for thousands of years. Green farmland marks a distinct boundary between the Nile floodplain and the surrounding harsh desert." loading="lazy" src="https://images.unsplash.com/photo-1581922814484-0b48460b7010?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="The Susquehanna River appears as a dark line coursing through this scene in southeastern Pennsylvania. The cities of York, Lancaster, and Reading lie among agricultural lands. The State capital, Harrisburg, is positioned against the orange folds in the upper left of the image, along the edge of the Appalachian Mountain Ridge and Valley Province." alt="The Susquehanna River appears as a dark line coursing through this scene in southeastern Pennsylvania. The cities of York, Lancaster, and Reading lie among agricultural lands. The State capital, Harrisburg, is positioned against the orange folds in the upper left of the image, along the edge of the Appalachian Mountain Ridge and Valley Province." loading="lazy" src="https://images.unsplash.com/photo-1581922825649-3bc05286d7d7?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Like frantic brushstrokes, fire scars cover the arid landscape near Lake Amadeus (upper right) in Australia&#39;s Northern Territory. Lake Amadeus is rich in salts that have been leached out of underlying sediments. When dry, its lake bed is transformed into a glistening sheet of white salt crystals." alt="Like frantic brushstrokes, fire scars cover the arid landscape near Lake Amadeus (upper right) in Australia&#39;s Northern Territory. Lake Amadeus is rich in salts that have been leached out of underlying sediments. When dry, its lake bed is transformed into a glistening sheet of white salt crystals." loading="lazy" src="https://images.unsplash.com/photo-1578309744318-e418e8bd1b4e?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="When landmasses collide, rock layers can break. Geologists call these breaks &quot;faults.&quot; Rock layers are offset in this image in western China, making the faults remarkably clear. The different colors indicate rocks that formed at different times and in different environments." alt="When landmasses collide, rock layers can break. Geologists call these breaks &quot;faults.&quot; Rock layers are offset in this image in western China, making the faults remarkably clear. The different colors indicate rocks that formed at different times and in different environments." loading="lazy" src="https://images.unsplash.com/photo-1581922813492-8199c9bcc5cd?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="These are the Anti-Atlas Mountains, part of the Atlas Mountain range in southern Morocco, Africa. The region contains some of the world&#39;s largest and most diverse mineral resources, most of which are still untouched." alt="These are the Anti-Atlas Mountains, part of the Atlas Mountain range in southern Morocco, Africa. The region contains some of the world&#39;s largest and most diverse mineral resources, most of which are still untouched." loading="lazy" src="https://images.unsplash.com/photo-1576158113928-4c240eaaf360?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="
+In the style of Van Gogh&#39;s painting &quot;Starry Night,&quot; massive congregations of greenish phytoplankton swirl in the dark water around Gotland, a Swedish island in the Baltic Sea. Phytoplankton are microscopic marine plants that form the first link in nearly all ocean food chains. Population explosions, or blooms, of phytoplankton, like the one shown here, occur when deep currents bring nutrients up to sunlit surface waters, fueling the growth and reproduction of these tiny plants." alt="
+In the style of Van Gogh&#39;s painting &quot;Starry Night,&quot; massive congregations of greenish phytoplankton swirl in the dark water around Gotland, a Swedish island in the Baltic Sea. Phytoplankton are microscopic marine plants that form the first link in nearly all ocean food chains. Population explosions, or blooms, of phytoplankton, like the one shown here, occur when deep currents bring nutrients up to sunlit surface waters, fueling the growth and reproduction of these tiny plants." loading="lazy" src="https://images.unsplash.com/photo-1579158950667-440eef4875ac?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="Power County Wind Farm " alt="Power County Wind Farm " loading="lazy" src="https://images.unsplash.com/photo-1573486145949-182147241fa6?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@scienceinhd?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par Science in HD" target="_blank">Science in HD</a> via Unsplash</a></span>
+</li>
+<li>
+<img title="San Juan, Argentina, nestles in a fertile valley flanked by arid mountains. Croplands and vineyards (green) abut the metropolitan area on the San Juan River. The white &quot;teardrop&quot; (lower left) is an ancient lakebed called Barreal Blanco. It is one of the best places in the world for carrovelismo, or landsailing, thanks to the steady winds that sweep across this flat, unobstructed expanse of hard-packed sediment." alt="San Juan, Argentina, nestles in a fertile valley flanked by arid mountains. Croplands and vineyards (green) abut the metropolitan area on the San Juan River. The white &quot;teardrop&quot; (lower left) is an ancient lakebed called Barreal Blanco. It is one of the best places in the world for carrovelismo, or landsailing, thanks to the steady winds that sweep across this flat, unobstructed expanse of hard-packed sediment." loading="lazy" src="https://images.unsplash.com/photo-1579818276426-2f2bca600658?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEzNzYzNn0?utm_source=dictionnaire&amp;utm_medium=referral" />
+<span class="attribution">Photo de <a href="https://unsplash.com/@usgs?utm_source=dictionnaire&utm_medium=referral" rel="nofollow" title="Photo de dépaysement par USGS" target="_blank">USGS</a> via Unsplash</a></span>
+</li>
+</ul>
+</section>
+<section id="traductions">
+<h2 id="6">Traductions du mot « dépaysement »</h2>
+<div style="overflow-x:auto;">
+<table>
+<thead>
+<tr>
+<th>Langue</th>
+<th>Traduction</th>
+</thead>
+<tbody>
+<tr>
+<td>Anglais</td>
+<td>change of scenery</td>
+</tr>
+<tr>
+<td>Espagnol</td>
+<td>cambio de escenario</td>
+</tr>
+<tr>
+<td>Italien</td>
+<td>cambio di scenario</td>
+</tr>
+<tr>
+<td>Allemand</td>
+<td>szenenwechsel</td>
+</tr>
+<tr>
+<td>Chinois</td>
+<td>风景变化</td>
+</tr>
+<tr>
+<td>Arabe</td>
+<td>تغير المشهد</td>
+</tr>
+<tr>
+<td>Portugais</td>
+<td>mudança de cenário</td>
+</tr>
+<tr>
+<td>Russe</td>
+<td>смена декораций</td>
+</tr>
+<tr>
+<td>Japonais</td>
+<td>景色の変化</td>
+</tr>
+<tr>
+<td>Basque</td>
+<td>paisaia aldaketa</td>
+</tr>
+<tr>
+<td>Corse</td>
+<td>cambiamentu di scenarii</td>
+</tr>
+</tbody>
+</table>
+</div>
+<span class="attribution">Source : Google Translate API</span>
+</section>
+<section id="synonymes">
+<h2 id="7">Synonymes de « dépaysement »</h2>
+<ul class="carousel-syn-anto">
+<li>
+<a title="consulter la définition de déracinement" href="/dictionnaire/definition/deracinement">déracinement</a>
+</li>
+<li>
+<a title="consulter la définition de exil" href="/dictionnaire/definition/exil">exil</a>
+</li>
+<li>
+<a title="consulter la définition de égarement" href="/dictionnaire/definition/egarement">égarement</a>
+</li>
+</ul>
+<span class="attribution">
+Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebonsynonyme.fr/synonyme/dépaysement">synonymes de dépaysement sur lebonsynonyme.fr</a>
+</span>
+</section>
+<section id="scrabble">
+<h2 id="8">Combien de points fait le mot dépaysement au Scrabble ?</h2>
+<p>Nombre de points du mot dépaysement au scrabble : <strong>18 points</strong></p>
+</section>
+</article>
+</div>
+<aside>
+<div>
+<div class="sticky">
+
+<div style="min-height:250px;width:300px;padding-top:10px">
+<div id='div-gpt-ad-1407836178797-0'>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+								if (window.innerWidth >= 960) {
+									googletag.cmd.push(function() {
+										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_300x250_1', [300, 250], 'div-gpt-ad-1407836178797-0').addService(googletag.pubads());
+									googletag.display('div-gpt-ad-1407836178797-0');
+									});
+								}
+							</script>
+</div>
+</div>
+<div>
+<div id="conjugaison-top">
+<h4>Autres langues</h4>
+<ul id="conjugaison-ul-declinaisons">
+<li><a title="Traductions de dépaysement en anglais" data-turbolinks="false" href="/dictionnaire/francais-anglais/depaysement">Traductions de dépaysement en anglais</a></li>
+<li><a title="Translations of change of scenery in French" data-turbolinks="false" href="/dictionnaire/english-french/change-of-scenery-en">Translations of change of scenery in French</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="skyscraper-ad">
+<div class="sticky">
+<div id='div-gpt-ad-1407836168668-0'>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+							if (window.innerWidth >= 960) {
+								googletag.cmd.push(function() {
+									googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_300x600_1', [[300, 600], [160, 600], [300, 250]], 'div-gpt-ad-1407836168668-0').addService(googletag.pubads());
+									googletag.display('div-gpt-ad-1407836168668-0');
+								});
+							}
+						</script>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<div id="after_article">
+</div>
+<footer>
+<div id="footer-container">
+<div id="alphabet_words_container">
+<h4>Classement par ordre alphabétique des définitions des mots français</h4>
+<ul>
+<li><a title="Définitions des mots français commençant par a" href="/dictionnaire/mots-commencant-par-a">A</a></li>
+<li><a title="Définitions des mots français commençant par b" href="/dictionnaire/mots-commencant-par-b">B</a></li>
+<li><a title="Définitions des mots français commençant par c" href="/dictionnaire/mots-commencant-par-c">C</a></li>
+<li><a title="Définitions des mots français commençant par d" href="/dictionnaire/mots-commencant-par-d">D</a></li>
+<li><a title="Définitions des mots français commençant par e" href="/dictionnaire/mots-commencant-par-e">E</a></li>
+<li><a title="Définitions des mots français commençant par f" href="/dictionnaire/mots-commencant-par-f">F</a></li>
+<li><a title="Définitions des mots français commençant par g" href="/dictionnaire/mots-commencant-par-g">G</a></li>
+<li><a title="Définitions des mots français commençant par h" href="/dictionnaire/mots-commencant-par-h">H</a></li>
+<li><a title="Définitions des mots français commençant par i" href="/dictionnaire/mots-commencant-par-i">I</a></li>
+<li><a title="Définitions des mots français commençant par j" href="/dictionnaire/mots-commencant-par-j">J</a></li>
+<li><a title="Définitions des mots français commençant par k" href="/dictionnaire/mots-commencant-par-k">K</a></li>
+<li><a title="Définitions des mots français commençant par l" href="/dictionnaire/mots-commencant-par-l">L</a></li>
+<li><a title="Définitions des mots français commençant par m" href="/dictionnaire/mots-commencant-par-m">M</a></li>
+<li><a title="Définitions des mots français commençant par n" href="/dictionnaire/mots-commencant-par-n">N</a></li>
+<li><a title="Définitions des mots français commençant par o" href="/dictionnaire/mots-commencant-par-o">O</a></li>
+<li><a title="Définitions des mots français commençant par p" href="/dictionnaire/mots-commencant-par-p">P</a></li>
+<li><a title="Définitions des mots français commençant par q" href="/dictionnaire/mots-commencant-par-q">Q</a></li>
+<li><a title="Définitions des mots français commençant par r" href="/dictionnaire/mots-commencant-par-r">R</a></li>
+<li><a title="Définitions des mots français commençant par s" href="/dictionnaire/mots-commencant-par-s">S</a></li>
+<li><a title="Définitions des mots français commençant par t" href="/dictionnaire/mots-commencant-par-t">T</a></li>
+<li><a title="Définitions des mots français commençant par u" href="/dictionnaire/mots-commencant-par-u">U</a></li>
+<li><a title="Définitions des mots français commençant par v" href="/dictionnaire/mots-commencant-par-v">V</a></li>
+<li><a title="Définitions des mots français commençant par w" href="/dictionnaire/mots-commencant-par-w">W</a></li>
+<li><a title="Définitions des mots français commençant par x" href="/dictionnaire/mots-commencant-par-x">X</a></li>
+<li><a title="Définitions des mots français commençant par y" href="/dictionnaire/mots-commencant-par-y">Y</a></li>
+<li><a title="Définitions des mots français commençant par z" href="/dictionnaire/mots-commencant-par-z">Z</a></li>
+</ul>
+</div>
+<p>Définition de dépaysementprésentée par lalanguefrancaise.com - Ces définitions du mot dépaysement sont données à titre indicatif et proviennent de dictionnaires libres de droits. Les informations complémentaires relatives au mot dépaysement sont éditées par l’équipe éditoriale de lalanguefrancaise.com</p>
+<p>Ce mot fait partie de la catégorie des <a title="Mots français de 11 lettres" href="/dictionnaire/mots-de-11-lettres">mots français de 11 lettres</a>.</p>
+<div id="footer-sections-container">
+<div>
+<h4>La langue française</h4>
+<ul>
+<li><a href="/a-propos">À propos</a></li>
+<li><a href="/cgu">Conditions générales d’utilisation</a></li>
+<li><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
+<li><a href="/espace-annonceurs">Espace annonceurs</a></li>
+<li><a href="/cdn-cgi/l/email-protection#2744484953464453674b464b46494052424155464944464e54420944484a">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4>Plus de services</h4>
+<ul>
+<li><a href="https://www.lalanguefrancaise.com/abonnements">Abonnements</a></li>
+<li><a href="https://formation.lalanguefrancaise.com">Formation orthographe</a></li>
+<li><a href="https://lebonsynonyme.fr/">Synonymes</a></li>
+<li><a href="https://www.lalanguefrancaise.com/dictionnaire">Dictionnaire</a></li>
+<li><a href="https://www.lalanguefrancaise.com/conjugaison">Conjugaison</a></li>
+</ul>
+</div>
+<div>
+<h4>Ces articles vont vous intéresser…</h4>
+<ul>
+<li><a href="https://www.lalanguefrancaise.com/orthographe/orthographe-40-regles-de-base">Les 40 règles de base de l&#39;orthographe française</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/formule-de-politesse-email-lettre-de-motivation">51 formules de politesse pour vos emails, lettres et lettres de motivation</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/ecrire-majuscules-a-e-i-o-u-a-e-i-o-u-a-ae-ae-c-e-e-oe-oe-u-extension-chrome">Écrire les majuscules Â, Ê, Î, Ô, Û, Ä, Ë, Ï, Ö, Ü, À, Æ, æ, Ç, É, È, Œ, œ, Ù</a></li>
+<li><a href="https://www.lalanguefrancaise.com/linguistique/figures-de-style-guide-complet">Figures de style : le guide complet</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/correcteur-orthographe">Correcteur d&#39;orthographe : comparatif complet des meilleures solutions</a></li>
+<li><a href="https://www.lalanguefrancaise.com/articles/alphabet-francais">L’alphabet français : liste des lettres, prononciation et histoire</a></li>
+</ul>
+</div>
+</div>
+<p id="bottom-footer-p"><a href="https://www.lalanguefrancaise.com">La langue française</a> ©&nbsp;2022</p>
+</div>
+</footer>
+<div id="bottom_navbar">
+<div data-controller="scroll-progress" id="scroll-progress"></div>
+<div id="bottom_navbar_container">
+<div id="bottom_navbar_title">
+<p>Dépaysement</p>
+</div>
+<div>
+<p><a href="/dictionnaire/definition/depaysement#sommaire">Retour au sommaire ➦</a></p>
+</div>
+<div id="bottom_navbar_social">
+<span>Partager</span>
+<a title="Partager par courriel" href="/cdn-cgi/l/email-protection#ecd39f998e86898f98d1a82f458a858285988583829fcc8899cc818398cc882f459c8d959f8981898298ca8d819cd78e838895d1ba83858f85cc80899fcc882f458a858285988583829fcc8899cc818398cc882f459c8d959f8981898298c9dca8c9dcadc9dca8c9dcad8498989c9fd6c3c39b9b9bc2808d808d828b99898a9e8d828f8d859f89c28f8381c388858f98858382828d859e89c388898a85828598858382c388899c8d959f8981898298">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="c484b14a70beb65fa41c6835-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script>
+<g xmlns="http://www.w3.org/2000/svg">
+<g>
+<g>
+<path d="M10.688,95.156C80.958,154.667,204.26,259.365,240.5,292.01c4.865,4.406,10.083,6.646,15.5,6.646     c5.406,0,10.615-2.219,15.469-6.604c36.271-32.677,159.573-137.385,229.844-196.896c4.375-3.698,5.042-10.198,1.5-14.719     C494.625,69.99,482.417,64,469.333,64H42.667c-13.083,0-25.292,5.99-33.479,16.438C5.646,84.958,6.313,91.458,10.688,95.156z" fill="currentColor" data-original="#000000" style="" class="" />
+<path d="M505.813,127.406c-3.781-1.76-8.229-1.146-11.375,1.542C416.51,195.01,317.052,279.688,285.76,307.885     c-17.563,15.854-41.938,15.854-59.542-0.021c-33.354-30.052-145.042-125-208.656-178.917c-3.167-2.688-7.625-3.281-11.375-1.542     C2.417,129.156,0,132.927,0,137.083v268.25C0,428.865,19.135,448,42.667,448h426.667C492.865,448,512,428.865,512,405.333     v-268.25C512,132.927,509.583,129.146,505.813,127.406z" fill="currentColor" data-original="#000000" style="" class="" />
+</g>
+</g>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
+</a>
+<a title="Partager sur Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement&amp;display=popup">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="c484b14a70beb65fa41c6835-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+<a title="Partager sur Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement&amp;via=LLfrancaise&amp;text=Définitions du mot dépaysement">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="c484b14a70beb65fa41c6835-text/javascript">
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><path xmlns="http://www.w3.org/2000/svg" d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z" fill="currentColor" data-original="#000000" style="" /></g></svg>
+</a>
+</div>
+<div id="signup-bottom-navbar">
+<a title="S&#39;abonner" class="cta" href="/utilisateurs/inscription">S&#39;abonner</a>
+</div>
+</div>
+</div>
+<script src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js" async type="c484b14a70beb65fa41c6835-text/javascript"></script>
+<script type="c484b14a70beb65fa41c6835-text/javascript">
+window.WonderPush = window.WonderPush || [];
+WonderPush.push(["init", {
+    webKey: "9084c34e4e1e3506494f0263918579bbe900225a34159d2b40a4ec8e30915a9f",
+}]);
+</script>
+<script data-cfasync="false">
+			(function(W,i,s,e,P,o,p){W['WisePopsObject']=P;W[P]=W[P]||function(){(W[P].q=W[P].q||[]).push(arguments)},W[P].l=1*new Date();o=i.createElement(s),p=i.getElementsByTagName(s)[0];o.defer=1;o.src=e;p.parentNode.insertBefore(o,p)})(window,document,'script','//loader.wisepops.com/get-loader.js?v=1&site=LLnHuMDJEn','wisepops');
+			</script>
+</body>
+</html>

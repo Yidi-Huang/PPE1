@@ -1,0 +1,839 @@
+<!DOCTYPE html><html
+lang="fr"><head><meta
+charset="utf-8"/><meta
+http-equiv="X-UA-Compatible" content="IE=edge"/><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"6c84580c5c",applicationID:"6080314"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script><meta
+name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/><title>Retraite : la bonification de dépaysement menacée ? - Emploipublic</title><meta
+name="description" content="(Mis à jour le 1er juin 2020) Les fonctionnaires ayant travaillé à l’outre-mer ou à l’étranger (hors Europe)... -"/><meta
+property="og:title" content="Retraite : la bonification de dépaysement menacée ?"/><meta
+property="og:type" content="website"/><meta
+property="og:site_name" content="Emploipublic.fr"/><meta
+property="og:locale" content="fr_FR"/><meta
+property="og:description" content="(Mis &agrave; jour le 1er juin 2020) Les fonctionnaires ayant travaill&eacute; &agrave; l&rsquo;outre-mer ou &agrave; l&rsquo;&eacute;tranger (hors Eu"/><meta
+property="og:url" content="https://infos.emploipublic.fr/article/retraite-la-bonification-de-depaysement-menacee-eea-5237"/><meta
+property="og:image" content="https://www.emploipublic.fr/images/logo-emploipublic.png"/><meta
+name="twitter:card" content="summary"/><meta
+name="twitter:site" content="@EmploiPublic"/><meta
+name="twitter:title" content="Retraite : la bonification de dépaysement menacée ?"/><meta
+name="twitter:description" content="(Mis &agrave; jour le 1er juin 2020) Les fonctionnaires ayant travaill&eacute; &agrave; l&rsquo;outre-mer ou &agrave; l&rsquo;&eacute;tranger (hors Europe)... - Les fonctionnaires dans les DOM TOM"/><meta
+name="twitter:image" content="https://www.emploipublic.fr/images/logo-emploipublic.png"/><meta
+name="twitter:url" content="https://infos.emploipublic.fr/article/retraite-la-bonification-de-depaysement-menacee-eea-5237"/><link
+rel="canonical" href="https://infos.emploipublic.fr/article/retraite-la-bonification-de-depaysement-menacee-eea-5237">
+ <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })
+            (window, document, 'script', 'dataLayer', 'GTM-PLZ8M5');</script>  <script type="didomi/javascript" data-vendor="didomi:google" async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> <link
+rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/><meta
+name="mobile-web-app-capable" content="yes"/><link
+rel="icon" type="image/ico" href="/favicon.ico"/><link
+rel="icon" type="image/png" href="/favicon.png"/><link
+rel="apple-touch-icon-precomposed" href="/apple-touch-icon-180x180.png"/><link
+rel="stylesheet" href="/resources/font-awesome/css/font-awesome.min.IPDIGIT1666879010TIGIDPI.css"><link
+rel="stylesheet" href="/resources/ui-totop/css/ui.totop.IPDIGIT1666879010TIGIDPI.css"><link
+rel="stylesheet" href="/resources/select2/css/select2.min.IPDIGIT1666879010TIGIDPI.css"><link
+rel="stylesheet" href="/resources/featherlight/featherlight.min.IPDIGIT1666879010TIGIDPI.css"><link
+rel="stylesheet" href="/resources/owl-carousel/assets/owl.carousel.min.IPDIGIT1666879010TIGIDPI.css"><link
+rel="stylesheet" href="/resources/owl-carousel/assets/owl.theme.default.min.IPDIGIT1666879010TIGIDPI.css"><link
+rel="stylesheet" href="/css/commun.IPDIGIT1666878886TIGIDPI-min.css"><link
+rel="stylesheet" href="/css/developer.IPDIGIT1666878886TIGIDPI-min.css"><link
+rel="stylesheet" href="/css/tracker-cmp.IPDIGIT1666878886TIGIDPI-min.css"><link
+rel="stylesheet" type="text/css" href="/css/print.IPDIGIT1666878886TIGIDPI-min.css" media="print"/> <script src="/js/lib/html5.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/tracking/init_gam.IPDIGIT1666878887TIGIDPI-min.js"></script> <meta
+name="ipd:cmp" content="didomi" /><meta
+name="ipd:siteName" content="Emploi Public" /> <script type="text/javascript">var browserType = 'desktop',
+            stickyMenuPoint = 320;</script> <script type="text/javascript">var tagPageSet = {"name":"retraite-la-bonification-de-depaysement-menacee-eea-5237","level2":"1","chapter1":"edito","chapter2":"article"};
+var customVars = [];</script></head><body
+class="desktop"><noscript>
+<iframe
+src="//www.googletagmanager.com/ns.html?id=GTM-PLZ8M5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript><!--[if lt IE 9]><div
+class="ieOld">
+Votre navigateur n'est pas à jour et vous ne pouvez donc pas profiter de toutes les fonctionnalités du site.<br/>
+Pensez à faire la <a
+href="https://support.microsoft.com/fr-fr/help/17621/internet-explorer-downloads">mise à
+jour</a> ou utilisez un autre navigateur : Google Chrome, Mozilla Firefox, Opera...</div>
+<![endif]--><header
+class="jqHeader header"><ul
+class="headerNav"><li
+class="headerNav__li headerNav__li__menuLogo">
+<a
+class="jqMenuIcon menuIcon" href="#"><div
+class="menuIcon__container">
+<span
+class="menuIcon__bar"></span>
+<span
+class="menuIcon__bar"></span>
+<span
+class="menuIcon__bar"></span></div>
+<span
+class="menuIcon__title"></span>
+</a><a
+class="logo" href="https://www.emploipublic.fr">
+<img
+id="logoSite" src="/images/logo-emploipublic.png" alt="emploipublic.fr"/>
+</a></li><li
+class="headerNav__li headerNav__li__linkD">
+<a
+class="btnType3 btnType3--icon" id="sti-offre"
+href="https://www.emploipublic.fr/offre-emploi/">
+<i
+class="icon-bag"></i><span>Toutes les offres</span>
+</a>
+<a
+class="btnType3 btnType3--icon" id="sti-cv" href="https://candidats.emploipublic.fr/depot-cv-ep">
+<i
+class="icon-file"></i><span>Déposez votre cv</span>
+</a>
+<a
+class="btnType3 btnType3--icon" id="sti-alerte"
+href="https://www.emploipublic.fr/offre-emploi/alerte-emploi">
+<i
+class="icon-cloche"></i><span>Alertes emploi</span>
+</a></li><li
+class="headerNav__li headerNav__li__candidate">
+<a
+class="btnType2 btnType2--icon jqMOCLink" id="sti-cand" href="https://candidats.emploipublic.fr" target="_blank">
+<i
+class="icon-account"></i><span
+class="jqMOCText">Candidat</span>
+</a>
+<a
+class="btnType2 btnType2--red" id="sti-recru" href="https://recruteurs.emploipublic.fr" target="_blank">Recruteur</a></li></ul><div
+class="jqUnderheaderNav ctBgBlue ctBgBlueD ctBgBlue--padding5 is-displayNone"><ul
+class="shareList shareList--floatL"><li
+class="shareList__title is-valignMiddle">Partager</li><li
+class="is-valignMiddle"><a
+class="shareList__iconLink shareList__iconLink--facebook jqfacebook" href="#" data-title="Retraite : la bonification de dépaysement menacée ?" ><i
+class="icon-facebook"></i></a></li><li
+class="is-valignMiddle"><a
+class="shareList__iconLink shareList__iconLink--twitter jqtwitter" href="#" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-twitter"></i></a></li><li
+class="is-valignMiddle"><a
+class="shareList__iconLink shareList__iconLink--linkedin jqlinkedin" href="#" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-linkedin"></i></a></li><li
+class="is-valignMiddle"><a
+class="shareList__iconLink shareList__iconLink--google-plus jqgoogleplus" href="#" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-google-plus"></i></a></li></ul><ul
+class="shareList shareList--floatL"><li
+class="shareList__title is-valignMiddle">Envoyer à un ami</li><li
+class="is-valignMiddle"><a
+class="shareList__iconLink" href="/ajax/share" data-featherlight="ajax" data-featherlight-variant="maxWidth730 background50"><i
+class="icon-send"></i></a></li></ul><ul
+class="shareList shareList--floatR shareListDTLd"><li
+class="shareList__title is-valignMiddle">Imprimer</li><li
+class="is-valignMiddle"><a
+class="shareList__iconLink" OnClick="window.print()" href="#"><i
+class="icon-print"></i></a></li></ul><form
+id="newsletter" class="blocNewsletter blocNewsletter--header is-valignMiddle" action="#" method="post">
+<label
+for="inputEmailHeader">S'inscrire à la newsletter</label><div
+class="blocNewsletter__wrapperInput is-valignTop">
+<input
+class="blocNewsletter__inputText blocNewsletter__inputText--height46" type="email" name="email" id="inputEmailHeader" required="required" placeholder="Adresse e-mail" />
+<span
+class="help-block"></span></div>
+<input
+class="btnType1 btnType1--font16 btnType1--height46" type="submit" name="submitNews" value="OK" /></form></div><div
+id="overlay"></div></header><nav
+class="jqNavmain navmain"><ul
+class="navmain__ul"><li
+class="navmain__account" id="jqUserConnectedState">
+<a
+class="btnType2" href="https://candidats.emploipublic.fr">Candidat</a></li><li>
+<a
+class="navmain__home" href="https://www.emploipublic.fr/"><i
+class="icon-home is-valignMiddle"></i><span
+class="is-valignMiddle">Accueil</span></a></li><li>
+<a
+class="jqNavParent jqNavParentFirst navmain__parent navmain--open"
+href="#"
+>
+<span>Emploi</span><i
+class="icon-next"></i></a><ul
+class="jqNavChild navmain__child"><li><a
+class="navmain__link"                                                                             href="https://www.emploipublic.fr/offre-emploi/"
+>
+Toutes les offres
+</a></li><li><a
+class="navmain__link"                                                                             href="https://www.emploipublic.fr/offre-emploi/recherche"
+>
+Recherche avancée
+</a></li><li><a
+class="navmain__link"                                                                             href="https://www.emploipublic.fr/offre-emploi/organisme"
+>
+Tous les recruteurs
+</a></li></ul></li><li>
+<a
+class="navmain__parent "
+href="https://infos.emploipublic.fr/trouver-un-travail-dans-la-fonction-publique-eet-64"
+>
+<span>La FP Recrute</span></a></li><li>
+<a
+class="navmain__parent "
+href="https://infos.emploipublic.fr/tous-les-conseils-aux-candidats-de-la-fonction-publique-eet-132"
+>
+<span>Conseils candidats</span></a></li><li>
+<a
+class="jqNavParent navmain__parent"
+href="#"
+>
+<span>Préparer les concours</span><i
+class="icon-next"></i></a><ul
+class="jqNavChild navmain__child"><li><a
+class="navmain__link navmain__bold"                                                                             href="https://www.emploipublic.fr/concours-fonction-publique/"
+>
+Accueil concours
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/les-fiches-concours-de-la-fonction-publique-eet-146"
+>
+Les fiches concours de la fonction publique
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/tout-savoir-sur-les-concours-de-la-fonction-publique-eet-133"
+>
+Tout savoir sur les concours de la fonction publique
+</a></li><li><a
+class="navmain__link"                                                                             href="https://www.emploipublic.fr/concours-fonction-publique/calendrier-dates-concours"
+>
+Toutes les dates concours
+</a></li><li><a
+class="navmain__link" target="_blank"                                                                            href="https://www.carrieres-publiques.com/alerte-concours/formulaire-inscription/2"
+>
+Alertes concours
+</a></li></ul></li><li>
+<a
+class="jqNavParent navmain__parent"
+href="#"
+>
+<span>Devenir fonctionnaire</span><i
+class="icon-next"></i></a><ul
+class="jqNavChild navmain__child"><li><a
+class="navmain__link navmain__bold"                                                                             href="https://infos.emploipublic.fr/devenir-fonctionnaire"
+>
+Accueil de la rubrique
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/decouvrir-la-fonction-publique-eet-21"
+>
+Découvrir la fonction publique
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/integrer-la-fonction-publique-sans-concours-eet-124"
+>
+Intégrer la fonction publique sans concours
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/la-fonction-publique-en-chiffres-eet-47"
+>
+La fonction publique en chiffres
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/les-metiers-de-la-fonction-publique-eet-123"
+>
+Les métiers de la fonction publique
+</a></li></ul></li><li>
+<a
+class="jqNavParent navmain__parent"
+href="#"
+>
+<span>Je suis fonctionnaire</span><i
+class="icon-next"></i></a><ul
+class="jqNavChild navmain__child"><li><a
+class="navmain__link navmain__bold"                                                                             href="https://infos.emploipublic.fr/je-suis-fonctionnaire"
+>
+Accueil de la rubrique
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/bien-gerer-sa-vie-professionnelle-eet-126"
+>
+Bien gérer sa vie professionnelle
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/changer-de-fonction-publique-la-mobilite-eet-3"
+>
+Changer de fonction publique : la mobilité
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/evoluer-dans-la-fonction-publique-eet-11"
+>
+Evoluer dans la fonction publique
+</a></li><li><a
+class="navmain__link "                                                                             href="https://infos.emploipublic.fr/salaires-les-grilles-indiciaires-de-la-fonction-publique-eet-122"
+>
+Salaires : les grilles indiciaires de la fonction publique
+</a></li></ul></li><li
+class="navmain__depositCv">
+<i
+class="icon-cv"></i><p
+class="navmain__depositCv__title">DÉPOSEZ VOTRE CV</p><p
+class="is-margin0">et rejoignez la première CVthèque de l’emploi public !</p>
+<a
+class="btnType1 btnType1--font14" id="menu-cv" href="https://candidats.emploipublic.fr/depot-cv-ep">J’AJOUTE MON CV</a></li></ul></nav><div
+class="mainContent" id="flashMessages"></div> <script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "Webpage",
+    "mainEntityOfPage": {
+        "@type": "URL",
+        "@id": "https://infos.emploipublic.fr/article/retraite-la-bonification-de-depaysement-menacee-eea-5237"
+    },
+    "headline": "Retraite : la bonification de dépaysement menacée ?",
+        "dateCreated": "2010-10-21T13:05",
+    "datePublished": "2010-10-21T13:05",
+    "dateModified": "2010-10-21T13:05",
+    "author": {
+        "@type": "Person",
+        "name": "La Rédaction"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "url": "https://infos.emploipublic.fr",
+        "name": "Emploi public",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://infos.emploipublic.fr/images/logo-emploipublic.png",
+            "width": 272,
+            "height": 58
+        }
+    },
+        "description": "",
+    "articleSection":"Les fonctionnaires dans les DOM TOM",    "inLanguage": "fr_FR",
+    "url": "https://infos.emploipublic.fr/article/retraite-la-bonification-de-depaysement-menacee-eea-5237"
+}</script> <div
+class="mainContent"><div
+id="article_banner_1" class="ctMiddle1" style=""> <script>window.GAM = window.GAM || { };
+            GAM.idSite = GAM.idSite || "21799741328";
+            GAM.dev = GAM.dev || "0";
+            GAM.openConsoleByDefault = "0";
+                                    googletag.cmd.push(displayAd.bind(this, 'article_banner_1'));</script> </div> <script type="application/ld+json">{
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                                    "@type": "ListItem",
+                    "position": "1",
+                    "name": "Accueil",
+                    "item": "https://www.emploipublic.fr/"
+
+                    },{                                    "@type": "ListItem",
+                    "position": "2",
+                    "name": "Les fonctionnaires dans les DOM TOM",
+                    "item": "https://infos.emploipublic.fr/bien-gerer-sa-vie-professionnelle/les-fonctionnaires-dans-les-dom-tom-eet-38"
+
+                    },{                                    "@type": "ListItem",
+                    "position": "3",
+                    "name": "Retraite : la bonification de dépaysement menacée ?",
+                    "item": "https://infos.emploipublic.fr/article/retraite-la-bonification-de-depaysement-menacee-eea-5237"
+
+                                               }]
+        }</script> <ul
+class="filAriane filArianeDT"><li>
+<a
+href="/">
+<span
+class="filAriane__item">Accueil</span></a></li><li>
+<a
+href="/bien-gerer-sa-vie-professionnelle/les-fonctionnaires-dans-les-dom-tom-eet-38">
+<i
+class="icon-next"></i>                    <span
+class="filAriane__item">Les fonctionnaires dans les DOM TOM</span></a></li><li>
+<i
+class="icon-next"></i>                    <span
+class="filAriane__item">Retraite : la bonification de dépaysement menacée ?</span></li></ul><article
+class="colType2" id="printableArticle"><h1 class="titleType3">Retraite : la bonification de dépaysement menacée ?</h1><div
+class="ctAuthorDate" >
+<span
+class="ctAuthorDate__author">La Rédaction</span>
+&bull;                 <time
+datetime="2010-10-21T13:05">21/10/2010</time>
+&bull; mis à jour le <time
+datetime="2010-10-21T13:05">21/10/2010</time></div>
+<a
+href="https://infos.emploipublic.fr/bien-gerer-sa-vie-professionnelle/les-fonctionnaires-dans-les-dom-tom-eet-38"
+class="linkHpFolder">DOSSIER : Les fonctionnaires dans les DOM TOM</a><div
+class="chapoArt"><p></p></div><div
+class="socialNetworks socialNetworks--marg15"><div
+class="socialNetworks__left">
+<a
+href="#" class="fb jqfacebook" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-facebook"></i>FACEBOOK</a>
+<a
+href="#" class="twitter jqtwitter" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-twitter"></i>TWITTER</a></div><div
+class="socialNetworks__right">
+<a
+href="/ajax/share" class="mail" data-featherlight="ajax" data-featherlight-variant="maxWidth730 background50"><i
+class="icon-send"></i></a>
+<a
+href="#" class="print jqprint"><i
+class="icon-print"></i></a></div><div
+class="is-clearBoth"></div></div><div
+class="contentArt"><p>
+(Mis à jour le 1er juin 2020) Les fonctionnaires ayant travaillé à l’outre-mer ou à l’étranger (hors Europe) bénéficient d’une bonification sous forme d’annuités supplémentaires pour le calcul du montant de leur pension de retraite.</p><p>
+Cette bonification, dite de dépaysement (<a
+href="http://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000023096747&cidTexte=LEGITEXT000006070302&dateTexte=20110918&fastPos=1&fastReqId=126527868&oldAction=rechCodeArticle" target="_blank">article L. 12 a du Code des pensions civiles</a> et militaires de retraite), est égale, outre-mer, au tiers des services effectués (un an de retraite pour trois ans travaillés).</p><p>
+La <a
+href="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023022127&fastPos=1&fastReqId=1767826562&categorieLien=id&oldAction=rechTexte  " target="_blank">loi du 9 novembre 2010 portant réforme des retraites</a> n’en a pas remis en cause le principe, mais à la suite d’amendements UMP proposant l’un, la suppression pure et simple de cette bonification, et les autres, son plafonnement ou l’arrêt de son attribution aux nouveaux fonctionnaires, le gouvernement a concédé la promesse d’un rapport d’ici au 31 mars 2011 (<a
+href="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023022127&fastPos=1&fastReqId=1767826562&categorieLien=id&oldAction=rechTexte#JORFARTI000023022194" target="_blank">article 48 de la loi</a>).</p><p>
+Près de six mois après cette échéance, le cabinet du ministre de la Fonction publique fait savoir à EmploiPublic.fr que "le rapport est en cours de finalisation".</p><h2>
+Les bonifications exclues de la surcote</h2><p>
+Toutes les bonifications, dont celle de dépaysement, sont donc pour le moment toujours accordées selon des règles très précises :</p><ul><li>
+elles ne comptent pas pour la détermination des 15 ans de services actifs pour la retraite anticipée à 55 ans ;</li><li>
+elles ne permettent pas non plus d’obtenir une pension supérieure à 80 %.</li></ul><p>
+En revanche, en vertu de <a
+href="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023022127&fastPos=1&fastReqId=1767826562&categorieLien=id&oldAction=rechTexte#JORFARTI000023022199" target="_blank">l’article 50-III de la loi du 9 novembre 2010</a>, toutes les bonifications de durée de services et les majorations de durée d&#39;assurance sont désormais exclues du calcul de la "surcote" (majoration de la pension pour prolongation d’activité), à l&#39;exception de celles accordées au titre des enfants et du handicap.</p><p>
+Ce changement a un impact sur le montant des pensions des fonctionnaires exerçant ou ayant exercé dans les DOM-TOM qui, avant la promulgation de la loi, ont choisi pour bénéficier de cette surcote de travailler au-delà de la durée d’assurance nécessaire.</p></div><div
+class="socialNetworks socialNetworks--marg50"><div
+class="socialNetworks__left">
+<a
+href="#" class="fb jqfacebook" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-facebook"></i>FACEBOOK</a>
+<a
+href="#" class="twitter jqtwitter" data-title="Retraite : la bonification de dépaysement menacée ?"><i
+class="icon-twitter"></i>TWITTER</a></div><div
+class="socialNetworks__right">
+<a
+href="/ajax/share" class="mail" data-featherlight="ajax" data-featherlight-variant="maxWidth730 background50"><i
+class="icon-send"></i></a>
+<a
+href="#" class="print jqprint"><i
+class="icon-print"></i></a></div><div
+class="is-clearBoth"></div></div><div
+class="is-marginTop40 blockGreyBordBlue blockGreyBordBlue--bg blockGreyBordBlue--padding"><p
+class="blockGreyBordBlue__titleType2">Les autres articles du dossier :
+<span>Les fonctionnaires dans les DOM TOM</span></p><ol
+class="blockGreyBordBlue__listOrdo"><li>
+<a
+href="/article/retour-au-pays-facilite-pour-les-fonctionnaires-d-outre-mer-la-circulaire-eea-6443">Retour au pays facilité pour les fonctionnaires d'outre-mer : la circulaire</a></li><li>
+<a
+href="/article/mayotte-deux-cadres-d-emplois-en-extinction-fin-2017-eea-6344">Mayotte : deux cadres d'emplois en extinction fin 2017</a></li><li>
+<a
+href="/article/fonction-publique-dans-les-dom-tom-sites-et-adresses-utiles-eea-5222">Fonction publique dans les DOM-TOM : sites et adresses utiles</a></li><li>
+<a
+href="/article/conges-bonifies-une-reforme-abandonnee-eea-5240">Congés bonifiés : une réforme abandonnée</a></li><li>
+<a
+href="/article/zoom-guyane-et-martinique-vers-deux-collectivites-uniques-eea-5225">Zoom - Guyane et Martinique : vers deux collectivités uniques</a></li><li>
+<a
+href="/article/zoom-mayotte-101e-departement-francais-eea-5228">Zoom : Mayotte, 101e département français</a></li><li>
+<a
+href="/article/un-coup-de-pouce-au-recrutement-des-ultramarins-eea-5231">Un coup de pouce au recrutement des ultramarins</a></li><li>
+<a
+href="/article/la-mort-programmee-de-la-sur-pension-eea-5234">La mort programmée de la “sur-pension”</a></li><li>
+<a
+href="/article/pourcentage-ou-coefficients-des-remunerations-majorees-eea-5243">Pourcentage ou coefficients : des rémunérations majorées</a></li><li>
+<a
+href="/article/fonctionnaires-dans-les-dom-tom-des-privilegies-en-sursis-eea-5246">Fonctionnaires dans les DOM-TOM, des privilégiés en sursis ?</a></li></ol></div><div
+class="blockGreyBordBlue blockGreyBordBlue--padding blockGreyBordBlue--lastOffer is-marginTop40 ctImgTxtNoImgMobile"><p
+class="titleType9">Offres d’emploi en lien avec l’article</p> <script type="application/ld+json">{"@context":"https://schema.org/","@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"Commercial Sédentaire B to B H/F","url":"https://www.emploipublic.fr/offre-emploi/offre-emploi-commercial-sedentaire-b-to-b-h-f-o-553880"},{"@type":"ListItem","position":2,"name":"Attaché Commercial Sédentaire H/F","url":"https://www.emploipublic.fr/offre-emploi/offre-emploi-attache-commercial-sedentaire-h-f-o-553885"},{"@type":"ListItem","position":3,"name":"Responsable du service Administratif et Financier (H/F)","url":"https://www.emploipublic.fr/offre-emploi/offre-emploi-responsable-du-service-administratif-et-financier-h-f-o-558705"},{"@type":"ListItem","position":4,"name":"Un Responsable de Maison du Petit Enfant F/H","url":"https://www.emploipublic.fr/offre-emploi/offre-emploi-un-responsable-de-maison-du-petit-enfant-f-h-o-559690"}],"name":"Offres d'emploi en lien avec l'article"}</script> <a
+href="https://www.emploipublic.fr/offre-emploi/offre-emploi-commercial-sedentaire-b-to-b-h-f-o-553880" class="modImgTxt"><div
+class="modImgTxt__ctimg modImgTxt__ctimg--border modImgTxt__ctimg--colg1"><div>
+<img
+src="/mediatheque/2/1/5/000155512_100x100.jpg" alt="INFOPRO DIGITAL" /></div></div><div
+class="modImgTxt__cttxt modImgTxt__cttxt--colg1"><p
+class="modImgTxt__title modImgTxt__title--big">Commercial Sédentaire B to B H/F</p><p
+class="modImgTxt__txt modImgTxt__txt--little">
+<span>Titulaire, Contractuel, CDI, CDD</span>
+<span
+class="is-separator">|</span>
+30/11/2022
+<span
+class="is-separator">|</span>
+INFOPRO DIGITAL</p></div>
+</a>
+<a
+href="https://www.emploipublic.fr/offre-emploi/offre-emploi-attache-commercial-sedentaire-h-f-o-553885" class="modImgTxt modImgTxt--separbloc"><div
+class="modImgTxt__ctimg modImgTxt__ctimg--border modImgTxt__ctimg--colg1"><div>
+<img
+src="/mediatheque/2/1/5/000155512_100x100.jpg" alt="INFOPRO DIGITAL" /></div></div><div
+class="modImgTxt__cttxt modImgTxt__cttxt--colg1"><p
+class="modImgTxt__title modImgTxt__title--big">Attaché Commercial Sédentaire H/F</p><p
+class="modImgTxt__txt modImgTxt__txt--little">
+<span>Titulaire, Contractuel, CDI, CDD</span>
+<span
+class="is-separator">|</span>
+30/11/2022
+<span
+class="is-separator">|</span>
+INFOPRO DIGITAL</p></div>
+</a>
+<a
+href="https://www.emploipublic.fr/offre-emploi/offre-emploi-responsable-du-service-administratif-et-financier-h-f-o-558705" class="modImgTxt modImgTxt--separbloc"><div
+class="modImgTxt__ctimg modImgTxt__ctimg--border modImgTxt__ctimg--colg1"><div>
+<img
+src="/mediatheque/5/9/0/000281095_100x100.jpg" alt="HAROPA PORTS DE PARIS" /></div></div><div
+class="modImgTxt__cttxt modImgTxt__cttxt--colg1"><p
+class="modImgTxt__title modImgTxt__title--big">Responsable du service Administratif et Financier (H/F)</p><p
+class="modImgTxt__txt modImgTxt__txt--little">
+<span>Titulaire, Contractuel</span>
+<span
+class="is-separator">|</span>
+29/11/2022
+<span
+class="is-separator">|</span>
+HAROPA PORTS</p></div>
+</a>
+<a
+href="https://www.emploipublic.fr/offre-emploi/offre-emploi-un-responsable-de-maison-du-petit-enfant-f-h-o-559690" class="modImgTxt modImgTxt--separbloc"><div
+class="modImgTxt__ctimg modImgTxt__ctimg--border modImgTxt__ctimg--colg1"><div>
+<img
+src="/mediatheque/6/4/5/000146546_100x100.png" alt="VILLE DE SAINT BRIEUC" /></div></div><div
+class="modImgTxt__cttxt modImgTxt__cttxt--colg1"><p
+class="modImgTxt__title modImgTxt__title--big">Un Responsable de Maison du Petit Enfant F/H</p><p
+class="modImgTxt__txt modImgTxt__txt--little">
+<span>Titulaire, Contractuel</span>
+<span
+class="is-separator">|</span>
+28/11/2022
+<span
+class="is-separator">|</span>
+VILLE DE SAINT BRIEUC</p></div>
+</a></div></article><div
+class="colType3 colType3--marginLeft"><div
+id="article_pave_1" class="" style=""> <script>window.GAM = window.GAM || { };
+            GAM.idSite = GAM.idSite || "21799741328";
+            GAM.dev = GAM.dev || "0";
+            GAM.openConsoleByDefault = "0";
+                                    googletag.cmd.push(displayAd.bind(this, 'article_pave_1'));</script> </div><form
+class="search search--column" id="search" name="search" method="post" action="/offre-emploi/recherche"><p
+class="search__titleCol"><i
+class="icon-bag"></i><span
+class="nbr">11916</span> offres d’emploi <span>en ligne</span></p><div
+class="search__icon search--twoCol is-valignTop">
+<i
+class="icon-search"></i>
+<input
+class="search__inputText is-valignTop "
+type="text"
+name="mots_cles"
+id="searchJob"
+placeholder="Quel emploi ?"
+/></div><div
+class="search__icon search--twoCol is-valignTop">
+<i
+class="icon-localisation"></i><div
+class="form-group container_id_ref_region_departement ">
+<label
+class="is-marginTop15" for="id_ref_region_departement">Régions / Départements</label>
+<select
+id="id_ref_region_departement" name="id_ref_region_departement[]" multiple="multiple" class="js-select2-niveau selectType2 select2-hidden-accessible filter-group " data-placeholder="Où ?"><optgroup
+label="Ile-De-France"><option
+value="2" >Paris</option><option
+value="3" >Seine-Et-Marne</option><option
+value="4" >Yvelines</option><option
+value="5" >Essonne</option><option
+value="6" >Hauts-De-Seine</option><option
+value="7" >Seine-Saint-Denis</option><option
+value="8" >Val-De-Marne</option><option
+value="9" >Val-D'Oise</option></optgroup><optgroup
+label="Centre-Val De Loire"><option
+value="11" >Cher</option><option
+value="12" >Eure-Et-Loir</option><option
+value="13" >Indre</option><option
+value="14" >Indre-Et-Loire</option><option
+value="15" >Loir-Et-Cher</option><option
+value="16" >Loiret</option></optgroup><optgroup
+label="Bourgogne-Franche-Comte"><option
+value="18" >Cote-D'Or</option><option
+value="19" >Doubs</option><option
+value="20" >Jura</option><option
+value="21" >Nievre</option><option
+value="22" >Haute-Saone</option><option
+value="23" >Saone-Et-Loire</option><option
+value="24" >Yonne</option><option
+value="25" >Territoire De Belfort</option></optgroup><optgroup
+label="Normandie"><option
+value="27" >Calvados</option><option
+value="28" >Eure</option><option
+value="29" >Manche</option><option
+value="30" >Orne</option><option
+value="31" >Seine-Maritime</option></optgroup><optgroup
+label="Hauts-De-France"><option
+value="33" >Aisne</option><option
+value="34" >Nord</option><option
+value="35" >Oise</option><option
+value="36" >Pas-De-Calais</option><option
+value="37" >Somme</option></optgroup><optgroup
+label="Grand Est"><option
+value="39" >Ardennes</option><option
+value="40" >Aube</option><option
+value="41" >Marne</option><option
+value="42" >Haute-Marne</option><option
+value="43" >Meurthe-Et-Moselle</option><option
+value="44" >Meuse</option><option
+value="45" >Moselle</option><option
+value="46" >Bas-Rhin</option><option
+value="47" >Haut-Rhin</option><option
+value="48" >Vosges</option></optgroup><optgroup
+label="Pays De La Loire"><option
+value="50" >Loire-Atlantique</option><option
+value="51" >Maine-Et-Loire</option><option
+value="52" >Mayenne</option><option
+value="53" >Sarthe</option><option
+value="54" >Vendee</option></optgroup><optgroup
+label="Bretagne"><option
+value="56" >Cotes-D'Armor</option><option
+value="57" >Finistere</option><option
+value="58" >Ille-Et-Vilaine</option><option
+value="59" >Morbihan</option></optgroup><optgroup
+label="Nouvelle-Aquitaine"><option
+value="61" >Charente</option><option
+value="62" >Charente-Maritime</option><option
+value="63" >Correze</option><option
+value="64" >Creuse</option><option
+value="65" >Dordogne</option><option
+value="66" >Gironde</option><option
+value="67" >Landes</option><option
+value="68" >Lot-Et-Garonne</option><option
+value="69" >Pyrenees-Atlantiques</option><option
+value="70" >Deux-Sevres</option><option
+value="71" >Vienne</option><option
+value="72" >Haute-Vienne</option></optgroup><optgroup
+label="Region Occitanie (Pyrenees-Mediterranee)"><option
+value="74" >Ariege</option><option
+value="75" >Aude</option><option
+value="76" >Aveyron</option><option
+value="77" >Gard</option><option
+value="78" >Haute-Garonne</option><option
+value="79" >Gers</option><option
+value="80" >Herault</option><option
+value="81" >Lot</option><option
+value="82" >Lozere</option><option
+value="83" >Hautes-Pyrenees</option><option
+value="84" >Pyrenees-Orientales</option><option
+value="85" >Tarn</option><option
+value="86" >Tarn-Et-Garonne</option></optgroup><optgroup
+label="Auvergne-Rhone-Alpes"><option
+value="88" >Ain</option><option
+value="89" >Allier</option><option
+value="90" >Ardeche</option><option
+value="91" >Cantal</option><option
+value="92" >Drome</option><option
+value="93" >Isere</option><option
+value="94" >Loire</option><option
+value="95" >Haute-Loire</option><option
+value="96" >Puy-De-Dome</option><option
+value="97" >Rhone</option><option
+value="98" >Savoie</option><option
+value="99" >Haute-Savoie</option></optgroup><optgroup
+label="Provence-Alpes-Cote D'Azur"><option
+value="101" >Alpes-De-Haute-Provence</option><option
+value="102" >Hautes-Alpes</option><option
+value="103" >Alpes-Maritimes</option><option
+value="104" >Bouches-Du-Rhone</option><option
+value="105" >Var</option><option
+value="106" >Vaucluse</option></optgroup><optgroup
+label="Corse"><option
+value="108" >Corse-Du-Sud</option><option
+value="109" >Haute-Corse</option></optgroup><optgroup
+label="Outre-mer"><option
+value="110" >Guadeloupe</option><option
+value="111" >Martinique</option><option
+value="112" >Guyane</option><option
+value="113" >La Reunion</option><option
+value="114" >Mayotte</option></optgroup>
+</select>
+<span
+class="help-block"></span></div></div><p
+class="search__preciseChoiceD">
+<input
+class="inputCheckbox" type="checkbox" name="id_ref_type_contrat[]" id="id_ref_type_contrat[]" value="2" />
+<label
+for="id_ref_type_contrat[]">OUVERT AUX CONTRACTUELS</label></p><div
+class="search__submit is-valignTop">
+<input
+class="btnType1 btnType1--font26" type="submit" name="search" value="Rechercher" />
+<a
+class="search__advanced is-lineBreak" href="https://www.emploipublic.fr/offre-emploi/recherche">RECHERCHE AVANCÉE</a></div></form><form
+action=/article/retraite-la-bonification-de-depaysement-menacee-eea-5237 id=newsletter class="blocNewsletter blocNewsletter--column" method="post">
+<label
+for="inputEmail">
+<span
+class="blocNewsletter--column__subscribe">Inscrivez-vous à la newsletter</span>
+<span
+class="blocNewsletter--column__desc">Tous les 15 jours, l’essentiel de l’actu de l’emploi dans la fonction publique</span>
+</label><div
+class="blocNewsletter__wrapperInput is-valignTop">
+<input
+class="blocNewsletter__inputText" type="email" name=email id=email placeholder="Adresse e-mail" value="" />
+<span
+class="help-block"></span></div>
+<input
+class="btnType1 btnType1--font18" type="submit" name="submitNews" id="submitNews" value="JE M’INSCRIS" /><div
+class="blocNewsletter--mentions"><p
+class="is-info">
+<span
+class="is-mentions-block">Les informations à caractère personnel recueillies font l’objet d’un traitement par Emploipublic.fr du Groupe Moniteur RCS Nanterre B 403 080 823.</span>
+<span
+class="is-mentions-block">Elles sont nécessaires entre autres, à la création de votre compte et sont enregistrées dans nos fichiers.</span>
+<span
+class="is-mentions-block">Groupe Moniteur ou toutes sociétés du groupe <a
+href="http://www.infopro-digital.com/" target="_blank">Infopro Digital</a> pourront utiliser ces fichiers afin de vous proposer des produits et/ou services analogues.</span>
+<span
+class="is-mentions-block">Pour exercer vos droits, vous y opposer ou pour en savoir plus : <a
+href="https://www.infopro-digital.com/rgpd-gdpr/fr/" target="_blank">Charte des données personnelles</a>.</span></p></div></form><p
+class="titleType4">Dossier du mois</p>
+<a
+href="/trouver-un-travail-dans-la-fonction-publique/travailler-dans-l-administratif-eet-398-eet-398" class="modImgTxt modImgTxt--margetop">
+<img
+src="/mediatheque_edito/3/0/0/000031003_300x200_c.gif"
+alt="Fonctionnaire de l'administratif à son bureau"><p
+class="modImgTxt__title modImgTxt__title--big">Travailler dans l'administratif</p>
+</a><div
+class="blockDepositCvCol"><p
+class="blockDepositCvCol__desc"><span
+class="blockDepositCvCol__desc__depos">DÉPOSEZ VOTRE CV</span> et rejoignez la première <span
+class="is-lineBreak">CVthèque de l’emploi public !</span></p>
+<a
+href="https://candidats.emploipublic.fr/depot-cv-ep" class="btnType1 btnType1--font26">J'ajoute mon cv</a>
+<a
+href="https://candidats.emploipublic.fr/creation-compte" class="blockDepositCvCol__notyet">Pas encore de cv ?</a></div><p
+class="titleType4">Les concours en lien avec l’article</p><ul
+class="modListBy modListBy--fontlittle"><li>
+<a
+href="https://www.emploipublic.fr/concours-fonction-publique/dates-concours-infirmier-en-soins-generaux-ville-de-paris-decembre-2022-cd-35657" class="">
+<i
+class="icon-next"></i><p>Infirmier en soins généraux - Ville de Paris, décembre 2022</p><p
+class="modListBy__infos">Date limite de dépôt des dossiers : le 17/11/2022</p>
+</a></li><li>
+<a
+href="https://www.emploipublic.fr/concours-fonction-publique/dates-concours-infirmier-en-soins-generaux-janvier-2024-cd-36097" class="">
+<i
+class="icon-next"></i><p>Infirmier en soins généraux - janvier 2024</p><p
+class="modListBy__infos">Date limite de dépôt des dossiers : le 18/10/2023</p>
+</a></li><li>
+<a
+href="https://www.emploipublic.fr/concours-fonction-publique/dates-concours-cadre-de-sante-paramedical-avril-2024-cd-36092" class="">
+<i
+class="icon-next"></i><p>Cadre de santé paramédical - avril 2024</p><p
+class="modListBy__infos">Date limite de dépôt des dossiers : le 24/01/2024</p>
+</a></li><li>
+<a
+href="https://www.emploipublic.fr/concours-fonction-publique/dates-concours-directeur-d-etablissements-territoriaux-d-enseignement-artistique-mai-2024-cd-36087" class="">
+<i
+class="icon-next"></i><p>Directeur d'établissements territoriaux d'enseignement artistique - mai 2024</p><p
+class="modListBy__infos">Date limite de dépôt des dossiers : le 21/02/2024</p>
+</a></li><li>
+<a
+href="https://www.emploipublic.fr/concours-fonction-publique/dates-concours-bibliothecaire-mai-2023-cd-36182" class="">
+<i
+class="icon-next"></i><p>Bibliothécaire - mai 2023</p><p
+class="modListBy__infos">Date limite de dépôt des dossiers : le 22/02/2023</p>
+</a></li><li
+class="ctBtnType2"><a
+href="https://www.emploipublic.fr/concours-fonction-publique/calendrier-dates-concours" class="btnType2">Tous les concours</a></li></ul></div><div
+class="is-clearBoth"></div></div><div
+id="article_banner_2" class="ctMiddle1" style=""> <script>window.GAM = window.GAM || { };
+            GAM.idSite = GAM.idSite || "21799741328";
+            GAM.dev = GAM.dev || "0";
+            GAM.openConsoleByDefault = "0";
+                                    googletag.cmd.push(displayAd.bind(this, 'article_banner_2'));</script> </div><footer
+class="footer"><ul
+class="footer__list"><li
+class="footer__list__li"><a
+class="footerLink" href="https://www.emploipublic.fr/qui-sommes-nous">Qui sommes-nous ?</a></li><li
+class="footer__list__li"><a
+class="footerLink" href="https://www.emploipublic.fr/cgu-mentions-legales">CGU et mentions légales</a></li><li
+class="footer__list__li"><a
+class="footerLink" href="https://www.infopro-digital.com/rgpd-gdpr/fr/" target="_blank">Charte des données personnelles</a></li><li
+class="footer__list__li"><a
+class="footerLink" href="https://www.emploipublic.fr/partenaires">Partenaires</a></li><li
+class="footer__list__li"><a
+class="footerLink" href="https://www.emploipublic.fr/contact">Contact</a></li><li
+class="footer__list__li"><a
+class="footerLink" href="javascript:Didomi.preferences.show()">Paramétrage Cookie</a></li></ul><div
+class="footerInfo"><div
+class="footerInfo__wrapper"><div
+class="footerInfo__cell"><p
+class="footerInfo__title">Suivez Emploipublic !</p>
+<a
+class="socialLink socialLink--mr socialLink--facebook" href="https://www.facebook.com/pages/EmploiPublic/115408571842843?ref=ts" title="suivre Emploipublic sur Facebook" target="_blank"><i
+class="icon-facebook"></i></a>
+<a
+class="jqPopup socialLink socialLink--mr socialLink--twitter" href="https://twitter.com/intent/follow?source=followbutton&amp;variant=1.0&amp;screen_name=EmploiPublic" title="suivre Emploipublic sur Twitter" data-popup-width="640" data-popup-height="500" target="_blank"><i
+class="icon-twitter"></i></a></div></div><div
+class="footerInfo__wrapper is-noMobile"><div
+class="footerInfo__cell"><p
+class="footerInfo__title">À propos du Groupe</p><ul
+class="footerInfo__list"><li><a
+class="footerLink" href="http://www.infopro-digital.com/" target="_blank">Le Groupe Infopro digital</a></li><li><a
+class="footerLink" href="http://evenements.infopro-digital.com/lemoniteur/formations/" target="_blank">Formation</a></li><li><a
+class="footerLink" href="http://salons.groupemoniteur.fr/promotion/" target="_blank">Salons et congrès</a></li><li><a
+class="footerLink" href="http://www.infoprodata.fr/" target="_blank">Publicité</a></li></ul></div></div><div
+class="footerInfo__wrapper footerInfo__wrapper--big is-noMobile"><div
+class="footerInfo__cell"><p
+class="footerInfo__title">Faire évoluer votre carrière</p><p
+class="footerInfo__content">Avec le site emploipublic.fr, il est possible d’accéder à  toute l’information sur l’emploi dans la Fonction Publique Territoriale, Hospitalière et d’Etat. Consultez les offres d’emploi en ligne. Renseignez-vous sur les différents métiers, le recrutement et les concours de la Fonction Publique. Maitrisez le statut de la fonction publique et les moyens de mobilité pour faire évoluer votre carrière.</p></div></div></div><p
+class="brandGroup"><span
+class="is-valignMiddle">Une marque du groupe</span> <a
+class="is-valignMiddle" href="http://www.infopro-digital.com/" target="_blank"><img
+src="/images/logo-infopro-digital.png" alt="Infopro Digital" /></a></p></footer> <script type="text/javascript">App = window['App'] || {};
+    var flashMessages = [];</script> <script src="/resources/jquery/jquery.min.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/resources/ui-totop/js/easing.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/resources/ui-totop/js/jquery.ui.totop.min.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/resources/jquery-validation/jquery.validate.min.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/resources/jquery-validation/additional-methods.min.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/resources/jquery-autocomplete/jquery.autocomplete.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/js/flashmessages.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/resources/select2/js/select2.full.min.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/js/lib/select2.optgroupSelect.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/resources/featherlight/featherlight.min.IPDIGIT1666879010TIGIDPI.js"></script> <script src="/js/checkuserconnected.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/commun.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/app.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/app.sharing.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/app.sharingMail.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/app.cookie.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/search.IPDIGIT1666878887TIGIDPI-min.js"></script> <script src="/js/trackings.IPDIGIT1666878887TIGIDPI-min.js"></script> <script>jQuery(document).ready(function() {
+
+                    $("#newsletter").validate({
+                        rules: {
+                                    email: {
+                                    required: true,
+                                    email: true
+                                },
+                        },
+                        messages: {
+                            email: "Veuillez renseigner un mail valide",
+                        },
+                        errorPlacement: function (error, element) {                        ;
+                            element.parent().find("span.help-block").html('');
+                            error.appendTo(element.parent().find("span.help-block"));
+                        }
+                    });
+
+                    $("body").on("submit", "#newsletter", function(e){
+                        e.preventDefault();
+                        var $this = $(this);
+
+                        $.ajax({
+                            data : $this.serialize(),
+                            type: 'POST',
+                            url: '/ajax/newslettersave',
+                            dataType: 'json',
+                            success: function(data) {
+
+                                // Statut 201 (accepted) si sauvegarde des newsletter
+                                // Statut 200 une error se produit
+                                if (data.status == 201) {
+                                    /*Newsletter Header*/
+                                    if ($(".blocNewsletter--header").length) {
+                                        
+                                         if (data.status == 201) {
+                                            $("label[for='inputEmailHeader'], input[name='email'], input[name='submitNews']").hide();
+                                            var blocMessageError = $("span.help-block");
+                                            blocMessageError.html('<br><label id="email-error" class="error" for="email">' + data.message + '</label><br><br>');
+                                        } else if (data.status == 200) { // Statut 200 une error se produit !
+                                            $("#email").addClass("error");
+                                            var blocMessageError = $("span.help-block");
+                                            blocMessageError.html('<label id="email-error" class="error" for="email">' + data.message + '</label>');
+                                        }
+                                        
+                                    } else {
+                                        // TODO attention faudra changer les classes car le nom ne correspond pas au content
+                                        $("div .unsubscribe").css("display","block");
+    
+                                        /* Ici s'il s'agit de la class contentNewsletter [display:none] le formulaire
+                                        *  exemple : la page dédié à d'inscription newsletter
+                                        */
+                                        var contentNewsletter = $(".contentNewsletter");
+                                        var blocMessageConfirm = $("div .unsubscribe .unsubscribe__title");
+    
+                                        if(contentNewsletter.html() !== undefined){
+                                            $this.css('display','none');
+                                        }
+                                        blocMessageConfirm.html('<label id="email-error" class="error" for="email">'+data.message+'</label>');
+                                    }                                    
+                                   
+                                } else if(data.status == 200) {
+                                    $("#email").addClass("error");
+                                    var blocMessageError = $("span.help-block");
+                                    blocMessageError.html('<label id="email-error" class="error" for="email">'+data.message+'</label>');
+                                }
+                            }
+                        })
+                    });
+                });</script> <script type="text/javascript">var domainesAutoCompleteUrl = '/ajax/recherche/mots-cles';</script> <script type='text/javascript' src='https://ts.infoprodata.com/kjwusq9l/numj5196.js'></script> <script></script> <script type="text/javascript">App.Route.ajaxShareEmailUrl = '/ajax/share/validation';
+        concoursLabel = "Retraite : la bonification de dépaysement menacée ?";
+        $(document).ready(function () {
+            App.Sharing({twitterVia: ' via @EmploiPublic', printableArea: 'printableArticle'});
+            App.SharingMail({ajaxUrl: App.Route.ajaxShareEmailUrl, formSelector:'#jqShareEmail', popinSelector:'.featherlight-inner'});
+        });
+
+        xt_tags = "Les fonctionnaires dans les DOM TOM|A|Fonction Publique Hospitalière|Fonction Publique Territoriale";</script> <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6c84580c5c","applicationID":"6080314","transactionName":"ZgFQMUVUV0dZAk0KWF9LcRBEQVZZFwRJPFJVDUYKaFRLQFECVQY=","queueTime":0,"applicationTime":994,"atts":"SkZTRw1OREk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>

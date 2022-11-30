@@ -1,0 +1,1550 @@
+<!DOCTYPE HTML>
+			<html><head>
+	
+			
+<script type="text/javascript">
+
+    window.gdprAppliesGlobally = true;
+    (function () {
+        function n(e) {
+            if (!window.frames[e]) {
+                if (document.body && document.body.firstChild) {
+                    var t = document.body;
+                    var a = document.createElement("iframe");
+                    a.style.display = "none";
+                    a.name = e;
+                    a.title = e;
+                    t.insertBefore(a, t.firstChild)
+                } else {
+                    setTimeout(function () {
+                        n(e)
+                    }, 5)
+                }
+            }
+        }
+
+        function e(a, r, o, s, c) {
+            function e(e, t, a, n) {
+                if (typeof a !== "function") {
+                    return
+                }
+                if (!window[r]) {
+                    window[r] = []
+                }
+                var i = false;
+                if (c) {
+                    i = c(e, t, a)
+                }
+                if (!i) {
+                    window[r].push({
+                        command: e,
+                        parameter: t,
+                        callback: a,
+                        version: n
+                    })
+                }
+            }
+            e.stub = true;
+
+            function t(n) {
+                if (!window[a] || window[a].stub !== true) {
+                    return
+                }
+                if (!n.data) {
+                    return
+                }
+                var i = typeof n.data === "string";
+                var e;
+                try {
+                    e = i ? JSON.parse(n.data) : n.data
+                } catch (t) {
+                    return
+                }
+                if (e[o]) {
+                    var r = e[o];
+                    window[a](r.command, r.parameter, function (e, t) {
+                        var a = {};
+                        a[s] = {
+                            returnValue: e,
+                            success: t,
+                            callId: r.callId
+
+                        };
+                        n.source.postMessage(i ? JSON.stringify(a) : a, "*")
+                    }, r.version)
+                }
+            }
+            if (typeof window[a] !== "function") {
+                window[a] = e;
+                if (window.addEventListener) {
+                    window.addEventListener("message", t, false)
+                } else {
+                    window.attachEvent("onmessage", t)
+                }
+            }
+        }
+
+        e("__uspapi", "__uspapiBuffer", "__uspapiCall", "__uspapiReturn");
+        n("__uspapiLocator");
+        e("__tcfapi", "__tcfapiBuffer", "__tcfapiCall", "__tcfapiReturn");
+        n("__tcfapiLocator");
+
+        (function (e) {
+            var t = document.createElement("script");
+            t.id = "spcloader";
+            t.type = "text/javascript";
+            t.async = true;
+            t.src = "https://sdk.privacy-center.org/" + e + "/loader.js?target=" + document.location.hostname;
+            t.charset = "utf-8";
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(t, a)
+        })("7b02b7c5-542b-4e58-be72-3b656a0c4bbe")
+    })();
+
+</script>
+
+		
+			
+		
+			<script type="text/javascript">
+			var serverXiti = 'logc1';
+			var serverXitiSSL = 'logs4';
+			var pageContext = {"motsCles":"4|10|12|77","contextLevel":"KEEP_ALL","site":"BR","article_titre_formate":"une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement","article_source":"INLINE","accessCode":"14066165","idArticle":"4066165","bodyClass":"ripo_generic","commune_insee":"18033","article_nbPhotos_utilisees":"1","article_auteur":"Bertrand-Philippe","article_chapter_2":"Voyages","article_monetisation":"SUBSCRIBED","article_chapter_1":"Loisirs","commune_libelle":"Bourges","keycloakRealm":"CentreFrance","article_nbMots":"331","departement_libelle":"Cher","departement":"18","article_titre":"Une envie d’ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le dépaysement","sousDomaine":"www","article_datePublication_formated":"27/12/2021","keycloakClientId":"iv3","urlTitle":"une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement","article_sitePublication":"BR","article_datePublication":"27/12/2021 05:00:00","gabarit":"generic","userLogged":"2","article_formule":"p","mots_cles":"Le Berry Républicain,a la une,Loisirs,Voyages","premium":"true","article_hasVideos":"1","keycloakUrl":"https://moncompte.centrefrance.com/auth","article_id":"4066165","bassinDeVie_libelle":"Bourges","idDepartement":"236","commune_cp":"18033","filterMotsCles":"4|10|12|77","code_canton":"6","idZone":"11096","article_nbPhotos_liees":"1","article_type":"TEMPS_FORT"};
+			var siteContext = {
+				"code": 'BR',
+				"nom" : 'Le Berry Républicain',						
+				"xitiCode" : '249829'
+			};
+		</script>
+	
+		
+			<!-- Google Tag Manager
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KPJ3R5C');</script>
+ End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=SOfOzTaW-YSdcZpOo6txLw&gtm_preview=env-20&gtm_cookies_win=x'; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PQ44X7Q');</script>
+<!-- End Google Tag Manager -->
+		
+			
+		
+			<meta name="robots" content="max-snippet:140, max-image-preview:large, max-video-preview:3">
+		
+			
+		
+			<meta property="fb:pages" content="139619340850">
+<meta property="fb:pages" content="358890760985568">
+
+		<meta http-equiv="Content-Language" content="fr">
+	<meta content="Centre France" name="author">
+	<meta name="robots" content="index, follow">
+    <meta name="description" content="On pourrait croire les habitants du Cher clo&#238;tr&#233;s chez eux par crainte du Covid. Les agences de voyages disent le contraire. L&#8217;envie de partir, de se d&#233;payser est bien pr&#233;sente en cette fin d&#8217;ann&#233;e.">
+	<meta name="keywords" content="Bourges, 18000">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<meta name="verify-v1" content="kjG2gCHGErZ27bL2bYvebQ2AmLTlFjDhPxwozCH9ADo=">
+	<meta name="google-site-verification" content="1Dvib4riqUYrBm5xnAjlKk1z4-wDNGHf2xgtQieY8UA">
+	<meta itemprop="name" content="Vacances - Une envie d&#8217;ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le d&#233;paysement" />
+   	<meta itemprop="image" content="https://img.lamontagne.fr/eNsKA8AfCDAIDsG7Lz74rP2gyzplXt8s2Fu17XnsldI/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDUvODcvMDkvMjAwMDAwNTg3MDkwNw.jpg">
+   	<meta itemprop="description" content="On pourrait croire les habitants du Cher clo&#238;tr&#233;s chez eux par crainte du Covid. Les agences de voyages disent le contraire. L&#8217;envie de partir, de se d&#233;payser est bien pr&#233;sente en cette fin d&#8217;ann&#233;e.">
+	<meta property="premium" content="true">
+
+    <meta property="og:site_name" content="www.leberry.fr">
+	<meta property="og:type" content="article">
+   	<meta property="og:title" content="Vacances - Une envie d&#8217;ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le d&#233;paysement">
+    <meta property="og:url" content="https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/">
+   	<meta property="og:description" content="On pourrait croire les habitants du Cher clo&#238;tr&#233;s chez eux par crainte du Covid. Les agences de voyages disent le contraire. L&#8217;envie de partir, de se d&#233;payser est bien pr&#233;sente en cette fin d&#8217;ann&#233;e.">
+   	<meta property="og:image" content="https://img.lamontagne.fr/eNsKA8AfCDAIDsG7Lz74rP2gyzplXt8s2Fu17XnsldI/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDUvODcvMDkvMjAwMDAwNTg3MDkwNw.jpg">
+   	<meta property="article:published_time" content="2021-12-27T17:00:00+01:00">
+   	<meta property="article:modified_time" content="2021-12-27T17:05:00+01:00">
+   	<meta property="article:section" content="Voyages">
+    <meta property="article:tags" content="Loisirs,Voyages">
+    <meta property="city" content="18033">
+    <meta property="labelcity" content="Bourges">
+    <meta property="area" content="44006">
+    <meta property="fb:app_id" content="1682538252022617">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@leberry_fr" >
+    <meta name="twitter:url" content="https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/">
+   	<meta name="twitter:title" content="Vacances - Une envie d&#8217;ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le d&#233;paysement">
+   	<meta name="twitter:description" content="On pourrait croire les habitants du Cher clo&#238;tr&#233;s chez eux par crainte du Covid. Les agences de voyages disent le contraire. L&#8217;envie de partir, de se d&#233;payser est bien pr&#233;sente en cette fin d&#8217;ann&#233;e." />
+   	<meta name="twitter:image" content="https://img.lamontagne.fr/eNsKA8AfCDAIDsG7Lz74rP2gyzplXt8s2Fu17XnsldI/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDUvODcvMDkvMjAwMDAwNTg3MDkwNw.jpg">
+
+	<meta name="iv3:sso" content="true">
+	
+	<meta name="article:content_tier" content="locked" />
+	<meta name="article:opinion" content="false" />
+	<meta name="article:location" content="city:bourges,france" />
+	<link rel="canonical" href="https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/bloc/ripolinage/favicon/favicon_BR/favicon.ico" />
+	<link rel="apple-touch-icon" href="https://www.leberry.fr/static/bloc/ripolinage/favicon/favicon_BR/apple-touch-icon.png" >
+
+	<title>Une envie d&#8217;ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le d&#233;paysement - Bourges (18000)</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript">
+		var codeSite = "BR";
+	</script>
+
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+	<link title="noPack" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600&display=swap">
+
+<link rel="stylesheet" type="text/css" href="//static1.leberry.fr/pack/845141711.css" charset="UTF-8" ></link> 
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="//static1.leberry.fr/assets/ripo/css/print.css" media="print" />
+<link type="text/css" rel="stylesheet" href="//static1.leberry.fr/assets/ripo/css/jquery.smartbanner.css" media="screen">
+
+<style>
+/* Needs to be at the bottom not be overriden */
+@media ( min-width : 992px) {
+	.canbehidden {
+		transition: max-height .5s, margin .5s;
+		overflow: hidden;
+	}
+	.hideslow {
+		max-height: 0 !important;
+		margin: 0 !important;
+		transition: max-height .5s, margin .5s;
+	}
+	.notransition {
+		-webkit-transition: none !important;
+		-moz-transition: none !important;
+		-o-transition: none !important;
+		transition: none !important;
+	}
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="//static1.leberry.fr/pack/1517014507.css" charset="UTF-8" ></link>
+
+
+<style>
+	#ui-datepicker-div { display: none; }
+</style>
+
+<script type="text/javascript" src="//static1.leberry.fr/pack/-1730777742.js" charset="UTF-8" ></script>
+
+<script title="noPack" type="text/javascript" src="https://www.google.com/jsapi" defer></script>
+
+<script type="text/javascript">
+	var env = {
+		path : "/"	
+	};
+
+	
+	var motsClesOfPage = "BOURGES,18033,Loisirs,Voyages";
+	</script>
+<meta name="apple-itunes-app" content="app-id=395932155" />
+	<meta name="google-play-app" content="app-id=com.centrefrance.leberry">
+
+<script title="noPack" type="text/javascript" src="//static1.leberry.fr/js/ads/pdt_1.6.js"></script>
+
+<script title="noPack" type="text/javascript" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+
+<!-- Start: GPT Async -->
+<script type="text/javascript">
+	var dads = false || false || false;
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	var dataLayer = dataLayer || [];
+	var debugGam = '';
+	var headerBidding = false;
+	window.dlpu = window.dlpu || {};
+	dlpu.sitePage = 'leberry.fr/T3';
+	dlpu.gabarit = 'article';
+	dlpu.device = deviceForDFP;
+	
+	if (!dads && dlpu.sitePage != 'boutique' && dlpu.sitePage != 'vide') {
+		googletag.cmd.push(function() {
+			var gptadslots=[];
+			var idx = 0; if(dlpu.device == 'mobile') idx = 1;
+			dlpu.sitePage = dlpu.sitePage.replace('/', '/' + dlpu.device + '/');
+			dlpu.path = '/31755961,22574838513/GCF_' + dlpu.sitePage;
+			
+			if(!isIgnoreSlot('banniere_haute')) {
+				if(adsPosition['banniere_haute'][idx].dim != '' && adsPosition['banniere_haute'][idx].dim.length > 0) {
+					gptadslots[1] = googletag.defineSlot(dlpu.path + '/banniere_haute', adsPosition['banniere_haute'][idx].dim, 'div-gpt--1721442916-banniere_haute').setTargeting('pos',['banniere_haute']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[1] = googletag.defineOutOfPageSlot(dlpu.path + '/banniere_haute', 'div-gpt--1721442916-banniere_haute').setTargeting('pos',['banniere_haute']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+			if(!isIgnoreSlot('article')) {
+				if(adsPosition['article'][idx].dim != '' && adsPosition['article'][idx].dim.length > 0) {
+					gptadslots[2] = googletag.defineSlot(dlpu.path + '/article', adsPosition['article'][idx].dim, 'div-gpt--732377866-article').setTargeting('pos',['article']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[2] = googletag.defineOutOfPageSlot(dlpu.path + '/article', 'div-gpt--732377866-article').setTargeting('pos',['article']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+			if(!isIgnoreSlot('droite_haute')) {
+				if(adsPosition['droite_haute'][idx].dim != '' && adsPosition['droite_haute'][idx].dim.length > 0) {
+					gptadslots[3] = googletag.defineSlot(dlpu.path + '/droite_haute', adsPosition['droite_haute'][idx].dim, 'div-gpt--1543026265-droite_haute').setTargeting('pos',['droite_haute']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[3] = googletag.defineOutOfPageSlot(dlpu.path + '/droite_haute', 'div-gpt--1543026265-droite_haute').setTargeting('pos',['droite_haute']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+			if(!isIgnoreSlot('droite_milieu')) {
+				if(adsPosition['droite_milieu'][idx].dim != '' && adsPosition['droite_milieu'][idx].dim.length > 0) {
+					gptadslots[4] = googletag.defineSlot(dlpu.path + '/droite_milieu', adsPosition['droite_milieu'][idx].dim, 'div-gpt--438918609-droite_milieu').setTargeting('pos',['droite_milieu']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[4] = googletag.defineOutOfPageSlot(dlpu.path + '/droite_milieu', 'div-gpt--438918609-droite_milieu').setTargeting('pos',['droite_milieu']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+			if(!isIgnoreSlot('banniere_basse')) {
+				if(adsPosition['banniere_basse'][idx].dim != '' && adsPosition['banniere_basse'][idx].dim.length > 0) {
+					gptadslots[5] = googletag.defineSlot(dlpu.path + '/banniere_basse', adsPosition['banniere_basse'][idx].dim, 'div-gpt--1726985995-banniere_basse').setTargeting('pos',['banniere_basse']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[5] = googletag.defineOutOfPageSlot(dlpu.path + '/banniere_basse', 'div-gpt--1726985995-banniere_basse').setTargeting('pos',['banniere_basse']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+			if(!isIgnoreSlot('flash_trans')) {
+				if(adsPosition['flash_trans'][idx].dim != '' && adsPosition['flash_trans'][idx].dim.length > 0) {
+					gptadslots[6] = googletag.defineSlot(dlpu.path + '/flash_trans', adsPosition['flash_trans'][idx].dim, 'div-gpt-1617727897-flash_trans').setTargeting('pos',['flash_trans']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[6] = googletag.defineOutOfPageSlot(dlpu.path + '/flash_trans', 'div-gpt-1617727897-flash_trans').setTargeting('pos',['flash_trans']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+			if(!isIgnoreSlot('habillage')) {
+				if(adsPosition['habillage'][idx].dim != '' && adsPosition['habillage'][idx].dim.length > 0) {
+					gptadslots[7] = googletag.defineSlot(dlpu.path + '/habillage', adsPosition['habillage'][idx].dim, 'div-gpt--1852629889-habillage').setTargeting('pos',['habillage']).defineSizeMapping().addService(googletag.pubads());
+					
+				} else {
+					gptadslots[7] = googletag.defineOutOfPageSlot(dlpu.path + '/habillage', 'div-gpt--1852629889-habillage').setTargeting('pos',['habillage']).defineSizeMapping().addService(googletag.pubads());
+					
+				}
+			}
+			
+				googletag.pubads().setTargeting("GCF_Departement","18");
+			
+				googletag.pubads().setTargeting("GCF_Insee","18033");
+			
+				googletag.pubads().setTargeting("GCF_Ville","bourges");
+			
+				googletag.pubads().setTargeting("GCF_Theme", ["ripo","le-berry-republicain","a-la-une","loisirs","voyages"]);
+			
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().enableAsyncRendering();
+			googletag.pubads().disableInitialLoad();
+			
+			googletag.pubads().collapseEmptyDivs();
+			
+			googletag.pubads().addEventListener('slotRenderEnded', function(e, level, message, service, slot, reference) {
+				var slotId = e.slot.getSlotElementId(),
+				$slot = $('#' + slotId);
+				const size = e.size;
+				if (size || size[0] !== 1 || size[1] !== 1 || !$slot) {
+					$slot.addClass('removePlaceholder');
+					const link = slotId.replace('gpt','link');
+					console.log("REMOVE : ", link)
+					$('#' + link).addClass('removeLink');
+				}
+
+				//$slot.addClass($slot.find('iframe:not([id*=hidden])').map(function () { return this.contentWindow.document; }).find('body').children().length == 0 ? 'gpt_empty' : 'gpt_rendered');
+				
+			});
+			
+			/*var oldWSize = $(window).width();
+			$(window).resize(function(){
+				clearTimeout(window.resizedFinished);
+				window.resizedFinished = setTimeout(function(){
+					var newWSize = $(window).width();
+					if(newWSize != oldWSize) {
+						oldWSize = $(window).width();
+						console.log('refresh dfp');
+						googletag.pubads().refresh();
+					}
+			    }, 500);
+			});*/	
+			
+			
+			
+		});
+	}
+</script>
+<!-- End: GPT -->
+
+<!-- Start: Smart -->
+<script src="//ced.sascdn.com/tag/3944/smart.js" async></script>
+<script>
+if (!dads && dlpu.sitePage != 'boutique' && dlpu.sitePage != 'vide') {
+	var sas = sas || {};
+	sas.cmd = sas.cmd || [];
+	sas.cmd.push(function () {
+	    sas.setup({ networkid: 3944, domain: "//diff.smartadserver.com", async: true });
+	});
+	sas.adCallConfig = {
+	    siteId: smartPdt['BR'].id,
+	    pageId: smartPdt['BR'].templates['T3'][dlpu.device],
+	    formats: [
+	    	
+		        { id: adsPosition['banniere_haute'][0].smartId, tagId: 'div-gpt--1721442916-banniere_haute' } ,
+		        { id: adsPosition['article'][0].smartId, tagId: 'div-gpt--732377866-article' } ,
+		        { id: adsPosition['droite_haute'][0].smartId, tagId: 'div-gpt--1543026265-droite_haute' } ,
+		        { id: adsPosition['droite_milieu'][0].smartId, tagId: 'div-gpt--438918609-droite_milieu' } ,
+		        { id: adsPosition['banniere_basse'][0].smartId, tagId: 'div-gpt--1726985995-banniere_basse' } ,
+		        { id: adsPosition['flash_trans'][0].smartId, tagId: 'div-gpt-1617727897-flash_trans' } ,
+		        { id: adsPosition['habillage'][0].smartId, tagId: 'div-gpt--1852629889-habillage' } 
+	    ],
+	    target: 'GCF_Departement=18;GCF_Insee=18033;GCF_Ville=bourges;GCF_Theme=ripo;GCF_Theme=le-berry-republicain;GCF_Theme=a-la-une;GCF_Theme=loisirs;GCF_Theme=voyages'
+	};
+	sas.callSmart = () => {
+		console.log('Call to Smart');
+		
+		sas.cmd.push(function() {
+		    sas.call('onecall', sas.adCallConfig);
+		});
+		
+		if(!isIgnoreSlot('banniere_haute')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt--1721442916-banniere_haute');
+				$('#div-gpt--1721442916-banniere_haute').addClass('removePlaceholder');
+				$('#div-link--1721442916-banniere_haute').addClass('removeLink');
+			});
+		}
+		
+		if(!isIgnoreSlot('article')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt--732377866-article');
+				$('#div-gpt--732377866-article').addClass('removePlaceholder');
+				$('#div-link--732377866-article').addClass('removeLink');
+			});
+		}
+		
+		if(!isIgnoreSlot('droite_haute')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt--1543026265-droite_haute');
+				$('#div-gpt--1543026265-droite_haute').addClass('removePlaceholder');
+				$('#div-link--1543026265-droite_haute').addClass('removeLink');
+			});
+		}
+		
+		if(!isIgnoreSlot('droite_milieu')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt--438918609-droite_milieu');
+				$('#div-gpt--438918609-droite_milieu').addClass('removePlaceholder');
+				$('#div-link--438918609-droite_milieu').addClass('removeLink');
+			});
+		}
+		
+		if(!isIgnoreSlot('banniere_basse')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt--1726985995-banniere_basse');
+				$('#div-gpt--1726985995-banniere_basse').addClass('removePlaceholder');
+				$('#div-link--1726985995-banniere_basse').addClass('removeLink');
+			});
+		}
+		
+		if(!isIgnoreSlot('flash_trans')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt-1617727897-flash_trans');
+				$('#div-gpt-1617727897-flash_trans').addClass('removePlaceholder');
+				$('#div-link-1617727897-flash_trans').addClass('removeLink');
+			});
+		}
+		
+		if(!isIgnoreSlot('habillage')) {
+			sas.cmd.push(function () {
+			    sas.render('div-gpt--1852629889-habillage');
+				$('#div-gpt--1852629889-habillage').addClass('removePlaceholder');
+				$('#div-link--1852629889-habillage').addClass('removeLink');
+			});
+		}
+			
+	}
+	
+	window.didomiOnReady = window.didomiOnReady || [];
+	window.didomiOnReady.push(function(Didomi) {
+	    if (typeof __tcfapi !== 'function') {
+	        console.log('CMP API is unavailable');
+	        sas.callSmart();
+	    } else {
+	        sas.callSmartOnCmpFail = window.setTimeout(sas.callSmart, 3000);
+	        __tcfapi('addEventListener', 2, (tcData, success) => {
+	            window.clearTimeout(sas.callSmartOnCmpFail);
+	            const checkConsent = () => {
+	                return [1, 2, 7, 9, 10].every(consentPurpose => {
+	                    return tcData.publisher.consents[consentPurpose] === true;
+	                });
+	            };
+	            if (success) {
+	                __tcfapi('removeEventListener', 2, success => {
+	                    if (success) {
+	                        // console.log(`event listener  removed`);
+	                    }
+	                }, tcData.listenerId);
+	                if (tcData.eventStatus === 'tcloaded') {
+	                	$.getScript('https://cdn1.366.fr/wrp/leberry_fr/leberry_fr.js').done(function( script, textStatus ) { console.log( 'HB loaded' ); });
+	                    if (checkConsent()) {
+	                        dlpu.provider = 'gam';
+	                        $('#modeGAM').addClass('active');
+	                        googletag.cmd.push(function() {
+	                            googletag.pubads().setRequestNonPersonalizedAds(0);
+	                            googletag.enableServices();
+	                        });
+	                    } else {
+	                        dlpu.provider = 'smart';
+	                        headerBidding = false;
+	                        sas.callSmart();
+	                    }
+	                } else {
+	                    console.log('En attente du consentement');
+	                }
+	            }
+	        });
+	    }
+	});
+
+	window.didomiEventListeners = window.didomiEventListeners || [];
+	window.didomiEventListeners.push({
+	    event: 'consent.changed',
+	    listener: function(context) {
+	        console.log('Consent changed');
+	        __tcfapi('getTCData', 2, (tcData, success) => {
+	            const checkConsent = () => {
+	                return [1, 2, 7, 9, 10].every(consentPurpose => {
+	                    return tcData.publisher.consents[consentPurpose] === true;
+	                });
+	            };
+            	$.getScript('https://cdn1.366.fr/wrp/leberry_fr/leberry_fr.js').done(function( script, textStatus ) { console.log( 'HB loaded' ); });
+	            if (checkConsent()) {
+	            	dlpu.provider = 'gam';
+	                $('#modeGAM').addClass('active');
+	                	googletag.cmd.push(function() {
+	                    googletag.pubads().setRequestNonPersonalizedAds(0);
+	                    googletag.enableServices();
+	                });
+	            } else {
+	            	dlpu.provider = 'smart';
+	                headerBidding = false;
+	                sas.callSmart();
+	            }
+	        });
+
+	    }
+	});
+	
+	
+	
+
+}
+</script>
+<!-- End: Smart -->
+
+</head>
+			
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/"},"headline":"Une envie d’ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le dépaysement","datePublished":"2021-12-27T17:00:00.000Z","dateModified":"2021-12-27T17:05:00.000Z","publisher":{"@type":"Organization","name":"Le Berry Républicain","logo":{"@type":"ImageObject","url":"https://www.leberry.fr/static/bloc/ripolinage/logos/logo-BR.svg","width":"226","height":"26"}},"articleSection":["Loisirs","Voyages"],"keywords":["Loisirs","Voyages"],"description":"On pourrait croire les habitants du Cher cloîtrés chez eux par crainte du Covid. Les agences de voyages disent le contraire. L’envie de partir, de se dépayser est bien présente en cette fin d’année.","articleBody":"La progression des variants Delta et surtout, désormais, Omicron du Covid-19 et les annonces d’un quotidien plus contraint dans les jours qui viennent peuvent mettre à mal les envies de dépaysement. Les agences de voyages contactées disent un peu le contraire. « Les gens n’ont qu’une hâte, c’est partir », dit clairement Patricia, de l’agence Delalande Voyages (Bourges et Vierzon). Olivier, de l’agence Waticar, à Saint-Amand, le confie également : « Ceux qui ont décidé de partir partent. Ce qui est nouveau, c’est que certains réservent à la dernière minute, mais ce sont des gens qui ont généralement l’habitude de voyager ». « Ceux qui ont envie de partir partent » Chez Terre d’ailleurs, à Bourges, on ne dit pas autre chose : « L’an dernier, les gens se reportaient sur la France, mais aujourd’hui, même si c’est contraignant, ils essaient de partir à l’étranger ». Et chez Avaricum Voyages, à Bourges, Marine confirme également que « les gens sont motivés pour être dépaysés, et recherchent le soleil. Ils ont envie de partir ». Simplon Voyages, autocariste du Cher, tempère toutefois en précisant que « les gens sont tout de même hésitants et attendent souvent le dernier moment pour s’inscrire. » Seule contrainte impérative, quand un pays ferme ses frontières, le voyage est annulé, les laissés-pour-compte se font rembourser. Quant aux destinations prisées par les amateurs de dépaysement, la République dominicaine décroche la palme, citée en premier par plusieurs agences, « parce que, souligne Patricia, c’est là où il y a le moins de contraintes ». « Les gens sont motivés pour être dépaysés » Ensuite viennent de nombreuses destinations : Tunisie, Dubaï, Costa Rica, Corse, et même Norvège, Laponie… Les envies d’ailleurs sont variées bien que, sans doute, un peu limitées par la durée des vacances. C’est sans doute pourquoi les capitales ou villes renommées de proximité sont également plébiscitées. Rome (Italie) est citée en tête, suivie par Cracovie (Pologne). Et une singularité, révélée par Olivier : « Il y a cette année, une forte demande pour Disney, à Marne-la-Vallée, pour deux jours, parfois pour trois. C’est beaucoup plus que d’habitude ». L’envie d’ailleurs, c’est parfois juste une ambiance. Bertrand Philippe","author":{"@type":"Person","name":"Bertrand Philippe"},"image":{"@type":"ImageObject","url":"https://img.lamontagne.fr/eNsKA8AfCDAIDsG7Lz74rP2gyzplXt8s2Fu17XnsldI/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDUvODcvMDkvMjAwMDAwNTg3MDkwNw.jpg","width":"657","height":"438"},"isAccessibleForFree":false,"publicAccess":false,"isPartOf":{"productID":"leberry.fr:premium","name":"leberry.fr : accès aux articles réservés aux abonnés","@type":["CreativeWork","Product"]},"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":"premium"}}</script>
+	<body class="BR"><!-- Google Tag Manager (noscript) 
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPJ3R5C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+ End Google Tag Manager (noscript) -->
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PQ44X7Q&gtm_auth=SOfOzTaW-YSdcZpOo6txLw&gtm_preview=env-20&gtm_cookies_win=x"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><div id="main-content" class="container"><header><div id="header" class="b-header">
+
+
+
+<link rel="stylesheet" href="//static1.leberry.fr/static/bloc/ripolinage/header/cf-header/v2/styles.min.css" />
+<link rel="stylesheet" href="//static1.leberry.fr/static/bloc/ripolinage/header/cf-header/v2/cf.css" />
+<link rel="stylesheet" href="//static1.leberry.fr/static/bloc/ripolinage/header/custom.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+<script src="//static1.leberry.fr/static/bloc/ripolinage/header/cf-header/v2/cf.umd.min.js"></script>
+<script src="//static1.leberry.fr/static/bloc/ripolinage/header/lodash.debounce/index.min.js"></script>
+
+<script>
+	var headerJsonSite = {"id":"4","code":"BR","domain":"leberry.fr","name":"Le Berry Républicain","theme":"default"};
+	var headerJsonMenu = [{"id":"14","site":"BR","label":"Le Berry Républicain","defaultUrl":"https://www.leberry.fr","homeUrl":"/","subscribeUrl":"/abonnement?btn_action=BTN_SABONNER","logoUrl":"/static/bloc/ripolinage/logos/logo-BR.svg","logoPremiumUrl":"/static/bloc/ripolinage/wall/logos/logo-BR.svg","topMenu":[{"id":"893","label":"Météo","url":"/services/meteo.html","external":false,"image":null},{"id":"894","label":"Immo","url":"/immobilier/","external":false,"image":"/static/bloc/ripolinage/header/logo_immo4.svg"},{"id":"895","label":"Emploi","url":"http://www.centremploi.com/","external":true,"image":null},{"id":"897","label":"Obsèques","url":"/services/avis-obseques.html","external":false,"image":null},{"id":"902","label":"Boutique","url":"http://www.centrefranceboutique.fr/","external":true,"image":null},{"id":"903","label":"Jeux","url":"/services/jeux.html","external":false,"image":null},{"id":"905","label":"Points de vente","url":"/services/points-de-vente.html","external":false,"image":null},{"id":"907","label":"Partenaires","url":"/partenaires/","external":false,"image":"/static/bloc/ripolinage/brandcontent/logo_cfpartner_surheader/logo-contenus-partenaires-bouton6.svg"}],"mainMenu":[{"id":"151","label":"À la une","url":"/","external":false,"class":"red","subMenu":[{"id":"1045","label":"ACCUEIL","url":"/","external":false,"image":null},{"id":"1057","label":"(Anti)viral","url":"/theme/antiviral/","external":false,"image":null},{"id":"1064","label":"Coronavirus","url":"/theme/coronavirus/","external":false,"image":null},{"id":"1068","label":"France / Monde","url":"/theme/france/","external":false,"image":null},{"id":"1084","label":"Faits divers","url":"/theme/faits-divers/","external":false,"image":null},{"id":"1089","label":"Politique","url":"/theme/politique/","external":false,"image":null},{"id":"1094","label":"Opinions","url":"/theme/opinions/","external":false,"image":null},{"id":"1099","label":"Insolite","url":"/theme/insolite/","external":false,"image":null},{"id":"1108","label":"Tourisme","url":"/theme/tourisme/","external":false,"image":null}]},{"id":"154","label":"Vie locale","url":"/theme/vie-locale/","external":false,"class":"red","subMenu":[{"id":"1111","label":"Bourges","url":"/bourges-18000/","external":false,"image":null},{"id":"1120","label":"Vierzon","url":"/vierzon-18100/","external":false,"image":null},{"id":"1134","label":"Saint-Amand-Montrond","url":"/saint-amand-montrond-18200/","external":false,"image":null},{"id":"1159","label":"Saint-Doulchard","url":"/saint-doulchard-18230/","external":false,"image":null},{"id":"1175","label":"Mehun-sur-Yèvre","url":"/mehun-sur-yevre-18500/","external":false,"image":null},{"id":"1193","label":"Saint-Florent-sur-Cher","url":"/saint-florent-sur-cher-18400/","external":false,"image":null},{"id":"1209","label":"Aubigny-sur-Nère","url":"/aubigny-sur-nere-18700/","external":false,"image":null},{"id":"1221","label":"Saint-Germain-du-Puy","url":"/saint-germain-du-puy-18390/","external":false,"image":null},{"id":"1234","label":"Dun-sur-Auron","url":"/dun-sur-auron-18130/","external":false,"image":null},{"id":"1244","label":"Trouy","url":"/trouy-18570/","external":false,"image":null},{"id":"1258","label":"La Chapelle-Saint-Ursin","url":"/chapelle-saint-ursin-18570/","external":false,"image":null},{"id":"1263","label":"La Guerche-sur-l'Aubois","url":"/guerche-sur-l'aubois-18150/","external":false,"image":null},{"id":"1272","label":"Sancoins","url":"/sancoins-18600/","external":false,"image":null},{"id":"1300","label":"Avord","url":"/avord-18520/","external":false,"image":null},{"id":"1309","label":"Sancerre","url":"/sancerre-18300/","external":false,"image":null}]},{"id":"156","label":"Sports","url":"/theme/sports/","external":false,"class":"green","subMenu":[{"id":"1321","label":"TERRE DE SPORTS","url":"/theme/sports/","external":false,"image":null},{"id":"1333","label":"Résultats/classements","url":"/theme/sports/football/resultats-classements/","external":false,"image":null},{"id":"3110","label":"Chrononews","url":"/theme/sports/chrononews/","external":false,"image":null},{"id":"3111","label":"Matchs en direct","url":"/theme/sports/football/matchs-en-direct/","external":false,"image":null},{"id":"1351","label":"Bourges Basket","url":"/theme/sports/basket/club/bourges-basket/","external":false,"image":null},{"id":"3112","label":"Bourges Foot 18","url":"/theme/sports/football/club/bourges-foot-18/","external":false,"image":null},{"id":"3199","label":"Vierzon  FC","url":"/theme/sports/football/club/vierzon-fc/","external":true,"image":null},{"id":"1390","label":"Bourges XV","url":"/theme/sports/rugby/club/bourges-xv/","external":false,"image":null},{"id":"1376","label":"Football","url":"/theme/sports/football/","external":false,"image":null},{"id":"1407","label":"Rugby","url":"/theme/sports/rugby/","external":false,"image":null},{"id":"1447","label":"Cyclisme","url":"/theme/sports/cyclisme/","external":false,"image":null},{"id":"1419","label":"Basket","url":"/theme/sports/basket/","external":false,"image":null},{"id":"1460","label":"Auto - Moto","url":"/theme/sports/auto-moto/","external":false,"image":null},{"id":"1502","label":"Autres sports","url":"/theme/sports/autres/","external":false,"image":null}]},{"id":"158","label":"Loisirs","url":"/theme/loisirs/","external":false,"class":"orange","subMenu":[{"id":"1507","label":"L'ESSENTIEL","url":"/theme/loisirs/","external":false,"image":null},{"id":"1518","label":"Tous les événements","url":"/theme/agenda-sorties/","external":false,"image":null},{"id":"1524","label":"Autour de moi","url":"/loisirs/autour-de-moi","external":false,"image":null},{"id":"1534","label":"Spectacles, festivals et concerts","url":"/theme/loisirs/spectacles-festivals-concerts","external":false,"image":null},{"id":"1543","label":"Sport et Nature","url":"/theme/loisirs/sport-nature","external":false,"image":null},{"id":"1554","label":"Culture et patrimoine","url":"/theme/loisirs/culture-patrimoine","external":false,"image":null},{"id":"1563","label":"Gastronomie, terroir et vins","url":"/theme/loisirs/gastronomie-terroir-vins","external":false,"image":null},{"id":"1573","label":"Brocantes, salons et foires","url":"/theme/loisirs/brocantes-salons-foires","external":false,"image":null},{"id":"1582","label":"Bals et fêtes","url":"/theme/loisirs/bals-fetes","external":false,"image":null},{"id":"1589","label":"A la maison","url":"/theme/loisirs/maison","external":false,"image":null}],"active":true},{"id":"161","label":"Entreprendre","url":"/theme/entreprendre/","external":false,"class":"blue","subMenu":[{"id":"1595","label":"L'ESSENTIEL","url":"/theme/entreprendre/","external":false,"image":null},{"id":"1608","label":"Panorama","url":"/theme/entreprises/","external":false,"image":null},{"id":"1622","label":"Emploi","url":"/theme/emploi/","external":false,"image":null},{"id":"1636","label":"BTP - Industrie","url":"/theme/btp-industrie/","external":false,"image":null},{"id":"1650","label":"Aéronautique","url":"/theme/aeronautique/","external":false,"image":null},{"id":"1661","label":"Commerce / Artisanat","url":"/theme/commerce-artisanat/","external":false,"image":null},{"id":"1669","label":"Agroalimentaire","url":"/theme/agroalimentaire/","external":false,"image":null},{"id":"1681","label":"Services","url":"/theme/services/","external":false,"image":null}]}],"social":{"facebook":"http://fr-fr.facebook.com/berryrepublicain","instagram":"https://www.instagram.com/berryrepublicain/","twitter":"https://twitter.com/#!/leberry_fr","snapchat":"https://www.snapchat.com/add/leberry.fr"}}];
+	var headerJsonUser = {"logged":false,"isPremium":false};
+	var headerJsonEssentiel = [{"label":"Bourges","link":"/bourges-18000/","external":true,"active":true,"illustration":null,"favorite":"Bourges"},{"label":"Saint-Doulchard","link":"/saint-doulchard-18230/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"La Chapelle-Saint-Ursin","link":"/chapelle-saint-ursin-18570/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Germain-du-Puy","link":"/saint-germain-du-puy-18390/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Fussy","link":"/fussy-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Vasselay","link":"/vasselay-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Berry-Bouy","link":"/berry-bouy-18500/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Trouy","link":"/trouy-18570/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Marmagne","link":"/marmagne-18500/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Éloy-de-Gy","link":"/saint-eloy-de-gy-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Moulins-sur-Yèvre","link":"/moulins-sur-yevre-18390/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Soye-en-Septaine","link":"/soye-en-septaine-18340/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Osmoy","link":"/osmoy-18390/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Michel-de-Volangis","link":"/saint-michel-de-volangis-18390/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Pigny","link":"/pigny-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Plaimpied-Givaudins","link":"/plaimpied-givaudins-18340/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Georges-sur-Moulon","link":"/saint-georges-sur-moulon-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Lissay-Lochy","link":"/lissay-lochy-18340/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Vignoux-sous-les-Aix","link":"/vignoux-sous-les-aix-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Sainte-Solange","link":"/sainte-solange-18220/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Just","link":"/saint-just-18340/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Savigny-en-Septaine","link":"/savigny-en-septaine-18390/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Nohant-en-Goût","link":"/nohant-en-gout-18390/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Martin-d'Auxigny","link":"/saint-martin-d-auxigny-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Quantilly","link":"/quantilly-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Crosses","link":"/crosses-18340/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saint-Palais","link":"/saint-palais-18110/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Brécy","link":"/brecy-18220/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Menetou-Salon","link":"/menetou-salon-18510/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Farges-en-Septaine","link":"/farges-en-septaine-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Avord","link":"/avord-18520/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Villabon","link":"/villabon-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Baugy","link":"/baugy-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Raymond","link":"/raymond-18130/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Étréchy","link":"/etrechy-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Gron","link":"/gron-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Bengy-sur-Craon","link":"/bengy-sur-craon-18520/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Saligny-le-Vif","link":"/saligny-le-vif-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Cornusse","link":"/cornusse-18350/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Villequiers","link":"/villequiers-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Laverdines","link":"/laverdines-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Chassy","link":"/chassy-18800/","external":true,"active":false,"illustration":null,"favorite":null},{"label":"Mornay-Berry","link":"/mornay-berry-18350/","external":true,"active":false,"illustration":null,"favorite":null}];
+</script>
+
+<div id="header-app" class="cf-header">
+		<cf-header :site="site" :menu="menu" :is-logged="user.logged" :is-premium="user.isPremium" :is-fixed="true"
+		:autocomplete-props="{items: cities, textSerializer: item => `${item.nom} (${item.match.slice(-5)})`, urlSerializer: item => `/${item.slug}`, placeholder: 'Saisissez une commune'}"
+		@autocomplete-change="handleChange" ></cf-header>
+	<div class="header-padding">
+		<cf-sub-menu v-if="links.length > 0" :links="links" :is-logged="user.logged" :is-premium="user.isPremium"
+			class="mb-3" ></cf-sub-menu>
+		<b-toaster name="b-toaster-cf" class="m-0"></b-toaster>
+	</div>
+</div>
+
+<script>
+	document.getElementById("header").classList.remove("b-header");
+	new Vue({
+		methods: {
+			handleChange: debounce(function (value) {
+				fetch(`/api/centreref/geo/communes/autocomplete?q=${value}&size=5&boostDepartements=${this.boostDepartements.join()}`)
+					.then(response => response.json())
+					.then(result => {
+						this.cities = result;
+					});
+			}, 500)
+		},
+		store: cf.default.store,
+		created: function () {
+			fetch("/static/bloc/ripolinage/header/boostDepartementsBySite.json")
+				.then(response => response.json())
+				.then(result => {
+					if (result[headerJsonSite.code]) {
+						this.boostDepartements = result[headerJsonSite.code]
+					}
+				});
+		},
+		data: function () {
+			return {
+				user: headerJsonUser,
+				links: headerJsonEssentiel,
+				site: headerJsonSite,
+				menu: headerJsonMenu[0],
+				boostDepartements: [],
+				cities: [],
+			};
+		},
+	}).$mount("#header-app");
+</script>
+<script>
+	$(function(e) {
+		if($('.list-subscribe #s_abonner').length > 0) {
+			$('#header-app .button-subscribe').attr(
+				'href', 
+				$('.list-subscribe #s_abonner').attr('href').replace('BTN_ART_SABONNER', 'BTN_SABONNER')
+			);
+		}
+	});
+</script>
+</div></header><div id="content"><div class="bloc responsive_publicite_position  pub sansFilet">
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="banniere_haute">
+		<div class="advertise pub-inner" ref="banniere_haute">
+						<div id='div-gpt--1721442916-banniere_haute' class='placeholder placeholder_banniere_haute'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('banniere_haute')) googletag.cmd.push(function() { googletag.display('div-gpt--1721442916-banniere_haute'); });
+				</script>
+				<a id="div-link--1721442916-banniere_haute" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_banniere_haute"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="content-inner" style="background-color: #FFFFFF;"><div class="column span-12 last" >
+
+
+
+
+
+    
+            <div class="bloc responsive_article_detail row">
+    <div class="col-md-12">
+        <div class="b-article">
+	<div class="c-titre">
+		<span class="c-motcle">Vacances</span>		<h1 detail-id="4066165" data-r="j" data-dep="18" >Une envie d’ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le dépaysement</h1>
+		<span class="premium-picto premium-message">Article réservé aux abonnés</span>	</div>
+			
+		<div class="c-article-informations clearfix">
+		 						<p>Publié le 27/12/2021 à 17h00</p>
+	    	    <p class="c-article-auteur" style="display:none;">Bertrand Philippe</p>	    						</div>
+</div>
+    </div>
+</div>
+
+        
+    
+
+<div class="row responsive_article_detail_body">
+
+            <div class="col-md-8 bloc-article-bottom" url="/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/" >
+        
+            <div class="b-article">
+	 	 										<div class="photo-wrapper">
+				<div class="photo-box ">
+					<img src="https://img.lamontagne.fr/eNsKA8AfCDAIDsG7Lz74rP2gyzplXt8s2Fu17XnsldI/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDUvODcvMDkvMjAwMDAwNTg3MDkwNw.jpg" alt="Une envie d&rsquo;ailleurs qui bouscule tout : les agences de voyages constatent que les habitants du Cher recherchent le d&eacute;paysement"/>
+				</div>
+								<span class="c-legende">
+					La R&eacute;publique dominicaine est pl&eacute;biscit&eacute;e mais la Norv&egrave;ge est aussi demand&eacute;e.
+					 &copy; Pierrick DELOBELLE 				</span>
+							</div>
+			
+
+			<div class="c-article-actions">
+			<div class="clearfix">
+						        <ul class="c-social list-inline">
+		            <li><a class="p-facebook eventXiti" href='https://www.facebook.com/sharer/sharer.php?u=https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/' target="_blank" id="social_media_facebook_partage_4066165" 
+	onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');simpleJsonRPCRequest('rs.incrementNbRecomFacebook', [14066165, 1]); return false;" title="Partager sur Facebook">Facebook</a></li>
+		    		<li><a class="p-twitter eventXiti" href='https://twitter.com/intent/tweet?url=https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/&amp;text=Une+envie+d%E2%80%99ailleurs+qui+bouscule+tout+%3A+les+agences+de+voyages+constatent+que+les+habitants+du+Cher+recherchent+le+d%C3%A9paysement' target="_blank" 
+id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCRequest('rs.incrementNbRecomTwitter', [14066165]); return true;" title="Partager sur Twitter">Twitter</a></li>
+							            		            <li><a href="javascript:changeScaleFont(-1);" id="reduire_taille_texte" class="eventXiti p-fontsizedown clair" title="Diminuer la taille du texte">Diminuer la taille du texte</a></li>
+		            <li><a href="javascript:changeScaleFont(1);" id="augmenter_taille_texte" class="eventXiti p-fontsizeup clair" title="Augmenter la taille du texte">Augmenter la taille du texte</a></li>
+		            		            <li><a id="commenter_cet_article_4066165" href="#bloc-commentaires-4066165" class="eventXiti p-commentaires pbadge clair"><span>1</span></a></li>
+		            		            		             		            
+			        <li class="list-subscribe">
+			        	<a id="s_abonner" href="/abonnement/?btn_action=BTN_ART_SABONNER&art_abo=4066165&referer=https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/" class="btn btn-secondary btn-kiosque eventXiti">
+			        		<span class="cf-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><g id="icon-plus" transform="translate(-37.25 -463.5)"><path id="Tracé_105953" data-name="Tracé 105953" d="M-11272.75-15774.5v20" transform="translate(11320 16238)" fill="none" stroke="currentColor" stroke-width="1.6"></path><path id="Tracé_105954" data-name="Tracé 105954" d="M-11272.75-15774.5v20" transform="translate(-15717.25 11746.25) rotate(90)" fill="none" stroke="currentColor" stroke-width="1.6"></path></g></svg></span>
+			        	s'abonner</a>
+			        </li>
+			        		        </ul>
+		    </div>
+		</div>
+	
+<div class="contenu">
+			<div class="c-soustitre">
+			On pourrait croire les habitants du Cher cloîtrés chez eux par crainte du Covid. Les agences de voyages disent le contraire. L’envie de partir, de se dépayser est bien présente en cette fin d’année.
+		</div>
+	
+	
+		
+			<div class="p402_premium">
+					<!-- YOUR PREMIUM CONTENT HERE --><div class="bloc responsive_publicite_position  pub sansFilet">
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="article">
+		<div class="advertise pub-inner" ref="article">
+						<div id='div-gpt--732377866-article' class='placeholder placeholder_article'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('article')) googletag.cmd.push(function() { googletag.display('div-gpt--732377866-article'); });
+				</script>
+				<a id="div-link--732377866-article" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_article"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+			<div class="texte entry-content">
+											
+						
+			
+						
+			<p>La progression des variants Delta et surtout, désormais, Omicron du Covid-19 et les annonces d’un quotidien plus contraint dans les jours qui viennent peuvent mettre à mal les envies de dépaysement.</p>
+			
+							
+									
+			
+			
+							
+														</div>
+				
+	
+			</div>
+					<script type="text/javascript">
+					if(!dads) { try { _402_Show(); } catch(e) {} }
+					</script>
+<div id="pool-content" data-poool="100">
+</div>
+<div id="poool-widget" style="min-height: 450px;">
+        <div id="cf-w-widget">
+        <link rel="stylesheet" type="text/css" href="//static1.leberry.fr/static/bloc/ripolinage/paywall/assets/style.css" charset="UTF-8" ></link>
+        <div id="app" style="margin-top: -70px;">
+            <div class="p3-app p3-locked">
+                <div class="p3-widget p3-widget-restriction p3-layout-portrait p3-visible">
+                    <div class="p3-wrapper">
+                        <div class="row no-gutters p3-inner">
+                            <div class="col p3-cover"></div>
+                            <div class="col p3-container">
+                                <div class="p3-brand-logo"><img src="/static/bloc/ripolinage/paywall/assets/images/logo-BR.png" /></div>
+                                <h3 class="p3-title"><span>La suite est réservée aux abonnés.</span></h3>
+                                <p class="p3-text" style="display:none;"><span>Abonnez-vous dès 6.99€ sans engagement.</span></p>
+                                <div class="p3-action">
+                                    <a class="p3-button p3-subscribe p3-main-action" role="button" tabindex="-1" href="/abonnement/?btn_action=Paywall"><span>Je m'abonne pour lire la suite</span></a>
+                                </div>
+                                <div class="p3-subactions">
+                                    <a role="link" tabindex="-1" class="p3-link p3-login" href="/s/login?r=/"><span>Je me connecte</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p3-thanks">
+                            <div class="p3-thanks-overlay" style="left: 0px; top: 0px;"></div>
+                            <div class="p3-thanks-inner">
+                                <i class="p3-ico p3-check"></i>
+                                <h4 class="p3-title"><span>Bonne lecture !</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+		
+
+</div>
+
+<div style="clear:both"></div>
+
+					<ul class="c-tags list-inline">
+			    <li><a href="/bourges-18000/" class="t-simple">Bourges</a></li>
+	    	    					    	<li><a href="/theme/loisirs/" class="t-simple t-loisirs">Loisirs</a></li>
+		    						    	<li><a href="/theme/voyages/" class="t-simple t-voyages">Voyages</a></li>
+		    														<li><a href="/bourges-18000/loisirs/" class="t-simple">Bourges - Loisirs</a></li>
+						</ul>
+<br/>
+
+	
+
+			<div class="c-article-actions">
+			<div class="clearfix">
+						        <ul class="c-social list-inline">
+		            <li><a class="p-facebook eventXiti" href='https://www.facebook.com/sharer/sharer.php?u=https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/' target="_blank" id="social_media_facebook_partage_4066165" 
+	onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');simpleJsonRPCRequest('rs.incrementNbRecomFacebook', [14066165, 1]); return false;" title="Partager sur Facebook">Facebook</a></li>
+		    		<li><a class="p-twitter eventXiti" href='https://twitter.com/intent/tweet?url=https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/&amp;text=Une+envie+d%E2%80%99ailleurs+qui+bouscule+tout+%3A+les+agences+de+voyages+constatent+que+les+habitants+du+Cher+recherchent+le+d%C3%A9paysement' target="_blank" 
+id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCRequest('rs.incrementNbRecomTwitter', [14066165]); return true;" title="Partager sur Twitter">Twitter</a></li>
+							            		            <li><a href="javascript:changeScaleFont(-1);" id="reduire_taille_texte" class="eventXiti p-fontsizedown clair" title="Diminuer la taille du texte">Diminuer la taille du texte</a></li>
+		            <li><a href="javascript:changeScaleFont(1);" id="augmenter_taille_texte" class="eventXiti p-fontsizeup clair" title="Augmenter la taille du texte">Augmenter la taille du texte</a></li>
+		            		            <li><a id="commenter_cet_article_4066165" href="#bloc-commentaires-4066165" class="eventXiti p-commentaires pbadge clair"><span>1</span></a></li>
+		            		            		             		            
+			        <li class="list-subscribe">
+			        	<a id="s_abonner" href="/abonnement/?btn_action=BTN_ART_SABONNER&art_abo=4066165&referer=https://www.leberry.fr/bourges-18000/loisirs/une-envie-dailleurs-qui-bouscule-tout-les-agences-de-voyages-constatent-que-les-habitants-du-cher-recherchent-le-depaysement_14066165/" class="btn btn-secondary btn-kiosque eventXiti">
+			        		<span class="cf-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><g id="icon-plus" transform="translate(-37.25 -463.5)"><path id="Tracé_105953" data-name="Tracé 105953" d="M-11272.75-15774.5v20" transform="translate(11320 16238)" fill="none" stroke="currentColor" stroke-width="1.6"></path><path id="Tracé_105954" data-name="Tracé 105954" d="M-11272.75-15774.5v20" transform="translate(-15717.25 11746.25) rotate(90)" fill="none" stroke="currentColor" stroke-width="1.6"></path></g></svg></span>
+			        	s'abonner</a>
+			        </li>
+			        		        </ul>
+		    </div>
+		</div>
+	
+<script type="text/javascript">
+	function printArticle() {
+		window.print();
+	}
+	function changeScaleFont(toAdd) {
+		var selector = $(".bloc-article-bottom .contenu");
+		curSize= parseInt(selector.css('font-size'));
+		var newValue = curSize+toAdd;
+		if (newValue >= 12 && newValue <= 21) {
+			selector.css('font-size', newValue);
+		}
+	}
+	$(function() {
+		simpleJsonRPCRequest('rs.incrementNbLu', [4066165,'ARTICLE']);
+	});
+</script>
+
+
+	
+
+	</div>
+
+            <script type="text/javascript">
+                                                    dataLayer.push({'pooolPageType': 'premium'});
+                                var authorsOfArticle = "Bertrand Philippe";
+            </script>
+        
+
+    
+
+
+
+<script title="noPack" type="text/javascript" src="//static1.leberry.fr/js/consent/embed-consent_1.0.js"></script>
+
+
+
+<div id="taboola-below-article-thumbnails"></div>
+
+
+<div id="bloc-commentaires-4066165" class="b-commentaires">
+	
+	<h3 class='b-titre-bloc  '>
+		COMMENTEZ CET ARTICLE
+	</h3>
+			<p class="c-commentaires-nombre">
+			<a href="#$("#com-4066165")" class="inherit-color">
+				1 commentaire			</a>
+		</p>
+	
+	
+ 
+<div class="c-commentaires-form">
+    					<div class="row">
+				<div class="col-sm-12">
+					<form id="connectCommentForm-4066165">
+						<div class="form-group">
+							<input type="submit" class="btn btn-primary" value="se connecter" />
+						</div>
+					</form>
+				</div>
+			</div>
+			<script type="text/javascript">
+			$(function() {
+				$("#connectCommentForm-4066165").submit(function(e) {
+					displayLoadingMessage();
+					window.location = "/s/login?r=" + window.location.pathname;
+					return false;
+				});
+			});
+			</script>
+		    </div>
+
+
+			<div id="com-4066165"></div>
+					<div class="b-commentaires-element " id="com-418670" >
+                <div class="row">
+                    <div class="col-md-2 col-xs-3 c-commentaires-element-avatar">
+                       <span class="p-compte avatar-auteur"></span>
+                    </div>
+                    <div class="col-md-10 col-xs-9 c-commentaires-element-texte">
+                        <p class="c-commentaires-element-auteur"><strong>marie Françoise  Lelong</strong> a posté le 27 décembre 2021 à 17h17</p>
+                        <p>Tourner en rond à Bourges cest plutôt restreint ...et monotonne...dautant que le centre ville a perdu beaucoup d'attrait depuis que plusieurs grandes enseignes ont fermé cest moins agréable de sy balader Pour ma part    cap à l'ouest !</p>
+                                                <p class="c-commentaires-element-actions">
+                        	<a commentaire-uid="418670" id="commentaires-repondre-418670">Je réponds</a>
+                            <a commentaire-uid="418670" id="commentaires-alert-418670">J'alerte</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+		
+			</div>
+
+<script type="text/javascript">
+    (function() {
+
+        var modeCommsHidden = true;
+
+        function signalerAbus(comment) {
+            console.log(comment);
+            simpleJsonRPCRequest('rs.signalerAbus', [comment, 'BR']);
+            alert('L\'abus a été signalé, merci pour votre collaboration.');
+        }
+
+
+        function repondre(comment) {
+            $('#comm-alert').hide();
+            var commentaireConnectForm = $("#connectCommentForm-4066165");
+            if (commentaireConnectForm.length > 0) {
+                commentaireConnectForm.submit();
+            } else {
+                var commentaireForm = $("#formCommentaire-4066165");
+                if (commentaireForm.length > 0) {
+                    var titre = 'Envoyer mon commentaire';
+                    var uidCom = '-1';
+                    if(comment > uidCom) {
+                        titre = 'Envoyer ma réponse';
+                        uidCom = comment;
+                    }
+                    commentaireForm.find('#uidParentCommentaire').val(uidCom);
+                    commentaireForm.find('#poster-commentaire').val(titre);
+                    $("#formCommentaire-4066165 #texte").focus();
+                }
+            }
+        }
+
+                                    jQuery('#commentaires-alert-418670')
+                        .click(function() {
+                            signalerAbus(jQuery(this).attr('commentaire-uid'))
+                        })
+
+                jQuery('#commentaires-repondre-418670')
+                    .click(function() {
+                        repondre(jQuery(this).attr('commentaire-uid'))
+                    })
+                    
+        function plusDeReactions() {
+            $('.b-commentaires-element-toggable-4066165').toggle(modeCommsHidden);
+            $('#plus-reactions-4066165').toggle(!modeCommsHidden);
+            $('#moins-reactions-4066165').toggle(modeCommsHidden);
+
+            modeCommsHidden = !modeCommsHidden;
+        }
+
+        jQuery('#plus-reactions-4066165, #moins-reactions-4066165')
+                .click(function() {
+                    plusDeReactions();
+                })
+    })();
+
+</script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+<script src="https://www.lamontagne.fr/static/vue/1.0.1/iv3.umd.min.js"></script>
+<link rel="stylesheet" href="https://www.lamontagne.fr/static/vue/1.0.1/iv3.css">
+<div id="appArticleRelated">
+    <Iv3ArticleRelated article-id="4066165" site-keyword="4" service-url="/api"    />
+</div>
+<script>
+    var appArticleRelated = new Vue({el: '#appArticleRelated'});
+</script></div><div class="col-md-4"><div class="b-journal">
+	<a id="lire_le_journal" class="eventXiti" href="/services/journal.html">
+	    <h2><span class="cf-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 26.536 20.301"><g id="icon-newspaper" transform="translate(3.08 -7.132)"><g id="Layer_3" data-name="Layer 3" transform="translate(-2.93 7.282)"><path id="Tracé_105942" data-name="Tracé 105942" d="M27.709,7.282H7.529a.6.6,0,0,0-.6.6v2.937H2.669a.6.6,0,0,0-.6.6v12.25a3.622,3.622,0,0,0,3.618,3.618H23.805a4.507,4.507,0,0,0,4.5-4.5V7.88a.6.6,0,0,0-.6-.6ZM3.267,23.665V12.014H6.931V26.087H5.688A2.424,2.424,0,0,1,3.267,23.665Zm23.844-.884a3.309,3.309,0,0,1-3.305,3.305H8.127V8.479H27.11Z" transform="translate(-2.07 -7.282)" fill="currentColor" stroke="currentColor" stroke-width="0.3"></path> <path id="Tracé_105943" data-name="Tracé 105943" d="M17.278,16.44H29.7a.6.6,0,0,0,0-1.2H17.278a.6.6,0,0,0,0,1.2Z" transform="translate(-7.941 -10.481)" fill="currentColor" stroke="currentColor" stroke-width="0.3"></path> <path id="Tracé_105944" data-name="Tracé 105944" d="M17.278,23.663H29.7a.6.6,0,1,0,0-1.2H17.278a.6.6,0,1,0,0,1.2Z" transform="translate(-7.941 -13.383)" fill="currentColor" stroke="currentColor" stroke-width="0.3"></path> <path id="Tracé_105945" data-name="Tracé 105945" d="M17.278,30.886H29.7a.6.6,0,0,0,0-1.2H17.278a.6.6,0,1,0,0,1.2Z" transform="translate(-7.941 -16.286)" fill="currentColor" stroke="currentColor" stroke-width="0.3"></path></g></g></svg></span> Lire le journal</h2>
+	</a>
+</div>
+
+<div class="bloc responsive_publicite_position">
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="droite_haute">
+		<div class="advertise pub-inner" ref="droite_haute">
+						<div id='div-gpt--1543026265-droite_haute' class='placeholder placeholder_droite_haute'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('droite_haute')) googletag.cmd.push(function() { googletag.display('div-gpt--1543026265-droite_haute'); });
+				</script>
+				<a id="div-link--1543026265-droite_haute" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_droite_haute"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+					<div class="b-top">
+			
+	<h3 class='b-titre-bloc  '>
+		Les + partagés
+	</h3>
+															<div class="row vertical-align">
+					<div class="col-xs-2 c-top-position">
+						<div>1</div>
+					</div>
+					<div class="col-xs-10 c-top-article">
+						<div class="b-article-simple-h row">
+							<div class="col-xs-12">
+								<div class="c-titre">
+									<span class="c-motcle">Faits divers</span>									<h4 data-id="4221556"
+											data-r="j"
+											data-dep="75">
+										<a class="eventXiti" id="les_plus_partages!faits_divers!mis_en_examen_pour_viols,_un_acteur_français_retiré_de_la_liste_des_révélations_aux_césar" href="/paris-75000/loisirs/mis-en-examen-pour-viols-un-acteur-francais-retire-de-la-liste-des-revelations-aux-cesar_14221556/" title="Mis en examen pour viols, un acteur français retiré de la liste des révélations aux César">Mis en examen pour viols, un acteur français retiré de la liste des révélations aux César</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+											<div class="col-xs-10 c-top-image">
+							<a class="eventXiti" id="les_plus_partages!faits_divers!mis_en_examen_pour_viols,_un_acteur_français_retiré_de_la_liste_des_révélations_aux_césar" href="/paris-75000/loisirs/mis-en-examen-pour-viols-un-acteur-francais-retire-de-la-liste-des-revelations-aux-cesar_14221556/" title="Mis en examen pour viols, un acteur français retiré de la liste des révélations aux César"><img src="https://img.centrefrance.com/oM7uVbRp33cOTIWx8RUQkaZwh7w-jYpHEk1hxG1kgeI/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMjUvMjAwMDAwNjM0MjUxNA.jpg" /></a>
+						</div>
+									</div>
+															<div class="row vertical-align">
+					<div class="col-xs-2 c-top-position">
+						<div>2</div>
+					</div>
+					<div class="col-xs-10 c-top-article">
+						<div class="b-article-simple-h row">
+							<div class="col-xs-12">
+								<div class="c-titre">
+									<span class="c-motcle">Fait divers</span>									<h4 data-id="4221747"
+											data-r="j"
+											data-dep="78">
+										<a class="eventXiti" id="les_plus_partages!fait_divers!yvelines_:_la_chasse_à_courre_se_termine_dans_le_jardin_d'une_octogénaire" href="/mesnuls-78490/actualites/yvelines-la-chasse-a-courre-se-termine-dans-le-jardin-d-une-octogenaire_14221747/" title="Yvelines : la chasse à courre se termine dans le jardin d'une octogénaire">Yvelines : la chasse à courre se termine dans le jardin d'une octogénaire</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+											<div class="col-xs-10 c-top-image">
+							<a class="eventXiti" id="les_plus_partages!fait_divers!yvelines_:_la_chasse_à_courre_se_termine_dans_le_jardin_d'une_octogénaire" href="/mesnuls-78490/actualites/yvelines-la-chasse-a-courre-se-termine-dans-le-jardin-d-une-octogenaire_14221747/" title="Yvelines : la chasse à courre se termine dans le jardin d'une octogénaire"><img src="https://img.centrefrance.com/d-qGhYK7klaTjS9CMrb9n707GJm3qPv0EYfUa6jmZR4/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMjgvMjAwMDAwNjM0Mjg1Ng.jpg" /></a>
+						</div>
+									</div>
+															<div class="row vertical-align">
+					<div class="col-xs-2 c-top-position">
+						<div>3</div>
+					</div>
+					<div class="col-xs-10 c-top-article">
+						<div class="b-article-simple-h row">
+							<div class="col-xs-12">
+								<div class="c-titre">
+									<span class="c-motcle">Social</span>									<h4 data-id="4223230"
+											data-r="j"
+											data-dep="75">
+										<a class="eventXiti" id="les_plus_partages!social!chèque_bois_énergie_:_quel_montant_?_qui_pourra_en_bénéficier_?_quand_faire_la_demande_?" href="/paris-75000/actualites/cheque-bois-energie-quel-montant-qui-pourra-en-beneficier-quand-faire-la-demande_14223230/" title="Chèque bois énergie : Quel montant ? Qui pourra en bénéficier ? Quand faire la demande ?">Chèque bois énergie : Quel montant ? Qui pourra en bénéficier ? Quand faire la demande ?</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+											<div class="col-xs-10 c-top-image">
+							<a class="eventXiti" id="les_plus_partages!social!chèque_bois_énergie_:_quel_montant_?_qui_pourra_en_bénéficier_?_quand_faire_la_demande_?" href="/paris-75000/actualites/cheque-bois-energie-quel-montant-qui-pourra-en-beneficier-quand-faire-la-demande_14223230/" title="Chèque bois énergie : Quel montant ? Qui pourra en bénéficier ? Quand faire la demande ?"><img src="https://img.centrefrance.com/iB6-dvAPdV11IwYxJnBpXQDv48UYo2dz1XP_BympMGk/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvNDkvMjAwMDAwNjM0NDkyMQ.jpg" /></a>
+						</div>
+									</div>
+															<div class="row vertical-align">
+					<div class="col-xs-2 c-top-position">
+						<div>4</div>
+					</div>
+					<div class="col-xs-10 c-top-article">
+						<div class="b-article-simple-h row">
+							<div class="col-xs-12">
+								<div class="c-titre">
+									<span class="c-motcle">Espace</span>									<h4 data-id="4220978"
+											data-r="j"
+											data-dep="58">
+										<a class="eventXiti" id="les_plus_partages!espace!sophie_adenot,_originaire_de_la_nièvre,_devient_la_nouvelle_thomas_pesquet_en_intégrant_l’agence_spatiale_européenne" href="/nevers-58000/actualites/sophie-adenot-originaire-de-la-nievre-devient-la-nouvelle-thomas-pesquet-en-integrant-lagence-spatiale-europeenne_14220978/" title="Sophie Adenot, originaire de la Nièvre, devient la nouvelle Thomas Pesquet en intégrant l’Agence spatiale européenne">Sophie Adenot, originaire de la Nièvre, devient la nouvelle Thomas Pesquet en intégrant l’Agence spatiale européenne</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+											<div class="col-xs-10 c-top-image">
+							<a class="eventXiti" id="les_plus_partages!espace!sophie_adenot,_originaire_de_la_nièvre,_devient_la_nouvelle_thomas_pesquet_en_intégrant_l’agence_spatiale_européenne" href="/nevers-58000/actualites/sophie-adenot-originaire-de-la-nievre-devient-la-nouvelle-thomas-pesquet-en-integrant-lagence-spatiale-europeenne_14220978/" title="Sophie Adenot, originaire de la Nièvre, devient la nouvelle Thomas Pesquet en intégrant l’Agence spatiale européenne"><img src="https://img.centrefrance.com/s-OcXEAM_7WrOo7jUg8_7KlAHzhubK22bCfRD3vi2pU/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMTkvMjAwMDAwNjM0MTk1OQ.jpg" /></a>
+						</div>
+									</div>
+															<div class="row vertical-align">
+					<div class="col-xs-2 c-top-position">
+						<div>5</div>
+					</div>
+					<div class="col-xs-10 c-top-article">
+						<div class="b-article-simple-h row">
+							<div class="col-xs-12">
+								<div class="c-titre">
+									<span class="c-motcle">Sport</span>									<h4 data-id="4222438"
+											data-r="j"
+											data-dep="18">
+										<a class="eventXiti" id="les_plus_partages!sport!un_joueur_de_foot_berruyer_écope_de_seize_ans_de_suspension_après_s'en_être_pris_à_un_arbitre_d'eure-et-loir" href="/bourges-18000/sports/un-joueur-de-foot-berruyer-ecope-de-seize-ans-de-suspension-apres-s-en-etre-pris-a-un-arbitre-d-eure-et-loir_14222438/" title="Un joueur de foot berruyer écope de seize ans de suspension après s'en être pris à un arbitre d'Eure-et-Loir">Un joueur de foot berruyer écope de seize ans de suspension après s'en être pris à un arbitre d'Eure-et-Loir</a>
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+											<div class="col-xs-10 c-top-image">
+							<a class="eventXiti" id="les_plus_partages!sport!un_joueur_de_foot_berruyer_écope_de_seize_ans_de_suspension_après_s'en_être_pris_à_un_arbitre_d'eure-et-loir" href="/bourges-18000/sports/un-joueur-de-foot-berruyer-ecope-de-seize-ans-de-suspension-apres-s-en-etre-pris-a-un-arbitre-d-eure-et-loir_14222438/" title="Un joueur de foot berruyer écope de seize ans de suspension après s'en être pris à un arbitre d'Eure-et-Loir"><img src="https://img.centrefrance.com/5YPj9KxoPQKwdditxHbM4SaybGgS_aT6tu7I4adocR4/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMzkvMjAwMDAwNjM0MzkxOA.jpg" /></a>
+						</div>
+									</div>
+					</div>
+	
+
+
+<div class="bloc responsive_publicite_position">
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="droite_milieu">
+		<div class="advertise pub-inner" ref="droite_milieu">
+						<div id='div-gpt--438918609-droite_milieu' class='placeholder placeholder_droite_milieu'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('droite_milieu')) googletag.cmd.push(function() { googletag.display('div-gpt--438918609-droite_milieu'); });
+				</script>
+				<a id="div-link--438918609-droite_milieu" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_droite_milieu"></a>
+			</div>
+		</div>
+	</div>
+</div>
+			
+	<div class="b-jeu">
+				<h3 class="b-titre-bloc">
+			<a href="/services/jeux/tango-bourges-basket_74331.html">TANGO BOURGES BASKET</a>
+		</h3>
+
+				<div class="c-photo">
+			<a href="/services/jeux/tango-bourges-basket_74331.html">
+				<img data-src="https://img.lamontagne.fr/TCCxET_RBJScTpnQ-snpXYcMh_IoCzZUyM51cE4vg_8/fill/313/167/sm/0/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvNzIvMjAwMDAwNjM0NzI3OQ.jpg" class="responsive lazyload" alt="TANGO BOURGES BASKET" />
+			</a>
+		</div>
+		
+		<div class="c-jeu-contenu">
+							<p><font color="#ea1418"><b>10 places à gagner !</b></font><br><b>Jouez et gagnez vos places pour le match Tango Bourges vs Szekzsard</b></p>
+						<a href="/services/jeux/tango-bourges-basket_74331.html" class="btn btn-primary" role="button">JOUEZ & GAGNEZ</a>
+							<div class="c-lien-plus no-padding">
+					<a class="eventXiti" id="voir_tous_les_jeux" href="/services/jeux.html">Voir tous les jeux</a>
+				</div>
+					</div>
+	</div>
+
+
+<style type="text/css">
+.content-feedback-block{box-sizing:border-box;display:flex;background-color:#e8eaea;align-items:center;position:relative;padding:10px;width:100%;margin:0px auto;border-radius:3px}.content-feedback-block.longread{max-width:100%}.content-feedback-block .feedback-wrapper{position:relative;display:flex;flex-direction:row;justify-content:center;margin:0 auto}.content-feedback-block .feedback-wrapper .content-part{z-index:1;margin-left:10px}.content-feedback-block .feedback-wrapper .content-part .hastag{font:700 20px/24px Open Sans}.content-feedback-block .feedback-wrapper .content-part div,.content-feedback-block .feedback-wrapper .content-part p{color:#1e1e1e;font:12px/16px Open Sans;margin:0;width:auto;width:calc(100% - 120px);float:none}.content-feedback-block .feedback-wrapper .content-part a{text-decoration:none;border-bottom:none}.content-feedback-block .feedback-wrapper .content-part .button{box-sizing:border-box;width:140px;height:30px;border-radius:18px;background-color:#BD2B0B;color:#fff;font:12px Open Sans;font-weight:700;line-height:30px;padding:0 13px;margin-top:15px;float: center}.content-feedback-block .feedback-wrapper .content-img{background:url(https://www.lamontagne.fr/static/bloc/ripolinage/nps/feedback-quizz-3862f980f6.png) no-repeat;background-size:100px 100px;width:100px;height:155px;position:absolute;right:5%;bottom:-20px}.amp-container .content-feedback-block,.mobile .content-feedback-block{height:120px;margin:0;border:0}.amp-container .content-feedback-block .feedback-wrapper,.mobile .content-feedback-block .feedback-wrapper{max-width:300px}.amp-container .content-feedback-block .feedback-wrapper .content-part,.mobile .content-feedback-block .feedback-wrapper .content-part{margin-left:0}.amp-container .content-feedback-block .feedback-wrapper .content-part .hastag,.mobile .content-feedback-block .feedback-wrapper .content-part .hastag{font-size:14px}.amp-container .content-feedback-block .feedback-wrapper .content-img,.mobile .content-feedback-block .feedback-wrapper .content-img{background:url(https://www.lamontagne.fr/static/bloc/ripolinage/nps/feedback-quizz-3862f980f6.png) no-repeat;background-size:110px 112px;width:110px;height:112px;right:2%;left:auto;bottom:-8px}.amp-container .content-feedback-block .feedback-wrapper.flowItem,.mobile .content-feedback-block .feedback-wrapper.flowItem{margin:0 auto;border:none}.amp-container .content a:nth-child(7),.mobile .content a:nth-child(7){border:none}.amp-container #longread-container .content-feedback-block,.amp-container .longread-content .content-feedback-block,.mobile #longread-container .content-feedback-block,.mobile .longread-content .content-feedback-block{margin-bottom:60px}.home .content-feedback-block{height:155px}.home .content-feedback-block .content-part{margin-left:0}.home .content-feedback-block .content-part .hastag{font-size:14px;margin: 0 0 10px 0}.home .content-feedback-block .content-part p{width:calc(100% - 150px)}.home .content-feedback-block .content-img{background:url(https://www.lamontagne.fr/static/bloc/ripolinage/nps/feedback-quizz-3862f980f6.png) no-repeat;background-size:127px 125px;width:127px;height:125px;right:5%;left:auto;bottom:-8px}
+</style>
+
+
+<div class="content-feedback-block"><div class="feedback-wrapper"><div class="content-part"><span class="hastag"><font color="#333f48">Votre avis<br>est pr&eacute;cieux !</font></span><p><font color="#333f48">Aidez-nous &agrave; am&eacute;liorer notre site en r&eacute;pondant &agrave; notre questionnaire.</font></p><a href="https://forms.gle/C4tJUEWhEcxBawkr7" target="_blank"><center><div class="button"><center>Je donne mon avis</center></div></center></a></div><div class="content-img"></div></div></div><br>
+
+
+
+
+   </div></div><style>.contenu .bloc[class*="url_nl_"] { display: none; } .advertise.pub-inner[ref="article"] iframe {border: none;} </style><script>$(function(e){$('.contenu .bloc[class*="url_nl_"]:first').show();})</script></div>
+</div><div class="bloc responsive_publicite_position  pub sansFilet">
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="banniere_basse">
+		<div class="advertise pub-inner" ref="banniere_basse">
+						<div id='div-gpt--1726985995-banniere_basse' class='placeholder placeholder_banniere_basse'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('banniere_basse')) googletag.cmd.push(function() { googletag.display('div-gpt--1726985995-banniere_basse'); });
+				</script>
+				<a id="div-link--1726985995-banniere_basse" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_banniere_basse"></a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div id="message_popup" class="popin" role="dialog">
+	<div id="message_popup_wrapper" class="" role="document">
+		<h3 id="message_popup_title" class="b-titre-bloc"></h3>
+		<div class="alert" id="message_popup_status">
+			<span id="message_popup_picto" class="glyphicon status-glyphicon"></span>
+			<span id="message_popup_desc" class="message"></span>
+		</div>
+		<div class="" id="message_popup_loading">
+		</div>
+		<a href="" class="p-fermer">fermer</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+function displayErrorMessage(message, time, title) {
+	messageCleanClasses();
+	if (title != null) {
+		$("#message_popup_title").html(title);
+	} else {
+		$("#message_popup_title").html("Erreur survenue");
+	}
+	$("#message_popup_wrapper").addClass("error-popup");
+	$("#message_popup_desc").html(message);
+	if (time != null) {
+		if(time > 0) {
+			setTimeout(hideMessage, time);
+		} else {
+			setTimeout(hideMessage, 5000);
+		}
+	}
+	showPopin($("#message_popup"));
+}
+function displaySuccessMessage(message, time, title) {
+	messageCleanClasses();
+	if (title != null) {
+		$("#message_popup_title").html(title);
+	} else {
+		$("#message_popup_title").html("Traitement effectué");
+	}
+	$("#message_popup_wrapper").addClass("success-popup");
+	$("#message_popup_desc").html(message);
+	if (time != null && time > 0) {
+		setTimeout(hideMessage, time);
+	} else {
+		setTimeout(hideMessage, 5000);
+	}
+	showPopin($("#message_popup"));
+}
+function displayLoadingMessage(message, time, title) {
+	messageCleanClasses();
+	if (title != null) {
+		$("#message_popup_title").html(title);
+	} else {
+		$("#message_popup_title").html("Chargement en cours");
+	}
+	$("#message_popup_wrapper").addClass("loading-popup");
+	if(message == null) {
+		message = "Merci de patienter...";
+	}
+	$("#message_popup_loading").html('<div class="text-center"><img src="/css/theme/images/picto/loader.gif" class="loader"/><p>'+message+'</p></div>')
+	$("#message_popup_desc").html(message);
+	if (time != null && time > 0) {
+		setTimeout(hideMessage, time);
+	}
+	showPopin($("#message_popup"));
+}
+function messageCleanClasses() {
+	$("#message_popup_wrapper").removeClass();
+}
+function hideMessage() {
+	messageCleanClasses();
+	hidePopin($("#message_popup"));
+}
+/* AUTOREFRESH */
+function refreshPage() {
+	if (window.autoRefresh) {
+		if (window.location.href.indexOf("#refresh") < 0) {
+			window.location.href = window.location.href + "#refresh";
+		}
+		window.location.reload();
+	}
+}
+function stopAutoRefresh() {
+	$(document).idleTimer("destroy");
+}
+function initAutoRefresh() {
+	if (window.autoRefresh){
+		$(document).idleTimer(window.autoRefresh);
+		$(document).bind("idle.idleTimer", refreshPage);
+	}
+}
+function goToVieLocale(value) {
+	if (typeof value != 'Object' && value.id != null && value.id != '') {
+		var urlVieLocale = getJsonRPC().rs.getUrlVieLocale(value.id);
+		window.location.href = urlVieLocale;
+	}
+}
+$(function() {
+		//initAutoRefresh();
+		autocompleteCommune('#menuCommuneSelector', '#menuSelectorChosenComm', '/ajax/tree/commune', null, 'Commune', null, goToVieLocale);
+	
+	// workaround problem flex safari
+	if($(".b-liste-simple").length > 0) {
+		if(!!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/) && $(".b-liste-simple .b-article-simple").height() == 0) {
+			$(".b-liste-simple .b-article-simple, .b-liste-simple .b-titre-bloc").height(85).css("display","inline-block");
+		}
+	}
+	
+});
+</script>
+
+<style>
+.b-devup .b-liste-simple.encadre {
+        background: #e8eaea;
+}
+.b-devup .b-liste-simple.encadre .col-md-12 {
+	float: none;
+}
+.b-devup .b-liste-simple.encadre .col-md-12 .c-lien-plus {
+	margin-bottom: 0px;
+}
+</style>
+
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="flash_trans">
+		<div class="advertise pub-inner" ref="flash_trans">
+						<div id='div-gpt-1617727897-flash_trans' class='placeholder placeholder_flash_trans'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('flash_trans')) googletag.cmd.push(function() { googletag.display('div-gpt-1617727897-flash_trans'); });
+				</script>
+				<a id="div-link-1617727897-flash_trans" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_flash_trans"></a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="advertise-box publicite_position relative parent_placeholder" ref="habillage">
+		<div class="advertise pub-inner" ref="habillage">
+						<div id='div-gpt--1852629889-habillage' class='placeholder placeholder_habillage'>
+				<script type='text/javascript'>
+					if(!isIgnoreSlot('habillage')) googletag.cmd.push(function() { googletag.display('div-gpt--1852629889-habillage'); });
+				</script>
+				<a id="div-link--1852629889-habillage" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_habillage"></a>
+			</div>
+		</div>
+	</div>
+<br/><footer id='footer'><div class="b-footer">
+    <div class="c-footer-contacts">
+        <div>
+            <h3 class="b-titre-bloc">Suivez-nous</h3>
+            <ul class="c-social list-inline">
+            	<li><a href="http://fr-fr.facebook.com/berryrepublicain" class="p-facebook" title="Facebook" target="_blank">Facebook</a>
+				<li><a href="https://twitter.com/#!/leberry_fr" class="p-twitter" title="Twitter" target="_blank">Twitter</a>
+				<li><a href="https://www.instagram.com/berryrepublicain/" class="p-instagram" title="Instagram" target="_blank">Instagram</a>
+				<li><a href="https://www.snapchat.com/add/leberry.fr" class="p-snapchat" title="Snapchat" target="_blank">Snapchat</a>
+            </ul>
+        </div>
+        <div>
+            <h3 class="b-titre-bloc">Newsletter</h3>
+            <form id="oldNewsLetter" action="/utilisateur/newsletter.html"  style="display:none">
+                <!--<div class="form-group">
+                    <input class="form-control" type="email" placeholder="Votre email" required />
+                </div>-->
+                <input type="submit" id="newsletter_s_abonner" class="btn btn-primary eventXiti" value="s'abonner" />
+            </form>
+			<form id="newsLetter" action="/newsletters">
+                <!--<div class="form-group">
+                    <input class="form-control" type="email" placeholder="Votre email" required />
+                </div>-->
+                <input type="submit" id="newsletter_s_abonner" class="btn btn-primary eventXiti" value="s'abonner" />
+            </form>
+        </div>
+        <div>
+            <h3 class="b-titre-bloc">Contacts</h3>
+            <ul>
+                <li><a href="/pratique/contacts.html#contacts_abonnements">Abonnements</a></li>
+                <li><a href="/pratique/contacts.html#contacts_publicite">Publicit&eacute;</a></li>
+                <li><a href="/pratique/contacts.html#contacts_redactions">R&eacute;daction</a></li>
+		<li><a href="https://www.centrefrance.com/fr/presse/nous-rejoindre/" target="_blank">Nous rejoindre</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="c-footer-links">
+        <h3 class="b-titre-bloc">Annonces</h3>
+        <ul class="liste-fleche">
+			<li><a id="immobilier" class="eventXiti" href="http://www.centreimmo.com" target="_blank">Immobilier</a></li>
+				<li><a id="emploi" class="eventXiti" href="http://www.centremploi.com" target="_blank">Emploi</a></li>
+				<li><a href="/services/annonces-legales.html" target="_blank">Judiciaires et L&eacute;gales</a></li>
+              <li><a href="/services/avis-obseques.html">Obs&egrave;ques</a></li>
+        </ul>
+        <h3 class="b-titre-bloc">Vie locale</h3>
+        <ul class="liste-fleche">
+			<li class="containerCommune"><a href="/bourges-18000/">Bourges</a></li>
+				<li class="containerCommune"><a href="/vierzon-18100/">Vierzon</a></li>
+				<li class="containerCommune"><a href="/saint-amand-montrond-18200/">Saint-Amand-Montrond</a></li>
+				<li class="containerCommune"><a href="/saint-doulchard-18230/">Saint-Doulchard</a></li>
+				<li class="containerCommune"><a href="/mehun-sur-yevre-18500/">Mehun-sur-Y&egrave;vre</a></li>
+				<li class="containerCommune"><a href="/saint-florent-sur-cher-18400/">Saint-Florent-sur-Cher</a></li>
+                <li class="containerCommune"><a href="/aubigny-sur-nere-18700/">Aubigny-sur-N&egrave;re</a></li>
+				<li class="containerCommune"><a href="/saint-germain-du-puy-18390/">Saint-Germain-du-Puy</a></li>
+				<li class="containerCommune"><a href="/dun-sur-auron-18130/">Dun-sur-Auron</a></li>
+                <li class="containerCommune"><a href="/trouy-18570/">Trouy</a></li>
+                <li class="containerCommune"><a href="/chapelle-saint-ursin-18570/">La Chapelle-Saint-Ursin</a></li>
+				<li class="containerCommune"><a href="/guerche-sur-l'aubois-18150/">La Guerche-sur-l'Aubois</a></li>
+                <li class="containerCommune"><a href="/sancoins-18600/">Sancoins</a></li>
+                <li class="containerCommune"><a href="/avord-18520/">Avord</a></li>
+                <li class="containerCommune"><a href="/sancerre-18300/">Sancerre</a></li>
+        </ul>
+    </div>
+
+    <div class="c-footer-links">
+        <h3 class="b-titre-bloc">Pratique</h3>
+        <ul class="liste-fleche">
+			<li><a href="/services/jeux.html">Jeux</a></li>
+            <li><a href="/services/abonnement.html?xtor=AD-23">Abonnements</a></li>
+			<li><a href="http://www.centrefranceboutique.fr" target="_blank">La boutique</a></li>
+			<li><a href="http://panel.leberry.fr" target="_blank">Le panel</a></li>
+			<li><a href="https://www.centrefrance.com/" target="_blank">Le Groupe Centre France</a></li>
+			<li><a href="https://www.centrefrancepub.fr/" target="_blank">Centre France Publicit&eacute;</a></li>
+	    </ul>
+        <h3 class="b-titre-bloc">Sports</h3>
+        <ul class="liste-fleche">
+		<li><a href="/theme/sports/" class="sports ripo">Terre de Sports</a></li>
+		<li><a href="/theme/sports/sports/resultats-classements/" class="resultats sports">R&eacute;sultats</a></li>
+		<li><a href="/theme/sports/basket/club/bourges-basket/" class="rugby sports">Bourges Basket</a></li>
+		<li><a href="/theme/sports/football/club/bourges-foot-18/" class="asm sports">Bourges Foot 18</a></li>
+		<li><a href="/theme/sports/rugby/club/bourges-xv/" class="ca-brive sports">Bourges XV</a></li>
+		<li><a href="/theme/sports/football/" class="football sports">Football</a></li>
+		<li><a href="/theme/sports/rugby/" class="clermont-foot sports">Rugby</a></li>
+		<li><a href="/theme/sports/basket/" class="basket">Basket</a></li>
+		<li><a href="/theme/sports/cyclisme/" class="cyclisme">Cyclisme</a></li>
+        <li><a href="/theme/sports/auto-moto/" class="cyclisme">Auto-Moto</a></li>
+        </ul>
+        <h3 class="b-titre-bloc">Mobiles et tablettes</h3>
+        <ul class="liste-fleche">
+			 Retrouvez leberry.fr sur :<br />
+                <li><a id="app_iphone" class="eventXiti" href="https://itunes.apple.com/fr/app/leberry-fr/id395932155?mt=8" target="_blank">iPhone</a></li>
+			    <li><a id="app_android" class="eventXiti" href="https://play.google.com/store/apps/details?id=com.centrefrance.leberry" target="_blank">Android</a></li>
+
+        </ul>
+
+    </div>
+</div>
+<div class="b-footer-links">
+    <ul class="list-inline">
+        <li><a href="https://www.centrefrance.com/" target="_blank">Groupe Centre-France &nbsp;&nbsp;&copy; Tous droits r&eacute;serv&eacute;s</a></li>
+        <li><a href="/mentions_legales.html">Mentions l&eacute;gales</a></li>
+        <li><a href="/paget/GCF_cgu.html">CGU</a></li>
+        <li><a href="/paget/BR_cookies.html">Politique de confidentialit&eacute;</a></li>
+        <li><a href="/paget/GCF_droit_oubli.html">Droit &agrave; l'oubli</a></li>
+        <li><a href="javascript:Didomi.preferences.show();">Gestion des cookies</a></li>
+    </ul>
+</div>
+<div aria-hidden="true" id="ad-box"></div>
+
+</footer></div><div style="float:right" class="system">
+</div>
+
+<!-- prof : {param.profilJsCss} -->
+<!-- Bootstrap -->
+<script type="text/javascript" src="//static1.leberry.fr/pack/814224549.js" charset="UTF-8" ></script>
+
+<!-- Lightslider -->
+
+
+<!-- select2 -->
+
+
+
+
+<!-- bootstrap-datepicker -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	function loadJS(u){var r=document.getElementsByTagName("script")[0],s=document.createElement("script");s.src=u;r.parentNode.insertBefore(s,r);}
+
+	window.lazySizesConfig = window.lazySizesConfig || {};
+	window.lazySizesConfig.expand = 500;
+	if(!window.HTMLPictureElement || !('sizes' in document.createElement('img'))){
+        loadJS('/assets/ripo/js/lazysizes.respimg.min.js');
+    }
+</script>
+
+<script type="text/javascript" src="//static1.leberry.fr/pack/-174043333.js" charset="UTF-8" ></script>
+
+
+<!-- IV3 CFC -->
+<!-- DISABLE PACK <script title="noPack" type="text/javascript" src="//static1.leberry.fr/js/cfc/cfc-0.3.js" charset="UTF-8"></script>-->
+
+<script type="text/javascript">
+	var jsonrpc = null;
+	function simpleJsonRPCRequest(method, params) {
+		$.ajax({
+            url: '/json-rpc',
+            data: JSON.stringify({id:0, method: method, params:params}),
+            type:"POST",
+            dataType:"json",
+            contentType:"applicaton/json; charset=UTF-8",
+            async:false
+        });
+	}
+	function getJsonRPC() {
+		if (jsonrpc == null) {
+			$.ajax({
+				url: '/js/cfc/jsonrpc-min.js',
+				dataType: "script",
+				async: false,
+				cache: true
+			});
+			try {
+				jsonrpc = new JSONRpcClient('/json-rpc');
+			} catch(err) {
+				jsonrpc = {
+					rs : {
+						signalerAbus : function() { },
+						incrementNbLu : function() { },
+						incrementNbRecomFacebook : function() { },
+						incrementNbPlusOneGoogle : function() { },
+						incrementNbRecomTwitter : function() { },
+						getArticlesInZoneGeographique : function() { }
+					}
+				};
+			}
+		}
+		return jsonrpc;
+	}
+</script>
+
+
+<script type="text/javascript">
+	window.mask = function(input, mask) { $(input).mask(mask); }
+</script>
+
+<iframe style="height: 1px; width: 1px; border: 0px none; position: absolute; display: none; left: 0px; top: 0px; z-index: 0;" src="//cstatic.weborama.fr/iframe/customers/premium.html?idEditeur=1120&idSite=116"></iframe><link rel="stylesheet" type="text/css" href="//static1.leberry.fr/static/bloc/ripolinage/custom-008.css"></body></html>
