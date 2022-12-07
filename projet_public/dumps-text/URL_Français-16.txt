@@ -46,7 +46,7 @@
 
    Lyon - Villeurbanne - Caluire
 
-   mer. 30/11/2022
+   mer. 07/12/2022
    Lire le journal
    Le Progrès
    S'abonner Se connecter Me connecter/ M’inscrire
@@ -68,7 +68,7 @@
    [ ] J'ai lu et accepté les Conditions générales d'utilisation
 
    Si vous voyez ce champ, ne le remplissez pas ____________________
-   Je m'inscris
+   ____________________ Je m'inscris
 
    Le Progrès, en tant que responsable de traitement, recueille dans ce
    formulaire des informations qui sont enregistrées dans un fichier
@@ -411,7 +411,7 @@
 
    Lyon - Villeurbanne - Caluire
 
-   mer. 30/11/2022
+   mer. 07/12/2022
    Lire le journal
      * Vidéos
      * Podcasts
@@ -444,7 +444,7 @@
      * Société
      * Une semaine de dépaysement pour les randonneurs du foyer rural
 
-Choisey Une semaine de dépaysement pour les randonneurs du foyer rural
+Une semaine de dépaysement pour les randonneurs du foyer rural
 
    Par Le Progrès - 24 sept. 2022 à 22:55 - Temps de lecture :
    |  |
@@ -511,6 +511,7 @@ Choisey Une semaine de dépaysement pour les randonneurs du foyer rural
           + Fil rouge
           + Archives
           + Application mobile
+          + Devenez porteur de journaux
 
    Suivez-nous
      * Facebook

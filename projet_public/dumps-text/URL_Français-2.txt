@@ -1,9 +1,9 @@
    #alternate RSS ATOM
 
-   Les Césars du Voyage Responsable : élisez les meilleures initiatives
-   durables et responsables - Voter
+   Deuxième édition du Workshop Discover Central Europe le 15 décembre
+   2022 - Inscrivez-vous
 
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=3979&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4083&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
 
@@ -56,10 +56,10 @@
    (BUTTON) Rechercher
      __________________________________________________________________
 
-   Les Césars du Voyage Responsable : élisez les meilleures initiatives
-   durables et responsables - Voter
+   Deuxième édition du Workshop Discover Central Europe le 15 décembre
+   2022 - Inscrivez-vous
 
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=3979&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4083&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
      __________________________________________________________________
@@ -137,15 +137,15 @@
      __________________________________________________________________
      __________________________________________________________________
 
-   [fram_1920x250_maroc.gif]
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4056&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [lafrdescircuits_1920x250_laponie.jpg]
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4075&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
    Accueil  >  Production
      __________________________________________________________________
 
-   [fram_500x250_maroc.gif]
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4057&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [lafrdescircuits_500x250_laponie.gif]
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4076&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
      __________________________________________________________________
@@ -191,8 +191,8 @@ avec un passionné du voyage et de la rencontre avec l'autre.
    Chemins est un TO créé par Alexandre Lebeuan (Shanti Travel) autour du
    voyage en itinérance à vélo électrique (VAE) dans les Baronnies au sud
    de la Drôme - DR
-   [ditex-lafetedesvoyages_350x345_teasing_2.gif]
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4009&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [cfc_350x345_0512_2.gif]
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4015&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
    TourMaG.com - Vous êtes le cofondateur de Shanti Travel, un
@@ -421,7 +421,7 @@ sud-est
      * picto Linkedin
      * picto email
 
-   Lu 3738 fois
+   Lu 3863 fois
    Tags : alexandre lebeuan, baronnies, chemins, drome, shanti travel,
    velo electrique, voyage electrique, voyage itinerance
    Notez
@@ -451,11 +451,11 @@ sud-est
    Dans la même rubrique :
    < >
 
-Mercredi 23 Novembre 2022 - 09:50 Boomerang veut passer de 100 à 120 clubs en
-2023
+Mercredi 7 Décembre 2022 - 00:05 Dans quelles conditions imposer des règles
+liées à l’apparence physique ?
 
-Vendredi 18 Novembre 2022 - 00:05 Fosun cherche-t-il vraiment à vendre le
-Club Med ?
+Lundi 5 Décembre 2022 - 18:02 Podcast : Découvrez l'Appart'city de
+Saint-Germain-en-Laye
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -463,7 +463,7 @@ Club Med ?
      __________________________________________________________________
 
    IFRAME:
-   https://cstatic.weborama.fr/advertiser/2534/if/4055/tag.html?publisherc
+   https://cstatic.weborama.fr/advertiser/2534/if/4047/tag.html?publisherc
    lick=[ENCODED_PUBLISHER_TRACKING_URL]&random=[RANDOM]
      __________________________________________________________________
      __________________________________________________________________
@@ -489,35 +489,36 @@ Un deuxième Mondi Club à Punta Cana pour Mondial Tourisme
      * Les + lus
      * Les + commentés
 
-Trip.com et Atout France sur la voie d’un partenariat 🔑
+ILTM Cannes : l’Italie mise sur le tourisme de luxe
 
-Recrutement : les idées inspirantes venues du Québec ! 🔑
+Compagnie Française de Croisières : découvrez les espaces intérieurs en photo
+!
 
-Travel et Expense : SAP Concur veut doter les entreprises "d’antibrouillards"
+Air Corsica reçoit son premier ATR 72-600
 
-Madère : Travel One affiche ses ambitions françaises
+MuséoParc Alésia : Laurent Bourdereau prend les commandes
 
-Transport aérien et environnement : comment poser le problème ?
+Visiter les villes impériales, pour un voyage inoubliable au Maroc
+
+Voyage Tunisie : quelles sont les conditions d'entrée ?
+
+Voyage Sri Lanka : quelles conditions d'entrée ?
+
+Air Austral sera-t-elle sauvée pour Noël ? 🔑
+
+Evasion Spirit : les plaintes des clients se multiplient... 🔑
 
 Air France, les actualités et informations clés de l'entreprise
 
-Selectour : « Nous ne serons pas les victimes d’Air France et d’Amadeus »
+Evasion Spirit : les plaintes des clients se multiplient... 🔑
 
-Fram : les créanciers ont-ils été lésés dans la liquidation ? 🔑
+Air Austral sera-t-elle sauvée pour Noël ? 🔑
 
-Asia : après le Covid, quel avenir pour le TO ? 🔑
+Grève SNCF : perturbations en vue ce week-end 2 décembre
 
-Nos délicieuses traditions de Noël !
+Voyage Sri Lanka : quelles conditions d'entrée ?
 
-"Il faut se limiter à 3 ou 4 vols dans une vie" selon Jean-Marc Jancovici
-
-Congrès Selectour : Laurent Abitbol en fait-il trop ?🔑
-
-Procédure en référé : "C'est fini de rigoler" avec les vols annulés
-
-Selectour : « Nous ne serons pas les victimes d’Air France et d’Amadeus »
-
-Asia : après le Covid, quel avenir pour le TO ? 🔑
+Evasion Spirit : et non, nous ne sommes pas des autruches... 🔑
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -528,13 +529,11 @@ Asia : après le Covid, quel avenir pour le TO ? 🔑
 
 Brand News
 
-Catalogne : 2023, année Lluís Domènech i Montaner architecte précurseur du «
-Modernisme » catalan
+L’humain au service de la performance commerciale
 
-   Catalogne : 2023, année Lluís Domènech i Montaner architecte précurseur
-   du « Modernisme » catalan
-   Au nord-est de la péninsule ibérique la Catalogne est une région de
-   grande séduction. En harmonie...
+   L’humain au service de la performance commerciale
+   Courtier national et toulousain réputé pour son expertise, sa
+   flexibilité, sa réactivité et son...
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -544,15 +543,14 @@ Modernisme » catalan
 
    Les annonces
 
-A VENDRE - Agence de voyages cause départ à la retraite - (Paris 19e)
-ACHAT / VENTE /COLOCATION AGENCES DE VOYAGES
-
-NOMADE AVENTURE - Gestionnaire Aérien / Chargé de Transport (F/H) - CDI -
-(Paris 5e)
+SALAUN HOLIDAYS - Conseiller voyages H/F - CDI - (Pont L'Abbé - 29)
 OFFRES D'EMPLOI TOURISME
 
-APG FRANCE - 1 Agent de réservation expérimenté et 1 Attaché commercial
-Junior H/F - CDI - (Paris)
+NOMADE AVENTURE - Chargé de production Monde Arabe F/H - CDI - (Paris 5e)
+OFFRES D'EMPLOI TOURISME
+
+TERRES LOINTAINES - Un(e) Responsable et un(e) Gestionnaire Back-Office H/F -
+CDI - (Paris 8e)
 OFFRES D'EMPLOI TOURISME
      __________________________________________________________________
      __________________________________________________________________
@@ -577,9 +575,9 @@ La montagne s’enivre dans un "before" festif pour masquer un avenir putatif
 
 Distribution
 
-Cécile Revol : un épisode de MARVEL à elle toute seule ?
+Convention Cediv : « Bonnes pratiques et adaptation aux changements »
 
-   Cécile Revol : un épisode de MARVEL à elle toute seule ?
+   Convention Cediv : « Bonnes pratiques et adaptation aux changements »
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -588,9 +586,9 @@ Cécile Revol : un épisode de MARVEL à elle toute seule ?
 
 Partez en France
 
-Bordeaux : les Bassins des Lumières mettent Dalí et Gaudí sur les flots
+Tourisme : Des intentions de départ plus incertaines ?
 
-   Bordeaux : les Bassins des Lumières mettent Dalí et Gaudí sur les flots
+   Tourisme : Des intentions de départ plus incertaines ?
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -643,9 +641,9 @@ Webinaire Tourisme Irlandais - L'offre Luxe en Irlande - 19 mai 2022
 
 DESTIMAG
 
-Madère : Travel One affiche ses ambitions françaises
+Voyage Seychelles : quelles conditions d’entrée ?
 
-   Madère : Travel One affiche ses ambitions françaises
+   Voyage Seychelles : quelles conditions d’entrée ?
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -654,9 +652,10 @@ Madère : Travel One affiche ses ambitions françaises
 
 Production
 
-Boomerang veut passer de 100 à 120 clubs en 2023
+Dans quelles conditions imposer des règles liées à l’apparence physique ?
 
-   Boomerang veut passer de 100 à 120 clubs en 2023
+   Dans quelles conditions imposer des règles liées à l’apparence physique
+   ?
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -665,9 +664,9 @@ Boomerang veut passer de 100 à 120 clubs en 2023
 
 AirMaG
 
-Transport aérien et environnement : comment poser le problème ?
+Air Corsica reçoit son premier ATR 72-600
 
-   Transport aérien et environnement : comment poser le problème ?
+   Air Corsica reçoit son premier ATR 72-600
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -676,11 +675,9 @@ Transport aérien et environnement : comment poser le problème ?
 
 Transport
 
-Recrutement, zones à faibles émissions : les autocaristes attendent des
-réponses
+SNCF, les actualités et informations clés de l'entreprise
 
-   Recrutement, zones à faibles émissions : les autocaristes attendent des
-   réponses
+   SNCF, les actualités et informations clés de l'entreprise
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -689,9 +686,9 @@ réponses
 
 La Travel Tech
 
-Gîtes de France déploie un livret d’accueil numérique personnalisable
+Evaneos lève 20 millions d'euros
 
-   Gîtes de France déploie un livret d’accueil numérique personnalisable
+   Evaneos lève 20 millions d'euros
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -700,9 +697,9 @@ Gîtes de France déploie un livret d’accueil numérique personnalisable
 
 LuxuryTravelMaG
 
-Normandie : bientôt un hôtel Radisson Individuals à Honfleur
+ILTM Cannes : l’Italie mise sur le tourisme de luxe
 
-   Normandie : bientôt un hôtel Radisson Individuals à Honfleur
+   ILTM Cannes : l’Italie mise sur le tourisme de luxe
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -711,11 +708,9 @@ Normandie : bientôt un hôtel Radisson Individuals à Honfleur
 
 Hébergement
 
-L'équipe de Pierre & Vacances Centers Parcs honorée aux Hospitality Awards
-2022
+Vietnam : Mandarin Oriental va ouvrir un nouveau complexe hôtelier
 
-   L'équipe de Pierre &amp; Vacances Centers Parcs honorée aux Hospitality
-   Awards 2022
+   Vietnam : Mandarin Oriental va ouvrir un nouveau complexe hôtelier
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -724,9 +719,9 @@ L'équipe de Pierre & Vacances Centers Parcs honorée aux Hospitality Awards
 
 Futuroscopie
 
-Coupe du Monde : pourquoi le football restera incontournable 🔑
+Colonies de vacances : "Il faut sans cesse repartir au combat" 🔑
 
-   Coupe du Monde : pourquoi le football restera incontournable 🔑
+   Colonies de vacances : "Il faut sans cesse repartir au combat" 🔑
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -735,9 +730,11 @@ Coupe du Monde : pourquoi le football restera incontournable 🔑
 
 Voyages Responsables
 
-La start-up La Bulle Verte, candidate aux Césars du Voyage Responsable
+Corsica Linea : « Ceux qui n’ont pas anticipé le virage durable auront du mal
+à évoluer »
 
-   La start-up La Bulle Verte, candidate aux Césars du Voyage Responsable
+   Corsica Linea : « Ceux qui n’ont pas anticipé le virage durable auront
+   du mal à évoluer »
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -757,10 +754,11 @@ Le Japon rouvre ses frontières aux voyageurs étrangers
 
 CruiseMaG
 
-Compagnie Française de Croisières lance son premier défi agents de voyages
+Compagnie Française de Croisières : découvrez les espaces intérieurs en photo
+!
 
-   Compagnie Française de Croisières lance son premier défi agents de
-   voyages
+   Compagnie Française de Croisières : découvrez les espaces intérieurs en
+   photo !
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -769,9 +767,10 @@ Compagnie Française de Croisières lance son premier défi agents de voyages
 
 Emploi & Formation
 
-Parcours collaborateur : repenser le "capital humain" du tourisme
+La démission silencieuse, vos employés sont-ils de plus en plus désengagés ?
 
-   Parcours collaborateur : repenser le "capital humain" du tourisme
+   La démission silencieuse, vos employés sont-ils de plus en plus
+   désengagés ?
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -780,10 +779,9 @@ Parcours collaborateur : repenser le "capital humain" du tourisme
 
 TravelManagerMaG
 
-Travel et Expense : SAP Concur veut doter les entreprises "d’antibrouillards"
+Funbreizh s'implante en Normandie et en Vendée
 
-   Travel et Expense : SAP Concur veut doter les entreprises
-   "d’antibrouillards"
+   Funbreizh s'implante en Normandie et en Vendée
      __________________________________________________________________
      __________________________________________________________________
      __________________________________________________________________
@@ -794,15 +792,15 @@ Travel et Expense : SAP Concur veut doter les entreprises "d’antibrouillards"
      * Top of travel : découvrez les brochures
      * Azureva : découvrez les brochures
 
-   [fram_1920x250_maroc.gif]
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4056&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [lafrdescircuits_1920x250_laponie.jpg]
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4075&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
      __________________________________________________________________
      __________________________________________________________________
 
-   [fram_500x250_maroc.gif]
-   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4057&a.he=1&a.wi=1&a.hr=p&gdpr=${G
+   [lafrdescircuits_500x250_laponie.gif]
+   [dispatch.fcgi?a.A=im&a.si=2534&a.te=4076&a.he=1&a.wi=1&a.hr=p&gdpr=${G
    DPR}&gdpr_consent=${GDPR_CONSENT_284}&a.ra=[RANDOM]&erid=~ERID_ID~&er=~
    ERID_VALUE~]
      __________________________________________________________________

@@ -4,8 +4,8 @@
 <title>Définition de dépaysement | Dictionnaire français</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","errorBeacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-c987760640084f16d71","applicationID":"183693788","transactionName":"JhpeRQoXDl4EFExFWBcRQx4cEQFGCAkNXFYMB1VuCxANRQ==","queueTime":0,"applicationTime":87,"agent":""}</script>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.eu01.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-c987760640084f16d71",applicationID:"183693788"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","errorBeacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-c987760640084f16d71","applicationID":"183693788","transactionName":"JhpeRQoXDl4EFExFWBcRQx4cEQFGCAkNXFYMB1VuCxANRQ==","queueTime":0,"applicationTime":90,"agent":""}</script>
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.eu01.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-c987760640084f16d71",applicationID:"183693788"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
 <meta name="description" content="Définition de dépaysement : dictionnaire, étymologie, phonétique, citations littéraires, synonymes et antonymes de « dépaysement »">
 <link rel="canonical" href="https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement" />
 <link rel="shortcut icon" type="image/x-icon" href="https://www.lalanguefrancaise.com/assets/favicon-5183ad07de70c72606983b28310216f6c47d78d94d2fd5d37524f9f01ded28a0.png" />
@@ -29,7 +29,7 @@
 <meta name="twitter:image" content="https://admin.lalanguefrancaise.com/wp-content/uploads/dictionnaire/depaysement.png">
 <meta property="twitter:domain" content="www.lalanguefrancaise.com">
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="Jm-1j5Dy2EaQjvWCuF9uEfN-GTj8uSAhSwkr8hYZkXZbMvFLr5_r6upVUqRhJJXOK5t0w62XOtmBR7-ZjMS8Iw" />
+<meta name="csrf-token" content="6ClCvxaBaWnzuo8vT52MfjPEu40lXFy2ydSCW4e0wBXRzRi6m10d-hUqQS5bViyUZiaRuAzd3JCz9SlGecAmSA" />
 <link rel="alternate" type="application/rss+xml" title="Flux RSS | La langue française" href="https://www.lalanguefrancaise.com/flux.rss" />
 
 <script type="application/ld+json">{
@@ -61,7 +61,7 @@
 				},
 				"headline": "Dépaysement : définition de « dépaysement » | La langue française",
 				"datePublished": "2020-06-25 21:52:16 UTC",
-				"dateModified": "2022-10-03 10:16:22 UTC",
+				"dateModified": "2022-12-03 12:10:30 UTC",
 				"author": {
 						"@type": "Person",
 						"name": "La langue française"
@@ -89,12 +89,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="preload" as="style">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" media="all" href="https://www.lalanguefrancaise.com/assets/application-3b7de95689e350882b141b0069b95bc2a143282caba655f0ea2d6c355ddc0c64.css" data-turbolinks-track="reload" />
-<script src="https://www.lalanguefrancaise.com/packs/js/application-4fc36a6702795e015832.js" data-turbolinks-track="reload" type="f9a1381fe6f0f63ccd1964ce-text/javascript"></script>
+<link rel="stylesheet" media="all" href="https://www.lalanguefrancaise.com/assets/application-96cbf66f21ca4a8b3123e4618a0478112d4894d70297b9c74a36b3fae40d9159.css" data-turbolinks-track="reload" />
+<script src="https://www.lalanguefrancaise.com/packs/js/application-4fc36a6702795e015832.js" data-turbolinks-track="reload" type="5ecc43f608c51bf3cdb51f34-text/javascript"></script>
 
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript" async='async' src='https://cdn-a.yieldlove.com/v2/yieldlove.js?lalanguefrancaise.com'></script>
-<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js' type="f9a1381fe6f0f63ccd1964ce-text/javascript"></script>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript" async='async' src='https://cdn-a.yieldlove.com/v2/yieldlove.js?lalanguefrancaise.com'></script>
+<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js' type="5ecc43f608c51bf3cdb51f34-text/javascript"></script>
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 
 				var googletag = googletag || {};
 
@@ -110,8 +110,8 @@
 
 			</script>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NHKT9P60Z" type="f9a1381fe6f0f63ccd1964ce-text/javascript"></script>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1NHKT9P60Z" type="5ecc43f608c51bf3cdb51f34-text/javascript"></script>
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
@@ -126,7 +126,7 @@
 <div id="header-social-icons">
 <span>
 <a title="Nous suivre sur Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/lalanguefr">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="5ecc43f608c51bf3cdb51f34-text/javascript">
         (function() {
             // If GPC on, set DOM property to true if not already true
             if (true) {
@@ -150,7 +150,7 @@
         </script><path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="currentColor" data-original="#000000" style="" /></g></svg>
 </a>
 <a title="Nous suivre sur Twitter" target="_blank" rel="noopener" href="https://twitter.com/LLfrancaise">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="5ecc43f608c51bf3cdb51f34-text/javascript">
         (function() {
             // If GPC on, set DOM property to true if not already true
             if (true) {
@@ -174,7 +174,7 @@
         </script><path xmlns="http://www.w3.org/2000/svg" d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z" fill="currentColor" data-original="#000000" style="" /></g></svg>
 </a>
 <a title="Nous suivre sur Instagram" target="_blank" rel="noopener" href="https://www.instagram.com/lalangue_fr/">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="5ecc43f608c51bf3cdb51f34-text/javascript">
         (function() {
             // If GPC on, set DOM property to true if not already true
             if (true) {
@@ -409,7 +409,7 @@
 <div id="topad-center">
 
 <div id='div-gpt-ad-1407836140803-0'>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 								if (window.innerWidth >= 990) {
 									googletag.cmd.push(function() {
 										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_970x250_1', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1407836140803-0').addService(googletag.pubads());
@@ -437,9 +437,9 @@
 </form>
 <div id="daily-header-container">
 <ul>
-<a href="/dictees/chanson-francaise-dictee">DICTÉE | Cette dictée est tirée d&#39;une chanson française très connue</a>
-<a title="Quiz : « calendrier de l’avent » ou « calendrier de l’avant » ?" href="/quiz/quiz-calendrier-avent">QUIZ | Quiz : « calendrier de l’avent » ou « calendrier de...</a>
-<a href="/dictionnaire/definition/trapeziste">MOT DU JOUR | Trapéziste</a>
+<a href="/dictees/aurore-calendrier-chocolate">DICTÉE | La dictée d’Aurore : Calendrier chocolaté</a>
+<a title="Le quiz d&#39;orthographe de la semaine - 03/12/2022" href="/quiz/quiz-orthographe-hebdo-03-12-2022">QUIZ | Le quiz d&#39;orthographe de la semaine - 03/12/2022</a>
+<a href="/dictionnaire/definition/loutre">MOT DU JOUR | Loutre</a>
 </ul>
 </div>
 <div id="main-container">
@@ -449,6 +449,9 @@
 <article id="dictionnaire-article">
 <p id="breadscrumb"><a href="/">Accueil</a> > <a href="/dictionnaire">Dictionnaire</a> > Définitions du mot « dépaysement »</p>
 <h1>Dépaysement</h1>
+<ul id="cgrams-container">
+<a title="Nom" style="background-color: #bae6fd;" href="/dictionnaire/classe-grammaticale/nom">Nom</a>
+</ul>
 <div id="sommaire">
 <p>Sommaire</p>
 <ul id="toc-list">
@@ -464,7 +467,7 @@
 </ul>
 </div>
 
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 				googletag.cmd.push(function() {
 						if (window.innerWidth >= 960) {
 								googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_728x90_1', [728, 90], 'div-gpt-ad-1407836099467-0').addService(googletag.pubads());
@@ -480,7 +483,7 @@
 		</script>
 <div class="adincontent">
 <div id='div-gpt-ad-1407836099467-0'>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 							googletag.cmd.push(function() { googletag.display('div-gpt-ad-1407836099467-0'); });
 					</script>
 </div>
@@ -540,7 +543,7 @@ dépaysements
 ̃] ou [depeizmɑ
 ̃]. <i>Cf. dépayser. </i><b>Étymol. et Hist.</b> 2<sup>e</sup>moitié <span class="tlf_smallcaps">xvi</span><sup>e</sup>s. « action de s'en aller dans un autre pays » (<span class="tlf_smallcaps">E. Pasquier</span>, <i>Recherches,</i> IV, 5 ds <span class="tlf_smallcaps">Hug.</span>); 1834 fig. (<span class="tlf_smallcaps">Sainte-Beuve</span>, <i>Volupté,</i> t. 1, p. 121 : Le <b>dépaysement</b> surtout et la variété des lieux, quand on commence d'aimer, tournent au profit de l'amour). Dér. du rad. de <i>dépayser</i>*; suff. <i>-ment</i><sup>1</sup>*. <b>Fréq. abs. littér. :</b> 54.</div>
 </div>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f9a1381fe6f0f63ccd1964ce-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'77230fbe1a1bf0f0',m:'QzvCRWQTtMJovSredwt5kmMFOmVtsuaZndrlm21jO3c-1669805839-0-ASaGa0CzUQYeVdSIbtEejSfUZ/NwTXzzFjWzMAa/nJS4KkJnDtq2f/SRfKUEr57QM9roRx3y05qlTSAlURQN+RhZ4+CGRoUr7KqB1/NgUego3d/6r77DmeLuT8eE19sD5PoCakGAkUoj1nl8eRFuDBiyWfGnUoe0Iw0OHcY0xYbT',s:[0x91167a17d1,0xf9a32813fe],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5ecc43f608c51bf3cdb51f34-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'775c49c14842f850',m:'z0L01Y.wDVQVRKRZgk2QDYo3cCBiy4KL2m1HpJMq9j4-1670405903-0-AZHiXx/A5bWMd0fpsLzr+MXZDZPMjTYfKCXUXiR3vW660ubUlSWdDlzLiO0lPCnk1eRSV3IahOyl8/fWRdfeZfc9POzYAEWEaqZtmjO5pI+Ix2U4remiRpPEgmWXwJmLu5if0hEZrA39JPMeXuGRRr+OF8Xiq95WsnkT2Galrcva',s:[0x1b766a11b0,0xfd2a5bfa98],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
 <br />
 </div>
 </div>
@@ -615,7 +618,7 @@ Changement d’environnement ou d’habitudes.
 <div class='ad-video-content'>
 
 <div id='div-gpt-ad-1407836166419-0'>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 					if (window.innerWidth >= 960) {
 						googletag.cmd.push(function() {
 							googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_640x480_1', [640, 480], 'div-gpt-ad-1407836166419-0').addService(googletag.pubads());
@@ -649,7 +652,7 @@ Changement d’environnement ou d’habitudes.
 <td>depaizœmɑ̃</td>
 <td style="text-align:center;">
 <audio id="player-phonetic" src="https://s3.eu-west-3.amazonaws.com/dictionnaire-prononciation/depaysement.mp3" type="audio/mp3"></audio>
-<span id="player-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('player-phonetic').play()" data-cf-modified-f9a1381fe6f0f63ccd1964ce-="">
+<span id="player-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('player-phonetic').play()" data-cf-modified-5ecc43f608c51bf3cdb51f34-="">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="25" height="25" x="0" y="0" viewBox="0 0 320.001 320.001" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
 <path xmlns="http://www.w3.org/2000/svg" d="M295.84,146.049l-256-144c-4.96-2.784-11.008-2.72-15.904,0.128C19.008,5.057,16,10.305,16,16.001v288  c0,5.696,3.008,10.944,7.936,13.824c2.496,1.44,5.28,2.176,8.064,2.176c2.688,0,5.408-0.672,7.84-2.048l256-144  c5.024-2.848,8.16-8.16,8.16-13.952S300.864,148.897,295.84,146.049z" fill="#002d7d" data-original="#000000" style="" />
 <g xmlns="http://www.w3.org/2000/svg">
@@ -907,7 +910,7 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
 
 <div style="min-height:250px;width:300px;padding-top:10px">
 <div id='div-gpt-ad-1407836178797-0'>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 								if (window.innerWidth >= 960) {
 									googletag.cmd.push(function() {
 										googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_300x250_1', [300, 250], 'div-gpt-ad-1407836178797-0').addService(googletag.pubads());
@@ -932,7 +935,7 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
 <div id="skyscraper-ad">
 <div class="sticky">
 <div id='div-gpt-ad-1407836168668-0'>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 							if (window.innerWidth >= 960) {
 								googletag.cmd.push(function() {
 									googletag.defineSlot('/53015287,22660321019/lalanguefrancaise.com_d_300x600_1', [[300, 600], [160, 600], [300, 250]], 'div-gpt-ad-1407836168668-0').addService(googletag.pubads());
@@ -990,7 +993,7 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
 <li><a href="/cgu">Conditions générales d’utilisation</a></li>
 <li><a href="/politique-de-confidentialite">Politique de confidentialité</a></li>
 <li><a href="/espace-annonceurs">Espace annonceurs</a></li>
-<li><a href="/cdn-cgi/l/email-protection#6d0e0203190c0e192d010c010c030a18080b1f0c030e0c041e08430e0200">Contact</a></li>
+<li><a href="/cdn-cgi/l/email-protection#5a3935342e3b392e1a363b363b343d2f3f3c283b34393b33293f74393537">Contact</a></li>
 </ul>
 </div>
 <div>
@@ -1029,8 +1032,8 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
 </div>
 <div id="bottom_navbar_social">
 <span>Partager</span>
-<a title="Partager par courriel" href="/cdn-cgi/l/email-protection#76490503141c1315024b32b5df101f181f021f191805561203561b19025612b5df06170f05131b13180250171b064d1419120f4b20191f151f561a13055612b5df101f181f021f191805561203561b19025612b5df06170f05131b1318025346325346375346325346371e020206054c5959010101581a171a17181103131004171815171f05135815191b59121f15021f191818171f0413591213101f181f021f191859121306170f05131b131802">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<a title="Partager par courriel" href="/cdn-cgi/l/email-protection#5f602c2a3d353a3c2b621b9cf6393631362b3630312c7f3b2a7f32302b7f3b9cf62f3e262c3a323a312b793e322f643d303b26620930363c367f333a2c7f3b9cf6393631362b3630312c7f3b2a7f32302b7f3b9cf62f3e262c3a323a312b7a6f1b7a6f1e7a6f1b7a6f1e372b2b2f2c65707028282871333e333e31382a3a392d3e313c3e362c3a713c3032703b363c2b363031313e362d3a703b3a393631362b363031703b3a2f3e262c3a323a312b">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="5ecc43f608c51bf3cdb51f34-text/javascript">
         (function() {
             // If GPC on, set DOM property to true if not already true
             if (true) {
@@ -1093,7 +1096,7 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
 </g></svg>
 </a>
 <a title="Partager sur Facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement&amp;display=popup">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="5ecc43f608c51bf3cdb51f34-text/javascript">
         (function() {
             // If GPC on, set DOM property to true if not already true
             if (true) {
@@ -1117,7 +1120,7 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
         </script><path xmlns="http://www.w3.org/2000/svg" d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" fill="currentColor" data-original="#000000" style="" /></g></svg>
 </a>
 <a title="Partager sur Twitter" target="_blank" href="https://twitter.com/intent/tweet?url=https://www.lalanguefrancaise.com/dictionnaire/definition/depaysement&amp;via=LLfrancaise&amp;text=Définitions du mot dépaysement">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="16" height="16" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script type="5ecc43f608c51bf3cdb51f34-text/javascript">
         (function() {
             // If GPC on, set DOM property to true if not already true
             if (true) {
@@ -1146,8 +1149,8 @@ Source : <a title="synonymes de dépaysement" target="_blank" href="https://lebo
 </div>
 </div>
 </div>
-<script src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js" async type="f9a1381fe6f0f63ccd1964ce-text/javascript"></script>
-<script type="f9a1381fe6f0f63ccd1964ce-text/javascript">
+<script src="https://cdn.by.wonderpush.com/sdk/1.1/wonderpush-loader.min.js" async type="5ecc43f608c51bf3cdb51f34-text/javascript"></script>
+<script type="5ecc43f608c51bf3cdb51f34-text/javascript">
 window.WonderPush = window.WonderPush || [];
 WonderPush.push(["init", {
     webKey: "9084c34e4e1e3506494f0263918579bbe900225a34159d2b40a4ec8e30915a9f",

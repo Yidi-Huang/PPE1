@@ -15,8 +15,7 @@
    International
    Sport
    Économie
-   SantéCulture
-   Étudiant
+   SantéCultureGastronomie
 
      * Toutes les communes
      * Bordeaux
@@ -84,15 +83,6 @@
      * Emploi
      * Énergie
      * Immobilier
-
-     * Accueil
-     * Lycée
-
-     * Parcoursup
-     * Études supérieures
-
-     * Trouver votre école
-     * Vie étudiante
 
 Tourisme en Lot-et-Garonne : dépaysement et déconnexion au bus du bois de
 Mondon
@@ -190,7 +180,6 @@ Hébergements alternatifs
    Abonné papier ? Activez votre accès S'abonner à partir de 1€ Mon espace
    premium
    Coupe du monde 2022
-   Décrypter et comprendre l'actualité
    TV7
    Toutes les rubriques
    Fermer

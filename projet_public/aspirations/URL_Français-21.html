@@ -333,26 +333,6 @@
 				}
 			}
 			
-			if(!isIgnoreSlot('flash_trans')) {
-				if(adsPosition['flash_trans'][idx].dim != '' && adsPosition['flash_trans'][idx].dim.length > 0) {
-					gptadslots[6] = googletag.defineSlot(dlpu.path + '/flash_trans', adsPosition['flash_trans'][idx].dim, 'div-gpt-1617727897-flash_trans').setTargeting('pos',['flash_trans']).defineSizeMapping().addService(googletag.pubads());
-					
-				} else {
-					gptadslots[6] = googletag.defineOutOfPageSlot(dlpu.path + '/flash_trans', 'div-gpt-1617727897-flash_trans').setTargeting('pos',['flash_trans']).defineSizeMapping().addService(googletag.pubads());
-					
-				}
-			}
-			
-			if(!isIgnoreSlot('habillage')) {
-				if(adsPosition['habillage'][idx].dim != '' && adsPosition['habillage'][idx].dim.length > 0) {
-					gptadslots[7] = googletag.defineSlot(dlpu.path + '/habillage', adsPosition['habillage'][idx].dim, 'div-gpt--1852629889-habillage').setTargeting('pos',['habillage']).defineSizeMapping().addService(googletag.pubads());
-					
-				} else {
-					gptadslots[7] = googletag.defineOutOfPageSlot(dlpu.path + '/habillage', 'div-gpt--1852629889-habillage').setTargeting('pos',['habillage']).defineSizeMapping().addService(googletag.pubads());
-					
-				}
-			}
-			
 				googletag.pubads().setTargeting("GCF_Departement","18");
 			
 				googletag.pubads().setTargeting("GCF_Insee","18033");
@@ -420,9 +400,7 @@ if (!dads && dlpu.sitePage != 'boutique' && dlpu.sitePage != 'vide') {
 		        { id: adsPosition['article'][0].smartId, tagId: 'div-gpt--732377866-article' } ,
 		        { id: adsPosition['droite_haute'][0].smartId, tagId: 'div-gpt--1543026265-droite_haute' } ,
 		        { id: adsPosition['droite_milieu'][0].smartId, tagId: 'div-gpt--438918609-droite_milieu' } ,
-		        { id: adsPosition['banniere_basse'][0].smartId, tagId: 'div-gpt--1726985995-banniere_basse' } ,
-		        { id: adsPosition['flash_trans'][0].smartId, tagId: 'div-gpt-1617727897-flash_trans' } ,
-		        { id: adsPosition['habillage'][0].smartId, tagId: 'div-gpt--1852629889-habillage' } 
+		        { id: adsPosition['banniere_basse'][0].smartId, tagId: 'div-gpt--1726985995-banniere_basse' } 
 	    ],
 	    target: 'GCF_Departement=18;GCF_Insee=18033;GCF_Ville=bourges;GCF_Theme=ripo;GCF_Theme=le-berry-republicain;GCF_Theme=a-la-une;GCF_Theme=loisirs;GCF_Theme=voyages'
 	};
@@ -470,22 +448,6 @@ if (!dads && dlpu.sitePage != 'boutique' && dlpu.sitePage != 'vide') {
 			    sas.render('div-gpt--1726985995-banniere_basse');
 				$('#div-gpt--1726985995-banniere_basse').addClass('removePlaceholder');
 				$('#div-link--1726985995-banniere_basse').addClass('removeLink');
-			});
-		}
-		
-		if(!isIgnoreSlot('flash_trans')) {
-			sas.cmd.push(function () {
-			    sas.render('div-gpt-1617727897-flash_trans');
-				$('#div-gpt-1617727897-flash_trans').addClass('removePlaceholder');
-				$('#div-link-1617727897-flash_trans').addClass('removeLink');
-			});
-		}
-		
-		if(!isIgnoreSlot('habillage')) {
-			sas.cmd.push(function () {
-			    sas.render('div-gpt--1852629889-habillage');
-				$('#div-gpt--1852629889-habillage').addClass('removePlaceholder');
-				$('#div-link--1852629889-habillage').addClass('removeLink');
 			});
 		}
 			
@@ -1040,17 +1002,17 @@ id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCReque
 						<div class="b-article-simple-h row">
 							<div class="col-xs-12">
 								<div class="c-titre">
-									<span class="c-motcle">Faits divers</span>									<h4 data-id="4221556"
+									<span class="c-motcle">Faits divers</span>									<h4 data-id="4227860"
 											data-r="j"
-											data-dep="75">
-										<a class="eventXiti" id="les_plus_partages!faits_divers!mis_en_examen_pour_viols,_un_acteur_français_retiré_de_la_liste_des_révélations_aux_césar" href="/paris-75000/loisirs/mis-en-examen-pour-viols-un-acteur-francais-retire-de-la-liste-des-revelations-aux-cesar_14221556/" title="Mis en examen pour viols, un acteur français retiré de la liste des révélations aux César">Mis en examen pour viols, un acteur français retiré de la liste des révélations aux César</a>
+											data-dep="42">
+										<a class="eventXiti" id="les_plus_partages!faits_divers!un_mort_et_neuf_personnes_blessées_dans_un_carambolage_sur_l'a72_près_de_saint-etienne" href="/saint-etienne-42000/actualites/un-mort-et-neuf-personnes-blessees-dans-un-carambolage-sur-l-a72-pres-de-saint-etienne_14227860/" title="Un mort et neuf personnes blessées dans un carambolage sur l'A72 près de Saint-Etienne">Un mort et neuf personnes blessées dans un carambolage sur l'A72 près de Saint-Etienne</a>
 									</h4>
 								</div>
 							</div>
 						</div>
 					</div>
 											<div class="col-xs-10 c-top-image">
-							<a class="eventXiti" id="les_plus_partages!faits_divers!mis_en_examen_pour_viols,_un_acteur_français_retiré_de_la_liste_des_révélations_aux_césar" href="/paris-75000/loisirs/mis-en-examen-pour-viols-un-acteur-francais-retire-de-la-liste-des-revelations-aux-cesar_14221556/" title="Mis en examen pour viols, un acteur français retiré de la liste des révélations aux César"><img src="https://img.centrefrance.com/oM7uVbRp33cOTIWx8RUQkaZwh7w-jYpHEk1hxG1kgeI/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMjUvMjAwMDAwNjM0MjUxNA.jpg" /></a>
+							<a class="eventXiti" id="les_plus_partages!faits_divers!un_mort_et_neuf_personnes_blessées_dans_un_carambolage_sur_l'a72_près_de_saint-etienne" href="/saint-etienne-42000/actualites/un-mort-et-neuf-personnes-blessees-dans-un-carambolage-sur-l-a72-pres-de-saint-etienne_14227860/" title="Un mort et neuf personnes blessées dans un carambolage sur l'A72 près de Saint-Etienne"><img src="https://img.centrefrance.com/4gSEEN-DU7joNfHsrP4tKai62Ef_5DNOUZ-xoShMUuw/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzUvMTUvMjAwMDAwNjM1MTU4OA.jpg" /></a>
 						</div>
 									</div>
 															<div class="row vertical-align">
@@ -1061,17 +1023,17 @@ id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCReque
 						<div class="b-article-simple-h row">
 							<div class="col-xs-12">
 								<div class="c-titre">
-									<span class="c-motcle">Fait divers</span>									<h4 data-id="4221747"
+									<span class="c-motcle">Vie quotidienne</span>									<h4 data-id="4225177"
 											data-r="j"
-											data-dep="78">
-										<a class="eventXiti" id="les_plus_partages!fait_divers!yvelines_:_la_chasse_à_courre_se_termine_dans_le_jardin_d'une_octogénaire" href="/mesnuls-78490/actualites/yvelines-la-chasse-a-courre-se-termine-dans-le-jardin-d-une-octogenaire_14221747/" title="Yvelines : la chasse à courre se termine dans le jardin d'une octogénaire">Yvelines : la chasse à courre se termine dans le jardin d'une octogénaire</a>
+											data-dep="75">
+										<a class="eventXiti" id="les_plus_partages!vie_quotidienne!bonus_réparation,_prime_de_noël,_chèques_énergie..._ce_qui_change_au_1er_décembre" href="/paris-75000/actualites/bonus-reparation-prime-de-noel-cheques-energie-ce-qui-change-au-1er-decembre_14225177/" title="Bonus réparation, prime de Noël, chèques énergie... Ce qui change au 1er décembre">Bonus réparation, prime de Noël, chèques énergie... Ce qui change au 1er décembre</a>
 									</h4>
 								</div>
 							</div>
 						</div>
 					</div>
 											<div class="col-xs-10 c-top-image">
-							<a class="eventXiti" id="les_plus_partages!fait_divers!yvelines_:_la_chasse_à_courre_se_termine_dans_le_jardin_d'une_octogénaire" href="/mesnuls-78490/actualites/yvelines-la-chasse-a-courre-se-termine-dans-le-jardin-d-une-octogenaire_14221747/" title="Yvelines : la chasse à courre se termine dans le jardin d'une octogénaire"><img src="https://img.centrefrance.com/d-qGhYK7klaTjS9CMrb9n707GJm3qPv0EYfUa6jmZR4/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMjgvMjAwMDAwNjM0Mjg1Ng.jpg" /></a>
+							<a class="eventXiti" id="les_plus_partages!vie_quotidienne!bonus_réparation,_prime_de_noël,_chèques_énergie..._ce_qui_change_au_1er_décembre" href="/paris-75000/actualites/bonus-reparation-prime-de-noel-cheques-energie-ce-qui-change-au-1er-decembre_14225177/" title="Bonus réparation, prime de Noël, chèques énergie... Ce qui change au 1er décembre"><img src="https://img.centrefrance.com/V_ULutfW0CsDXzunuwSC12fugOsCMhmL1TCJuJ0xknk/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvNzIvMjAwMDAwNjM0NzI1MA.jpg" /></a>
 						</div>
 									</div>
 															<div class="row vertical-align">
@@ -1082,17 +1044,17 @@ id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCReque
 						<div class="b-article-simple-h row">
 							<div class="col-xs-12">
 								<div class="c-titre">
-									<span class="c-motcle">Social</span>									<h4 data-id="4223230"
+									<span class="c-motcle">Faits divers</span>									<h4 data-id="4226899"
 											data-r="j"
-											data-dep="75">
-										<a class="eventXiti" id="les_plus_partages!social!chèque_bois_énergie_:_quel_montant_?_qui_pourra_en_bénéficier_?_quand_faire_la_demande_?" href="/paris-75000/actualites/cheque-bois-energie-quel-montant-qui-pourra-en-beneficier-quand-faire-la-demande_14223230/" title="Chèque bois énergie : Quel montant ? Qui pourra en bénéficier ? Quand faire la demande ?">Chèque bois énergie : Quel montant ? Qui pourra en bénéficier ? Quand faire la demande ?</a>
+											data-dep="36">
+										<a class="eventXiti" id="les_plus_partages!faits_divers!un_train_de_fret_déraille_dans_l'indre_sur_la_ligne_paris-orléans-limoges-toulouse" href="/issoudun-36100/actualites/un-train-de-fret-deraille-dans-l-indre-sur-la-ligne-paris-orleans-limoges-toulouse_14226899/" title="Un train de fret déraille dans l'Indre sur la ligne Paris-Orléans-Limoges-Toulouse">Un train de fret déraille dans l'Indre sur la ligne Paris-Orléans-Limoges-Toulouse</a>
 									</h4>
 								</div>
 							</div>
 						</div>
 					</div>
 											<div class="col-xs-10 c-top-image">
-							<a class="eventXiti" id="les_plus_partages!social!chèque_bois_énergie_:_quel_montant_?_qui_pourra_en_bénéficier_?_quand_faire_la_demande_?" href="/paris-75000/actualites/cheque-bois-energie-quel-montant-qui-pourra-en-beneficier-quand-faire-la-demande_14223230/" title="Chèque bois énergie : Quel montant ? Qui pourra en bénéficier ? Quand faire la demande ?"><img src="https://img.centrefrance.com/iB6-dvAPdV11IwYxJnBpXQDv48UYo2dz1XP_BympMGk/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvNDkvMjAwMDAwNjM0NDkyMQ.jpg" /></a>
+							<a class="eventXiti" id="les_plus_partages!faits_divers!un_train_de_fret_déraille_dans_l'indre_sur_la_ligne_paris-orléans-limoges-toulouse" href="/issoudun-36100/actualites/un-train-de-fret-deraille-dans-l-indre-sur-la-ligne-paris-orleans-limoges-toulouse_14226899/" title="Un train de fret déraille dans l'Indre sur la ligne Paris-Orléans-Limoges-Toulouse"><img src="https://img.centrefrance.com/do0fVSkdSAftzdxtAnL8QlP8i6mBF1VQYr_H2JtE--0/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvOTkvMjAwMDAwNjM0OTk1Mw.jpg" /></a>
 						</div>
 									</div>
 															<div class="row vertical-align">
@@ -1103,17 +1065,17 @@ id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCReque
 						<div class="b-article-simple-h row">
 							<div class="col-xs-12">
 								<div class="c-titre">
-									<span class="c-motcle">Espace</span>									<h4 data-id="4220978"
+									<span class="c-motcle">Énergie</span>									<h4 data-id="4225579"
 											data-r="j"
-											data-dep="58">
-										<a class="eventXiti" id="les_plus_partages!espace!sophie_adenot,_originaire_de_la_nièvre,_devient_la_nouvelle_thomas_pesquet_en_intégrant_l’agence_spatiale_européenne" href="/nevers-58000/actualites/sophie-adenot-originaire-de-la-nievre-devient-la-nouvelle-thomas-pesquet-en-integrant-lagence-spatiale-europeenne_14220978/" title="Sophie Adenot, originaire de la Nièvre, devient la nouvelle Thomas Pesquet en intégrant l’Agence spatiale européenne">Sophie Adenot, originaire de la Nièvre, devient la nouvelle Thomas Pesquet en intégrant l’Agence spatiale européenne</a>
+											data-dep="45">
+										<a class="eventXiti" id="les_plus_partages!énergie!comment_enedis_prépare_des_coupures_ponctuelles_d'électricité_depuis_son_agence_secrète_près_d'orléans" href="/orleans-45100/actualites/comment-enedis-prepare-des-coupures-ponctuelles-d-electricite-depuis-son-agence-secrete-pres-d-orleans_14225579/" title="Comment Enedis prépare des coupures ponctuelles d'électricité depuis son agence secrète près d'Orléans">Comment Enedis prépare des coupures ponctuelles d'électricité depuis son agence secrète près d'Orléans</a>
 									</h4>
 								</div>
 							</div>
 						</div>
 					</div>
 											<div class="col-xs-10 c-top-image">
-							<a class="eventXiti" id="les_plus_partages!espace!sophie_adenot,_originaire_de_la_nièvre,_devient_la_nouvelle_thomas_pesquet_en_intégrant_l’agence_spatiale_européenne" href="/nevers-58000/actualites/sophie-adenot-originaire-de-la-nievre-devient-la-nouvelle-thomas-pesquet-en-integrant-lagence-spatiale-europeenne_14220978/" title="Sophie Adenot, originaire de la Nièvre, devient la nouvelle Thomas Pesquet en intégrant l’Agence spatiale européenne"><img src="https://img.centrefrance.com/s-OcXEAM_7WrOo7jUg8_7KlAHzhubK22bCfRD3vi2pU/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMTkvMjAwMDAwNjM0MTk1OQ.jpg" /></a>
+							<a class="eventXiti" id="les_plus_partages!énergie!comment_enedis_prépare_des_coupures_ponctuelles_d'électricité_depuis_son_agence_secrète_près_d'orléans" href="/orleans-45100/actualites/comment-enedis-prepare-des-coupures-ponctuelles-d-electricite-depuis-son-agence-secrete-pres-d-orleans_14225579/" title="Comment Enedis prépare des coupures ponctuelles d'électricité depuis son agence secrète près d'Orléans"><img src="https://img.centrefrance.com/X0fnj0kT0Kpu9Ri2Ix4MpqXVgutGgWHxYaKZ8P8V-mo/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvNzgvMjAwMDAwNjM0Nzg3Mg.jpg" /></a>
 						</div>
 									</div>
 															<div class="row vertical-align">
@@ -1124,17 +1086,17 @@ id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCReque
 						<div class="b-article-simple-h row">
 							<div class="col-xs-12">
 								<div class="c-titre">
-									<span class="c-motcle">Sport</span>									<h4 data-id="4222438"
+									<span class="c-motcle">Faits divers</span>									<h4 data-id="4227257"
 											data-r="j"
 											data-dep="18">
-										<a class="eventXiti" id="les_plus_partages!sport!un_joueur_de_foot_berruyer_écope_de_seize_ans_de_suspension_après_s'en_être_pris_à_un_arbitre_d'eure-et-loir" href="/bourges-18000/sports/un-joueur-de-foot-berruyer-ecope-de-seize-ans-de-suspension-apres-s-en-etre-pris-a-un-arbitre-d-eure-et-loir_14222438/" title="Un joueur de foot berruyer écope de seize ans de suspension après s'en être pris à un arbitre d'Eure-et-Loir">Un joueur de foot berruyer écope de seize ans de suspension après s'en être pris à un arbitre d'Eure-et-Loir</a>
+										<a class="eventXiti" id="les_plus_partages!faits_divers!il_pose_un_pistolet_automatique_sur_le_comptoir_d'un_patàpain_et_une_balle_dans_un_autre" href="/bourges-18000/actualites/il-pose-un-pistolet-automatique-sur-le-comptoir-d-un-patapain-et-une-balle-dans-un-autre_14227257/" title="Il pose un pistolet automatique sur le comptoir d'un Patàpain et une balle dans un autre">Il pose un pistolet automatique sur le comptoir d'un Patàpain et une balle dans un autre</a>
 									</h4>
 								</div>
 							</div>
 						</div>
 					</div>
 											<div class="col-xs-10 c-top-image">
-							<a class="eventXiti" id="les_plus_partages!sport!un_joueur_de_foot_berruyer_écope_de_seize_ans_de_suspension_après_s'en_être_pris_à_un_arbitre_d'eure-et-loir" href="/bourges-18000/sports/un-joueur-de-foot-berruyer-ecope-de-seize-ans-de-suspension-apres-s-en-etre-pris-a-un-arbitre-d-eure-et-loir_14222438/" title="Un joueur de foot berruyer écope de seize ans de suspension après s'en être pris à un arbitre d'Eure-et-Loir"><img src="https://img.centrefrance.com/5YPj9KxoPQKwdditxHbM4SaybGgS_aT6tu7I4adocR4/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvMzkvMjAwMDAwNjM0MzkxOA.jpg" /></a>
+							<a class="eventXiti" id="les_plus_partages!faits_divers!il_pose_un_pistolet_automatique_sur_le_comptoir_d'un_patàpain_et_une_balle_dans_un_autre" href="/bourges-18000/actualites/il-pose-un-pistolet-automatique-sur-le-comptoir-d-un-patapain-et-une-balle-dans-un-autre_14227257/" title="Il pose un pistolet automatique sur le comptoir d'un Patàpain et une balle dans un autre"><img src="https://img.centrefrance.com/_Qnslz3ysH7IJN0WwsO5hoUQCQPPM6ZWtZatXerhDOE/fill/310/140/sm/1/bG9jYWw6Ly8vMDAvMDAvMDYvMzUvMDQvMjAwMDAwNjM1MDQ0Nw.jpg" /></a>
 						</div>
 									</div>
 					</div>
@@ -1157,18 +1119,18 @@ id="social_media_twitter_partage_4066165" onclick="javascript:simpleJsonRPCReque
 			
 	<div class="b-jeu">
 				<h3 class="b-titre-bloc">
-			<a href="/services/jeux/tango-bourges-basket_74331.html">TANGO BOURGES BASKET</a>
+			<a href="/services/jeux/tango-bourges-basket_74334.html">TANGO BOURGES BASKET</a>
 		</h3>
 
 				<div class="c-photo">
-			<a href="/services/jeux/tango-bourges-basket_74331.html">
-				<img data-src="https://img.lamontagne.fr/TCCxET_RBJScTpnQ-snpXYcMh_IoCzZUyM51cE4vg_8/fill/313/167/sm/0/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvNzIvMjAwMDAwNjM0NzI3OQ.jpg" class="responsive lazyload" alt="TANGO BOURGES BASKET" />
+			<a href="/services/jeux/tango-bourges-basket_74334.html">
+				<img data-src="https://img.lamontagne.fr/VeDRuRHtIkqsxk86dwyC6V10BFrff2kZIjNb9GewrqQ/fill/313/167/sm/0/bG9jYWw6Ly8vMDAvMDAvMDYvMzQvOTIvMjAwMDAwNjM0OTI1OQ.jpg" class="responsive lazyload" alt="TANGO BOURGES BASKET" />
 			</a>
 		</div>
 		
 		<div class="c-jeu-contenu">
-							<p><font color="#ea1418"><b>10 places à gagner !</b></font><br><b>Jouez et gagnez vos places pour le match Tango Bourges vs Szekzsard</b></p>
-						<a href="/services/jeux/tango-bourges-basket_74331.html" class="btn btn-primary" role="button">JOUEZ & GAGNEZ</a>
+							<p><font color="#ea1418"><b>10 places à gagner !</b></font><br><b>Jouez et gagnez vos places pour le match Tango Bourges vs Carolo</b></p>
+						<a href="/services/jeux/tango-bourges-basket_74334.html" class="btn btn-primary" role="button">JOUEZ & GAGNEZ</a>
 							<div class="c-lien-plus no-padding">
 					<a class="eventXiti" id="voir_tous_les_jeux" href="/services/jeux.html">Voir tous les jeux</a>
 				</div>
@@ -1326,30 +1288,6 @@ $(function() {
 	margin-bottom: 0px;
 }
 </style>
-
-
-	<div class="advertise-box publicite_position relative parent_placeholder" ref="flash_trans">
-		<div class="advertise pub-inner" ref="flash_trans">
-						<div id='div-gpt-1617727897-flash_trans' class='placeholder placeholder_flash_trans'>
-				<script type='text/javascript'>
-					if(!isIgnoreSlot('flash_trans')) googletag.cmd.push(function() { googletag.display('div-gpt-1617727897-flash_trans'); });
-				</script>
-				<a id="div-link-1617727897-flash_trans" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_flash_trans"></a>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="advertise-box publicite_position relative parent_placeholder" ref="habillage">
-		<div class="advertise pub-inner" ref="habillage">
-						<div id='div-gpt--1852629889-habillage' class='placeholder placeholder_habillage'>
-				<script type='text/javascript'>
-					if(!isIgnoreSlot('habillage')) googletag.cmd.push(function() { googletag.display('div-gpt--1852629889-habillage'); });
-				</script>
-				<a id="div-link--1852629889-habillage" href="https://www.centrefrancepub.fr/?utm_source=siteseditos&utm_medium=AP_placeholder" target="_blank" class="link link_habillage"></a>
-			</div>
-		</div>
-	</div>
 <br/><footer id='footer'><div class="b-footer">
     <div class="c-footer-contacts">
         <div>

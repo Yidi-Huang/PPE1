@@ -1,0 +1,1333 @@
+ <!doctype html>
+ <html> 
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+
+<link rel="stylesheet" href="skin/layout.css" />
+<link rel="stylesheet" href="skin/style.css" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<script>
+var mPath='_upload/img/';
+var mUrl=".$mUrl.";
+
+function mResize(m) {
+	/*document.getElementById("leftMenu").style.width*/
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    var txt = "Window size: width=" + w + ", height=" + h;
+    /*document.getElementById("demo").innerHTML = txt;*/
+	/*alert(txt);*/
+	var lm=document.getElementById("leftMenu");
+	var pr=document.getElementById("pageRight");
+	
+	if(w<800 || m ){	
+	/*alert('mobile');*/
+	lm.classList.remove("_LMwide");
+	pr.classList.remove("_PRwide");
+	lm.classList.add('_LMnarrow');
+    pr.classList.add('_PRnarrow');
+	/*document.getElementById("logo").style.display = "none";*/
+    /*e.classList.remove("mHide");*/
+	/*document.getElementById("logo").style.display = "none";*/
+	/*document.getElementById("logo").style.width = "50px";*/
+	document.getElementById("univartois").style.display = "none";
+	}
+	else{
+	var e=document.getElementById("leftMenu");
+	lm.classList.remove('_LMnarrow');
+	pr.classList.remove('_PRnarrow');
+	lm.classList.add("_LMwide");
+	pr.classList.add("_PRwide");
+	document.getElementById("logo").style.display = "block";
+	document.getElementById("univartois").style.display = "block";
+	}
+}
+
+
+
+</script>
+
+</head>
+<body onresize="mResize()">
+<script>mResize();</script>
+<!-- header ------------------------------------------------------------------------------------------------------>	
+<!-- left menu ------------------------------------------------------------------------------------------------------>	
+<script>
+function showMenu(id){
+node = document.getElementById(id);
+	document.getElementById("leftMenu").style.display = "block";
+	if (node.style.display=="none")
+	{
+		// Contenu caché, le montrer
+		//node.style.display = "block";
+		//node.style.height = "auto";			// Optionnel rétablir la hauteur
+	}
+	}
+</script>
+<div id='Menu'><a href="#" onclick = "showMenu('leftMenu')"><b>&#9776;</b></a></div>
+<div id="leftMenu" class='leftMenu _LMwide'>
+<list>
+<ul>
+<li><a href='https://lentre-deux.com/index.php?b=pres'><button>Présentation</button></a></li>
+<li><a href='https://lentre-deux.com/index.php?b=numeros'><button>Numéros</button></a></li>
+<li><a href='https://lentre-deux.com/index.php?b=entrevues'><button>Entrevues</button></a></li>
+<li><a href='https://lentre-deux.com/index.php?b=aut'><button>Auteur(e)s</button></a></li>
+<li><a href='https://lentre-deux.com/index.php?b=links'><button>Liens</button></a></li>
+<li><a href='https://lentre-deux.com/index.php?b=mentions'><button>Mentions légales</button></a></li>
+</ul>
+</list>
+<div id="univartois">
+<div id="artois" class=lien><br/><br/><br/><center><a href="http://www.univ-artois.fr/" target="_blank"><img src="skin/sigleSmall.png" width="100px"></a></center></div>
+<br/>
+<div class=lien><center><a href="http://textesetcultures.univ-artois.fr/" target="_blank"><img src="skin/Logo-T-C-white.png" width="100px"></a></center></div>
+</div>
+</div>
+<!-- main page ------------------------------------------------------------------------------------------------------>	
+<div id=pageRight class='pageRight _PRwide'>
+		<center><a href=https://lentre-deux.com/index.php >
+		<div class='mLogo mFormat'id="logo"><img src=skin/titre.png>
+		</div></a></center>
+
+		<script>
+var footnotes = new Array();
+var footnotesRef = new Array();
+var menuContent = new Array("","mresume","mauteurs_alt","msommaire","mrefnum","mbiblio","Téléchargement en cours...");
+</script>
+
+<script>footnotes[0]='</span></span></span></span></a>  Georges PEREC, <i>Espèces d’espaces&nbsp;: Journal d’un usager de l’espace</i> (1<sup>re</sup>  éd. 1974), Paris, Denoël/Gonthier, 1976, p.&nbsp;126.    '; footnotesRef[0]='1';</script><script>footnotes[1]='</span></span></span></span></a><span  lang=EN-GB> </span>Pierre <span style=’font-variant:small-caps’>C</span><span  style=text-transform:uppercase>orneille</span>, «&nbsp;Au lecteur&nbsp;», <i>Le  Menteur</i>, <i>Théâtre complet</i>, II, Paris, Classiques Garnier, 1960,  p.&nbsp;146.    '; footnotesRef[1]='2';</script><script>footnotes[2]='</span></span></span></span></a>  Pierre BAYARD, <i>Comment parler des lieux où l’on n’a pas été</i>, Paris,  Minuit, 2011, p.&nbsp;211.    '; footnotesRef[2]='3';</script><script>footnotes[3]='</span></span></span></span></a>  «&nbsp;Les Fiancées d’Auvergne&nbsp;» est une chanson populaire interprétée par  André VERCHUREN, en 1961.Voir&nbsp;: <span lang=EN-GB><a  href="http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne"><span  lang=FR>http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne</span></a></span>,  consulté le 27/07/2018.    '; footnotesRef[3]='4';</script><script>footnotes[4]='</span></span></span></span></a>  Dans cette réécriture de PERRAULT qu’est <i>La Belle au bois</i> (Paris,  Gallimard, 1989), de Philippe <span style=’font-variant:small-caps’>B</span><span  style=text-transform:uppercase>eaussant</span>, la princesse mesure à de  petits écarts (de costume, de parlures...) le temps pendant lequel elle a  dormi.    '; footnotesRef[4]='5';</script><script>footnotes[5]='</span></span></span></span></a>  Charles BAUDELAIRE, <i>Les Fleurs du mal</i>, Paris, Gallimard, poésie-nrf,  2006, p.&nbsp;47.    '; footnotesRef[5]='6';</script><script>footnotes[6]='</span></span></span></span></a>  La «&nbsp;conscience malheureuse&nbsp;» procède du motif hégélien du  «&nbsp;tombeau vide&nbsp;», tel que les Saintes Femmes découvrent le tombeau du  Christ.     '; footnotesRef[6]='7';</script><script>footnotes[7]='</span></span></span></span></a>  Clément ROSSET, <i>Le réel et son double</i>, Paris, Gallimard, 1976.    '; footnotesRef[7]='8';</script><script>footnotes[8]='</span></span></span></span></a>  Pour la question&nbsp;: «&nbsp;Où est situé l’Eden&nbsp;», voir Pascal  QUIGNARD, <i>Les Paradisiaques</i> (1<sup>re</sup> éd. 2005), Paris, Gallimard,  «&nbsp;Folio&nbsp;», 2007, p.&nbsp;21-22.    '; footnotesRef[8]='9';</script><script>footnotes[9]='</span></span></span></span></a>  Sur ce point, je renvoie à Jean DELUMEAU, <i>Une histoire du Paradis</i>,  Paris, Fayard, 1992.    '; footnotesRef[9]='10';</script><script>footnotes[10]='</span></span></span></span></a>  Cette relation avec le réel est justement ce qui pose problème au pasteur  Charles DODGSON, c’est-à-dire Lewis Carroll (les fillettes, la photographie) et  à James BARRIE, le créateur de Peter Pan (le nanisme).    '; footnotesRef[10]='11';</script><script>footnotes[11]='</span></span></span></span></a>  J.-B. <span style=’font-variant:small-caps’>P</span><span style=’text-transform:  uppercase’>ontalis</span>, <i>Loin</i> (1<sup>re</sup> éd. 1980), Paris,  Gallimard, «&nbsp;Folio&nbsp;», 1992. Signalé par Michel <span  style=’font-variant:small-caps’>G</span><span style=text-transform:uppercase>ribinski</span>  dans son article intitulé «&nbsp;Dépaysement&nbsp;», <i>Le Royaume  intermédiaire&nbsp;: Psychanalyse, littérature, autour de J.-B. Pontalis, </i>Paris,  Gallimard, «&nbsp;Folio-Essais&nbsp;», 2007.    '; footnotesRef[11]='12';</script><script>footnotes[12]='</span></span></span></span></a>  Pour Lawrence d’Arabie&nbsp;: «&nbsp;Comment me faire une peau arabe&nbsp;? Ce  fut de ma part affectation pure&nbsp;», <i>Les Sept Piliers de la sagesse</i>,  notice «&nbsp;Lawrence d’Arabie&nbsp;», <i>Dictionnaire des mythes  d’aujourd’hui</i>, s. d. Pierre <span style=’font-variant:small-caps’>B</span><span  style=text-transform:uppercase>runel</span>, Monaco, Du Rocher, 1999,  p.&nbsp;423. Pour Malraux, voir Jean-Claude LARRAT, «&nbsp;Les deux tentations  d’André Malraux&nbsp;» et «&nbsp;La métamorphose comme expérience de la  liberté&nbsp;», <i>in</i> <i>Sans oublier Malraux</i>, Paris, Classiques  Garnier, 2016.    '; footnotesRef[12]='13';</script><script>footnotes[13]='</span></span></span></span></a>  On trouve un bel exemple de cette difficulté dans le roman de François <span  style=text-transform:uppercase>Garde</span>, <i>Ce qu’il advint du Sauvage  blanc</i> (Paris, Gallimard, 2012), où le héros, abandonné sur une île et  devenu un «&nbsp;sauvage&nbsp;», refuse à son retour, à mesure qu’il réapprend  le français, de parler de son état antérieur. Comme s’il fallait conserver intacte  la césure.    '; footnotesRef[13]='14';</script><script>footnotes[14]='</span></span></span></span></a>  Sa relation entre altération et altération, voir Michel <span style=’font-variant:  small-caps’>T</span><span style=text-transform:uppercase>ournier</span>, <i>Les  Météores</i> (1<sup>re</sup> éd. 1975), Paris, Gallimard, «&nbsp;Folio&nbsp;»,  1977, p.&nbsp;549.    '; footnotesRef[14]='15';</script><script>footnotes[15]='</span></span></span></span></a>  Sur Phileas Fogg et <i>Le Tour du monde en quatre-vingts jours</i> comme roman  philosophique, voir Michel <span style=text-transform:uppercase>Tournier</span>,  <i>Les Météores</i> (<i>op.&nbsp;cit</i>., p.&nbsp;400-402) et <i>Le Vent  Paraclet</i> (1<sup>re</sup> éd. 1977), Paris, Gallimard, «&nbsp;Folio&nbsp;»,  1979, p.&nbsp;273-276).    '; footnotesRef[15]='16';</script><script>footnotes[16]='</span></span></span></span></a>  «&nbsp;Gide lisait du Bossuet en descendant le Congo. Cette posture résume  assez bien l’idéal de nos écrivains ‘en vacances’, photographiés par <i>Le  Figaro</i>&nbsp;: joindre au loisir banal le prestige d’une vocation que rien  ne peut arrêter ni dégrader&nbsp;», Roland BARTHES, <i>Mythologies</i> (1<sup>re</sup>  éd. 1957), <i>Œuvres complètes</i>, I, Paris, Seuil, 1993, p.&nbsp;580.    '; footnotesRef[16]='17';</script><script>footnotes[17]='</span></span></span></span></a>  Jean-Philippe <span style=text-transform:uppercase>Toussaint</span>, <i>La  Salle de bain</i>, Paris, Minuit,&nbsp;1985<b>, </b>p.&nbsp;82 et p.&nbsp;87.    '; footnotesRef[17]='18';</script><script>footnotes[18]='</span></span></span></span></a>  L’un des derniers dialogues de Platon.    '; footnotesRef[18]='19';</script><script>footnotes[19]='</span></span></span></span></a>  Louis-Ferdinand CÉLINE, <i>Voyage au bout de la nuit</i> (1<sup>re</sup> éd. 1932),  <i>Romans I</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,  1981, respectivement p.&nbsp;13 et p.&nbsp;15.    '; footnotesRef[19]='20';</script><script>footnotes[20]='</span></span></span></span></a>  Marguerite YOURCENAR&nbsp;: «&nbsp;Qui serait assez insensé pour mourir sans  avoir fait au moins le tour de sa prison&nbsp;». La formule se trouve d’abord  dans <i>L’Œuvre au Noir</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris,  Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1982, p.&nbsp;564 puis est  reprise en épigraphe du texte intitulé «&nbsp;Le Tour de la prison&nbsp;», <i>in</i>  <i>Essais et mémoires</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la  Pléiade&nbsp;», 1991, p.&nbsp;595.    '; footnotesRef[20]='21';</script><script>footnotes[21]='</span></span></span></span></a>  J’emprunte cette notion à un article de Michel <span style=’text-transform:  uppercase’>Tournier</span>&nbsp;: «&nbsp;<i>Le Rouge et le Noir</i>, roman de  confrontation&nbsp;», <i>in</i> <i>Le Vol du vampire</i>, Paris, Mercure de  France, 1981, p.&nbsp;136-137. Dans le domaine de la fiction, on pense à Don  Quichotte, qui voit le monde à travers les romans de chevalerie et croit en  revivre certains épisodes. Quant aux «&nbsp;idéologues&nbsp;», tout vient  corroborer leurs thèses&nbsp;: Bossuet ne cesse de rencontrer dans l’histoire  de nouvelles preuves en faveur du providentialisme, et Pangloss dans chaque  épisode la démonstration de sa philosophie de l’optimisme.    '; footnotesRef[21]='22';</script><script>footnotes[22]='</span></span></span></span></a>  D’où ce portrait de Phileas Fogg par Michel <span style=text-transform:uppercase>Tournier</span>&nbsp;:  «&nbsp;C’est un voyageur. Un voyageur en chambre. Il possède du voyage une  connaissance abstraite, livresque, et il en déduit <i>a priori</i> qu’on doit  pouvoir faire le tour du monde en quatre-vingts jours. La confrontation de ce  savoir <i>a priori</i> et de la dure réalité fait tout le contenu du roman  [...]&nbsp;», <i>Le Vent Paraclet</i>, <i>op.&nbsp;cit</i>., p.&nbsp;273.    '; footnotesRef[22]='23';</script><script>footnotes[23]='</span></span></span></span></a>  Bertrand <span style=text-transform:uppercase>Westphal</span>, <i>Le Monde  plausible&nbsp;: Espace, lieu, carte</i>, Paris, Minuit, 2011. Sur le besoin de  localiser le centre, G. <span style=text-transform:uppercase>Perec</span>, <i>Espèces  d’espaces</i>, <i>op.&nbsp;cit</i>., p.&nbsp;125.    '; footnotesRef[23]='24';</script><script>footnotes[24]='</span></span></span></span></a><span  lang=EN-GB> </span>Sigmund FREUD, <i>Introduction à la psychanalyse</i> (1<sup>re</sup>  éd. 1921), trad. S. Jankélévitch, Paris, Payot, 2001, p.&nbsp;343-344.    '; footnotesRef[24]='25';</script><script>footnotes[25]='</span></span></span></span></a>  Jacques <span style=text-transform:uppercase>Lacan</span>, <i>Écrits</i>,  Paris, Seuil, 1966, p.&nbsp;516-517.    '; footnotesRef[25]='26';</script><script>footnotes[26]='</span></span></span></span></a>  Parmi ces bouleversements, la guerre, que le héros de <i>Comme le temps passe</i>,  de Robert <span style=text-transform:uppercase>Brasillach</span>, décrit  comme une forme de «&nbsp;dépaysement&nbsp;», [1937], Paris, Plon, 1989,  p.&nbsp;111.    '; footnotesRef[26]='27';</script><script>footnotes[27]='</span></span></span></span></a>  Franz KAFKA, <i>Œuvres complètes</i>, Paris, Gallimard, «&nbsp;Bibliothèque de  la Pléiade&nbsp;», 1976, p.&nbsp;453-455. Albert <span style=’text-transform:  uppercase’>Camus</span>, <i>Le Mythe de Sisyphe</i>, <i>in</i> <i>Essais</i>,  Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965, p.&nbsp;111,  et «&nbsp;Entre oui et non&nbsp;», <i>L’Envers et l’Endroit</i>, <i>ibid</i>.,  p.&nbsp;27. Jean-Paul <span style=’font-variant:small-caps’>SARTRE</span>, <i>La  Nausée</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris, Gallimard,  «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1981, p.&nbsp;152.    '; footnotesRef[27]='28';</script><script>footnotes[28]='</span></span></span></span></a>  Michel BUTOR, <i>La Modification</i>, Paris, Minuit, 1957, réédition UGE, 1970,  collection 10/18, p.&nbsp;152.    '; footnotesRef[28]='29';</script><script>footnotes[29]='</span></span></span></span></a>  Jean-Claude LARRAT, <i>Sans oublier Malraux</i>, Paris, Classiques Garnier,  2016, p.&nbsp;47.    '; footnotesRef[29]='30';</script><script>footnotes[30]='</span></span></span></span></a>  François RABELAIS, <i>Le Quart Livre</i>, chap. 55-56, éd. G. Defaux et R.  Marichal, Librairie Générale Française, 1994, chap.&nbsp;LIV-LVI,  p.&nbsp;529-545.    '; footnotesRef[30]='31';</script><script>footnotes[31]='</span></span></span></span></a>  Nicole <span style=’font-variant:small-caps’>LAPIERRE</span>, <i>Pensons  ailleurs</i> (1<sup>re</sup> éd. 2004), rééd. Paris, Gallimard,  «&nbsp;Folio-Essais&nbsp;», 2006, p.&nbsp;12. Le titre de cet essai est  emprunté à <span style=text-transform:uppercase>Montaigne</span>&nbsp;:  «&nbsp;Nous pensons toujours ailleurs&nbsp;» (chap. «&nbsp;De la  diversion&nbsp;», <i>Essais</i>, III, 4, Paris, Gallimard, «&nbsp;Bibliothèque  de la Pléiade&nbsp;», 1962, p.&nbsp;812.    '; footnotesRef[31]='32';</script><script>footnotes[32]='</span></span></span></span></a>  Cette extimité renvoie bien sûr à une conception nietzschéenne du sujet, dont  on retrouve l’écho chez Deleuze (avec, par exemple, la question du moi  rhizomatique).    '; footnotesRef[32]='33';</script><script>footnotes[33]='</span></span></span></span></a>  Cité par Clément <span style=’font-variant:small-caps’>ROSSET</span>, <i>Loin  de moi&nbsp;: Étude sur l’identité</i>, Paris, Minuit, 1999, p.&nbsp;91.  Fréquemment évoqué, entre autres par Luther qui trouve ce texte scandaleux  puisque le chrétien, lui, sait exactement d’où il vient et où il va, ce poème a  été l’objet de nombreuses polémiques quant à sa paternité, sa date (<span  style=’font-variant:small-caps’>XV</span><sup>e</sup> siècle&nbsp;?) et son  statut&nbsp;: épitaphe&nbsp;? prologue&nbsp;?    '; footnotesRef[33]='34';</script><script>
+var posx;var posy; 
+var fnRef = new Array();
+
+window.hidePop = function() {
+document.getElementById('pop').style.display='none';
+document.getElementById('mask').style.display='none';
+}
+
+window.getMouse =function(e){ 
+posx = 0;posy = 0; 
+if (!e) var e = window.event; 
+if (e.pageX || e.pageY){ 
+posx = e.pageX-10;posy = e.pageY-10; 
+} 
+else if (e.clientX || e.clientY){ 
+posx = e.clientX;posy = e.clientY; 
+} 
+} 
+
+
+</script>
+<div class=mask id=mask onclick="hidePop()"></div>
+ <div class=pop id=pop  onclick="hidePop()">ici <a href="#">mon texte</a> footnote <i>here</i> ©2016 TRB</div>
+
+<div class="mHeader mShadow mFormat">
+<div class='titreBandeau'>Numéro 4 | d&eacute;cembre 2018 | Le dépaysement / <i>Diario de un poeta recién casado</i></div>
+<div class='titreSousTitre'>Le dépaysement dans la littérature  et le cinéma aux XX<sup>e</sup> et XXI<sup>e</sup> siècles</div>
+<div class='titreOuvrage'>Dépaysement et déplacement&nbsp;: du rêve d’ailleurs au
+voyage immobile
+
+</div>
+<div class='titreAuteurs'>Jacques POIRIER</div>
+</div>
+
+<div class="mMenu1 mShadow mFormat"><list><ul>
+	<li><button onclick="Bmenu('',1)" >Résumé</button></li>	
+	<li><button onclick="Bmenu('',3)" >Plan</button></li>	
+	<li><button onclick="Bmenu('',2)" >Auteur(e)s</button></li>	
+	<li><button onclick="Bmenu('',4)" >Référence électronique</button></li>
+	<li><button onclick="Bmenu('',5)">Bibliographie</button></li>
+	<li><a href="_upload/pdf/4.1.8.POIRIER.pdf" download="4.1.8.POIRIER.pdf"><button onclick="Bmenu("",6)"> Télécharger le PDF </button></a></li>
+	</ul></list>
+</div> 
+<div class="mWrap mShadow mFormat" id="mWrap">
+    <div class="mPannel" id="mPannel">rien</div>
+</div>	
+<div class="mBook mShadow mFormat">
+<p class=MsoQuote align=right style='text-align:right'>On rencontre partout des
+gens qui ont des montres, et très rarement des gens qui ont des boussoles. On a
+toujours besoin de savoir l’heure [...] mais on ne se demande jamais où l’on
+est<span class=footnote onclick="showPop(event,this.innerHTML)";">1</span>.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=Paragraphe1>Au motif que Furetière ignore le terme, peut-on dire que,
+jusqu’au XVII<sup>e</sup> siècle, on ne connaissait pas le
+«&nbsp;dépaysement&nbsp;»&nbsp;? Ce serait aller un peu vite en besogne, car on
+connaissait bien le mot «&nbsp;dépaïser&nbsp;». Non sous la forme passive
+(subjective) –&nbsp;être ou se sentir dépaysé&nbsp;– mais sous la forme active
+(objective), à savoir dépayser quelqu’un ou quelque chose. Aujourd’hui encore,
+la langue du Palais a conservé cet usage quand le Parquet décide de dépayser
+une affaire afin qu’elle soit confiée à une autre juridiction. Mais l’usage
+transitif du verbe était alors de règle. Ainsi, dit Furetière, on dépayse un
+Religieux «&nbsp;qui a quelque mauvaise habitude&nbsp;», de façon à ce qu’il se
+retrouve en un lieu où nul ne le connaît. Ou bien, dans un sens différent,
+«&nbsp;on dépayse le provincial ou l’étranger de façon à ce qu’il perde son
+accent ou ses manières&nbsp;». Quant à Corneille, s’il a beaucoup emprunté à
+Lope de Vega pour <i>Le Menteur</i>, tout comme à Guillén de Castro pour <i>Le
+Cid</i>, on trouverait «&nbsp;peu de rapport entre l’Espagnol et le
+Français&nbsp;» car il a «&nbsp;entièrement dépaysé les sujets pour les
+habiller à la française&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">2</span>.</p>
+
+<p class=Paragraphe1>Ce qui frappe dans ces exemples, c’est que le dépaysement,
+pris au sens littéral, c’est-à-dire géographique, apparaît non comme l’effet
+d’un mouvement délibéré, mais comme le moyen de corriger une faute ou une
+anomalie –&nbsp;y compris chez Corneille puisque tout admirable qu’il soit,
+Lope de Vega doit être accommodé «&nbsp;à notre usage&nbsp;». Deux cents ans après,
+apparaît enfin une entrée «&nbsp;Dépaysement&nbsp;», chez Littré. Passé le sens
+géographique («&nbsp;faire changer de pays, de lieu&nbsp;»), le lexicographe
+nous propose alors des exemples très différents de Furetière. Car le
+«&nbsp;dépaysement&nbsp;» se dit également d’une personne qui ne peut retrouver
+son chemin&nbsp;; ou bien qui aborde un sujet nouveau pour elle. Le dépaysement
+n’apparaît donc plus comme une nécessité (se cacher, échapper à la pression du
+corps social&nbsp;; se débarrasser de ses travers), mais comme une
+épreuve&nbsp;: celui qui ne retrouve pas son chemin ou qui ignore le sujet à
+traiter se sent désemparé, ou plus exactement désorienté (il a «&nbsp;perdu
+l’Orient&nbsp;», comme on dit «&nbsp;perdre le Nord&nbsp;»). Ce qui confère au
+dépaysement une coloration négative, comme le confirme le <i>Trésor de la
+Langue française</i> qui, distinguant bien le sens géographique du sens
+psychologique, donne comme synonyme de «&nbsp;dépayser&nbsp;» ou
+«&nbsp;dépaysé&nbsp;» le terme «&nbsp;déconcerter&nbsp;» («&nbsp;Déconcerter
+quelqu’un en le transportant hors de son cadre habituel&nbsp;»). Et comme le
+dit lui aussi Pierre Bayard quand, dans <i>Comment parler des lieux où l’on n’a
+pas été</i>, il propose un petit lexique où l’on trouve l’entrée
+«&nbsp;Dévoyage&nbsp;» avec cette définition&nbsp;: «&nbsp;Manière de voyager
+caractérisée par la perte de la maîtrise des lieux et la dépossession de
+soi&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">3</span>.</p>
+
+<p class=Paragraphe1>L’étonnant est qu’une telle présentation semble ignorer la
+complexité sémantique du mot et l’ambivalence des affects qu’il peut susciter.
+À prendre les dictionnaires de langue à la lettre, on a l’impression qu’habiter
+un lieu va de soi et que tout arrachement suscite le trouble. Au point que les
+différentes notices associent systématiquement le dépaysement à une perte
+(perte des repères, de l’identité...). Il y a là un présupposé barrésien qui
+participe d’un imaginaire du sol natal. Or si, dans un monde ancien, le paysan
+craignait de devoir «&nbsp;quitter son cher pays pour s’en aller là-bas&nbsp;»
+(à en croire «&nbsp;Les Fiancés d’Auvergne&nbsp;»)<span class=footnote onclick="showPop(event,this.innerHTML)";">4</span>, il en va autrement quand le
+sujet se sent en porte-à-faux dans le monde et peine à trouver ses repères. En
+effet, dès lors que nous avons rompu le pacte au terme duquel le paysage où
+nous nous inscrivons constitue notre horizon de pensée, la question du
+dépaysement doit être examinée à nouveaux frais.</p>
+
+<p class=Paragraphe1>Comme dans le Livre des Juges (XII, 6), le terme de
+«&nbsp;dépaysement&nbsp;» constitue ainsi un schibboleth. En effet, tandis que
+certains conjurent le risque de désarroi (ce que l’on éprouve quand se rompt
+l’arroi) en traversant le monde sans se commettre avec lui, d’autres voient
+dans le dépaysement la réponse à un mal être, qui les fait se sentir en exil
+dans leur propre pays (en étrange pays dans leur pays lui-même). Mais peut-être
+que le malentendu tient à la conjonction, dans le même mot, du dépaysement
+comme déplacement et du dépaysement comme sentiment. Comme si l’un était la
+condition de l’autre. Or, au plan psychologique, les plus dépaysants sont
+souvent les voyages immobiles, lorsque tout à coup le monde nous apparaît dans
+une autre lumière et fait vaciller les certitudes.</p>
+
+<h1>Je ne suis pas là où je devrais être</h1>
+
+<p class=Paragraphe1>Le dépaysement constitue une réponse obligée à qui ne peut
+habiter le lieu qui lui a été assigné. «&nbsp;Je ne suis pas là où je devrais
+être&nbsp;»&nbsp;: tel est le leitmotiv que scande une bonne part de la
+modernité. Pareil cri peut s’entendre dans le domaine social (je ne suis pas
+fait pour demeurer un simple précepteur, se dit Julien Sorel), dans le domaine
+temporel (Je ne suis pas de ce siècle, pour Don Quichotte ou bien pour
+l’héroïne de <i>Le Belle au bois</i>)<span class=footnote onclick="showPop(event,this.innerHTML)";">5</span>
+mais plus encore au plan existentiel. À relire «&nbsp;La Vie antérieure&nbsp;»
+(«&nbsp;J’ai longtemps habité sous de vastes portiques / Que les soleils
+couchants teintaient de mille feux&nbsp;»)<span class=footnote onclick="showPop(event,this.innerHTML)";">6</span>,
+on mesure à quel point le sujet se condamne à vivre sous le signe de la perte,
+sous l’effet d’une conscience malheureuse, pour le dire comme Hegel<span class=footnote onclick="showPop(event,this.innerHTML)";">7</span>. Car dès lors que le
+monde où nous vivons nous apparaît comme un pur simulacre, il est séduisant
+d’imaginer l’ailleurs comme son «&nbsp;vrai lieu&nbsp;» – quand bien même,
+suggère la fin de «&nbsp;La Vie antérieure&nbsp;», le moi continue, en plein
+cœur de l’Eden, de porter en lui un «&nbsp;secret douloureux&nbsp;».</p>
+
+<p class=Paragraphe1>Dans ce dispositif mélancolique, la géographie (réelle ou
+imaginaire) a donc valeur de <i>pharmakon</i>, puisqu’elle est à la fois le mal
+(sans la géographie, je n’aurais pas eu conscience de l’exil qui est le mien)
+et le remède (mais sans la géographie, je ne pourrais espérer retrouver les
+«&nbsp;vastes portiques&nbsp;» sous lesquels j’ai habité). N’en déplaise à
+Clément Rosset, le monde serait donc «&nbsp;double&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">8</span>. Charge à nous de rejoindre
+l’autre versant du réel dont notre mémoire, étrangement, conserve la trace<b>. </b></p>
+
+<p class=Paragraphe1>De ce «&nbsp;vrai lieu&nbsp;», le nom est légion. Dans <i>Les
+Paradisiaques</i><span class=footnote onclick="showPop(event,this.innerHTML)";">9</span>,
+Pascal Quignard dresse une liste de ces pays rêvés, aux antipodes du nôtre,
+dont les textes attestent l’existence, mais que l’on peine à situer. Car il en
+va d’eux comme de l’Eden qui, jusqu’au XVIII<sup>e</sup> siècle, figurait sur
+certaines cartes de géographie<span class=footnote onclick="showPop(event,this.innerHTML)";">10</span>,
+mais dont pourtant nul n’a retrouvé le chemin. Du moins en a-t-on trouvé des
+substituts&nbsp;: îles mystérieuses des mers du Sud, Orient extrême, cités
+inaccessibles..., comme si à vouloir échapper à un lieu inauthentique, on ne
+cessait de poursuivre des fantômes – avec cet arrachement à soi que promettent
+des sonorités telles que Lhassa, Tombouctou ou Savannaket. Certains en auront
+fait leur «&nbsp;vrai lieu&nbsp;»&nbsp;(Gide à Biskra, cette oasis où prévaut
+la loi du désir), mais de telles retrouvailles ont quelque chose d’illusoire
+car il y a peu de chances que l’on accède jamais au «&nbsp;pays des
+merveilles&nbsp;», réservé à Alice, ou à Neverland, propre à Peter Pan. Car
+cette géographie imaginaire transpose en réalité une expérience
+temporelle&nbsp;: à la fin de la nuit initiatique, dans l’île des Enfants (le
+Capitaine Crochet, le crocodile...), l’héroïne doit regagner le monde réel<span class=footnote onclick="showPop(event,this.innerHTML)";">11</span>. Car si les mers du
+Sud et les cités mystérieuses au cœur du continent noir ou jaune nous séduisent
+à ce point, c’est que le dépaysement relatif du voyage dans l’espace se double
+de ce dépaysement absolu qu’est le voyage dans le temps. En effet, cet ailleurs
+est un avant, comme l’avait remarqué Montaigne dans un célèbre chapitre des <i>Essais</i>
+(«&nbsp;Des coches&nbsp;») et comme l’ont répété après lui, aussi bien Diderot
+que Claude Lévi-Strauss.</p>
+
+<p class=Paragraphe1>L’aspiration au dépaysement a donc partie liée avec une
+forme de bovarysme, dès lors que le départ est censé répondre à une
+souffrance&nbsp;: l’impossibilité à habiter le lieu que le destin nous a
+assigné. D’où ce double mouvement qui voit, dans de nombreux romans, le héros
+recourir au dépaysement pour se donner l’illusion du recommencement
+(l’imaginaire auroral de la seconde naissance), avant que ne revienne le temps
+des illusions perdues. Dans le prière d’insérer de <i>Loin</i>, l’un de ses
+premiers romans, J.-B. Pontalis présente ainsi son ouvrage&nbsp;: «&nbsp;Ce
+récit retrace l’expérience d’un dépaysement. Une ville étrangère en est le
+lieu&nbsp;: Mymia. Des femmes en sont l’instrument&nbsp;: Alix et Angèle
+[...].&nbsp;» Mais, ajoute-t-il, si «&nbsp;le dépaysement est d’abord vécu dans
+un sentiment de vacance et de légèreté, [...] il vire progressivement au
+malaise, à la dépossession de soi, à l’exil&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">12</span>.</p>
+
+<p class=Paragraphe1>Alors que le dépaysement était censé arracher le sujet à
+lui-même, il le confronte finalement à ses limites (le «&nbsp;secret
+douloureux&nbsp;», à la fin de «&nbsp;La Vie antérieure&nbsp;»&nbsp;; ces
+«&nbsp;anciennes blessures&nbsp;», que redécouvre le héros de Pontalis). En
+effet, un dépaysement radical devrait déboucher sur une véritable métamorphose.
+Or, Lawrence d’Arabie n’est jamais devenu un Arabe&nbsp;; pas plus que Mayrena,
+dans <i>Le Règne du Malin</i>, ne deviendra un Moï<span class=footnote onclick="showPop(event,this.innerHTML)";">13</span>. Ni l’un ni l’autre n’aura
+franchi la limite. Mais il est vrai que si la métamorphose était totale, le
+sujet n’aurait plus conscience de son dépaysement, puisque, pour être éprouvé,
+un tel sentiment exige que demeure la conscience de soi<span class=footnote onclick="showPop(event,this.innerHTML)";">14</span>.</p>
+
+<p class=Paragraphe1>Il y a là une aporie qui tient à une trop grande confiance
+dans les vertus de l’ailleurs. Ou peut-être que le malentendu provient des
+ambiguïtés du mot «&nbsp;dépaysement&nbsp;», qui donne à croire que le sens
+littéral (géographique) est garant du second (psychologique). Si un déplacement
+procurait à lui seul un sentiment de dépaysement, les deux niveaux de
+signification seraient à jointure. Mais le paradoxe tient à leur fréquente
+disjonction, car on peut accéder aux confins du monde tout en demeurant
+identique à soi-même, tandis qu’on peut éprouver au plus près l’expérience du
+dépaysement lorsque l’univers familier change tout à coup de visage.</p>
+
+<h1><a href='#'  name="_Toc467492157"></a><a href='#'  name="_Toc467429522"></a><a
+name="_Toc341268789">Je suis chez moi même ailleurs</a></h1>
+
+<p class=Paragraphe1>Du fait que le dépaysement «&nbsp;désoriente&nbsp;» et
+«&nbsp;déconcerte&nbsp;», comme disent les dictionnaires, il constitue une
+menace. Ce qui explique les conduites d’évitement propres aux
+«&nbsp;universalistes&nbsp;», qui traversent le monde en toute indifférence,
+soucieux de ne se laisser pas émouvoir par l’entour. En effet, pour tous ceux
+qu’affecte le «&nbsp;syndrome Phileas Fogg&nbsp;», il peut y avoir translation
+sans altération<span class=footnote onclick="showPop(event,this.innerHTML)";">15</span>.
+Insensible au sentiment de dépaysement comme d’ailleurs à tout sentiment,
+Phileas Fogg ne connaît du monde que ce que lui en disent les horaires des
+trains et des paquebots –&nbsp;substituant ainsi au trouble du vivant les
+certitudes de la mathématique<span class=footnote onclick="showPop(event,this.innerHTML)";">16</span>.
+Au regard de la question qui est nôtre, un tel roman théâtralise à merveille le
+double jeu de la révolution technicienne et du colonialisme, qui tout à la fois
+célèbre l’ailleurs (le voyage, l’exotisme) mais réduit le multiple à l’Un, en
+se proposant de soumettre un monde sauvage à la rationalité occidentale.</p>
+
+<p class=Paragraphe1>Phileas Fogg aura donc traversé le monde sans quitter
+l’Angleterre. Tout comme, dans la seconde moitié du XX<sup>e</sup> siècle, le
+Robinson de Michel Tournier, dans <i>Vendredi ou les Limbesdu Pacifique</i>,
+une fois passé le moment de sidération qui suit le naufrage, voyage à rebours
+en faisant de l’île administrée une Nouvelle-Angleterre. Seul sur Speranza,
+Robinson conjure tout risque de dépaysement en «&nbsp;dépaysant&nbsp;» l’île,
+au sens où Furetière emploie le mot pour dire d’un étranger ou d’un provincial
+qu’on l’a débarrassé de ses traits spécifiques. La première partie du roman, où
+Robinson réinvente l’agriculture et l’État (la charte), consiste en effet en
+une annulation de la différence –&nbsp;condition de possibilité du dépaysement&nbsp;–,
+comme s’il convenait de rendre le monde monochrome (Vendredi en nègre blanc) et
+monotone (une île du Pacifique sud devenue une petite Europe). Le dépaysement
+est donc devenu problématique à mesure que le monde se mettait à parler une
+seule langue&nbsp;: la technique, le capitalisme et l’anglais.</p>
+
+<p class=Paragraphe1>Mais la remise en cause des «&nbsp;pays&nbsp;» –&nbsp;un imaginaire
+borné par un paysage&nbsp;– a des racines plus anciennes. C’est ce que l’on
+mesure à rapprocher deux scènes emblématiques. Dans une page bien connue des <i>Mythologies</i>,
+Roland Barthes rappelle que, lors d’un voyage en Afrique noire, André Gide
+«&nbsp;lisait du Bossuet en descendant le fleuve Congo&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">17</span>. Une soixantaine d’années plus
+tard, le héros de <i>La Salle de bain</i>, de Jean-Philippe Toussaint, quittant
+pour une fois sa salle d’eau, se rend dans une ville d’eau, à savoir
+Venise&nbsp;; mais là, indifférent au Grand Canal et à San Marco, il ne quitte
+guère son hôtel où il lit (en anglais&nbsp;!) les <i>Pensées</i> de Pascal,
+trouvées par hasard<span class=footnote onclick="showPop(event,this.innerHTML)";">18</span>.
+Pour différentes que soient ces œuvres, les deux scènes reflètent la même
+indifférence au monde extérieur, et donc l’impossibilité du dépaysement. Ce à
+quoi l’aventure du voyage expose, l’auteur ou le personnage s’y refuse. Au cœur
+de l’Afrique ou de la cité des Doges, ils se plongent dans les classiques du XVII<sup>e</sup>
+siècle français, peu sensibles à la diversité du monde. Plus précisément, ils
+en appellent l’un et l’autre à des auteurs spirituels. Or, à considérer
+l’horizon de pensée d’un Pascal ou d’un Bossuet, on voit que le dépaysement
+occupe une place paradoxale. Certes, il y eut au commencement ce dépaysement
+qu’a connu l’homme déchu quand l’Éternel l’a expulsé de l’Eden. Mais depuis ce
+désastre inaugural, le dépaysement est devenu impossible car, dans une
+perspective théologique, l’homme est partout le même. Les costumes et les
+coutumes peuvent varier&nbsp;; mais par-delà les apparences, c’est bien
+toujours de la même humanité déchue que nous parlons. L’étrange est donc que le
+christianisme en vient à annuler la possibilité du dépaysement, alors qu’il a
+été lui-même une religion dépaysée, quittant Jérusalem pour Rome, abandonnant
+l’hébreu pour le latin, et oubliant les rituels instaurés par l’Ancien
+Testament (par exemple la circoncision). Or c’est cette religion dépaysée qui
+s’est située dans une perspective universaliste, annulant les frontières et les
+identités particulières.</p>
+
+<p class=Paragraphe1>Comme on le sait, les dieux se sont tus. Mais l’empreinte
+demeure. Si bien que la modernité occidentale apparaît l’héritière de cet
+universalisme premier. La proximité est donc plus grande qu’on ne peut le
+penser entre les prométhéens (Robinson Crusoé) et les augustiniens&nbsp;: pour
+les premiers, héritiers du dieu-artisan dans le <i>Timée</i><span class=footnote onclick="showPop(event,this.innerHTML)";">19</span>, il convient de mettre en ordre
+le monde, jusqu’à ce qu’il s’ordonne selon les lois de la raison (une et
+indivisible)&nbsp;; pour les seconds, qui voient le monde à travers le prisme
+de la métaphysique, l’humanité connaît en tous lieux la même condition. Du
+coup, chez des auteurs comme Beckett et Céline, le temps ni l’espace n’existe
+puisqu’il n’y a rien de nouveau sous le soleil et que le Mal est universel. Le
+héros de <i>Voyage...</i> peut bien arpenter le monde, partout il rencontre la
+«&nbsp;nuit&nbsp;». Quel voyage envisager alors, quand le monde est un
+«&nbsp;cabanon&nbsp;» ou une «&nbsp;prison&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">20</span> (même si, dit Marguerite
+Yourcenar, «&nbsp;il nous faut malgré tout en faire le tour&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">21</span>)&nbsp;? Les fameuses
+maximes qui émaillent le texte de Céline nous épargnent d’ailleurs toute
+surprise&nbsp;: dès lors qu’il existe une nature humaine immuable, l’homme et
+le monde sont partout les mêmes. Pour le moraliste, le déplacement est donc
+l’occasion, non d’un dépaysement mais d’une confirmation. Alors que le héros
+d’un roman d’initiation ou de formation, arraché à son lieu premier, s’expose à
+toutes les formes de dépaysement (géographique, social, culturel...), celui
+d’un «&nbsp;roman de confrontation&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">22</span>
+détient d’emblée le savoir. Pour cette famille de héros, le monde est sommé,
+non de nous déconcerter, mais de répondre à notre attente<span class=footnote onclick="showPop(event,this.innerHTML)";">23</span>. Et si jamais il semble s’y
+refuser, on est en droit de le soumettre.</p>
+
+<p class=Paragraphe1>Mais le monde ne répond pas toujours comme il faudrait. Du
+coup, celui qui croyait savoir et avait l’illusion de pouvoir, s’expose à cette
+dépossession, ou à cette déliaison, qu’est le dépaysement. Ce dépaysement qui
+soudain nous dépouille de tous nos alibis.</p>
+
+<h1>Je ne suis pas là où je croyais être</h1>
+
+<p class=Paragraphe1>Malgré la charge sémantique du mot, cette dépossession ne relève
+pas forcément d’un déplacement dans l’espace –&nbsp;même si ce dernier en
+demeure souvent l’occasion ou le prétexte&nbsp;–mais plus sûrement d’un
+déplacement de la focale. Ou, si l’on préfère les métaphores spatiales, le
+dépaysement équivaut à un décentrement, comme dans ces cartes qui, à l’encontre
+de nos usages, placent au centre un point géographique remarquable (l’un des
+Pôles), ou bien proportionnent les territoires à d’autres critères que la
+surface (richesse par habitant&nbsp;; ressources en eau, etc.). Il s’agit bien
+toujours du monde que nous connaissons&nbsp;; et pourtant nous peinons à le
+reconnaître, du fait que l’échelle ou bien le centre en ont été changés. En
+effet, tant qu’il existe un point fixe par rapport auquel se situer
+(géographiquement et intellectuellement), le dépaysement ne peut être que
+transitoire. On comprend donc la charge affective qui entoure ce point
+imaginaire, qui a donné naissance à un véritable «&nbsp;syndrome de
+l’Omphalos&nbsp;», comme dit Bertrand Westphal<span class=footnote onclick="showPop(event,this.innerHTML)";">24</span>.</p>
+
+<p class=Paragraphe1>Les désemparés, qui attendent tout de l’ailleurs, ont
+l’impression de ne pas vivre là où ils auraient dû être&nbsp;; à l’inverse, les
+dépaysés –&nbsp;ceux qui ont fait l’expérience d’un dépaysement tout intérieur&nbsp;–
+s’aperçoivent soudain qu’ils ne sont plus où ils croyaient. Tel est bien ce qui
+est arrivé à l’homme occidental, lui qui s’était attribué la meilleure
+place&nbsp;: au centre du cosmos et au sommet des espèces. Or, pour reprendre
+un propos fameux de Freud<span class=footnote onclick="showPop(event,this.innerHTML)";">25</span>,
+si l’on repense aux blessures narcissiques qu’a subies l’humanité –&nbsp;à
+savoir la révolution copernicienne, le bouleversement darwinien et
+«&nbsp;l’invention&nbsp;» de l’inconscient&nbsp;–, on s’aperçoit que ces
+traumas collectifs consistent à chaque fois en un dépaysement, suite à un
+décentrement. Avec Copernic, celui qui se croyait au centre se découvre en périphérie&nbsp;;
+avec Darwin, celui qui bénéficiait d’un statut d’exception réintègre la loi
+commune&nbsp;; et avec l’inconscient, le maître du monde renonce à être le
+maître en sa propre demeure. Exit le cogito et son impossibilité du dépaysement
+(<i>ubi cogito, ibisum</i>), car dès lors que l’inconscient mène le jeu,
+«&nbsp;je pense où je ne suis pas&nbsp;», et du même coup «&nbsp;je suis où je
+ne pense pas&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">26</span>,
+comme le dit Jacques Lacan, usant d’une métaphore spatiale qui traduit bien
+cette expropriation.</p>
+
+<p class=Paragraphe1>La «&nbsp;crise de la conscience occidentale&nbsp;»
+procède de cette dépossession qu’est le dépaysement –&nbsp;vécu difficilement
+par qui eut longtemps l’impression d’occuper légitimement la première place. Et
+à travers la référence coloniale, qui en constitue le miroir grossissant, c’est
+à cette déprise que renvoie <i>Vendredi ou les limbes du Pacifique</i>,
+commencé à un moment (1962) où l’homme blanc était en train d’abdiquer une part
+de ses prétentions. Car après avoir regardé en arrière, comme le note Gilles
+Deleuze dans «&nbsp;Michel Tournier et le monde sans autrui&nbsp;» (postface de
+l’édition «&nbsp;Folio&nbsp;»), voilà que Robinson soupçonne l’existence d’une
+«&nbsp;autre île&nbsp;». Alors qu’une longue traversée n’avait en rien altéré
+son identité, Robinson accomplit un voyage immobile dont il sort transformé
+(l’accès à l’extase solaire et aux «&nbsp;limbes&nbsp;»). Et c’est bien ce
+voyage immobile qui suscite un dépaysement radical. Le dépaysement ne procède
+donc pas du monde, mais de soi. En cela, le roman de Tournier, publié en 1967,
+arrivait au moment où vacillaient toute une série de «&nbsp;grands
+récits&nbsp;» (le catholicisme, le marxisme, l’ambition prométhéenne...), et où
+une adhésion naïve au monde cédait la place au soupçon.</p>
+
+<p class=Paragraphe1>Mais par-delà ces bouleversements historiques<span class=footnote onclick="showPop(event,this.innerHTML)";">27</span>, notre position a
+été délégitimée par la philosophie occidentale elle-même. Des penseurs
+classiques, comme Descartes et Spinoza, pouvaient s’opposer sur bien des
+points, mais tous deux assignaient à l’homme sa juste place au sein du réel. Au
+contraire, les philosophies existentielles, qui auront dominé le XX<sup>e</sup>
+siècle, n’ont eu de cesse de remettre en cause la place de l’homme dans le
+monde, devenue soudain illégitime. On pense à Kafka quand, dans la cathédrale,
+l’abbé raconte à K. la parabole de «&nbsp;l’homme de la campagne&nbsp;»
+attendant sur le seuil sans oser le franchir&nbsp;; à Camus, où le moi se sent
+«&nbsp;pour toujours étranger à [lui]-même&nbsp;», où le héros
+d’&nbsp;«&nbsp;Entre oui et non&nbsp;», appelé d’urgence au chevet de sa mère,
+se sent «&nbsp;dépaysé comme jamais il ne l’avait été&nbsp;» dès lors que s’est
+dissipée «&nbsp;l’illusion que la vie recommence tous les jours&nbsp;»&nbsp;;
+ou bien encore à Sartre, lorsque Roquentin, contemplant dans le square les
+fameuses racines, découvre soudain que chaque figurant de cette scène est
+«&nbsp;de trop&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">28</span>.
+Alors que chez Maurice Barrès, les «&nbsp;racines&nbsp;» assignaient à chacun
+un lieu –&nbsp;un «&nbsp;pays&nbsp;»&nbsp;–, le dégoût qu’elles suscitent fait
+de Roquentin un «&nbsp;déraciné&nbsp;» –&nbsp;tout comme est déraciné le paysan
+de Kafka, voué à un entre-deux. Dès lors qu’il n’est pas question ici de
+s’enfuir vers quelque ailleurs (les aventures indochinoises de Roquentin ne
+sont plus de mise&nbsp;; et Rollebon n’est qu’une fiction consolante), le héros
+doit affronter cette forme de dépaysement existentiel que constitue le silence
+du monde, c’est-à-dire son indifférence (fût-elle «&nbsp;tendre&nbsp;», comme
+chez Albert Camus). Héritier dépossédé, chacun de ces personnages doit
+affronter le désarroi de ces occupants légitimes qui se découvrent soudain
+dépourvus de titres de séjour et qui, à la question du Grand Veneur, dans <i>La
+Modification</i>, ne peuvent dire ni qui ils sont ni où ils se trouvent<span class=footnote onclick="showPop(event,this.innerHTML)";">29</span>.</p>
+
+<p class=Paragraphe1>Le dépaysement est donc l’apanage d’un univers du relatif.
+Car dans un temps lointain, où le monde était peuplé de certitudes, il n’y
+avait place pour lui. Bons chrétiens, les voyageurs «&nbsp;n’attendaient aucune
+étrangeté [...] bouleversante des peuples de la terre qu’ils rencontraient sur
+leur chemin&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">30</span>&nbsp;;
+pas plus que ne les déconcertait la géographie eschatologique de <i>La Divine <a
+name="_GoBack"></a>Comédie</i>. Dans pareil univers mental, la rencontre de
+l’absolu pouvait susciter un foudroiement&nbsp;: Saul sur le chemin de Damas,
+anéanti jusqu’à changer de nom. Lors de cette confrontation au Grand Autre, le
+sujet était arraché à lui-même. Mais ce foudroiement peut-il être considéré
+comme un dépaysement&nbsp;? On serait tenté de le croire puisque la conversion
+consiste, métaphoriquement, à aborder en terre inconnue&nbsp;: Saul sur la
+route de Damas, les apôtres partant sur la route, le Christ lui-même
+disant&nbsp;: «&nbsp;Je suis la voie&nbsp;». Mais le dépaysement consiste-t-il
+à dépouiller entièrement le vieil homme&nbsp;? Certainement pas, du fait qu’il
+procède à la fois d’une altération et d’une permanence (une mémoire). Le
+dépaysement, ce cheminement déconcertant, n’est donc pas l’apanage du voyageur
+des extrêmes, mais une expérience commune, propre au simple fait d’exister.</p>
+
+<p class=Paragraphe1>Vivre, en effet, c’est affronter un état de dépaysement
+permanent, dont il nous revient de déterminer la nature et la couleur. On peut
+choisir d’être au monde sur le mode du dépaysement mélancolique comme le
+Robinson Crusoé de Saint-John Perse une fois revenu à Londres, dans les <i>Images
+à Crusoé</i>&nbsp;; et se complaire dans ces grandes fictions métaphysiques,
+comme l’allégorie de la Caverne ou le mythe de la Chute, pour qui le fait
+d’être homme procède d’un dépaysement originel. Mais on peut tout autant
+s’ouvrir à l’événement, perçu comme avènement&nbsp;; et faire de cet
+ébranlement une forme de ravissement. En effet, comme dans la fable des
+«&nbsp;paroles gelées&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">31</span>,
+le dépaysement réintroduit le mouvement dans ce qui s’était figé. Contre le
+risque du repli, il oblige à «&nbsp;sortir de chez soi&nbsp;», et par là même
+nous offre la possibilité de penser notre existence et de penser le monde,
+puisqu’il nous amène à «&nbsp;déplier des questions enfouies sous d’illusoires
+convictions&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">32</span>.</p>
+
+<p class=Paragraphe1>À condition d’en finir avec l’illusion d’un moi jaloux de
+son intimité et d’opter au contraire pour un sujet poreux, pour un moi
+«&nbsp;extime&nbsp;»<span class=footnote onclick="showPop(event,this.innerHTML)";">33</span>,
+on peut donc redonner à ce dépaysement ontologique toute sa positivité, le
+constituer en premier moteur et trouver en lui la meilleure manière d’habiter
+le monde, comme le suggère l’épitaphe de Martinusvon Biberach&nbsp;:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoQuote>Je viens je ne sais d’où,</p>
+
+<p class=MsoQuote>Je suis je ne sais qui,</p>
+
+<p class=MsoQuote>Je meurs je ne sais quand,</p>
+
+<p class=MsoQuote>Je vais je ne sais où,</p>
+
+<p class=MsoQuote>Je m’étonne d’être aussi joyeux<span class=footnote onclick="showPop(event,this.innerHTML)";">34</span>.<div id=ftn1>
+
+<p class=MsoFootnoteText><a href="#_ftnref1" name="_ftn1" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[1]</span></span></span></span></a>
+Georges PEREC, <i>Espèces d’espaces&nbsp;: Journal d’un usager de l’espace</i> (1<sup>re</sup>
+éd. 1974), Paris, Denoël/Gonthier, 1976, p.&nbsp;126.</p>
+
+</div>
+
+<div id=ftn2>
+
+<p class=MsoFootnoteText><a href="#_ftnref2" name="_ftn2" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[2]</span></span></span></span></a><span
+lang=EN-GB> </span>Pierre <span style='font-variant:small-caps'>C</span><span
+style='text-transform:uppercase'>orneille</span>, «&nbsp;Au lecteur&nbsp;», <i>Le
+Menteur</i>, <i>Théâtre complet</i>, II, Paris, Classiques Garnier, 1960,
+p.&nbsp;146.</p>
+
+</div>
+
+<div id=ftn3>
+
+<p class=MsoFootnoteText><a href="#_ftnref3" name="_ftn3" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[3]</span></span></span></span></a>
+Pierre BAYARD, <i>Comment parler des lieux où l’on n’a pas été</i>, Paris,
+Minuit, 2011, p.&nbsp;211.</p>
+
+</div>
+
+<div id=ftn4>
+
+<p class=MsoFootnoteText><a href="#_ftnref4" name="_ftn4" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[4]</span></span></span></span></a>
+«&nbsp;Les Fiancées d’Auvergne&nbsp;» est une chanson populaire interprétée par
+André VERCHUREN, en 1961.Voir&nbsp;: <span lang=EN-GB><a
+href="http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne"><span
+lang=FR>http://fr.lyrics.wikia.com/wiki/Andr%C3%A9_Verchuren/Les_fianc%C3%A9s_d%27Auvergne</span></a></span>,
+consulté le 27/07/2018.</p>
+
+</div>
+
+<div id=ftn5>
+
+<p class=MsoFootnoteText><a href="#_ftnref5" name="_ftn5" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[5]</span></span></span></span></a>
+Dans cette réécriture de PERRAULT qu’est <i>La Belle au bois</i> (Paris,
+Gallimard, 1989), de Philippe <span style='font-variant:small-caps'>B</span><span
+style='text-transform:uppercase'>eaussant</span>, la princesse mesure à de
+petits écarts (de costume, de parlures...) le temps pendant lequel elle a
+dormi.</p>
+
+</div>
+
+<div id=ftn6>
+
+<p class=MsoFootnoteText><a href="#_ftnref6" name="_ftn6" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[6]</span></span></span></span></a>
+Charles BAUDELAIRE, <i>Les Fleurs du mal</i>, Paris, Gallimard, poésie-nrf,
+2006, p.&nbsp;47.</p>
+
+</div>
+
+<div id=ftn7>
+
+<p class=MsoFootnoteText><a href="#_ftnref7" name="_ftn7" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[7]</span></span></span></span></a>
+La «&nbsp;conscience malheureuse&nbsp;» procède du motif hégélien du
+«&nbsp;tombeau vide&nbsp;», tel que les Saintes Femmes découvrent le tombeau du
+Christ. </p>
+
+</div>
+
+<div id=ftn8>
+
+<p class=MsoFootnoteText><a href="#_ftnref8" name="_ftn8" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[8]</span></span></span></span></a>
+Clément ROSSET, <i>Le réel et son double</i>, Paris, Gallimard, 1976.</p>
+
+</div>
+
+<div id=ftn9>
+
+<p class=MsoFootnoteText><a href="#_ftnref9" name="_ftn9" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[9]</span></span></span></span></a>
+Pour la question&nbsp;: «&nbsp;Où est situé l’Eden&nbsp;», voir Pascal
+QUIGNARD, <i>Les Paradisiaques</i> (1<sup>re</sup> éd. 2005), Paris, Gallimard,
+«&nbsp;Folio&nbsp;», 2007, p.&nbsp;21-22.</p>
+
+</div>
+
+<div id=ftn10>
+
+<p class=MsoFootnoteText><a href="#_ftnref10" name="_ftn10" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[10]</span></span></span></span></a>
+Sur ce point, je renvoie à Jean DELUMEAU, <i>Une histoire du Paradis</i>,
+Paris, Fayard, 1992.</p>
+
+</div>
+
+<div id=ftn11>
+
+<p class=MsoFootnoteText><a href="#_ftnref11" name="_ftn11" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[11]</span></span></span></span></a>
+Cette relation avec le réel est justement ce qui pose problème au pasteur
+Charles DODGSON, c’est-à-dire Lewis Carroll (les fillettes, la photographie) et
+à James BARRIE, le créateur de Peter Pan (le nanisme).</p>
+
+</div>
+
+<div id=ftn12>
+
+<p class=MsoFootnoteText><a href="#_ftnref12" name="_ftn12" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[12]</span></span></span></span></a>
+J.-B. <span style='font-variant:small-caps'>P</span><span style='text-transform:
+uppercase'>ontalis</span>, <i>Loin</i> (1<sup>re</sup> éd. 1980), Paris,
+Gallimard, «&nbsp;Folio&nbsp;», 1992. Signalé par Michel <span
+style='font-variant:small-caps'>G</span><span style='text-transform:uppercase'>ribinski</span>
+dans son article intitulé «&nbsp;Dépaysement&nbsp;», <i>Le Royaume
+intermédiaire&nbsp;: Psychanalyse, littérature, autour de J.-B. Pontalis, </i>Paris,
+Gallimard, «&nbsp;Folio-Essais&nbsp;», 2007.</p>
+
+</div>
+
+<div id=ftn13>
+
+<p class=MsoFootnoteText><a href="#_ftnref13" name="_ftn13" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[13]</span></span></span></span></a>
+Pour Lawrence d’Arabie&nbsp;: «&nbsp;Comment me faire une peau arabe&nbsp;? Ce
+fut de ma part affectation pure&nbsp;», <i>Les Sept Piliers de la sagesse</i>,
+notice «&nbsp;Lawrence d’Arabie&nbsp;», <i>Dictionnaire des mythes
+d’aujourd’hui</i>, s. d. Pierre <span style='font-variant:small-caps'>B</span><span
+style='text-transform:uppercase'>runel</span>, Monaco, Du Rocher, 1999,
+p.&nbsp;423. Pour Malraux, voir Jean-Claude LARRAT, «&nbsp;Les deux tentations
+d’André Malraux&nbsp;» et «&nbsp;La métamorphose comme expérience de la
+liberté&nbsp;», <i>in</i> <i>Sans oublier Malraux</i>, Paris, Classiques
+Garnier, 2016.</p>
+
+</div>
+
+<div id=ftn14>
+
+<p class=MsoFootnoteText><a href="#_ftnref14" name="_ftn14" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[14]</span></span></span></span></a>
+On trouve un bel exemple de cette difficulté dans le roman de François <span
+style='text-transform:uppercase'>Garde</span>, <i>Ce qu’il advint du Sauvage
+blanc</i> (Paris, Gallimard, 2012), où le héros, abandonné sur une île et
+devenu un «&nbsp;sauvage&nbsp;», refuse à son retour, à mesure qu’il réapprend
+le français, de parler de son état antérieur. Comme s’il fallait conserver intacte
+la césure.</p>
+
+</div>
+
+<div id=ftn15>
+
+<p class=MsoFootnoteText><a href="#_ftnref15" name="_ftn15" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[15]</span></span></span></span></a>
+Sa relation entre altération et altération, voir Michel <span style='font-variant:
+small-caps'>T</span><span style='text-transform:uppercase'>ournier</span>, <i>Les
+Météores</i> (1<sup>re</sup> éd. 1975), Paris, Gallimard, «&nbsp;Folio&nbsp;»,
+1977, p.&nbsp;549.</p>
+
+</div>
+
+<div id=ftn16>
+
+<p class=MsoFootnoteText><a href="#_ftnref16" name="_ftn16" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[16]</span></span></span></span></a>
+Sur Phileas Fogg et <i>Le Tour du monde en quatre-vingts jours</i> comme roman
+philosophique, voir Michel <span style='text-transform:uppercase'>Tournier</span>,
+<i>Les Météores</i> (<i>op.&nbsp;cit</i>., p.&nbsp;400-402) et <i>Le Vent
+Paraclet</i> (1<sup>re</sup> éd. 1977), Paris, Gallimard, «&nbsp;Folio&nbsp;»,
+1979, p.&nbsp;273-276).</p>
+
+</div>
+
+<div id=ftn17>
+
+<p class=MsoFootnoteText><a href="#_ftnref17" name="_ftn17" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[17]</span></span></span></span></a>
+«&nbsp;Gide lisait du Bossuet en descendant le Congo. Cette posture résume
+assez bien l’idéal de nos écrivains ‘en vacances’, photographiés par <i>Le
+Figaro</i>&nbsp;: joindre au loisir banal le prestige d’une vocation que rien
+ne peut arrêter ni dégrader&nbsp;», Roland BARTHES, <i>Mythologies</i> (1<sup>re</sup>
+éd. 1957), <i>Œuvres complètes</i>, I, Paris, Seuil, 1993, p.&nbsp;580.</p>
+
+</div>
+
+<div id=ftn18>
+
+<p class=MsoFootnoteText><a href="#_ftnref18" name="_ftn18" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[18]</span></span></span></span></a>
+Jean-Philippe <span style='text-transform:uppercase'>Toussaint</span>, <i>La
+Salle de bain</i>, Paris, Minuit,&nbsp;1985<b>, </b>p.&nbsp;82 et p.&nbsp;87.</p>
+
+</div>
+
+<div id=ftn19>
+
+<p class=MsoFootnoteText><a href="#_ftnref19" name="_ftn19" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[19]</span></span></span></span></a>
+L’un des derniers dialogues de Platon.</p>
+
+</div>
+
+<div id=ftn20>
+
+<p class=MsoFootnoteText><a href="#_ftnref20" name="_ftn20" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[20]</span></span></span></span></a>
+Louis-Ferdinand CÉLINE, <i>Voyage au bout de la nuit</i> (1<sup>re</sup> éd. 1932),
+<i>Romans I</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,
+1981, respectivement p.&nbsp;13 et p.&nbsp;15.</p>
+
+</div>
+
+<div id=ftn21>
+
+<p class=MsoFootnoteText><a href="#_ftnref21" name="_ftn21" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[21]</span></span></span></span></a>
+Marguerite YOURCENAR&nbsp;: «&nbsp;Qui serait assez insensé pour mourir sans
+avoir fait au moins le tour de sa prison&nbsp;». La formule se trouve d'abord
+dans <i>L'Œuvre au Noir</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris,
+Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1982, p.&nbsp;564 puis est
+reprise en épigraphe du texte intitulé «&nbsp;Le Tour de la prison&nbsp;», <i>in</i>
+<i>Essais et mémoires</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la
+Pléiade&nbsp;», 1991, p.&nbsp;595.</p>
+
+</div>
+
+<div id=ftn22>
+
+<p class=MsoFootnoteText><a href="#_ftnref22" name="_ftn22" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[22]</span></span></span></span></a>
+J’emprunte cette notion à un article de Michel <span style='text-transform:
+uppercase'>Tournier</span>&nbsp;: «&nbsp;<i>Le Rouge et le Noir</i>, roman de
+confrontation&nbsp;», <i>in</i> <i>Le Vol du vampire</i>, Paris, Mercure de
+France, 1981, p.&nbsp;136-137. Dans le domaine de la fiction, on pense à Don
+Quichotte, qui voit le monde à travers les romans de chevalerie et croit en
+revivre certains épisodes. Quant aux «&nbsp;idéologues&nbsp;», tout vient
+corroborer leurs thèses&nbsp;: Bossuet ne cesse de rencontrer dans l’histoire
+de nouvelles preuves en faveur du providentialisme, et Pangloss dans chaque
+épisode la démonstration de sa philosophie de l’optimisme.</p>
+
+</div>
+
+<div id=ftn23>
+
+<p class=MsoFootnoteText><a href="#_ftnref23" name="_ftn23" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[23]</span></span></span></span></a>
+D’où ce portrait de Phileas Fogg par Michel <span style='text-transform:uppercase'>Tournier</span>&nbsp;:
+«&nbsp;C’est un voyageur. Un voyageur en chambre. Il possède du voyage une
+connaissance abstraite, livresque, et il en déduit <i>a priori</i> qu’on doit
+pouvoir faire le tour du monde en quatre-vingts jours. La confrontation de ce
+savoir <i>a priori</i> et de la dure réalité fait tout le contenu du roman
+[...]&nbsp;», <i>Le Vent Paraclet</i>, <i>op.&nbsp;cit</i>., p.&nbsp;273.</p>
+
+</div>
+
+<div id=ftn24>
+
+<p class=MsoFootnoteText><a href="#_ftnref24" name="_ftn24" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[24]</span></span></span></span></a>
+Bertrand <span style='text-transform:uppercase'>Westphal</span>, <i>Le Monde
+plausible&nbsp;: Espace, lieu, carte</i>, Paris, Minuit, 2011. Sur le besoin de
+localiser le centre, G. <span style='text-transform:uppercase'>Perec</span>, <i>Espèces
+d’espaces</i>, <i>op.&nbsp;cit</i>., p.&nbsp;125.</p>
+
+</div>
+
+<div id=ftn25>
+
+<p class=MsoFootnoteText><a href="#_ftnref25" name="_ftn25" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[25]</span></span></span></span></a><span
+lang=EN-GB> </span>Sigmund FREUD, <i>Introduction à la psychanalyse</i> (1<sup>re</sup>
+éd. 1921), trad. S. Jankélévitch, Paris, Payot, 2001, p.&nbsp;343-344.</p>
+
+</div>
+
+<div id=ftn26>
+
+<p class=MsoFootnoteText><a href="#_ftnref26" name="_ftn26" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[26]</span></span></span></span></a>
+Jacques <span style='text-transform:uppercase'>Lacan</span>, <i>Écrits</i>,
+Paris, Seuil, 1966, p.&nbsp;516-517.</p>
+
+</div>
+
+<div id=ftn27>
+
+<p class=MsoFootnoteText><a href="#_ftnref27" name="_ftn27" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[27]</span></span></span></span></a>
+Parmi ces bouleversements, la guerre, que le héros de <i>Comme le temps passe</i>,
+de Robert <span style='text-transform:uppercase'>Brasillach</span>, décrit
+comme une forme de «&nbsp;dépaysement&nbsp;», [1937], Paris, Plon, 1989,
+p.&nbsp;111.</p>
+
+</div>
+
+<div id=ftn28>
+
+<p class=MsoFootnoteText><a href="#_ftnref28" name="_ftn28" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[28]</span></span></span></span></a>
+Franz KAFKA, <i>Œuvres complètes</i>, Paris, Gallimard, «&nbsp;Bibliothèque de
+la Pléiade&nbsp;», 1976, p.&nbsp;453-455. Albert <span style='text-transform:
+uppercase'>Camus</span>, <i>Le Mythe de Sisyphe</i>, <i>in</i> <i>Essais</i>,
+Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965, p.&nbsp;111,
+et «&nbsp;Entre oui et non&nbsp;», <i>L’Envers et l’Endroit</i>, <i>ibid</i>.,
+p.&nbsp;27. Jean-Paul <span style='font-variant:small-caps'>SARTRE</span>, <i>La
+Nausée</i>, <i>in</i> <i>Œuvres romanesques</i>, Paris, Gallimard,
+«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1981, p.&nbsp;152.</p>
+
+</div>
+
+<div id=ftn29>
+
+<p class=MsoFootnoteTextCxSpMiddle><a href="#_ftnref29" name="_ftn29" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[29]</span></span></span></span></a>
+Michel BUTOR, <i>La Modification</i>, Paris, Minuit, 1957, réédition UGE, 1970,
+collection 10/18, p.&nbsp;152.</p>
+
+</div>
+
+<div id=ftn30>
+
+<p class=MsoFootnoteTextCxSpMiddle><a href="#_ftnref30" name="_ftn30" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[30]</span></span></span></span></a>
+Jean-Claude LARRAT, <i>Sans oublier Malraux</i>, Paris, Classiques Garnier,
+2016, p.&nbsp;47.</p>
+
+</div>
+
+<div id=ftn31>
+
+<p class=MsoFootnoteText><a href="#_ftnref31" name="_ftn31" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[31]</span></span></span></span></a>
+François RABELAIS, <i>Le Quart Livre</i>, chap. 55-56, éd. G. Defaux et R.
+Marichal, Librairie Générale Française, 1994, chap.&nbsp;LIV-LVI,
+p.&nbsp;529-545.</p>
+
+</div>
+
+<div id=ftn32>
+
+<p class=MsoFootnoteText><a href="#_ftnref32" name="_ftn32" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[32]</span></span></span></span></a>
+Nicole <span style='font-variant:small-caps'>LAPIERRE</span>, <i>Pensons
+ailleurs</i> (1<sup>re</sup> éd. 2004), rééd. Paris, Gallimard,
+«&nbsp;Folio-Essais&nbsp;», 2006, p.&nbsp;12. Le titre de cet essai est
+emprunté à <span style='text-transform:uppercase'>Montaigne</span>&nbsp;:
+«&nbsp;Nous pensons toujours ailleurs&nbsp;» (chap. «&nbsp;De la
+diversion&nbsp;», <i>Essais</i>, III, 4, Paris, Gallimard, «&nbsp;Bibliothèque
+de la Pléiade&nbsp;», 1962, p.&nbsp;812.</p>
+
+</div>
+
+<div id=ftn33>
+
+<p class=MsoFootnoteText><a href="#_ftnref33" name="_ftn33" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[33]</span></span></span></span></a>
+Cette extimité renvoie bien sûr à une conception nietzschéenne du sujet, dont
+on retrouve l’écho chez Deleuze (avec, par exemple, la question du moi
+rhizomatique).</p>
+
+</div>
+
+<div id=ftn34>
+
+<p class=MsoFootnoteText><a href="#_ftnref34" name="_ftn34" title=""><span
+class=MsoFootnoteReference><span lang=EN-GB><span class=MsoFootnoteReference><span
+lang=EN-GB style='font-size:10.0pt;font-family:"Georgia","serif"'>[34]</span></span></span></span></a>
+Cité par Clément <span style='font-variant:small-caps'>ROSSET</span>, <i>Loin
+de moi&nbsp;: Étude sur l’identité</i>, Paris, Minuit, 1999, p.&nbsp;91.
+Fréquemment évoqué, entre autres par Luther qui trouve ce texte scandaleux
+puisque le chrétien, lui, sait exactement d’où il vient et où il va, ce poème a
+été l’objet de nombreuses polémiques quant à sa paternité, sa date (<span
+style='font-variant:small-caps'>XV</span><sup>e</sup> siècle&nbsp;?) et son
+statut&nbsp;: épitaphe&nbsp;? prologue&nbsp;?</p>
+
+</div>
+
+</div>
+<div id="mresume" class="hidden"><p class=Resume0><b>Résumé</b></p>
+
+<p class=Resume0>L’expérience du dépaysement peut constituer à la fois un
+espoir – pour ceux qui rêvent d’un ailleurs –&nbsp;et un motif d’inquiétude&nbsp;–
+pour ceux qui craignent de perdre leurs repères et refusent d’affronter
+l’altérité du monde. Mais si, le plus souvent, il n’est de dépaysement qu’au
+prix d’un déplacement, il arrive aussi que cette expérience procède simplement
+d’un regard nouveau sur le réel. Et que, loin de constituer un motif d’anxiété,
+elle incite le moi à se départir de lui-même et à se réinventer.</p>
+
+<p class=Resume0>&nbsp;</p>
+
+<p class=Resume0><b><i>Abstract</i></b></p>
+
+<p class=Resume0><i>The experience of disorientation can be both a hope, for
+those who dream to be elsewhere and a cause for concern, for those who are
+afraid to lose their bearings and refuse to face the otherness of the world.
+Usually, there is change of scenery when there’s a shift, but it also happens
+that the experience results of a new look at the real. And that, away from
+being a cause of concerns, it encourages to reinvent oneself, getting rid of
+the old self.</i></div>
+<div id="msommaire" class="hidden"><p class=MsoToc1>Je ne suis pas là où je devrais être</p>
+
+<p class=MsoToc1>Je suis chez moi même ailleurs</p>
+
+<p class=MsoToc1>Je ne suis pas là où je croyais être</p>
+
+</div>
+<div id="mauteurs_alt" class="hidden"><p class=Auteurs>Jacques
+POIRIER</p>
+
+<p class=Auteurs>Univ. de
+Bourgogne-Franche Comté</p>
+
+</div>
+<div id="mrefnum" class="hidden">Jacques POIRIER, « Dépaysement et déplacement&nbsp;: du rêve d’ailleurs au
+voyage immobile
+
+ », <i>L’Entre-deux</i>, 4 (1) | d&eacute;cembre 2018 | URL : <a href='https://www.lentre-deux.com/?b=53'>https://www.lentre-deux.com/?b=53</a> | consulté le 07-12-2022 </div> 
+<div id="mbiblio" class="hidden"><p class=Biblio><a name="_Toc467710415"></a><a name="_Toc467710128"></a><a
+name="_Toc467710090">BARTHES, Roland, <i>Mythologies</i> (1<sup>re</sup> éd. 1957),
+<i>Œuvres complètes</i>, I, Paris, Seuil, 1993.</a></p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>BAUDELAIRE, Charles, <i>Les Fleurs du mal</i> (1<sup>re</sup>
+éd. 1857), Paris, Gallimard, poésie-nrf, 2006.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>BAYARD, Pierre, <i>Comment parler des lieux où l’on n’a pas été</i>,
+Paris, Minuit, 2011.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>BEAUSSANT, Philippe,<i> La Belle au bois</i>, Paris, Gallimard,
+1989.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>BRASILLACH, Robert, <i>Comme le temps passe</i> (1<sup>re</sup>
+éd. 1937), Paris, Plon, 1989.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>BRUNEL, Pierre (dir.), notice «&nbsp;Lawrence d’Arabie&nbsp;», <i>in
+Dictionnaire des mythes d’aujourd’hui</i>, Monaco, Du Rocher, 1999.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>BUTOR, Michel, <i>La Modification</i>, Paris, Minuit, 1957,
+réédition UGE, 1970, collection 10/18.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>CAMUS, Albert <i>Le Mythe de Sisyphe</i>, <i>in</i> <i>Essais</i>,
+Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965.</p>
+
+<p class=Biblio>—, <i>L’Envers et l’Endroit</i>, <i>in</i> <i>Essais</i>,
+Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;», 1965.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>CÉLINE, Louis-Ferdinand, <i>Voyage au bout de la nuit</i> (1<sup>re</sup>
+éd. 1932), <i>Romans I</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la
+Pléiade&nbsp;», 1981.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>CORNEILLE, Pierre, <i>Le Menteur</i>, <i>Théâtre complet</i>,
+II, Paris, Classiques Garnier, 1960.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>DELUMEAU, Jean, <i>Une histoire du Paradis</i>, Paris, Fayard,
+1992.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>FREUD, Sigmund, <i>Introduction à la psychanalyse</i> (1<sup>re</sup>
+éd. 1921), trad. S. Jankélévitch, Paris, Payot, 2001.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>GARDE, François, <i>Ce qu’il advint du Sauvage blanc</i>,
+Paris, Gallimard, 2012.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>GRIBINSKI, Michel, «&nbsp;Dépaysement&nbsp;», <i>Le Royaume
+intermédiaire&nbsp;: Psychanalyse, littérature, autour de J.-B. Pontalis, </i>Paris,
+Gallimard, «&nbsp;Folio-Essais&nbsp;», 2007.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>KAFKA, Franz, <i>Œuvres complètes</i>, Paris, Gallimard,
+«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1976.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>LACAN, Jacques, <i>Écrits</i>, Paris, Seuil, 1966.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>LAPIERRE, Nicole, <i>Pensons ailleurs</i> (1<sup>re</sup> éd. 2004),
+rééd. Paris, Gallimard, «&nbsp;Folio-Essais&nbsp;», 2006.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>LARRAT, Jean-Claude, <i>Sans oublier Malraux</i>, Paris,
+Classiques Garnier, 2016.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>MONTAIGNE, Michel de, <i>Essais</i>, III, 4, Paris, Gallimard,
+«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1962.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>PONTALIS, J.-B., <i>Loin</i> (1<sup>re</sup> éd. 1980), Paris,
+Gallimard, «&nbsp;Folio&nbsp;», 1992.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>QUIGNARD, Pascal, <i>Les Paradisiaques</i> (1<sup>re</sup> éd. 2005),
+Paris, Gallimard, «&nbsp;Folio&nbsp;», 2007.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>RABELAIS, François <i>Le Quart Livre</i>, chap. 55-56, éd. G.
+Defaux et R. Marichal, Librairie Générale Française, 1994.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>ROSSET, Clément, <i>Le réel et son double</i>, Paris,
+Gallimard, 1976.</p>
+
+<p class=Biblio>—, <i>Loin de moi&nbsp;: Étude sur l’identité</i>, Paris,
+Minuit, 1999.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>SARTRE, Jean-Paul, <i>La Nausée</i>, <i>in</i> <i>Œuvres
+romanesques</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,
+1981.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>TOURNIER, Michel,<i> Les Météores</i> (1<sup>re</sup> éd. 1975),
+Paris, Gallimard, «&nbsp;Folio&nbsp;», 1977.</p>
+
+<p class=Biblio>—, <i>Le Vent Paraclet</i> (1<sup>re</sup> éd. 1977), Paris,
+Gallimard, «&nbsp;Folio&nbsp;», 1979.</p>
+
+<p class=Biblio>—, <i>Le Vol du vampire</i>, Paris, Mercure de France, 1981.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>TOUSSAINT, Jean-Philippe, <i>La Salle de bain</i>, Paris,
+Minuit, 1985.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>YOURCENAR, Marguerite, <i>L'Œuvre au Noir</i>, <i>in</i> <i>Œuvres
+romanesques</i>, Paris, Gallimard, «&nbsp;Bibliothèque de la Pléiade&nbsp;»,
+1982,</p>
+
+<p class=Biblio><i>—, Essais et mémoires</i>, Paris, Gallimard,
+«&nbsp;Bibliothèque de la Pléiade&nbsp;», 1991.</p>
+
+<p class=Biblio>&nbsp;</p>
+
+<p class=Biblio>WESTPHAL, Bertrand, <i>Le Monde plausible&nbsp;: Espace, lieu,
+carte</i>, Paris, Minuit, 2011.</p>
+
+
+
+
+
+
+
+</div>
+ <script>
+
+window.showPop = function (e,t) {
+//alert("pop");
+getMouse(e);
+var delta=0;
+document.getElementById('mask').style.display='block';
+var element=document.getElementById('pop');
+document.getElementById('mask').style.top=(posy-1200)+'px';
+if(posx>350)
+{
+delta=-0;
+/*element.style.right=(5)+'%'; */
+}
+else {;
+/*element.style.left=(10)+'%'; */
+}
+element.style.top=posy+'px'; 
+element.style.display='block' ;
+var p = footnotesRef.indexOf(t);
+document.getElementById('pop').innerHTML = footnotes[p];
+}
+
+var old =0;
+var menuOpen = false;
+var sameMenu = false;
+
+function Bmenu(b,n) {
+//alert("KO");
+if(b==6){};
+ var element = document.getElementById("mWrap");
+if(n == old) {sameMenu = true;} else {old=n;sameMenu=false;};
+if(menuOpen){
+	if(sameMenu){
+	element.classList.add("mHide");
+    element.classList.remove("mShow");
+	menuOpen=false;
+	}
+	else {
+	document.getElementById("mPannel").innerHTML = document.getElementById(menuContent[n]).innerHTML;
+	}
+	}
+else {
+	document.getElementById("mPannel").innerHTML = document.getElementById(menuContent[n]).innerHTML;
+	element.classList.add("mShow");
+    element.classList.remove("mHide");
+	menuOpen=true;
+}
+
+}
+
+ //showSlide(slideIndex);
+ 
+      setInterval(startSlide,3000);
+      var autoSlide = 1;
+     
+
+	 function startSlide(){
+		parents = document.getElementsByClassName('slideshow-container');
+		if(autoSlide){ 
+			var slides = document.getElementsByClassName("slideShowStyle");
+			for(j=0;j<parents.length;j++){
+				slide = parents[j].getElementsByClassName("slideShowStyle");
+				dot = parents[j].getElementsByClassName("dot");
+				for(i=0;i<slide.length;i++){
+					if(slide[i].classList.contains('active-slide')){
+					var _current = i;//document.getElementById('trace').textContent = i ;
+					if ((_current+1)>=slide.length){_current=-1}
+					//document.getElementById('trace').textContent = _current ;
+					}
+				slide[i].classList.remove('active-slide');dot[i].classList.remove('active');
+				}
+			slide[_current+1].classList.add('active-slide');dot[_current+1].classList.add('active');
+			}
+		}
+	 }
+ 
+ 
+ initSlides(); //on page load - show first slide, hidethe rest
+
+  function initSlides() {
+
+    parents = document.getElementsByClassName('slideshow-container');
+
+    for (j = 0; j < parents.length; j++) {
+      var slides = parents[j].getElementsByClassName("slideShowStyle");
+      var dots = parents[j].getElementsByClassName("dot");
+      slides[0].classList.add('active-slide');
+      dots[0].classList.add('active');
+    }
+  }
+
+  dots = document.getElementsByClassName('dot'); //dots functionality
+
+  for (i = 0; i < dots.length; i++) {
+
+    dots[i].onclick = function() {
+		autoSlide = 0;
+		slides = this.parentNode.parentNode.getElementsByClassName("slideShowStyle");
+
+      for (j = 0; j < this.parentNode.children.length; j++) {
+        this.parentNode.children[j].classList.remove('active');
+        slides[j].classList.remove('active-slide');
+        if (this.parentNode.children[j] == this) {
+          index = j;
+        }
+      }
+      this.classList.add('active');
+      slides[index].classList.add('active-slide');
+
+    }
+  }
+//prev/next functionality
+  links = document.querySelectorAll('.slideshow-container a');
+
+  for (i = 0; i < links.length; i++) {
+    links[i].onclick = function() {
+		autoSlide = 0;
+		current = this.parentNode;
+
+      var slides = current.getElementsByClassName("slideShowStyle");
+      var dots = current.getElementsByClassName("dot");
+      curr_slide = current.getElementsByClassName('active-slide')[0];
+      curr_dot = current.getElementsByClassName('active')[0];
+      curr_slide.classList.remove('active-slide');
+      curr_dot.classList.remove('active');
+      if (this.className == 'btnnext') {
+
+        if (curr_slide.nextElementSibling.classList.contains('slideShowStyle')) {
+          curr_slide.nextElementSibling.classList.add('active-slide');
+          curr_dot.nextElementSibling.classList.add('active');
+        } else {
+          slides[0].classList.add('active-slide');
+          dots[0].classList.add('active');
+        }
+
+      }
+
+      if (this.className == 'btnprev') {
+
+        if (curr_slide.previousElementSibling) {
+          curr_slide.previousElementSibling.classList.add('active-slide');
+          curr_dot.previousElementSibling.classList.add('active');
+        } else {
+          slides[slides.length - 1].classList.add('active-slide');
+          dots[slides.length - 1].classList.add('active');
+        }
+
+      }
+
+    }
+
+  }
+  function showSlides(){
+  //initSlides();
+  document.getElementById("mLogo").style.display = "none";
+/*	current = this.parentNode;
+	var slides = current.getElementsByClassName("slideShowStyle");
+	curr_slide = current.getElementsByClassName('active-slide')[0];
+    slides.style.display = "none";  ;
+      curr_slide.classList.remove('active-slide');
+  }*/
+  }
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+ //initSlides();
+</script>
+
+	</div>		
+<!-- foooter ------------------------------------------------------------------------------------------------------>	
+	<div class="mFooter mFormat mShadow"><button>version alpha 1.3 ©ThéoBlatz-2016</button></div>
+		
+	
+	<div>&nbsp;</div>
+<script>if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) { mResize('1');}</script>
+</body>
+</html>

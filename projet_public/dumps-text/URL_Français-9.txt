@@ -78,7 +78,9 @@
           + Environnement
           + Expertise
           + Expropriation
+          + Fiscalité immobilière
           + Logement social
+          + Marchés de travaux
           + Propriété
           + Urbanisme
           + Vente
@@ -117,6 +119,7 @@
           + Accident, maladie et maternité
           + Contrat de travail
           + Contrôle et contentieux
+          + Droit de la sécurité sociale
           + Droit international et communautaire
           + Hygiène - Sécurité - Conditions de travail
           + IRP et syndicat professionnel
@@ -144,7 +147,7 @@
    Dalloz Actualité
    Le quotidien du droit en ligne
    Connexion
-   Édition du 30 novembre 2022 Éditions précédentes
+   Édition du 7 décembre 2022 Éditions précédentes
    Rechercher…____ OK
    + de critères
    (BUTTON) Recherche
@@ -231,7 +234,9 @@
           + > Environnement
           + > Expertise
           + > Expropriation
+          + > Fiscalité immobilière
           + > Logement social
+          + > Marchés de travaux
           + > Propriété
           + > Urbanisme
           + > Vente
@@ -273,6 +278,7 @@
           + > Accident, maladie et maternité
           + > Contrat de travail
           + > Contrôle et contentieux
+          + > Droit de la sécurité sociale
           + > Droit international et communautaire
           + > Hygiène - Sécurité - Conditions de travail
           + > IRP et syndicat professionnel
@@ -463,27 +469,26 @@ Réagissez à cet article
 
 Sur le même thème
 
-     * Terrorisme : indemnisation des victimes par ricochet même en cas de
-       survie de la victime directe
-     * Abus de confiance : la confirmation du refus de caractériser le
-       délit en raison de la seule violation d’une obligation
-       contractuelle
-     * « Censure préalable » de Mediapart : compte-rendu de l’audience de
-       rétractation
-     * Pas de nullité de principe des opérations de captation d’images
-       réalisées par drone
-     * Contrôle restreint des décisions d’isolement : le recul du Conseil
-       d’État
-     * Panorama rapide de l’actualité « pénale » de la semaine du 14
+     * L’Assemblée muscle les dispositifs contre les locataires mauvais
+       payeurs
+     * Trafic de biens culturels : un antiquaire parisien condamné, des
+       biens restitués à l’Égypte
+     * L’Assemblée impose au gouvernement les « juridictions des violences
+       intrafamiliales »
+     * Après Paris, Versailles : nouvelle audience sur une «
+       procédure-bâillon »
+     * [PODCAST] Des hommes Des femmes Nos libertés
+     * Panorama rapide de l’actualité « pénale » de la semaine du 21
        novembre 2022
-     * Le Conseil constitutionnel valide le recours contre la mise à
-       exécution forcée de la peine
-     * Perquisition de nuit : spécificité d’une autorisation délivrée de
-       manière anticipée
-     * Rémi Lorrain, une ascension précoce
-     * [PODCAST] Cyberharcèlement : haine virtuelle, victimes réelles
+     * Responsabilité pénale des personnes morales : la CJUE impose le
+       respect de l’article 48 de la Charte
+     * Conformité à la Constitution de l’article 113-8 du code pénal
+     * L’inapplicabilité de l’article 6 de la Convention européenne à la
+       procédure disciplinaire pénitentiaire
+     * Quelle réparation du préjudice en cas de pratique commerciale
+       trompeuse ?
 
-   Édition du 30 novembre 2022 Éditions précédentes
+   Édition du 7 décembre 2022 Éditions précédentes
    Dalloz Actualité > La rédaction
      * Portail des Éditions Dalloz
      * Qui sommes-nous

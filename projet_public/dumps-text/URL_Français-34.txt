@@ -1,279 +1,434 @@
-   #Etranger » Flux alternate alternate
+   #publisher alternate
 
-   SGEN:CFDT Etranger
-   Rechercher : ____________________ Rechercher
+   publicité
 
-     * Nos permanences
-     * Actualités
-     * Dossiers
-     * Agenda
-     * Vos questions
-     * Contactez-nous
-     * Adhérez
-     * Sgen+
+   Naviguez dans l'univers
 
-
-
-   Sgen-CFDT Etranger
-   Siège du syndicat
-   47, avenue Simon-Bolivar - Paris 19e
-   autobus 26 ou 71 (arrêt : Buttes Chaumont)
-   M°11 Pyrénées, M°2 Belleville, M°7bis Buttes Chaumont
-   Plan d'accès
-   Horaires des permanences
-
-   Tous les jours de 9h30 à 18h - Il arrive que nous soyons retenu∙es par
-   des réunions à l'extérieur
-   Prenez rendez-vous par téléphone.
-   01 56 41 51 20
-   etranger@sgen.cfdt.fr
-     * Qui sommes-nous ?
-
-   AEFE PARIS
-   23, place de Catalogne - Paris 14e
-   Plan d'accès
-   Horaires des permanences
-
-   Tous les jeudis de 10 h à 12 h hors vacances scolaires et sur
-   rendez-vous
-   01 53 69 30 90
-   etranger@sgen.cfdt.fr
-
-   AEFE NANTES
-   1, allée Baco - Nantes
-   Plan d'accès
-   Horaires des permanences
-
-   sur rendez-vous
-   01 56 41 51 20
-   etranger@sgen.cfdt.fr
-
-   Skip to content
-
-     * Accueil
-     * Toutes les questions
-     * J’ai exercé à l’étra...
-
-J’ai exercé à l’étranger, ai-je droit à une bonification pour ma retraite ?
-
-   Publié le dimanche 26 février
-   personnels de l'étranger
-   Bonification Bonification de dépaysement pour les services civils
-   rendus hors d’Europe
-
-   Les fonctionnaires ayant travaillé à l’étranger hors d’Europe
-   bénéficient d’une bonification pour service hors d’Europe (BSHE) – code
-   des pensions civiles et militaires de retraite, article L. 12, articles
-   R10 à R25-1 – sous forme de trimestres supplémentaires pour le calcul
-   du montant de leur pension de retraite.
-
-   Cette bonification, dite de dépaysement, est égale au tiers de la durée
-   des dits services.
-
-   La bonification de dépaysement est élevée à la moitié de la durée des
-   services lorsque le fonctionnaire est appelé à servir dans un
-   territoire appartenant à des zones dont il n’est pas originaire (si
-   originaire, la bonification est réduite à 1/3) : ancienne Afrique
-   occidentale française et Togo, ancienne Afrique équatoriale française
-   et Cameroun, ancienne Indochine française, anciens établissements
-   français de l’Inde, Madagascar et dépendances (Comores), ancienne Côte
-   française des Somalis, ex-Nouvelles-Hébrides, Wallis-et-Futuna.
-
-   À noter que les congés passés hors du territoire d’exercice ne sont pas
-   bonifiables et sont déduits de la durée des services retenue pour le
-   calcul de la bonification de dépaysement.
-
-   Tous les fonctionnaires de l’Éducation nationale détaché·e·s à
-   l’étranger hors d’Europe bénéficient de cette bonification.
-   Faites connaître cette publication sur les réseaux !
+     *
+     *
      *
      *
 
-   SGEN:CFDT
+   (BUTTON)
 
-Sgen-CFDT Etranger
+   Naviguer dans l'univers
+     __________________________________________________________________
 
-     * Nos permanences
-     * Actualités
-     * Tous les dossiers
-     * Agenda
-     * Vos questions
-     * Contactez-nous
-     * Adhérez
+     *
+     *
+     *
+     *
+     *
 
-     * Mentions légales
+   (BUTTON)
+   Mes coachings Mes coachings
+   Astro Consult' Astro Consult'
+   S'abonner
+   Mes favoris Mes favoris
+   Se connecter
+   (BUTTON)
+    1. Gérer mon profil
+    2. Mes notifications
+    3. Déconnexion
 
+   (BUTTON)
 
-Mieux nous connaitre
+     * Mes favoris
+     * Gérer mon profil
+     * Mes notifications
 
-     * Site de la CFDT
-     * Site du Sgen-CFDT
-     * Site de la CFDT Fonctions Publiques
-     * Site de la Fédération Formation et Enseignement Privés CFDT
-     * Site de Fédération générale de l'agroalimentaire CFDT
+   (BUTTON) Déconnexion
 
-Le SGEN-CFDT près de chez vous
+   (BUTTON)
 
-   [Sélectionnez un site    _______________________________________________
-   __...]
-     * Espace militant
-     * Sgen+
-     * Ressources professionnelles
+   ____________________
+    1. Mes favoris
+    2. Actu (BUTTON)
+         1. News actu
+         2. Société
+         3. Dossiers people
+         4. Ciné
+         5. Tops Actu
+    3. Beauté (BUTTON)
+         1. News Beauté
+         2. Maquillage
+         3. Coiffure
+         4. Soins
+         5. Parfums
+         6. Tops Beauté
+    4. Cuisine (BUTTON)
+         1. News cuisine
+         2. Recettes
+         3. Idées recettes
+         4. Tendance food
+         5. Astuces cuisine
+         6. Cuisine des chefs
+         7. Vin, cocktail, jus...
+         8. Tops Cuisine
+    5. Pouvoir d'achat
+    6. Rencontres
+    7. Santé (BUTTON)
+         1. News Santé
+         2. Maladie
+         3. Médicaments
+         4. Professionnel de santé
+         5. Actes médicaux
+         6. Anatomie
+         7. Vivantes
+         8. Santé pratique
+         9. Médecine douce
+        10. Nutrition
+        11. Forme
+        12. Psycho
+        13. Nos experts santé
+        14. Tops Santé
+    8. Horoscope (BUTTON)
+         1. Vos prévisions astro
+         2. Astro Consult'
+         3. Horoscope amoureux
+         4. Tarot
+         5. Numérologie
+         6. Tops Horoscope
+    9. Mode (BUTTON)
+         1. News Mode
+         2. Tendance mode
+         3. Conseils mode
+         4. Accessoires mode
+         5. Tops Mode
+   10. Enfant (BUTTON)
+         1. News enfant
+         2. Prénom
+         3. Grossesse
+         4. Bébé
+         5. Enfants
+         6. Tops Enfant
+   11. Minceur (BUTTON)
+         1. News minceur
+         2. Recettes minceur
+         3. Astuces minceur
+         4. Régimes
+         5. Tops Minceur
+   12. Déco & maison (BUTTON)
+         1. News déco & maison
+         2. Tendance déco
+         3. DIY
+         4. Maison pratique
+         5. Arts de la table
+         6. Jardin
+         7. Tops Déco & maison
+   13. Vie pratique (BUTTON)
+         1. Voyage
+         2. Travail
+         3. Famille
+         4. Argent
+         5. High Tech
+   14. Amour (BUTTON)
+         1. News amour
+         2. Couple
+         3. Mariage
+         4. Sexo
+         5. Jouir
+         6. Divorce rupture
+         7. Tops Amour
+   15. Jeux (BUTTON)
+         1. Jeux de lettres
+         2. Jeux de chiffres
+         3. Coloriages
+         4. Concours
+         5. Tests de personnalité
+         6. Quiz
+   16. Animaux (BUTTON)
+         1. News animaux
+         2. Animaux pratique
+         3. Chiens et chats de race
+         4. Tops Animaux
+   17. Simone
+   18.
+         1. Minceur
+         2. Déco & maison
+         3. Vie pratique
+         4. Amour
+         5. Jeux
+         6. Animaux
+         7. Simone
+   19. S'abonner au magazine
+   20. Newsletter
+   21. Mes Coachings
+   22.
 
-Suivre le SGEN-CFDT
-sur les réseaux sociaux
+   NAVIGUEZ DANS L’UNIVERS
 
-   (BUTTON) ×
+   S'abonner
+   Newsletter
 
-Mentions légales / Crédits
+   Nos engagements : Vivantes Jouir Pouvoir d'achat
 
-   Directeur de la publication :
-   Xavier Auger
+    1. Accueil
+    2. Vie pratique
+    3. Voyage
 
-   Service technique :
-   Fédération Sgen-CFDT / 47-49 avenue Simon Bolivar / 75950 Paris cedex
-   19
-   Tél :01 56 41 51 00
+Guernesey, Sercq, Aurigny : notre itinéraire pour découvrir les îles
+Anglo-Normandes
 
-Mentions légales et conditions générales d’utilisation
+   ____________________ (BUTTON) Rechercher
 
-   Le présent texte constitue les conditions générales d’utilisation du
-   Site web accessible à l’adresse « sgen-cfdt.fr » (ci-après dénommé le «
-   Site ») et des sites qui en dépendent (sites des fédérations, unions
-   régionales et unions).
+   Mes favoris
 
-   Le Site est soumis au droit français, aux juridictions françaises et a
-   pour langue officielle le français.
+   Guernesey, Sercq, Aurigny : notre itinéraire pour découvrir les îles
+   Anglo-Normandes © Didier Rosière
 
-   En accédant ou en utilisant ce Site, vous êtes réputé accepter ces
-   conditions générales et le Sgen-CFDT peut décider de refuser l’accès à
-   tout ou partie du Site à tout utilisateur qui ne les respecterait pas.
-   Vous vous engagez notamment à ne pas adresser ou transmettre des textes
-   ou images contraires à la loi, ou susceptibles de choquer la
-   sensibilité, notamment par un contenu haineux, pornographique, ou
-   incitatif à des comportements du même ordre. Le Sgen-CFDT peut prendre
-   toute mesure, ou engager toute action qu’elle estime nécessaire au cas
-   oú son Site serait utilisé pour diffuser des éléments de cette nature.
+   (BUTTON)
+   Imprimer la page
+   (BUTTON)
+   Copier le lien
+   Lien copié !
+   (BUTTON)
+   Ajouter à mes favoris
+   (BUTTON)
+   Retirer de mes favoris
+   (BUTTON)
+   Partager sur Facebook
+   (BUTTON)
+   Partager sur Pinterest
 
-   Le Sgen-CFDT a ouvert ce Site pour l’information personnelle de ses
-   utilisateurs. Aucune exploitation commerciale même partielle des
-   données qui y sont présentées ne pourra être effectuée sans l’accord
-   préalable et écrit de le Sgen-CFDT. Le Sgen-CFDT avise les utilisateurs
-   de ce Site que les éléments de ce dernier sont protégés par la
-   législation sur les droits d’auteur : il s’agit notamment des visuels,
-   des articles, des séquences animées, etc. Les éléments ainsi protégés
-   sont la propriété de le Sgen-CFDT ou de tiers autorisé par le
-   Sgen-CFDT à les exploiter. A ce titre, toute reproduction,
-   représentation, utilisation, adaptation, modification, incorporation,
-   traduction, commercialisation, partielle ou intégrale, sans
-   l’autorisation écrite préalable de le Sgen-CFDT, est interdite, sous
-   peine de constituer un délit de contrefaçon des droits d’auteur et/ou
-   de dessins et/ou de marque, puni de trois ans d’emprisonnement et de
-   300 000 € d’amende (CPI, art. L335-1s).
+   Ajoutez cet article à vos favoris en cliquant sur ce bouton !
+   (BUTTON) J'ai compris !
 
-Données personnelles
+   L’île anglo-normande de Guernesey et ses voisines offrent une nature
+   verdoyante, un grand bol d’air marin et une appréciable douceur de
+   vivre.
+   Écrit par  Didier Rosière
+   Publié le 28/10/2022 à 19h15, mis à jour le 3/11/2022 à 10h38
 
-   Les informations nominatives concernant l’utilisateur sont destinées au
-   Sgen-CFDT.
+Restez informée
 
-   L’utilisateur est notamment informé que, conformément à l’article 27 de
-   la loi Informatique, fichiers et libertés du 6 janvier 1978, les
-   informations qu’il communique par le biais des formulaires d’enquêtes
-   ou de demandes d’informations sont nécessaires pour répondre à sa
-   demande, et sont destinées au Sgen-CFDT, responsable du traitement à
-   des fins de gestion des réponses.
+   guernesey (BUTTON) Suivre ce sujet Ne plus suivre
 
-   S’il ne consent pas au transfert de ces informations aux directions
-   concernées par sa demande, l’utilisateur doit en faire la demande par
-   e-mail à l’adresse : cnil@cfdt.fr.
+   Dépendance de la couronne britannique et non du Royaume-Uni, comme sa
+   voisine Jersey, le baillage de Guernesey cultive sa singularité héritée
+   d’une histoire séculaire. A quelques encablures des côtes françaises,
+   ce mini-royaume regroupe de multiples îles comme Sercq, Aurigny, Herm…
+   qui offrent autant de visages d’une nature diverse et généreuse et
+   d’une culture unique et soigneusement entretenue. Comme nombre de
+   visiteurs du Royaume-Uni qui en ont fait leur riviera, on s’y dépayse,
+   on s’y ressource et on goûte un art de vivre typiquement insulaire.
 
-   Il peut revenir à tout moment sur son consentement en envoyant un
-   message à cette même adresse.
+L'île de Guernesey, so British
 
-   Les utilisateurs du présent Site sont tenus de respecter les
-   dispositions de la loi relative à l’Informatique, aux fichiers et aux
-   libertés, dont la violation est passible de sanctions pénales.
+   Des façades colorées, des pubs, des routes étroites bordées de murets
+   en pierre et des maisons basses ornées de jardin coquets : bien
+   qu’anglo-normande et traversée par quelques "ruettes tranquilles "
+   menant aux lieux-dits de Port-Soif, Rocque-Poisson ou encore Bordeaux,
+   l’île de Guernesey (Guernsey) respire un air avant tout très anglais.
+   Au-delà de Saint-Pierre-Port, la petite capitale animée, on découvre
+   une campagne vallonnée et verdoyante, avant de déboucher sur d’immenses
+   plages, comme à Vazon Bay ou à Rocquaine Bay, ou, plus au sud, sur de
+   hautes falaises battues par les flots.
+   La côte sud de Guernesey est bordée de falaises, où demeurent quelques
+   ouvrages défensifs datant de l’occupation allemande. © Didier Rosière
 
-   Ils doivent notamment s’abstenir, s’agissant des informations
-   nominatives auxquelles ils accèdent, de toute collecte, de toute
-   utilisation détournée, et d’une manière générale, de tout acte
-   susceptible de porter atteinte à la vie privée ou à la réputation des
-   personnes.
+Visite de Hauteville House, la maison de Victor Hugo à Guernesey
 
-Cookies
+   On visite absolument Hauteville House, la maison inlassablement
+   aménagée, décorée et meublée par Victor Hugo, dans un style exubérant
+   témoignage de la personnalité bouillonnante de l’auteur, qui vécut ici
+   quatorze de ses années d’exil, et où il écrivit nombre de
+   chefs-d’œuvre. 14 €/pers.
+   L’insolite maison de Victor Hugo. © Didier Rosière
 
-   Le Sgen-CFDT peut décider, aux bonnes fins d’utilisation de son Site,
-   de placer des « cookies » sur votre ordinateur et d’y accéder. Un
-   cookie est un petit fichier, souvent anonyme, contenant des données,
-   notamment un identifiant unique, transmis par le serveur d’un site web
-   à votre navigateur et stocké sur le disque dur de votre ordinateur.
+Insolite : des produits frais en libre-service à Guernesey
 
-Paramétrage relatif aux cookies de votre navigateur
+   Le long des routes de Guernesey, on peut acheter des œufs frais, des
+   fruits et légumes ou des plantes en se servant tout simplement dans les
+   Hedge Veg, ces boîtes colorées installées et approvisionnées par les
+   producteurs, et en déposant le prix affiché dans la caisse mise à
+   disposition, baptisée Honesty Box.
 
-   Vous pouvez configurer votre navigateur pour qu’il accepte tous les
-   cookies envoyés par les sites que vous consultez, pour qu’il rejette
-   systématiquement tous ces cookies ou pour qu’il vous demande à chaque
-   occasion si vous souhaitez ou non les accepter.
+   Visitguernsey.com
+   Hedge Veg. © Didier Rosière
 
-   Chaque navigateur étant différent, nous vous invitons à consulter
-   l’aide de votre navigateur pour en savoir plus sur la façon de
-   paramétrer l’acceptation des cookies.
+L'île de Sercq, un voyage dans le temps
 
-Liens
+   Dès que le bateau accoste l’unique quai du minuscule port de Sercq, au
+   pied de ce plateau rocheux d’à peine plus de 5 km2 , le visiteur a la
+   sensation d’aborder un monde à part. Une impression rapidement
+   confirmée en découvrant le hameau principal, qui rassemble quelques
+   maisons autour d’une rue non goudronnée. C’est donc à pied, à vélo, à
+   cheval ou en carriole que l’on arpente par de confortables chemins
+   cette île au littoral abrupt et découpé, qui accueille moins de 500
+   habitants. Dans un certain "éloignement du monde", une promenade
+   bucolique et intemporelle au charme puissant.
 
-   Le Site peut contenir des liens vers d’autres sites que le
-   Sgen-CFDT n’exploite pas. Le Sgen-CFDT ne peut en aucune manière être
-   tenue responsable de la mise à disposition de ces liens permettant
-   l’accès à ces sites et sources externes, et ne peut supporter aucune
-   responsabilité quant aux contenus, publicités, produits, services ou
-   tout autre matériel disponibles sur ou à partir de ces sites ou sources
-   externes qui ne sont ni vérifiés ni approuvés par ses équipes.
+   On loue un vélo pour atteindre La Coupée, l’isthme étroit et
+   spectaculaire qui surplombe le rivage d’une centaine de mètres pour
+   relier la grande et la petite Serq, et offre un magnifique point de vue
+   sur la mer et les îles de Guernesey et Herm (avenuecylcessark.com, 9 €
+   la journée).
+   La Coupée, à Sercq. © Getty Images/iStockphoto
 
-Responsabilité
+L'île d'Aurigny, place forte
 
-   Le Sgen-CFDT s’engage à assurer tous ses efforts pour offrir des
-   informations actualisées et exactes. Cependant, elle ne saurait être
-   tenue pour responsable d’erreurs, d’omissions ou des résultats qui
-   pourraient être obtenus par un mauvais usage de ces informations.
+   Une nature paisible et propice à de belles balades et à l’observation
+   des oiseaux, de longues plages de sable clair baignées par une eau
+   translucide, et un unique et coquet village… Aurigny (Alderney) offre
+   un dépaysement des plus séduisants, en parfait contraste avec son
+   histoire singulière : à un peu plus de dix kilomètres du littoral
+   français, l’île a eu de tout temps un caractère stratégique. En
+   témoignent les nombreux forts de l’époque victorienne, et même les
+   vestiges d’un fort romain. Vidée de sa population dès 1940 par le
+   gouvernement britannique, Aurigny a été occupée jusqu’en 1945 par
+   l’armée allemande et hérissée de défenses impressionnantes, dont
+   certaines encore visibles sont ouvertes à la visite.
 
-   Le Sgen-CFDT effectuera les modifications nécessaires, dès que ces
-   erreurs sont portées à sa connaissance ; plus généralement, elle peut
-   modifier, à tout moment, sans préavis, tout ou partie du Site ainsi que
-   ses conditions d’utilisation, sans que sa responsabilité puisse être
-   engagée de ce fait.
+   On se lance dans le Coast Path Challenge, 16 kilomètres de balade tout
+   autour de l’île, entre plages, falaises et prairies, et ponctuée de 36
+   points d’intérêt naturels et historiques. Visitalderney.com
+   Aurigny. © Didier Rosière
 
-   Le téléchargement de tous matériels lors de l’utilisation du service
-   est à aux risques et périls de l’utilisateur. Celui-ci est seul
-   responsable pour tout dommage subi par son ordinateur ou toutes pertes
-   de données consécutives à ce téléchargement.
+Que rapporter de Guernesey ?
 
-   Plus généralement, le Sgen-CFDT ne pourra en aucun cas être responsable
-   en cas de dommages directs et/ou indirects résultant de l’utilisation
-   de ce Site.
+   Un pull marin. Confectionnés en laine d’Angleterre depuis le XVIIème
+   siècle pour habiller les pêcheurs de l’archipel, puis utilisés par la
+   Royal Navy, les Guernsey Jumpers sont toujours fabriqués selon la
+   tradition. Environ 100 € pour un pull. Letricoteur.co,
+   guernseywoollens.com
+   © Guernsey Woollens
 
-Disponibilité
+   A lire aussi :
 
-   Il est techniquement impossible de fournir le Site exempt de tout
-   défaut et ces défauts peuvent conduire à l’indisponibilité temporaire
-   du Site. Le fonctionnement du Site peut être affecté par des événements
-   et/ou des éléments que le Sgen-CFDT ne contrôle pas, tels que par
-   exemple, des moyens de transmission et de communication entre le
-   Sgen-CFDT, les utilisateurs du Site, les réseaux, les fournisseurs. Le
-   Sgen-CFDT peut à tout moment, modifier ou interrompre temporairement ou
-   de façon permanente tout ou partie du Site pour effectuer des
-   opérations de maintenance et/ou effectuer des améliorations et/ou des
-   modifications sur le Site. Le Sgen-CFDT informera, si possible, de
-   chaque modification/interruption des services disponibles sur le Site.
-   Le Sgen-CFDT n’est pas responsable des conséquences de toute
-   modification, suspension ou interruption du Site.
+   ⋙ Evasion dans les îles anglo-normandes
 
-Hébergeur
+   ⋙ 7 îles de rêve à découvrir en France
 
-   PHPNET FRANCE
-   3 rue des Pins
-   38100 GRENOBLE
+   ⋙ Quels étaient les plats préférés de Victor Hugo ?
+   Par la rédaction
 
-   Tél : 04 82 53 02 10
-   support@phpnet.org
-   http://www.phpnet.org
-   (BUTTON) Fermer
+Restez informée
+
+   guernesey (BUTTON) Suivre ce sujet Ne plus suivre
+
+Articles associés
+
+   Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les
+   îles anglo-normandes
+
+Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les îles
+anglo-normandes
+
+Evasion dans les îles anglo-normandes
+
+Notre itinéraire à pied pour découvrir l'ïle de la Réunion
+
+Voyage en Sardaigne : nos idées d'itinéraires pour découvrir l'Ile
+
+7 îles de rêve à découvrir en France
+
+   banner
+
+   Coaching gratuit
+
+   Maison au naturel
+
+   Changez vos habitudes et apprenez à entretenir votre maison sans
+   produit chimique. En savoir plus
+
+Encore plus de...
+
+    1. guernesey
+    2. île
+
+   Apprenez à entretenir votre maison au naturel
+   Apprenez à entretenir votre maison au naturel
+   Je découvre le coaching gratuit
+   (BUTTON)
+   Vos thèmes favoris tous les jours dans votre boîte mail !
+   Recevoir la newsletter
+
+   Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les
+   îles anglo-normandes
+   Article suivant :
+   Guernesey, Sercq, Aurigny…Nos bonnes adresses pour un séjour dans les
+   îles anglo-normandes
+
+Découvrez aussi …
+
+   Auvergne : notre itinéraire pour découvrir l'Allier
+
+Auvergne : notre itinéraire pour découvrir l'Allier
+
+   Nos idées d'itinéraires pour découvrir la Picardie
+
+Nos idées d'itinéraires pour découvrir la Picardie
+
+   Voyage Au Canada : itinéraire au fil du Saint-Laurent de Québec à l'île
+   de la Madeleine
+
+Voyage Au Canada : itinéraire au fil du Saint-Laurent de Québec à l'île de la
+Madeleine
+
+   Découvrez les Baléares, d’île en île
+
+Découvrez les Baléares, d’île en île
+
+   Noirmoutier, Marais poitevin, île d’Yeu : notre itinéraire de balade
+   nature et iodée en Vendée
+
+Noirmoutier, Marais poitevin, île d’Yeu : notre itinéraire de balade nature
+et iodée en Vendée
+
+   Florida Keys, une balade d’île en île
+
+Florida Keys, une balade d’île en île
+
+   L’itinéraire idéal pour découvrir la forêt de Brocéliande
+
+L’itinéraire idéal pour découvrir la forêt de Brocéliande
+
+   Séjour dans le Var : 8 adresses gourmandes pour découvrir les
+   spécialités de l'île des Embiez
+
+Séjour dans le Var : 8 adresses gourmandes pour découvrir les spécialités de
+l'île des Embiez
+
+   Voyage en Normandie : nos idées d'itinéraires pour visiter la Côte
+   d'Albâtre
+
+Voyage en Normandie : nos idées d'itinéraires pour visiter la Côte d'Albâtre
+
+   Visiter Nîmes : nos idées d'itinéraires pour découvrir la ville
+
+Visiter Nîmes : nos idées d'itinéraires pour découvrir la ville
+
+   Visiter Vichy : nos idées d'itinéraires pour découvrir la ville
+
+Visiter Vichy : nos idées d'itinéraires pour découvrir la ville
+
+   Visiter Lyon : nos idées d'itinéraires pour découvrir la ville
+
+Visiter Lyon : nos idées d'itinéraires pour découvrir la ville
+
+   Visiter le Berry : nos idées d'itinéraires pour découvrir la région
+
+Visiter le Berry : nos idées d'itinéraires pour découvrir la région
+
+Le magazine
+
+   Abonnement magazines Prisma Media
+     __________________________________________________________________
+
+   ©2022 - Prisma Média - Groupe Vivendi - Tous droits réservés
+     * Conditions générales d'utilisation
+     * Mentions Légales
+     * Charte pour la protection des données
+     * Publicité
+     * Contacts
+     * Équipe éditoriale
+     * Mon profil
+     * Rejoignez Prisma Media
+     * Votre kiosque
+     * Paramétrer vos cookies
+
+   Fréquentation certifiée par l'OJD - CPPAP : 0215 W 90266
+   facebook instagram pinterest
+
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-65VZ

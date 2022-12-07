@@ -1,263 +1,253 @@
-    #Accueil Fil RSS des dix dernières actualités
+   #Subscribe to recent articles
 
-   Accès direct au contenu | Navigation | Accès directs | Connexion
+   Jump to navigation
 
-   logo-FRAMESPA
-     * (BUTTON) [icone-cnrs-ent_1643714064970-png] Accueil CNRS (BUTTON)
-          + Accueil CNRS
-          + Délégation
-          + Lien SHS
-     * (BUTTON) [icone-info-pratiques-ent_1643714191041-png] Pratique
-       (BUTTON)
-          + Infos pratiques
-          + Annuaire
-     * [icone-conecter-ent_1643714354112-png] Se connecter
-     *
-     *
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-56TTNCM
 
-     * fr
-     * en
-     * es
+     * Close
+     * Menu
 
-   ____________________ (BUTTON)
+     * Logo Humanité
+
+     * Se connecter
+
+     * Mes journaux
+
    (BUTTON)
      * Accueil
-     * (BUTTON) Laboratoire (BUTTON)
-          + Présentation
-          + Direction - Administration
-          + Organigramme
-          + Annuaire
-          + Infos pratiques
-          + Mission égalité
-          + Doctorant.e.s & jeunes chercheur.e.s (BUTTON)
-               o Thèses en cours
-               o Thèses soutenues
-     * (BUTTON) Recherche (BUTTON)
-          + Axes thématiques (BUTTON)
-               o Logiques du commun
-               o Terrae
-               o Création-Production. Arts, industries, marchés,
-                 territoires
-               o Corpus
-          + Pôles de compétences (BUTTON)
-               o Aéronautique et Spatial
-               o Humanités numériques
-               o Histoire du genre
-               o Mondes ibériques et ibéro-américains
-               o Humanités Numériques 1
-          + Projets collectifs financés (BUTTON)
-               o ANR
-               o École française de Rome
-               o Casa de Velázquez
-               o LabEX
-               o Autres projets
-          + Séminaires
-     * (BUTTON) Publications (BUTTON)
-          + Revues
-          + Collection Méridiennes
-          + HAL
-          + Carnets de recherche
-          + Dernières publications
-     * Formations
-     * (BUTTON) Bibliothèque d'Études Méridionales (BUTTON)
-          + Accueil BEM
-          + Les fonds documentaires
-          + Les origines de la BEM
-     * (BUTTON) Accueil CNRS (BUTTON)
-          + Accueil CNRS
-          + Délégation
-          + Lien SHS
-     * (BUTTON) Pratique (BUTTON)
-          + Infos pratiques
-          + Annuaire (BUTTON)
-               o (BUTTON) Annuaire des chercheurs
-               o (BUTTON) Annuaire des doctorants
-               o Espace personnel
-               o (BUTTON) Lettre
-     * Se connecter
-     * Accès directs de catégories
-     * Accès directs de catégories
+     * Je m'abonne
+     * Toute l'actu
 
-     * picto-Facebook
-     * picto-Twitter
-     * picto-Youtube
-     * picto-CanalU
+Vie privée
+       Billet
+       Le respect de la vie privée est cher à la Cour de justice de
+       l’Union européenne. Raison pour laquelle elle a...
+       Maurice Ulrich
+       Réforme des retraites
+       Qatar 2022 plus jamais
+       Mort sur les chantiers du Qatar
+       Climat
+       Salaires et pouvoir d'achat
+          + Politique
+          + Société
+          + Social-Eco
+          + Culture et savoir
+          + Sports
+          + Monde
+          + Planète
+          + Médias
+          + En débat
+          + Vos droits
+          + Science
+       Édition
+       du Mercredi 7 Décembre
+       J'achète
+       Je m'abonne
+     * Réforme des retraites
+     * Qatar 2022 plus jamais
+     * Vidéos
+     * Vie quotidienne
+       Bon et sainFamilleSantéTravailDécouverte
+       Accédez à tous nos conseils pour mieux vivre au quotidien
+       L’ancienne tuilerie est le seul grand camp français d’internement
+       et de déportation resté intact à ce jour. © Nicolas TUCAT / AFP
+       Le camp des Milles, lieu et plaidoyer contre l’oubli et l’ignorance
+       Fabriqué en France, ce sapin en bois laissera libre cours à vos
+       envies de décorations originales. Ni plastique ni coupé : les
+       alternatives vertes au sapin traditionnel
+       Véritable symbole de notre gastronomie, le pot-au-feu a connu un
+       second âge d’or dans les années 1960 grâce à la nouvelle cuisine. ©
+       Getty Images/iStockphoto
+       Recette. Pot-au-feu ou l’art et le plaisir de mitonner
+       Avec un reste à charge de 60% en moyenne pour les ménages modestes,
+       le dispositif est peu incitatif et largement insuffisant. © Arnaud
+       Le Vu / Hans Lucas / AFP
+       MaPrimeRénov’, l’aide publique qui peut vous plonger dans la
+       précarité
+       Édition
+       du Jeudi 1 Décembre
+       J'achète
+       Je m'abonne
+     * Rechercher
+     * La boutique
+       Hors-série
+       Une histoire populaire du foot français
+       124 pages pour vivre l'épopée des Bleus, de 1904 à aujourd'hui,
+       sous un angle inédit.
+       J'achète
+       Revue
+       Déserts médicaux : la vérité, les solutions - La Terre | N°8
+       Notre dossier sur les déserts médicaux, l'élevage agroécologique,
+       nos portraits d'agriculteurs... 100 pages engagées...
+       J'achète
+       Livre
+       ANTIRACISME - 150 ans de combats
+       40 grands textes choisis et présentés par le philosophe Florian
+       Gulli pour construire des solidarités antiracistes...
+       J'achète
+       Livre
+       Les raisons de la guerre en Ukraine
+       Quelles sont les enjeux derrière cette tragédie ? Patrick Le Hyaric
+       propose des pistes d’analyses et de réflexions...
+       J'achète
+       Couplé intégral
+       Papier + numérique
+       [papier.svg] Le quotidien et le magazine papier livrés chez vous.
+       +
+       [numerique.svg] L’accès à tous les contenus payants du site
+       humanite.fr.
+       Je m'abonne
+       Week-end intégral
+       Papier + numérique
+       [papier.svg] Le quotidien du vendredi et le magazine papier livrés
+       chez vous.
+       +
+       [numerique.svg] L’accès à tous les contenus payants du site
+       humanite.fr.
+       Je m'abonne
+       Couplé 100%Web
+       Numérique
+       [numerique.svg] L’accès à tous les contenus payants du site
+       humanite.fr.
+       Je m'abonne
+       Retrouvez vos publications préférées sur le kiosque de l'Humanité
 
-   Accueil
-
-     * (BUTTON) Imprimer
-     * (BUTTON) Partager
-       Partager cette page
-          + Envoyer par email
-          + Facebook
-          + Twitter
-          + Linkedin
-
-n°2 Langues dépaysées
-
-Editorial
-
-   Il y a bien des manières, pour une langue, dêtre dépaysée, hors de son
-   pays ou de son paysage social habituels. Les migrations, les exils, les
-   diasporas, les colonisations, les guerres, les occupations, les trafics
-   et séjours en tous genres, la font sortir et la mettent au contact
-   d'autres réalités à nommer, d'autres langues installées ou de passage
-   elles aussi. Elle peut connaître alors plusieurs destins.
-   Est-elle la première à se métisser ou à s'effacer, ou bien, à
-   l'inverse, sert-elle d'ultime réceptacle à une identité fragilisée par
-   le déplacement, cette langue que l'on dit un peu vite maternelle ?
-   S'use-t-elle ou s'enrichit-elle de la même manière lorsque ses
-   locuteurs sont en position de force, arrivés non pas en exilés, mais en
-   maîtres ? Les aléas du politique népuisent nullement, par ailleurs, les
-   figures du dépaysement : diplomates et commerçants ont besoin d'une
-   lingua franca ou d'un pidgin dont on se souvient qu'il s'agit du mot
-   business prononcé par les Chinois, à la fin du XIXe siècle.
-   Toutes les questions que l'on se pose à propos des langues sorties de
-   leur lit ou parties au dehors ne pouvaient être abordées dans le
-   présent dossier de Diasporas. Nous avons d'abord demandé à Lucette
-   Valensi de nous emmener dans le TGM, ce petit train qui traversait la
-   mosaïque ethnique et linguistique de la Tunisie coloniale, et à
-   Georges-Elia Sarfati de réfléchir sur la manière dont les dictionnaires
-   d'aujourd'hui définissent les « juifs » ou le « sionisme ».
-   Les articles réunis dans le présent dossier peuvent être abordés de
-   deux manières. On peut choisir de mettre l'accent sur les langues
-   retenues, volontairement peu nombreuses : le grec, les langues juives à
-   trait d'union (judéo-arabe, judéo-espagnol, judéo-occitan...), le
-   français enfin. On peut aussi organiser la matière autour d'une
-   typologie simple des formes de dépaysement : l'exil lié au malheur
-   d'une partie des locuteurs (ce fut à deux reprises le cas du français),
-   la diaspora au sens historique large (Grecs et Juifs sont ici
-   concernés), la colonisation (nous retrouvons le français). Pour des
-   raisons de lisibilité, nous avons choisi une organisation à la fois
-   thématique et linguistique.
-   Un premier ensemble de textes s'intéressent à des situations
-   linguistiques concrètes de dépaysement ou de diaspora, en insistant sur
-   le cas des langues de la diaspora juive. On verra à propos du seul
-   exemple des Grecs combien les situations politiques, culturelles et
-   linguistiques ont été et restent complexes, à l'intérieur de
-   lÉtat-nation bâti au XIXe siècle comme sur les chemins d'une diaspora
-   multiple.
-   Un second ensemble s'ordonne autour des étonnants destins du français
-   depuis quatre siècles. Il a été emporté par des fugitifs ou des exilés,
-   à la fin du XVIIe comme au début du XXe siècle. Il a été désiré et
-   choisi par des milieux très divers, République des lettres au temps des
-   Lumières, bourgeoisies méditerranéennes ou sud-américaines, juifs
-   sépharades se ralliant à lui comme à la promesse de 1789. Il a aussi
-   été, un peu partout dans le monde, la langue des maîtres, soldats,
-   administrateurs, commerçants et missionnaires au coude à coude. Il ne
-   pouvait sortir inchangé d'un tel maelström d'expériences, d'espaces et
-   de sons : le monde colonial, en Afrique sub-saharienne comme au
-   Maghreb, a été le théâtre de ses aventures grammaticales et lexicales,
-   aujourd'hui continuées dans la société française largement nourrie des
-   vagues successives de l'immigration. L'Empire a disparu, exilés et
-   missionnaires sont pour la plupart revenus, mais le français a beaucoup
-   gardé de ses multiples dépaysements.
-   Les langues exiliques, diasporiques, minoritaires, ont souvent réussi à
-   perdurer dans des contextes beaucoup plus difficiles que celui qu'a
-   connu le français, tout en se transformant sans cesse à travers
-   pérégrinations, contacts, influences réciproques ; traits d'union entre
-   peuples et cultures, elles ont mêlé lexiques, grammaires et accents.
-   Leur destin est celui des peuples qui les parlent, entre persistance et
-   assimilation, entre victoire des hautes cultures fortes d'un appareil
-   politique, et fragile pérennité de ces sources qui peuvent resurgir
-   alors qu'on les croyait taries, comme le fait le yiddish depuis
-   quelques années.
-
-   La Rédaction
-
-   Vers le site des Presses Universitaires du Mirail
-
-   Dossier
-
-   Lucette VALENSI, Le TGM
-
-   Andrée TABOURET-KELLER, La langue maternelle, un carrefour de
-   métaphores
-
-   Georges DRETTAS, Diaspora et migration, éléments pour une histoire
-   linguistique de l'ensemble grec
-
-   Jacques TAIEB et Mansour SAYAH, Des remarques à propos du parler
-   judéo-arabe de Tunisie
-
-   Haïm-Vidal SEPHIHA, Mouvances judéo- espagnoles : impacts linguistiques
-
-   Georges-Elias SARFATI, Les racines sémantiques de l'antisionisme : de
-   la définition religieuse au rejet national
-
-   Viviane ROSEN-PREST, Polémiques autour du français réfugié parlé à
-   Berlin à la fin du XVIII° siècle
-
-   Patrick CABANEL, Langue et diasporas. Trois exemples d'expansion
-   paradoxale du français
-
-   Nicole KOULAYAN, Le français langue diasporique d'un genre spécifique ?
-
-   Guy DUGAS, Types et parlers de la diaspora européenne dans la
-   littérature coloniale d'Afrique du Nord
-
-   Kmar KCHIR-BENDANA, Kaddour Ben Nitram et les sabirs de Tunis entre
-   l'oral et l'écrit
-
-   Laurent DORNEL et Sophie DULUCQ, Le français en Afrique Occidentale
-   Française. Construction linguistique, représentations et domination
-   coloniale
-
-    Documents
-
-   Le judéo-occitan existe : essai sur la "lenga juzieva", de Marie-Claire
-   Viguier (in Juifs et source juive en Occitanie, Vent Terral, 1988),
-   (présenté par Georges Passerat)
-
-   Discours à l'Unesco, 17 juin 2002, de Haïm-Vidal Sephiha, (présenté par
-   Jean-François Berdah)
-
-   Lettre d'un anonyme à l'Auteur de la Gazette littéraire. Gazette
-   littéraire de Berlin, année 1773, p. 60-61, (présenté par Viviane
-   Rosen-Prest)
-
-   Etre un peuple en Diaspora de Richard Marienstras (Maspero, 1977),
-   (extrait présenté par Chantal Bordes-Benayoun)
-
-     * Laboratoire
-          + Présentation
-          + Direction - Administration
-          + Organigramme
-          + Annuaire
-          + Infos pratiques
-          + Mission égalité
-          + Doctorant.e.s & jeunes chercheur.e.s
+   _______________
+   ×
+   Rechercher
      * Recherche
-          + Axes thématiques
-          + Pôles de compétences
-          + Projets collectifs financés
-          + Séminaires
+     * user
+          + Mon compte
+     * ventes
+          + Mes journaux
+          + Abonnez-vous
+          + La boutique
+     * Rubrique
+          + À la une
+          + Politique
+          + Social-Eco
+          + Société
+          + Culture et savoir
+          + Médias
+          + Sports
+          + Monde
+          + Planète
+          + En débat
+     * thèmes
+          + Vidéos
+     * Autres services
+          + Annonces légales
+          + Annonces : emplois, vacances...
+     * services
+          + La Fête de l'Humanité
+          + Les voyages de l'Humanité
 
-     * Publications
-          + Revues
-          + Collection Méridiennes
-          + HAL
-          + Carnets de recherche
-          + Dernières publications
-     * Formations
+Dépaysement affaire Bettencourt: l'USM crie à "l'opération de manipulation"
 
-     * Bibliothèque d'Études Méridionales
-          + Accueil BEM
-          + Les fonds documentaires
-          + Les origines de la BEM
+   Publié le
+   Samedi 23 Octobre 2010
 
-   logo-FRAMESPA
+   Le président de l'Union syndicale des magistrats (USM), Christophe
+   Régnard, a qualifié samedi "d'opération de manipulation" la demande de
+   dépaysement de l'ensemble des procédures liées à l'affaire Bettencourt
+   par le procureur général de Versailles. "C'est une énorme opération de
+   manipulation pour éviter qu'Isabelle Prévost-Desprez n'aille au bout du
+   dossier (pour abus de faiblesse sur Liliane Bettencourt, visant
+   François-Marie Banier, ndlr). C'est parfaitement scandaleux", a affirmé
+   sur France Info le président de l'USM, syndicat majoritaire chez les
+   magistrats. "On veut dessaisir Isabelle Prévost-Desprez parce qu'elle
+   gêne. Cela fait un an que le parquet général essaye" de la "débarquer",
+   a ajouté Christophe Régnard. Après avoir annoncé la veille qu'il
+   saisissait la Cour de cassation pour un dépaysement du volet d'abus de
+   faiblesse, confié à la juge de Nanterre Isabelle Prévost-Desprez, le
+   procureur Philippe Ingall-Montagnier a déclaré au JDD qu'il souhaitait
+   aussi un dépaysement des enquêtes préliminaires ouvertes par son
+   subordonné, le procureur de Nanterre Philippe Courroye. Le procureur
+   général de Versailles n'a "absolument pas les moyens" de dessaisir le
+   procureur de la République de Nanterre des enquêtes préliminaires qu'il
+   a ouvertes notamment pour financement illégal politique, a précisé M.
+   Régnard. "C'est un magistrat avec une certaine ancienneté. Il le sait
+   parfaitement. Il n'y a aucun moyen procédural pour dessaisir le
+   procureur de la République de Nanterre. On est dans une opération de
+   manipulation", a-t-il estimé. Selon lui, "c'est annoncé pour faire
+   diversion". Isabelle Prévost-Desprez s'était saisie d'un supplément
+   d'information sur un abus de faiblesse de Liliane Bettencourt, dossier
+   dans lequel est poursuivi l'artiste François-Marie Banier, accusé par
+   la fille de l'octogénaire d'avoir extorqué un milliard d'euros de dons.
+   Elle avait renvoyé le procès de M. Banier sine die le 1er juillet suite
+   à la publication dans la presse de conversations téléphoniques
+   clandestines au domicile de l'héritière du groupe de cosmétiques
+   l'Oréal.
 
+   Édition
+   du Mercredi 7 Décembre
+   J'achète
+   Je m'abonne
 
-    Maison de la Recherche
-    (3e et 4e étages)
-    5, allées Antonio-Machado
-    31058 TOULOUSE Cedex 9
+   Édition
+   du Jeudi 1 Décembre
+   J'achète
+   Je m'abonne
+   Les articles les plus lus
+   Israël a décidé de maintenir Salah Hamouri en prison
+   Une institution a le pouvoir de faire taire Hanouna, mais...
+   Le cas Hanouna, symptôme d’un dérèglement médiatique ? (2/2)
+   Abdel, notre frangin. L'autre mort du 5 décembre 1986
 
-   [logo_UT2J.jpg]
+   Partager
+     *
+     *
+     *
+     *
+
+     * Je m'abonne
+
+   Nos rubriques
+     * Politique
+     * Société
+     * Social-Eco
+     * Culture et savoir
+     * Sports
+     * Monde
+     * Planète
+     * Médias
+     * En débat
+     * Vos droits
+     * Science
+
+   Nos thèmes
+     * Vidéos
+     * Les Blogs et Chroniques
+     * Les Lettres Françaises
+
+   Nos services
+     * La Fête de l'Humanité
+     * Les voyages de l'Humanité
+     * Annonces légales
+     * Les offres d'emploi
+     * Vacances
+
+     * Facebook
+     * Twitter
+     * youtube
+
+   Nos applications mobiles
+     * Sur Google Play
+     * Sur l'App Store
+
      * Mentions légales
+     * Comediance - Régie publicitaire
+     * Où acheter nos titres ?
+     * Contacts
+     * C.G.U.
+     * Cookies
+     * Historique
+     * RSS
 
-   [logo+f%C3%A9d%C3%A9rale.png]
-   Haut de page
+     * À la une
+     * Partager
+     * Journal
+     * S'abonner
 
-   https://framespa.univ-tlse2.fr/accueil/divers/n2-langues-depaysees
+   [hit.xiti?col=1&amp;from=p&amp;s=484057&amp;s2=28&amp;p=depaysement_aff
+   aire_bettencourt_lusm_crie_a_loperation_de_manipulation_448752]

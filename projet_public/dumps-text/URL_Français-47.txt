@@ -1,210 +1,169 @@
-    #publisher alternate alternate
+   #LE LABORATOIRE » Flux LE LABORATOIRE » Flux des commentaires alternate
+   alternate alternate
 
-   (BUTTON)
+     * Français
+     * English
 
-   Je m'abonne
+   LE LABORATOIRE
 
-   (BUTTON)
+     * LE LABORATOIRE
+     * ACTUALITÉS
+     * ARCHIVES
+     * EDITIONS
+     * PARTENAIRES
+     * CONTACT
 
-   M'identifier Je m'abonne
+   Sélectionner une page
+   ____________________
 
-   à la une
+Le dépaysement
 
-     * Dépêches
-     * Vidéos
-     * Photos
+   Jan 28, 2020 | Paysage>Paysages fr
 
-   politique
+   On se sent parfois dépaysé devant un paysage, sans pourtant cerner ce
+   qui nous déconcerte, nous désoriente ou nous égare dans ce qui se tient
+   face à nous, irréductible à nos expériences antérieures.
 
-     * En marche
-     * PS
-     * Les Républicains
-     * FN
-     * France insoumise
+   > Le dépaysement fut longtemps le privilège du voyageur, puis du
+   touriste occidental. Si des figures vagabondes comme celle de Victor
+   Segalen ou de Nicolas Bouvier furent véritablement poreuses, traversées
+   par le monde, la quête d’exotisme masqua le plus souvent l’absence
+   d’une véritable volonté d’expérience de l’altérité. Le timbre-poste, la
+   carte postale et le dépliant d’agence de voyage en furent en quelque
+   sorte les icones. Le paysage exotique n’est alors qu’une simple
+   fiction, un décor illusoire débarrassé des lignes de forces radicales
+   qui l’innervent en profondeur.
 
-   monde
+   > Pourtant, la désorientation de celui qui demeure et travaille au pays
+   mais constate combien celui-ci n’est plus familier, comme « dépaysé »
+   lui aussi, vacant, noyé dans une uniformisation planétaire est une
+   expérience dominante du monde contemporain. La déterritorialisation,
+   forme inversée du dépaysement, désaccorde le lieu à ses soubassements,
+   aux usages et complicités accumulés au fil du temps. Les lieux de
+   l’industrie touristique, de l’industrie agricole, des hubs de transport
+   et plateformes offshore occupent les pays comme une armée étrangère,
+   dans l’amnésie des appartenances.
 
-     * Afrique
-     * Migrants
-     * L'Amérique selon Trump
-     * Ubu Trump
-     * Guerre en Syrie
+   > On peut pourtant se dépayser profondément dans son voisinage proche,
+   dans la solitude d’une longue traversée en forêt, devant la démesure de
+   la haute montagne, ou plus simplement en se déconnectant des réseaux
+   numériques et téléphoniques. Le paysage se métamorphose alors par la
+   simple connivence aiguisée avec la poétique du lieu et des êtres
+   vivants qui le peuplent.
 
-   société
+   Les propositions artistiques présentées durant cette quatrième saison
+   de paysage>paysages explorent ces différentes facettes du dépaysement,
+   au fil d’expériences de plein air, déclinées dans les parcs publics,
+   les piscines, les lacs, les alpages, les refuges….
 
-     * Justice
-     * 2049
-     * Education
-     * Planète
-     * Sciences
-     * Santé
+   Voici quelques-unes des rencontres à venir…
+     * L’artiste anglais Douglas White s’installera durant plusieurs
+       semaines pour mettre à jour les systèmes racinaires de quelques
+       arbres. Par soustraction minutieuse des couches d’humus, avec des
+       outils et une méthodologie d’archéologue, Douglas révèle le réseau
+       inextricable et les fragiles interactions, les complicités entre
+       les différents arbres, arbustes, buissons, champignons qui
+       composent ce sous-bois. Les observations scientifiques les plus
+       récentes rejoignent ici les savoirs vernaculaires anciens des
+       forestiers et l’intuition de l’artiste : chaque arbre repose sur un
+       monde souterrain de collaborations infinies et d’alertes entre
+       espèces différentes qui échappe à l’observation humaine et reste
+       bien souvent négligé. Pourtant, tissés ensemble sous terre par des
+       milliers de kilomètres de fils fongiques vivants, les arbres se
+       nourrissent et se guérissent l’un l’autre. Le tapis de câblages des
+       mycorhizes relie les arbres en gigantesques communautés
+       intelligentes qui peuvent s’étendre sur des centaines d’hectares.
 
-   éco
+   Enracinés de Douglas White, au musée Dauphinois / la ferme
+     * Avec sa sculpture Pinpointing-progress, installée en majesté dans
+       le parc du Domaine de Vizille, Maarten Vanden Eynde prend appui sur
+       le célèbre conte des frères Grimm « les musiciens de Brême » dans
+       lequel un âne, un chien, un chat et un coq décident de s’entraider
+       pour survivre. Montant les uns sur les autres, ils obtiennent une
+       silhouette animale monstrueuse et braillent à tue-tête pour
+       effrayer leurs ennemis. Mais les animaux cèdent la place ici à nos
+       outils de communication qui s’empilent les uns sur les autres au
+       fil des vagues d’innovation technique, désirables quelques si
+       brèves années, avant de se muer en déchets. Cet amoncèlement joyeux
+       et cocasse nous invite à partir en vacances, ou à oser un pas de
+       côté. Traversé de part en part par une épingle de 10 mètres de
+       haut, comme un gigantesque insecte fixé au sol, cet assemblage
+       incongru nous suggère les bienfaits du désordre et de
+       l’irrévérence….
 
-     * Social
-     * Conso
-     * Immobilier
-     * Tech
-
-   culture
-
-     * Cinéma
-     * Littérature
-     * Musique
-     * Histoire
-     * Mai 68
-
-   opinions
-
-     * Débats
-     * Editos et chroniques
-
-   teleobs
-
-     * Télévision
-     * Séries
-     * Radio
-     * Audiences
-     * Ce soir à la TV
-     * Programme TV
-     * DVD
-
-   bibliobs
-
-     * Romans
-     * Idées
-     * Essais
-     * Docs
-     * Polars
-     * BD
-
-   o
-
-     * Mode
-     * High-Tech
-     * Food
-     * Drinks
-     * Vins
-     * Voyage
-     * Design
-     * Auto
-
-   rue89
-
-     * Nos vies connectées
-     * Nos vies intimes
-     * Sur les réseaux
-     * Mooc Rue89
-     * Blogs
-
-   ecoloobs
-
-     * La vie en vert
-     * Planète
-     * Combien tu pollues ?
-     * Écologie politique
-
-   services
-
-     * Shopping
-     * Cours d'Anglais
-     * Cours d'Allemand
-     * Cours d'Espagnol
-     * Codes promo
-     * Préparer sa retraite
-
-     * L'Obs
-     * Société
-
-Affaire Bettencourt : la demande de dépaysement va être examinée
-
-   Philippe Courroye et Isabelle Prévost-Desprez (AFP et Sipa)
-
-La demande de changement de juridiction pour le traitement des enquêtes a été
-déposée. La Cour de cassation a désormais huit jours pour statuer.
-
-   Par L'Obs
-   Publié le 08 novembre 2010 à 17h59
-
-   La demande de changement de juridiction pour le traitement des enquêtes
-   concernant l'héritière de L'Oréal Liliane Bettencourt a été déposée, a
-   annoncé, lundi 8 novembre, le parquet général de Versailles.
-
-   La Cour de cassation a désormais huit jours pour statuer. Elle doit
-   décider si elle accepte de dessaisir les magistrats de Nanterre
-   (Hauts-de-Seine) des dossiers. Dans l'affirmative, elle saisira un ou
-   plusieurs autres tribunaux.
-
-   Sont concernées en particulier une enquête pour "abus de faiblesse"
-   dirigée jusqu'ici contre le photographe François-Marie Banier, ainsi
-   qu'une information judiciaire visant notamment des accusations de
-   financement illégal de l'UMP et des soupçons sur le ministre du Travail
-   Eric Woerth.
+   Pinpointing-progress de Maarten Vanden Eynde, parvis du chateau de
+   Vizille
 
 
-   Courroye plus que jamais sous le feu des critiques
+     * Jean-Pierre Brazs utilisera pour son installation intitulée
+       Pourquoi ici ? les codes visuels de la signalétique routière…, mais
+       alors que les panneaux devraient indiquer des interdictions, des
+       dangers et des directions, ils signalent ici de nouveaux points
+       remarquables à notre attention – les nuages, les truites farios ou
+       la ligne d’horizon…. Dans un de ses « contes paysagers »,
+       Jean-Pierre Brazs a imaginé que les mots nécessaires pour désigner
+       le paysage s’effaçaient des livres des bibliothèques rendant
+       impossible l’émotion de la lecture et sans objet la contemplation
+       du paysage. Le mot « Cime » avait disparu, tout comme « ravin », «
+       vallée », « combe » et « pâturage ». Ce fut une catastrophe. Des
+       pans entiers de textes littéraires, de carnets de voyage et de
+       comptes rendus d’études se liquéfiaient en d’incompréhensibles et
+       plates phraséologies. Mais au fil de la ViaRhôna, les mots et les
+       signes sont là pour perturber provisoirement notre rapport au lieu.
 
-   Le procureur général de Versailles Philippe Ingall-Montagnier a dit
-   dans un communiqué espérer que la décision ramènerait le calme dans
-   cette affaire.
+   Pourquoi-ici de Jean-Pierre Brazs / Isle de la Serre
 
-   "Le procureur général a rappelé que, quelle que soit la future décision
-   de la Cour de cassation, celle-ci s'imposera et a réitéré le souhait
-   que, dès lors, on laisse la justice accomplir sa mission en toute
-   indépendance et sérénité d'esprit", dit-il.
 
-   Cette demande de "dépaysement" des dossiers est la conséquence d'un
-   affrontement entre le procureur de Nanterre Philippe Courroye et la
-   présidente du tribunal correctionnel Isabelle Prévost-Desprez. Le
-   premier a mené une enquête sur la seconde et a porté contre elle une
-   accusation de "violation du secret de l'enquête".
+     * La céramiste Alexandra Engelfriet lutte avec la matière durant de
+       vastes corps à corps comme cette tranchée de 40 mètres ouverte à la
+       pelle mécanique puis transformée en four pour cuire à 1300 degrés
+       en continu durant 6 jours et 6 nuits une céramique de 30 tonnes, ou
+       ce bain tellurique de matière crue dans lequel elle disparait, pour
+       conjurer la vanité de l’existence humaine, sans autres outils
+       qu’elle-même dans une forme de transe qui conservera son empreinte
+       dans la matière, meurtrie et sensuelle, abandonnée sans retouche ni
+       remord. Invitée à s’inscrire au fil de l’Isère sur le site du
+       campus de Grenoble, elle explorera la mémoire géologique du site.
 
-   A la suite de cette démarche, les critiques se sont accrues contre le
-   procureur, accusé par la gauche et les syndicats de magistrats de
-   vouloir conserver le dossier sous contrôle pour le compte de l'Elysée
-   et de vouloir mettre à l'écart Isabelle Prévost-Desprez.
+   Alexandra Engelfriet à l’oeuvre durant la réalisation de « tranchée »
+     * L’implantation par la Fédération des Alpages de l’Isère d’un
+       troupeau de plusieurs centaines d’animaux sur le campus
+       universitaire n’est pas destinée à tondre de l’herbe en remplaçant
+       les tondeuses à gazon ! Cette initiative souhaite contribuer à
+       redonner une assise sensible aux citoyens, enfants et adultes qui
+       vivent dans la métropole grenobloise, en affirmant la nécessaire
+       présence des animaux dans la cité, et de ceux qui les élèvent,
+       comme une pédagogique nécessaire pour aborder le monde qui vient.
+       Nous inviterons notamment le berger Laurent Four à transmettre à
+       tous comment entrer en complicité et à dialoguer avec les animaux,
+       ainsi que les frères Janin, qui sont architectes, éleveurs,
+       paysagistes et utilisent le bétail comme un vecteur performant
+       d’aménagement paysagé, à partager comment mieux prendre en
+       considération, dans le sens le plus puissant du terme, la nature
+       environnante pour penser le lieu.
 
-   Le procureur a finalement été contraint de se dessaisir de ses propres
-   enquêtes et d'ouvrir une information judiciaire, préalable au
-   dépaysement.
 
-   Le procureur général de Versailles a aussi demandé le dépaysement de
-   l'enquête pour violation du secret de l'enquête ouverte contre Isabelle
-   Prévost-Desprez, accusée d'avoir communiqué avec des journalistes. Ce
-   dossier fait l'objet d'une information judiciaire à Versailles.
+   Dialogue avec un troupeau, conduit par le berger Laurent Four
 
-   (Nouvelobs.com)
 
-   L'Obs
-   Commentaires 0 commentaire
-   Pour réagir, je clique ici Connexion
+   Découvrir un article sur art catalyse de l’été 2020
 
-   Retour haut de page
-     * Politique
-     * Monde
-     * économie
-     * Culture
-     * Opinions
-     * Débats
-     * Vidéos
-     * Photos
 
-     * TéléObs
-     * BibliObs
-     * "O"
-     * Rue89
-     * Newsletters
-     * Services
-     * Index
-     * Plan du site
-     * Mentions légales
-     * CGV
-     * Copyright
-     * Publicité
-     * Données personnelles
-     * Contact
 
-   L'Obs - Les marques ou contenus du site nouvelobs.com sont soumis à la
-   protection de la propriété intellectuelle
+Articles récents
 
-   (BUTTON) Cookies
+     * Le journal des sols
+     * Reprendre l’espace public !
+     * Le travail du lieu
+     * Dépaysements
+     * Usages du monde
+
+Catégories
+
+     * editions fr
+     * Laboratoire fr
+     * local contemporain fr
+     * Paysage>Paysages fr
+     * RECHERCHE / PUBLICATIONS
+
+   © Le Laboratoire 2017 - webdesign chrisgaillard.com
