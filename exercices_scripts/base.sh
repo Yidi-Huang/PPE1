@@ -18,7 +18,7 @@ then
 	exit
 fi
 
-mot="[Rr]obots?" # à modifier
+mot="[Ee]xiled?" # à modifier
 
 echo $fichier_urls;
 basename=$(basename -s .txt $fichier_urls)
@@ -34,7 +34,7 @@ while read -r URL; do
 	echo -e "\tURL : $URL";
 	# la façon attendue, sans l'option -w de cURL
 	code=$(curl -ILs $URL | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)
-	charset=$(curl -Ls $URL -D - -o "./aspirations/fich-$lineno.html" | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
+	charset=$(curl -Ls $URL -D - -o "./aspirations/$basename-$lineno.html" | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
 
 	# autre façon, avec l'option -w de cURL
 	# code=$(curl -Ls -o /dev/null -w "%{http_code}" $URL)
@@ -62,20 +62,20 @@ while read -r URL; do
 		dump=""
 		charset=""
 	fi
-  echo "$dump" > "./dumps-text/fich-$lineno.txt"
+  echo "$dump" > "./dumps-text/$basename-$lineno.txt"
 
   # compte du nombre d'occurrences
-  NB_OCC=$(grep -E -o $mot ./dumps-text/fich-$lineno.txt | wc -l)
+  NB_OCC=$(grep -E -o $mot ./dumps-text/$basename-$lineno.txt | wc -l)
 
   # extraction des contextes
 
-  grep -E -A2 -B2 $mot ./dumps-text/fich-$lineno.txt > ./contextes/fich-$lineno.txt
+  grep -E -A2 -B2 $mot ./dumps-text/$basename-$lineno.txt > ./contextes/$basename-$lineno.txt
 
   # construction des concordance avec une commande externe
 
-  bash programmes/concordance.sh ./dumps-text/fich-$lineno.txt $mot > ./concordances/fich-$lineno.html
+  bash programmes/concordance.sh ./dumps-text/$basename-$lineno.txt $mot > ./concordances/$basename-$lineno.html
 
-	echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td><td><a href="../aspirations/fich-$lineno.html">html</a></td><td><a href="../dumps-text/fich-$lineno.txt">text</a></td><td>$NB_OCC</td><td><a href="../contextes/fich-$lineno.txt">contextes</a></td><td><a href="../concordances/fich-$lineno.html">concordance</a></td></tr>" >> $fichier_tableau
+	echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td><td><a href="../aspirations/$basename-$lineno.html">html</a></td><td><a href="../dumps-text/$basename-$lineno.txt">text</a></td><td>$NB_OCC</td><td><a href="../contextes/$basename-$lineno.txt">contextes</a></td><td><a href="../concordances/$basename-$lineno.html">concordance</a></td></tr>" >> $fichier_tableau
 	echo -e "\t--------------------------------"
 	lineno=$((lineno+1));
 done < $fichier_urls

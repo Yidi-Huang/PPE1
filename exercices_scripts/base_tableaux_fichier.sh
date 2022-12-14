@@ -39,7 +39,7 @@ while read -r URL; do
 	charset=$(curl -ILs $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
 	## \w : lettre ou chiffre, pour avoir une séquence de lettres, chiffres et tiret
 	## cut -d= f2 : separer par "="             -d= : délimiteur est "=", pour découper les colones    -f2 : la dexième colone, morceau découpé par "d"
-	aspiration=$(curl $URL>aspirations/URL_anglais_$lineno.html)
+	aspiration=$(curl $URL>aspirations/$basename-$lineno.html)
 	# autre façon, avec l'option -w de cURL
 	# code=$(curl -Ls -o /dev/null -w "%{http_code}" $URL)       -w
 	# charset=$(curl -ILs -o /dev/null -w "%{content_type}" $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
