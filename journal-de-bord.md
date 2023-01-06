@@ -238,6 +238,7 @@ Avec la commande lynx :
 Avec la commande curl : 
 
 -i : va donner des informations sur l’interaction avec le serveur
+-I : va donner seulement l'entête des informations (plus clair et utile)
 
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre$ curl -i www.perdu.com
 	HTTP/1.1 200 OK
@@ -255,10 +256,19 @@ Avec la commande curl :
 	Content-Type: text/html
 
 	<html><head><title>Vous Etes Perdu ?</title></head><body><h1>Perdu sur l'Internet ?</h1><h2>Pas de panique, on va vous aider</h2><strong><pre>    * <----- vous &ecirc;tes ici</pre></strong></body></html>
+
+Ce résultat nous indique beaucoup de choses : 
+
+1. HTTP 200 indique que le URL est accessible et fonctionne bien. Pour notre projet, on peut vérifier les 50 URLs par cette indice.
+
+2. Content-Type raconte l'encodage du html original. Normalement, UTF-8 est préféré, car le html qu'on va créer doit en encodage UTF-8.
 	
 Nous avons commencé en même temps la recherche des 50 URL sur notre mot choisi.
 Pendant ce processus, il est à noter qu'il faut avoir un retour à la ligne à la fin du fichier, sinon avec les commandes -r, la dernière ligne ne sera pas prise en compte par la machine.
 
+
+## séance 6 - URL
+### 26 octobre 2022
 
 	
 
