@@ -117,18 +117,18 @@ Au cours de la 4e séance, nous avons pratiqué certaines commandes pour avoir u
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ grep -E 'Location' 2018*.ann | wc -l
 	3110
 	
-- echo pour écrire une chaîne de caractère en sortie :
+echo pour écrire une chaîne de caractère en sortie :
 	
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ grep "Location" 2016*.ann | wc -l >> sortie.txt
 	
-- file pour vérifier l'encodage du fichier :
+file pour vérifier l'encodage du fichier :
 	
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ file sortie.txt
 	sortie.txt: Unicode text, UTF-8 text
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ file sortie2.txt
 	sortie2.txt: ASCII text
 	
-- hexdump : pour voir les codes héxadécimaux du fichier encodé en codes binaires
+hexdump : pour voir les codes héxadécimaux du fichier encodé en codes binaires
 
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ hexdump sortie2.txt
 	0000000 6f42 6a6e 756f 0a72                    
