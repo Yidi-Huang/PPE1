@@ -512,7 +512,61 @@ Les deux premières lignes du script peut traiter respectivement les dumps-text 
 La dernière partie est construite afin d'obtenir un html, qui a pour contenu un tableau avec toutes les colonnes d'informations nécesaires : numéro, URL, encodage, aspiration, dump-text, contexte et concordance.
 
 
+## séance 11 - Itrameur
+### 7 décembre 2022
 
+La 11e séance est dédiée à la fonction d'un outil Itrameur, qui peut analyser le mot, le corpus ainsi que le lien entre les deux éléments.
+
+À l'aide de cet outil, on peut vérifier le dictionnaire du corpus, soit les mots et leur nombre d'apparition à l'ordre décroissant. 
+
+En plus, Itrameur peut nous aider notamment à étudier le contexte du mot. Par rapport au script que nous avons utilisé pour le contexte, Itrameur nous donne respectivement un mot avant et après le mot clé. Cette relation peut être représenté sous forme d'un tableau, qui peut clairement analyser les mots les plus fréquents autour du mot clé. Mais elle peut aussi être présentée sous forme d'une graphe, qui est plus lisible pour l'analyse.
+
+Itrameur nous permet aussi de voir la fréquence du mot clé dans les corpus réunis.
+
+Pour obtenir un fichier qui peut être traité par Itrameur, il faut tout d'abord créer un nouveau fichier qui peut être reconnu par Itrameur à partir du dump-text ou contexte.
+
+Avec le script ci-dessous, nous avons réussi à produire les deux fichier de base pour Itrameur.
+
+	if [[ $# -ne 2 ]]
+	then
+		echo "Deux arguments attendus: <dossier> <langue>"
+		exit
+	fi
+
+	folder=$1 # dumps-text OU contextes
+	basename=$2 # en, fr, ru, pl, it, jp, etc...
+
+	echo "<lang=\"$basename\">" > "./itrameur/$folder-$basename.txt"
+
+	for filepath in $(ls $folder/$basename-*.txt)
+	do
+		# filepath == dumps-texts/fr-1.txt
+		# 	==> pagename = fr-1
+		pagename=$(basename -s .txt $filepath)
+
+		echo "<page=\"$pagename\">" >> "./itrameur/$folder-$basename.txt"
+		echo "<text>" >> "./itrameur/$folder-$basename.txt"
+	
+		# on récupère les dumps/contextes
+		# et on écrit à l'intérieur de la balise text
+		content=$(cat $filepath)
+		# ordre important : & en premier
+		# sinon : < => &lt; => &amp;lt;
+		content=$(echo "$content" | sed 's/&/&amp;/g')
+		content=$(echo "$content" | sed 's/</&lt;/g')
+		content=$(echo "$content" | sed 's/>/&gt;/g')
+
+		echo "$content" >> "./itrameur/$folder-$basename.txt"
+
+		echo "</text>" >> "./itrameur/$folder-$basename.txt"
+		echo "</page> §" >> "./itrameur/$folder-$basename.txt"
+	done
+
+	echo "</lang>" >> "./itrameur/$folder-$basename.txt"
+
+
+## séance 12 - Wordcloud
+### 14 décembre 2022
 	
 
 
