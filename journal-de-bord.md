@@ -488,6 +488,31 @@ L'ajout du script produit le dump et aspiration des URL, et ces deux parties peu
 	</html>
 
 
+## séance 9,10 - concordance et contexte
+### 23, 30 novembre 2022
+La séance 9 a pour objectif de compléter la construction du tableau avec les concordances et les contextes du mot dans les URL.
+
+Le contexte consiste à représenter les phrases ou les syntagmes avant et après le mot du projet. ALors pour la concordance, elle nous montre le nombre d'apparence du mot dans une page de URL. Ce nombre peut être considéré comme un repère pour vérifier si le contexte est pertinent ou pas.
+
+Pour réaliser ces deux fonctions, nous sommes obligés à ajouter des commandes dans le script original.
+
+	  grep -E -A2 -B2 $mot ./dumps-text/$basename-$lineno.txt > ./contextes/$basename-$lineno.txt
+	  
+	  bash programmes/concordance.sh ./dumps-text/$basename-$lineno.txt $mot > ./concordances/$basename-$lineno.html
+	  
+	  echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td><td><a href="../aspirations/$basename-$lineno.html">html</a></td><td><a href="../dumps-text/$basename-$lineno.txt">text</a></td><td>$NB_OCC</td><td><a href="../contextes/$basename-$lineno.txt">contextes</a></td><td><a href="../concordances/$basename-$lineno.html">concordance</a></td></tr>" >> $fichier_tableau
+	echo -e "\t--------------------------------"
+	lineno=$((lineno+1));
+	done < $fichier_urls
+	echo "</table>" >> $fichier_tableau
+	echo "</body></html>" >> $fichier_tableau
+
+Les deux premières lignes du script peut traiter respectivement les dumps-text des URL pour tirer les contextes du mot et compter le nombre d'apparition du mot dans les pages web.
+
+La dernière partie est construite afin d'obtenir un html, qui a pour contenu un tableau avec toutes les colonnes d'informations nécesaires : numéro, URL, encodage, aspiration, dump-text, contexte et concordance.
+
+
+
 	
 
 
