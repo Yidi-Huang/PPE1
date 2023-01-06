@@ -523,6 +523,9 @@ Avec ce script complète, nous pouvons finalement obtenir un tableau dans html c
 	<tr><td>3</td><td>200</td><td><a href="https://www.theguardian.com/world/2022/jun/08/moscows-chief-rabbi-in-exile-after-resisting-kremlin-pressure-over-war">https://www.theguardian.com/world/2022/jun/08/moscows-chief-rabbi-in-exile-after-resisting-kremlin-pressure-over-war</a></td><td>UTF-8</td><td><a href=../aspirations/URL_anglais-3.html>html</a></td><td><a href=../dumps-text/URL_anglais-3.txt>text</a></td><td>5</td><td><a href=../contextes/URL_anglais-3.txt>contextes</a></td><td><a href=../concordances/URL_anglais-3.html>concordance</a></td></tr>
 	<tr><td>4</td><td>200</td><td><a href="https://www.theguardian.com/global-development/2022/aug/25/afghan-women-exile-taliban-global-policy">https://www.theguardian.com/global-development/2022/aug/25/afghan-women-exile-taliban-global-policy</a></td><td>UTF-8</td><td><a href=../aspirations/URL_anglais-4.html>html</a></td><td><a href=../dumps-text/URL_anglais-4.txt>text</a></td><td>3</td><td><a href=../contextes/URL_anglais-4.txt>contextes</a></td><td><a href=../concordances/URL_anglais-4.html>concordance</a></td></tr>
 	...
+	</table>
+	</body></html>
+
 
 ## séance 11 - Itrameur
 ### 7 décembre 2022
@@ -580,6 +583,48 @@ Avec le script ci-dessous, nous avons réussi à produire les deux fichier de ba
 ## séance 12 - Wordcloud
 ### 14 décembre 2022
 	
+Au cours de la 12e séance, les professeurs nous ont présenté une fonction wordcloud. Elle peut analyser le corpus et présenter les mots les plus fréquents dans une image.
+
+Pour appliquer cette fonction depuis le terminal, il faut tout d'abord installer wordcloud :
+
+	python -m pip install wordcloud --user
+	
+	conda install -c  conda-forge wordcloud
+
+Après l'installation, nous pouvons entrer la commande afin de produire l'image :
+
+	wordcloud_cli -h
+	wordcloud_cli --text ./dump-fr.txt --imagefile ./image.png --scale 2
+
+Ici, nous avons choisi le dump-text comme le corpus pour analyser, et nous avons créer une image qui s'appelle image.png qui a la taille 2 à l'aide de cette commande.
+
+Cependant, une grande majorité de mots présentés dans l'image produit brut sont les mots vides, autrement dit, les grammèmes : article, préposition, pronom.
+
+Ainsi, il faut supprimer ces mots vides dans le but d'obtenir une image qui porte du sens pour l'analyse.
+
+En réalisant cette étape, nous avons créer un nouveau fichier motvides.txt qui a le contenu ci-dessous :
+
+	à	
+	le
+	en
+	du
+	un
+	ou
+	et
+	la
+	une
+	par
+	des
+	les
+	sur
+	pour
+	
+Après la sélection des mots vides, nous pouvons procéder à nouveau à la production de l'image tout en indiquant que les mots dans ce fichier doivent être ignorés :
+
+	wordcloud_cli --text ./dump-fr.txt --imagefile ./image.png --scale 2  --stopwords motsvides.txt
+	
+Finalement, l'image contient les mots dont la plupart sont liés aux mot clé.
+
 
 
 	
