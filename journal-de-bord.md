@@ -283,7 +283,9 @@ Pendant ce processus, il est à noter qu'il faut avoir un retour à la ligne à 
 Exercice du cours précédent : 
 
 1 classement des lieux les plus cites
+
 • par $ANNEE et $MOIS en limitant à $TOPN résultats plus nombreux
+
 • en validant les arguments
 
 	#! /usr/bin/bash
@@ -307,8 +309,11 @@ Exercice du cours précédent :
 	fi
 	
 2 Compter $TYPE d’entités par $ANNEE
+
 • basique
+
 • avec arguments
+
 • en validant les arguments avec des et exit si problème.
 
 	#! /usr/bin/bash
@@ -331,7 +336,7 @@ Exercice du cours précédent :
 		echo "pas d'informations sur annees"
 	fi
 
-## séance 6 - HTML
+## séance 7 - HTML
 ### 9 novembre 2022
 Pendant la 6e séance, nous avons réalisé des préparations pour le HTML du projet.
 
@@ -341,9 +346,98 @@ Puis, nous avons procédé à la validation et construction du corpus depuis les
 
 Pour vérifier si la ligne est un URL, il y a deux méthodes :
 
-1. vérifier si le début de la ligne commence par http(s):
+1 vérifier si le début de la ligne commence par http(s):
 	
+	# !/ usr / bin / bash
+	if [ $ # - ne 1 ]
+	then
+		echo " ce programme demande un argument "
+			exit
+	fi
+	FICHIER_URLS = $1
+	OK =0
+	NOK =0
+	while read -r LINE ;
+	do
+		echo " la ligne : $LINE "
+		if [[ $LINE =∼ " ^ https ?:// " ]]
+		then
+			echo " ressemble à une URL valide "
+			OK = $ ( expr $OK + 1)
+		else
+			echo " ne ressemble pas à une URL valide "
+			NOK = $ ( expr $NOK + 1)
+		fi
+	done < $FICHIER_URLS
+	echo " $OK URLs et $NOK lignes douteuses "
 	
+2 nous pouvons vérifier de manière plus prudente à l'aide de la commande -curl, qui sert à entrer dans la page html du lien et à récupérer des informations du html
+
+	FICHIER=$1
+	URLS=$(cat  $FICHIER)
+
+	for URL in $URLS
+	do 
+		LINE=$(curl -I $URL)
+		if [[  $LINE =~ "HTTP"  ]]
+		then
+			echo "URL"
+		else
+			echo "Non URL"
+		fi
+	done
+
+En plus de savoir si les lignes sont des URL, il est obligatoire, pour le projet de récupérer les contenus depuis les URL et les stocker à local.
+
+La première tâche consiste à créer un tableau qui contiennent toutes les informations de chaque URL. La base commence par le numéro de URL, le URL, et son encodage.
+
+Avec le script que les professeurs nous ont donnés, le html contient les trois éléments que nous mentionnons ci-dessus.
+
+	fichier_urls=$1 # le fichier d'URL en entrée
+	fichier_tableau=$2 # le fichier HTML en sortie
+
+	if [[ $# -ne 2 ]]
+	then
+		echo "Ce programme demande exactement deux arguments."
+		exit
+	fi
+
+	mot="exile" # à modifier
+
+	echo $fichier_urls;
+	basename=$(basename -s .txt $fichier_urls)
+
+	echo "<html><body>" > $fichier_tableau
+	echo "<h2>Tableau $basename :</h2>" >> $fichier_tableau
+	echo "<br/>" >> $fichier_tableau
+	echo "<table>" >> $fichier_tableau
+	echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th></tr>" >> $fichier_tableau
+
+	lineno=1;
+	while read -r URL; do
+		echo -e "\tURL : $URL";
+		# la façon attendue, sans l'option -w de cURL
+		code=$(curl -ILs $URL | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | tail -n 1)     
+		## -s : mode silencieux : éviter afficher tout pas nécessaire   -o : uniquement ce qui est reconnu  cut -d " " -f2 = grep -Eo "[0-9]{3}"
+		## tail -n 1 : on prend la dernière ligne
+		charset=$(curl -ILs $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
+		## \w : lettre ou chiffre, pour avoir une séquence de lettres, chiffres et tiret
+		## cut -d= f2 : separer par "="             -d= : délimiteur est "=", pour découper les colones    -f2 : la dexième colone, morceau découpé par "d"
+		# autre façon, avec l'option -w de cURL
+		# code=$(curl -Ls -o /dev/null -w "%{http_code}" $URL)       -w
+		# charset=$(curl -ILs -o /dev/null -w "%{content_type}" $URL | grep -Eo "charset=(\w|-)+" | cut -d= -f2)
+
+		echo -e "\tcode : $code";
+
+		if [[ ! $charset ]]
+		then
+			echo -e "\tencodage non détecté, on prendra UTF-8 par défaut.";
+			charset="UTF-8";
+		else
+			echo -e "\tencodage : $charset";
+		fi
+		
+Dans ce script, les commandes vont chercher l'entête des URL, et l'encodage peut ainsi détecté et affiché. S'il n'y a pas d'encodage détecté dans l'entête, affiché après l'indice "charset", l'encodage est pris par défaut UTF-8.
 
 
 	
