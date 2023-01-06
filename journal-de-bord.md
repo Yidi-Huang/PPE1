@@ -440,5 +440,56 @@ Avec le script que les professeurs nous ont donnés, le html contient les trois 
 Dans ce script, les commandes vont chercher l'entête des URL, et l'encodage peut ainsi détecté et affiché. S'il n'y a pas d'encodage détecté dans l'entête, affiché après l'indice "charset", l'encodage est pris par défaut UTF-8.
 
 
+## séance 8 - Construction du corpus
+### 16 novembre 2022
+
+À part du tableau de base, il faut également récupérer les contenus depuis les URL. Lors de la séance 8, nous nous sommes attachés à construire les dumps et les aspirations des URL.
+
+Les dumps sont séparé en deux parties : un pour dump-html, aussi dénommé comme aspiration, qui nous envoie au format html de URL ; l'autre pour le dump-text qui ne réunit que les textes de URL original. Ce dernier sera essentiel pour l'analyse du mot dans le contexte (corpus). Le nombre d'apparition du mot dans le dump-text, la position du mot (titre, au bout ou à la fin du contexte) ... Tout cela consitue l'analyse de base du mot.
+
+Pour que les dossiers peuvent être traités d'une seule fois, nous pouvons ajouter les commandes dans le script original :
+
+	aspiration=$(curl $URL>aspirations/$basename-$lineno.html)
+	
+	if [[ $code -eq 200 ]]
+	then
+		dump=$(lynx -dump -nolist -assume_charset=$charset -display_charset=$charset $URL)
+		## -dump : le texte de toutes les balises HTML          -nolist : ne pas avoir une liste a la fin
+		if [[ $charset -ne "UTF-8" && -n "$dump" ]]     ## -n "$dump" : assurer c'est pas vide
+		then
+			dump=$(echo $dump | iconv -f $charset -t UTF-8//IGNORE)
+		fi
+	else
+		echo -e "\tcode différent de 200 utilisation d'un dump vide"
+		dump=""
+		charset=""
+	fi
+	echo "$dump" > "dump-text/$basename-$lineno.txt"
+	echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td></tr>" >> $fichier_tableau
+	echo -e "\t--------------------------------"
+	lineno=$((lineno+1));
+	done < $fichier_urls
+	echo "</table>" >> $fichier_tableau
+	echo "</body></html>" >> $fichier_tableau
+	
+L'ajout du script produit le dump et aspiration des URL, et ces deux parties peuvent être arrangées dans le html comme deux nouvelles colonnes du tableau.
+À partir du tableau de base comme ci-dessous, on peut ajouter des indices dans la 7e ligne :
+
+	<html>
+		<header>
+			<meta charset="UTF-8" />
+		</header>
+		<body>
+			<table>
+			<tr><th>ligne</th><th>code</th><th>URL</th><th>aspiration</th><th>dump-text</th></tr>
+			<tr><td>1</td><td>200</td><td>www.perdu.com</td></tr>
+			</table>
+		</body>
+	</html>
+
+
+	
+
+
 	
 
