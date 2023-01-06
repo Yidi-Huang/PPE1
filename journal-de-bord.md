@@ -13,7 +13,6 @@ Nous avons procédé à utiliser certaines commandes. Les commandes sont utilis�
     cd : se déplacer dans un autre répertoire
     pwd : voir le répertoire courant
     cat : afficher tout le fichier en sortie
-    echo : écrire une chaîne de caractère en sortie
     less : voir ce que contient le fichier
     head : affiche début du fichier en sortie
     tail : affiche fin du fichier en sortie
@@ -104,7 +103,38 @@ Exercice 2 : écrire un script qui donne le nombre de Location par année
 
 ## séance 4 - arguments du script
 ### 12 octobre 2022
-Au cours de la 4e séance, nous avons comme objectif d'écrire des scripts qui contiennent des arguments.
+
+Au cours de la 4e séance, nous avons pratiqué certaines commandes pour avoir une vue plus claire sur les fichiers.
+
+- wc -l nous permet de compter les lignes des fichiers :
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ grep "" 2016*.ann | wc -l
+	9442
+	
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ grep -E '.?' 2018*.ann | wc -l
+	7561
+	
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ grep -E 'Location' 2018*.ann | wc -l
+	3110
+	
+- echo pour écrire une chaîne de caractère en sortie :
+	
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ grep "Location" 2016*.ann | wc -l >> sortie.txt
+	
+- file pour vérifier l'encodage du fichier :
+	
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ file sortie.txt
+	sortie.txt: Unicode text, UTF-8 text
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ file sortie2.txt
+	sortie2.txt: ASCII text
+	
+- hexdump : pour voir les codes héxadécimaux du fichier encodé en codes binaires
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ hexdump sortie2.txt
+	0000000 6f42 6a6e 756f 0a72                    
+	0000008
+
+En plus, nous avons comme objectif d'écrire des scripts qui contiennent des arguments.
 
 Les arguments nous permettent de :
 - éviter les répétitions dans le script
