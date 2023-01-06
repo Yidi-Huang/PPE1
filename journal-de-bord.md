@@ -51,6 +51,7 @@ Nous avons essayé les commandes et les caractères spéciaux pour traiter les f
 ## séance 3 - script
 ### 5 octobre 2022
 Nous avons tout d'aobrd créer le ssh key pour le Github.
+
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~$ ssh-keygen -t ed25519 -C Yidi-Huang@github.com
 	Generating public/private ed25519 key pair.
 	Enter file in which to save the key (/home/yidi/.ssh/id_ed25519): 
