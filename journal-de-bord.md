@@ -512,6 +512,7 @@ Les deux premières lignes du script peut traiter respectivement les dumps-text 
 La dernière partie est construite afin d'obtenir un html, qui a pour contenu un tableau avec toutes les colonnes d'informations nécesaires : numéro, URL, encodage, aspiration, dump-text, contexte et concordance.
 
 Avec ce script complète, nous pouvons finalement obtenir un tableau dans html comme ci-dessous :
+
 	<html><body>
 	<h2>Tableau URL_anglais :</h2>
 	<br/>
