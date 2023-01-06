@@ -511,6 +511,17 @@ Les deux premières lignes du script peut traiter respectivement les dumps-text 
 
 La dernière partie est construite afin d'obtenir un html, qui a pour contenu un tableau avec toutes les colonnes d'informations nécesaires : numéro, URL, encodage, aspiration, dump-text, contexte et concordance.
 
+Avec ce script complète, nous pouvons finalement obtenir un tableau dans html comme ci-dessous :
+	<html><body>
+	<h2>Tableau URL_anglais :</h2>
+	<br/>
+	<table>
+	<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th><th>dump html</th><th>dump text</th><th>occurrences</th><th>contextes</th><th>concordances</th></tr>
+	<tr><td>1</td><td>200</td><td><a href="https://en.wikipedia.org/wiki/Exile">https://en.wikipedia.org/wiki/Exile</a></td><td>UTF-8</td><td><a href=../aspirations/URL_anglais-1.html>html</a></td><td><a href=../dumps-text/URL_anglais-1.txt>text</a></td><td>80</td><td><a href=../contextes/URL_anglais-1.txt>contextes</a></td><td><a href=../concordances/URL_anglais-1.html>concordance</a></td></tr>
+	<tr><td>2</td><td>200</td><td><a href="https://www.omct.org/en/resources/news/afghanistan-pour-freshta-lexil-comme-seul-moyen-de-rester-en-vie">https://www.omct.org/en/resources/news/afghanistan-pour-freshta-lexil-comme-seul-moyen-de-rester-en-vie</a></td><td>UTF-8</td><td><a href=../aspirations/URL_anglais-2.html>html</a></td><td><a href=../dumps-text/URL_anglais-2.txt>text</a></td><td>2</td><td><a href=../contextes/URL_anglais-2.txt>contextes</a></td><td><a href=../concordances/URL_anglais-2.html>concordance</a></td></tr>
+	<tr><td>3</td><td>200</td><td><a href="https://www.theguardian.com/world/2022/jun/08/moscows-chief-rabbi-in-exile-after-resisting-kremlin-pressure-over-war">https://www.theguardian.com/world/2022/jun/08/moscows-chief-rabbi-in-exile-after-resisting-kremlin-pressure-over-war</a></td><td>UTF-8</td><td><a href=../aspirations/URL_anglais-3.html>html</a></td><td><a href=../dumps-text/URL_anglais-3.txt>text</a></td><td>5</td><td><a href=../contextes/URL_anglais-3.txt>contextes</a></td><td><a href=../concordances/URL_anglais-3.html>concordance</a></td></tr>
+	<tr><td>4</td><td>200</td><td><a href="https://www.theguardian.com/global-development/2022/aug/25/afghan-women-exile-taliban-global-policy">https://www.theguardian.com/global-development/2022/aug/25/afghan-women-exile-taliban-global-policy</a></td><td>UTF-8</td><td><a href=../aspirations/URL_anglais-4.html>html</a></td><td><a href=../dumps-text/URL_anglais-4.txt>text</a></td><td>3</td><td><a href=../contextes/URL_anglais-4.txt>contextes</a></td><td><a href=../concordances/URL_anglais-4.html>concordance</a></td></tr>
+	...
 
 ## séance 11 - Itrameur
 ### 7 décembre 2022
