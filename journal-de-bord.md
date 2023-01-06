@@ -155,5 +155,66 @@ Exercice 1 : modifier le premier script pour que l’année et le type d’entit
 	grep "$TYPE" $ANNEE*.ann | wc -l >> sortie1.txt
 	
 
+## séance 5 - instructions conditionnelles et html
+### 19 octobre 2022
+Lors de la 5e séance, les professeurs nous ont présenté les instructions conditionnelles, afin d'effectuer des traitements lorsque les conditions sont respectées.
+
+Premièrement, l'instruction if nous permet de vérifier une condition, et traite l'entrée différemment selon les arguments.
+
+Durant ce processus, il y a des expressions pour les conditions :
+
+- -f fichier vrai si le fichier existe
+- -d dossier vrai si le dossier existe
+- -s fichier vrai si le fichier existe et n’est pas vide
+
+- = et != pour égale et différent
+- < ou > pour déterminer si in chaîne est avant ou après une autre dans l’ordre alphabétique
+- -n chaine vrai si la chaîne n’est pas vide
+- -z vrai si la chaîne est vide
+
+En plus, il y a également des conditions sur les entiers :
+- a -eq b si a est égal à b (equal)
+- a -ne b si a est différent de b (not equal)
+- a -lt b si a est plus petit que b (less than)
+- a -gt b si a est plus grand que b (greater than)
+- a -le b si a est inférieur ou égal à b
+- a -ge b si a supérieur ou égal à b
+
+Pour que chaque fois le script tourne, il veut mieux ajouter des lignes de validation des arguments.
+
+Deuxièmement, les instructions for et while nous permet de faire des boucles sans répéter le code. Ces boucles appliquent toujours les mêmes traitements dans différentes données.
+En outre, la commande read s'accompagne souvent de WHILE pour traiter des fichiers existés.
+Il faut toujours faire attention lors de l'utilisation de FOR et WHILE aux boucles infinies.
+
+Exercice 1 : vérifier les arguments
+
+	#/bin/bash
+
+	if [ -z $1 ]
+	then
+		echo "argument 1 est manquant"
+	fi
+	echo "fin du programme"
+
+Exercice 2 : chercher le Nième élément dans la séquence
+
+	#!/bin/bash
+
+	N=0
+	for ele in $( seq 1 4 50)
+	do
+		N=$( expr $N + 1 )
+		echo "Le $N ieme element est $ele"
+	done
+	
+Exercice 3 : lire les lignes une après l'autre
+
+	N=0
+	while read LINE
+	do
+		N=$(expr $N + 1)
+		echo "$N je lis $LINE"
+	done
+	echo "fin"
 	
 
