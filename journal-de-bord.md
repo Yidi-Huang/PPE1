@@ -48,5 +48,53 @@ Nous avons essayé les commandes et les caractères spéciaux pour traiter les f
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ egrep "Location" 20*.ann > new
 
 
-## séance 3 -
-###
+## séance 3 - script
+### 5 octobre 2022
+Nous avons tout d'aobrd créer le ssh key pour le Github.
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~$ ssh-keygen -t ed25519 -C Yidi-Huang@github.com
+	Generating public/private ed25519 key pair.
+	Enter file in which to save the key (/home/yidi/.ssh/id_ed25519): 
+	Created directory '/home/yidi/.ssh'.
+	Enter passphrase (empty for no passphrase): 
+	Enter same passphrase again: 
+	Your identification has been saved in /home/yidi/.ssh/id_ed25519
+	Your public key has been saved in /home/yidi/.ssh/id_ed25519.pub
+	The key fingerprint is:
+	SHA256:2TgTWMoJMBqyN2We3VpwdQ7WhqD+KLyWLiKQ1i89PL8 Yidi-Huang@github.com
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/PPE1$ git tag TestTag1 -a -m "Mon premier tag"
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/PPE1$ git tag -l
+	TestTag1
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/PPE1$ git push origin TestTag1
+
+- Exercice 1 : rechercher les contenus des fichiers de l'année 2016
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ sort 2016*.ann | wc -l
+	9442
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ sort 2016*.ann| head
+	T100	Location 2116 2134	République tchèque
+	T101	Location 2137 2144	Croatie
+	T102	Hour 2148 2151	18h
+	T103	Location 2154 2167	Saint-Étienne
+	T104	Location 2180 2187	Espagne
+	T105	Location 2190 2197	Turquie
+	T106	Hour 2201 2204	21h
+	T107	Location 2207 2211	Nice
+	T108	Location 2225 2233	Belgique
+	T109	Location 2236 2243	Irlande
+
+Puis, nous avons procédé au script.
+
+Les caractères > et >> nous permet de rediriger la sortie. Le premier peut créer un nouveau fichier ou écraser les contenus précédents. Le dernier est pour ajouter des contenus à la fin du fichier.
+
+De plus, pour rendre le script lisible, il vaut mieux :
+- ajouter des commentaires #
+- ajouter un shebang #!/usr/bin/bash
+- rendre le fichier exécutable (avec chmod +x)
+
+- Exercice 2 : écrire un script qui donne le nombre de Location par année
+-- 1er_script.sh :
+	cd '/home/yidi/下载/projet_encadre/Fichiers' 
+	echo "Pour l'annee 2016:" > sortie.txt
+	grep "Location" 2016*.ann | wc -l >> sortie.txt
+
