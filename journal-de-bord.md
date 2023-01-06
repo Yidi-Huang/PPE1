@@ -67,7 +67,8 @@ Nous avons tout d'aobrd créer le ssh key pour le Github.
 	TestTag1
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/PPE1$ git push origin TestTag1
 
-- Exercice 1 : rechercher les contenus des fichiers de l'année 2016
+Exercice 1 : rechercher les contenus des fichiers de l'année 2016
+
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ sort 2016*.ann | wc -l
 	9442
 
@@ -92,8 +93,8 @@ De plus, pour rendre le script lisible, il vaut mieux :
 - ajouter un shebang #!/usr/bin/bash
 - rendre le fichier exécutable (avec chmod +x)
 
-- Exercice 2 : écrire un script qui donne le nombre de Location par année
--- 1er_script.sh :
+Exercice 2 : écrire un script qui donne le nombre de Location par année
+
 	cd '/home/yidi/下载/projet_encadre/Fichiers' 
 	echo "Pour l'annee 2016:" > sortie.txt
 	grep "Location" 2016*.ann | wc -l >> sortie.txt
