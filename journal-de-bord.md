@@ -280,7 +280,70 @@ Ce résultat nous indique beaucoup de choses :
 Nous avons commencé en même temps la recherche des 50 URL sur notre mot choisi.
 Pendant ce processus, il est à noter qu'il faut avoir un retour à la ligne à la fin du fichier, sinon avec les commandes -r, la dernière ligne ne sera pas prise en compte par la machine.
 
+Exercice du cours précédent : 
 
+1. classement des lieux les plus cites
+• par $ANNEE et $MOIS en limitant à $TOPN résultats plus nombreux
+• en validant les arguments
+
+	#! /usr/bin/bash
+	cd '/home/yidi/下载/projet_encadre/Fichiers' 
+
+	if [  $# -ne 2  ] 
+	then
+		echo "manque d'argument"
+		exit
+	fi
+
+	ANNEE=$1
+	MOIS=$2
+
+	if [ -f  2016_01_01-001.txt  ]
+	then
+		echo "Pour l'annee $ANNEE et le mois $MOIS" > resultat2.txt
+		grep "Location" $ANNEE"_"$MOIS*.ann | wc -l | sort | uniq -c  >> resultat2.txt
+	else
+		echo "pas d'informations demandees"
+	fi
+	
+2. Compter $TYPE d’entités par $ANNEE
+• basique
+• avec arguments
+• en validant les arguments avec des et exit si problème.
+
+	#! /usr/bin/bash
+	cd '/home/yidi/下载/projet_encadre/Fichiers' 
+
+	if [ $# -ne 1  ] 
+	then
+		echo "manque d'argument"
+		exit
+	fi
+
+	ANNEE=$1
+	TYPE=$2
+
+	if [ -f  2016_01_01-001.txt  ]
+	then
+		echo "Pour l'annee $ANNEE" > resultat1.txt
+		grep "$TYPE" $ANNEE*.ann | wc -l >> resultat1.txt
+	else
+		echo "pas d'informations sur annees"
+	fi
+
+## séance 6 - HTML
+### 9 novembre 2022
+Pendant la 6e séance, nous avons réalisé des préparations pour le HTML du projet.
+
+Tout d'abord, c'était la création d'un nouveau répertoire Github pour le projet. Nous avons créer une page site web à l'aide de Github, et cette page sera la page d'accueil pour le projet.
+
+Puis, nous avons procédé à la validation et construction du corpus depuis les URL.
+
+Pour vérifier si la ligne est un URL, il y a deux méthodes :
+
+1. vérifier si le début de la ligne commence par http(s):
+	
+	
 
 
 	
