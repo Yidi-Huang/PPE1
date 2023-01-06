@@ -115,6 +115,7 @@ Par convention, les valeurs des arguments sont interprétées par les variables 
 On donne une valeur à une variable avec le signe =, et on peut aussi stocker le resultat d’une commande en l’écrivant dans $()
 
 Exercice 1 : modifier le premier script pour que l’année et le type d’entité soient donnés en argument du programme
+
 	#! /usr/bin/bash
 	cd '/home/yidi/下载/projet_encadre/Fichiers' 
 	ANNEE=$1
