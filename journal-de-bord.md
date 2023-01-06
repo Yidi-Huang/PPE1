@@ -8,7 +8,19 @@ Le chemin absolu indique la position d'un fichier depuis la racine, alors le che
 
 Nous avons également essayé certains caractères qui seront utilisés dans les commandes pour manipuler les fichiers. Par exemple, ? et * sont utiles pour remplacer les caractères.
 
-Nous avons procédé à utiliser certaines commandes. Les commandes sont utilisées sous forme de nom [-option] [argument]. Différentes commandes sont testées : mv (déplacer), rm (supprimer), touch (créer un fichier), car(afficher le contenu des fichiers), etc.
+Nous avons procédé à utiliser certaines commandes. Les commandes sont utilisées sous forme de nom [-option] [argument]. Différentes commandes sont testées : 
+
+    cd : se déplacer dans un autre répertoire
+    pwd : voir le répertoire courant
+    cat : afficher tout le fichier en sortie
+    echo : écrire une chaîne de caractère en sortie
+    less : voir ce que contient le fichier
+    head : affiche début du fichier en sortie
+    tail : affiche fin du fichier en sortie
+    mkdir : crée un repertoire
+    rmdir : supprimer une répertoire
+    touche : crée un fichier 
+    rm : supprimer un fichier
 
 Les commandes ont une option --help, qui peut nous aider à comprendre les fonctionnements différents des options de cette commande.
 
@@ -36,5 +48,5 @@ Nous avons essayé les commandes et les caractères spéciaux pour traiter les f
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre/Fichiers$ egrep "Location" 20*.ann > new
 
 
-
-
+## séance 3 -
+###
