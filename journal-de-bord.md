@@ -217,4 +217,48 @@ Exercice 3 : lire les lignes une après l'autre
 	done
 	echo "fin"
 	
+	
+En plus de l'écriture du script, nous avons aussi commencé la partie du html. Ce dernier est un langage de balisage pourreprésenter des pages web.
+
+Les balises marquent le début et la fin de chaque zone contenant des contenus avec une certaine structure.
+
+Les ouvrantes et les fermantes de balises peuvent être considérées comme l'ancre d'une zone.
+
+Les commandes curl et lynx sont utiles pour récupérer les inforamtions d'un html.
+
+Avec la commande lynx :
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~$ lynx -dump -nolist "https://www.wikipedia.org/"
+
+	dump : texte de sortie standard (soit l'écran, l'affichage)
+	list : retirer le texte du dump
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre$ 	lynx -dump -nolist fr.wikipedia.org/wiki/Robot > Robot.txt
+
+Avec la commande curl : 
+
+-i : va donner des informations sur l’interaction avec le serveur
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~/下载/projet_encadre$ curl -i www.perdu.com
+	HTTP/1.1 200 OK
+	Date: Wed, 26 Oct 2022 08:58:28 GMT
+	Server: Apache
+	Upgrade: h2
+	Connection: Upgrade
+	Last-Modified: Thu, 02 Jun 2016 06:01:08 GMT
+	ETag: "cc-5344555136fe9"
+	Accept-Ranges: bytes
+	Content-Length: 204
+	Cache-Control: max-age=600
+	Expires: Wed, 26 Oct 2022 09:08:28 GMT
+	Vary: Accept-Encoding,User-Agent
+	Content-Type: text/html
+
+	<html><head><title>Vous Etes Perdu ?</title></head><body><h1>Perdu sur l'Internet ?</h1><h2>Pas de panique, on va vous aider</h2><strong><pre>    * <----- vous &ecirc;tes ici</pre></strong></body></html>
+	
+Nous avons commencé en même temps la recherche des 50 URL sur notre mot choisi.
+Pendant ce processus, il est à noter qu'il faut avoir un retour à la ligne à la fin du fichier, sinon avec les commandes -r, la dernière ligne ne sera pas prise en compte par la machine.
+
+
+	
 
