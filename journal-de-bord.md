@@ -282,7 +282,7 @@ Pendant ce processus, il est à noter qu'il faut avoir un retour à la ligne à 
 
 Exercice du cours précédent : 
 
-1. classement des lieux les plus cites
+1 classement des lieux les plus cites
 • par $ANNEE et $MOIS en limitant à $TOPN résultats plus nombreux
 • en validant les arguments
 
@@ -306,7 +306,7 @@ Exercice du cours précédent :
 		echo "pas d'informations demandees"
 	fi
 	
-2. Compter $TYPE d’entités par $ANNEE
+2 Compter $TYPE d’entités par $ANNEE
 • basique
 • avec arguments
 • en validant les arguments avec des et exit si problème.
