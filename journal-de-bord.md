@@ -94,9 +94,35 @@ De plus, pour rendre le script lisible, il vaut mieux :
 - ajouter un shebang #!/usr/bin/bash
 - rendre le fichier exécutable (avec chmod +x)
 
+Nous avons écrit les scripts dans le Notepadqq.
+
 Exercice 2 : écrire un script qui donne le nombre de Location par année
 
 	cd '/home/yidi/下载/projet_encadre/Fichiers' 
 	echo "Pour l'annee 2016:" > sortie.txt
 	grep "Location" 2016*.ann | wc -l >> sortie.txt
+
+## séance 4 - arguments du script
+### 12 octobre 2022
+Au cours de la 4e séance, nous avons comme objectif d'écrire des scripts qui contiennent des arguments.
+
+Les arguments nous permettent de :
+- éviter les répétitions dans le script
+- traiter différentes données sans changement de structure du script
+
+Par convention, les valeurs des arguments sont interprétées par les variables $nom.
+
+On donne une valeur à une variable avec le signe =, et on peut aussi stocker le resultat d’une commande en l’écrivant dans $()
+
+Exercice 1 : modifier le premier script pour que l’année et le type d’entité soient donnés en argument du programme
+	#! /usr/bin/bash
+	cd '/home/yidi/下载/projet_encadre/Fichiers' 
+	ANNEE=$1
+	TYPE=$2
+
+	echo "Pour l'annee $ANNEE" > sortie1.txt
+	grep "$TYPE" $ANNEE*.ann | wc -l >> sortie1.txt
+	
+
+	
 
