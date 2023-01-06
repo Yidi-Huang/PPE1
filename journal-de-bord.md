@@ -226,6 +226,20 @@ Les ouvrantes et les fermantes de balises peuvent être considérées comme l'an
 
 Les commandes curl et lynx sont utiles pour récupérer les inforamtions d'un html.
 
+Avec la commande curl :
+
+	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~$ curl www.perdu.com | grep -i perdu
+	% Total	% Received % Xferd  Average Speed   Time	Time 	Time  Current
+									Dload  Upload   Total   Spent	Left  Speed
+	100   204  100   204	0 	0	328  	0 --:--:-- --:--:-- --:--:--   329
+	<html><head><title>Vous Etes Perdu ?</title></head><body><h1>Perdu sur l'Internet ?</h1><h2>Pas de panique, on va vous aider</h2><strong><pre>	* <----- vous &ecirc;tes ici</pre></strong></body></html>
+
+
+## séance 6 - URL
+### 26 octobre 2022
+
+La 6e séance a pour sujet les commandes lynx et curl, qui sert à récupérer des informations des htmls.
+
 Avec la commande lynx :
 
 	yidi@huang-Lenovo-XiaoXinAir-14-ACN-2021:~$ lynx -dump -nolist "https://www.wikipedia.org/"
@@ -267,8 +281,7 @@ Nous avons commencé en même temps la recherche des 50 URL sur notre mot choisi
 Pendant ce processus, il est à noter qu'il faut avoir un retour à la ligne à la fin du fichier, sinon avec les commandes -r, la dernière ligne ne sera pas prise en compte par la machine.
 
 
-## séance 6 - URL
-### 26 octobre 2022
+
 
 	
 
